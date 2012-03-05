@@ -5,7 +5,7 @@ title: Downloads
 
 ## Akka 2.0 (current stable release)
 
-* Akka (all modules): [akka-2.0.zip](http://akka.io/downloads/akka-2.0.zip)
+* Akka (all modules): [akka-2.0.tgz](http://akka.io/downloads/akka-2.0.tgz) or [akka-2.0.zip](http://akka.io/downloads/akka-2.0.zip)
 
 
 ## Akka 1.3.1
