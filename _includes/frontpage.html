@@ -1,0 +1,299 @@
+{% include topbar.html %}
+<!--<div class="top-bar">
+	<div class="container">
+		<ul class="top-menu">
+			{%  include top-bar-links.html %}
+		</ul>
+	</div>
+</div>-->
+<div class="main">
+	<div class="container rel">
+		<div class="hexagons"></div>
+		<div class="row rel">
+			<div class="span4">
+				<div class="logo"><img src="{{ site.baseurl }}/resources/images/logo_dropshadow.png"/></div>
+				<div class="box">Build powerful concurrent & distributed applications <span class="bold">easier</span>.</div>
+				<div class="small-box">Akka is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.</div>			
+			</div>
+			<div class="span8">
+				<div class="simple-concurrency">Simple Concurrency & Distribution
+					<p>Asynchronous and Distributed by design. High-level abstractions like Actors, Futures and STM.</p>
+				</div>			
+				<div class="fault-tolerance">Resilient by Design
+					<p>Write systems that self-heal. Remote and/or local supervisor hierarchies.</p>
+				</div>	
+				<div class="high-performance">High Performance
+					<p>>20 million msg/sec on a single machine. Small memory footprint; ~2.7 million actors per GB of heap.</p>
+				</div>															
+				<div class="no-global-state" style="width:220px;">Elastic & Decentralized
+					<p>Adaptive load balancing, routing, partitioning and configuration-driven remoting.</p>
+				</div>
+				<div class="extensible">Extensible
+					<p>Use Akka Extensions to adapt Akka to fit your needs.</p>
+				</div>				
+			</div>
+		</div>
+	</div>	
+</div>
+<div class="light-strip under-main">
+	<div class="container pad">
+
+		<div class="row normal">
+<!--			<h3>See Akka in Action</h3>
+			<ul class="breadcrumb">				
+				<li>Actor</li>
+				<li>Remoting</li>
+				<li>Supervision</li>
+			</ul>
+-->			
+	    <div id="slider">    
+	        <ul class="navigation breadcrumb">
+	            <li><a href="#actors">Actors</a></li>
+	            <li><a href="#remoting">Remoting</a></li>
+	            <li><a href="#supervision">Supervision</a></li>
+	        </ul>
+	        <div class="selected-arrow"></div>
+
+	        <div class="scroll" style="height: 620px">
+            <div class="scrollContainer">
+	            <div class="panel" id="actors">
+	            	<h2>Actors</h2>
+	            	<p>Actors are very lightweight concurrent entities. They process messages asynchronously using an event-driven receive loop. Pattern matching against messages is a convenient way to express an actor's behavior. They raise the abstraction level and makes it much easier to write, test, understand and maintain concurrent and/or distributed systems. You focus on workflow, how the messages flow in the system, instead of low level primitives like threads, locks and socket IO.</p>
+	            	<div class="language-header"><div class="scala-header"><img src="{{ site.baseurl }}/resources/images/scala-sm.png"/></div><div class="java-header">Java</div></div>
+	            	<div class="scala-codebox">
+<pre class="prettyprint lang-scala linenums">
+case class Greeting(who: String)
+
+class GreetingActor extends Actor with ActorLogging {
+ def receive = {
+   case Greeting(who) ⇒ log.info("Hello " + who)
+ }
+}
+
+val system = ActorSystem("MySystem")
+val greeter = system.actorOf(Props[GreetingActor], name = "greeter")
+greeter ! Greeting("Charlie Parker")
+</pre>	       
+								</div>     
+	            	<div class="java-codebox">
+<pre class="prettyprint lang-java linenums">
+public class Greeting extends Serializable {
+  public final String who;
+  public Greeting(String who) { this.who = who }
+}
+ 
+public class GreetingActor extends UntypedActor {
+  LoggingAdapter log = Logging.getLogger(getContext().system(), this);
+
+  public void onReceive(Object message) throws Exception {
+    if (message instanceof Greeting)
+      log.info("Hello " + ((Greeting) message).who());
+  }
+}
+
+ActorSystem system = ActorSystem.create("MySystem");
+ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
+greeter.tell(Greeting("Charlie Parker"));
+</pre>	            
+								</div>
+	            </div>
+	            <div class="panel" id="remoting" style="height: 1200px">
+	            	<h2>Remoting</h2>	            	
+	            	<p>Actors form a tree with actors being parents to the actors they've created. As a parent, the actor is responsible for handling its children’s failures (so-called supervision), forming a chain of responsibility, all the way to the top. When an actor crashes, its parent can either restart or stop it, or escalate the failure to the up the hierarchy of actors. This enables a clean set of semantics for managing failures in a concurrent, distributed system and allows for writing highly fault-tolerant systems that self-heal.</p>
+	            	<div class="language-header"><div class="scala-header"><img src="{{ site.baseurl }}/resources/images/scala-sm.png"/></div><div class="java-header">Java</div></div>
+	            	<div class="scala-codebox">
+<pre class="prettyprint lang-scala linenums">
+// ------------------------------
+// config on all machines
+akka {
+ actor {
+ provider = akka.remote.RemoteActorRefProvider
+ deployment {
+   /greeter {
+     remote = akka://MySystem@machine1:2552
+   }
+ }
+ }
+}
+
+// ------------------------------
+// define the greeting actor and the greeting message
+case class Greeting(who: String) extends Serializable
+
+class GreetingActor extends Actor with ActorLogging {
+ def receive = {
+   case Greeting(who) ⇒ log.info("Hello " + who)
+ }
+}
+
+// ------------------------------
+// on machine 1: empty system, target for deployment from machine 2
+val system = ActorSystem("MySystem")
+
+// ------------------------------
+// on machine 2: Remote Deployment - deploying on machine1
+val system = ActorSystem("MySystem")
+val greeter = system.actorOf(Props[GreetingActor], name = "greeter")
+
+// ------------------------------
+// on machine 3: Remote Lookup (logical home of “greeter” is machine1,
+remote deployment is transparent)
+val system = ActorSystem("MySystem")
+val greeter = system.actorFor("MySystem@machine2:2552/user/greeter")
+greeter ! Greeting("Sonny Rollins")
+</pre>	       
+								</div>     
+	            	<div class="java-codebox">
+<pre class="prettyprint lang-java linenums">
+// ------------------------------
+// config on all machines
+akka {
+ actor {
+   provider = akka.remote.RemoteActorRefProvider
+   deployment {
+     /greeter {
+       remote = akka://MySystem@machine1:2552
+     }
+   }
+  }
+}
+
+// ------------------------------
+// define the greeting actor and the greeting message
+public class Greeting extends Serializable {
+  public final String who;
+  public Greeting(String who) { this.who = who }
+}
+ 
+public class GreetingActor extends UntypedActor {
+  LoggingAdapter log = Logging.getLogger(getContext().system(), this);
+
+  public void onReceive(Object message) throws Exception {
+    if (message instanceof Greeting)
+      log.info("Hello " + ((Greeting) message).who());
+  }
+}
+
+// ------------------------------
+// on machine 1: empty system, target for deployment from machine 2
+ActorSystem system = ActorSystem.create("MySystem");
+
+// ------------------------------
+// on machine 2: Remote Deployment - deploying on machine1
+ActorSystem system = ActorSystem.create("MySystem");
+ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
+
+// ------------------------------
+// on machine 3: Remote Lookup (logical home of “greeter” is machine1,
+remote deployment is transparent)
+ActorSystem system = ActorSystem.create("MySystem");
+ActorRef greeter = system.actorFor("MySystem@machine2:2552/user/greeter");
+greeter.tell(Greeting("Sonny Rollins"));
+</pre>	            
+								</div>	            	
+	            </div>
+	            <div class="panel" id="supervision" style="height: 750px">
+	            	<h2>Supervision</h2>
+	            	<p>Actors form a tree with actors being parents to the actors they've created. As a parent, the actor is responsible for handling its
+children’s failures (so-called supervision), forming a chain of responsibility, all the way to the top. When an actor crashes, its
+parent can either restart or stop it, or escalate the failure to the up the hierarchy of actors. This enables a clean set of semantics for
+managing failures in a concurrent, distributed system and allows for writing highly fault-tolerant systems that self-heal.</p>
+								<div class="language-header"><div class="scala-header"><img src="{{ site.baseurl }}/resources/images/scala-sm.png"/></div><div class="java-header">Java</div></div>
+	            	<div class="scala-codebox">
+<pre class="prettyprint lang-scala linenums">
+class Supervisor extends Actor {
+ override val supervisorStrategy =
+   OneForOneStrategy(maxNrOfRetries = 10, withinTimeRange = 1 minute) {
+     case _: ArithmeticException      ⇒ Resume
+     case _: NullPointerException     ⇒ Restart
+     case _: Exception                ⇒ Escalate
+   }
+
+ val worker = context.actorOf(Props[Worker])
+
+ def receive = {
+   case n: Int => worker forward n
+ }
+}
+</pre>	       
+								</div>     
+	            	<div class="java-codebox">
+<pre class="prettyprint lang-java linenums">
+class Supervisor extends UntypedActor {
+
+  private SupervisorStrategy strategy = new OneForOneStrategy(
+    10, Duration.parse("1 minute"), new Function<Throwable, Directive>() {
+      @Override
+      public Directive apply(Throwable t) {
+        if (t instanceof ArithmeticException) return resume();
+        else if (t instanceof NullPointerException) return restart();
+        else return escalate();
+      }
+    });
+
+  @Override
+  public SupervisorStrategy supervisorStrategy() {
+    return strategy;
+  }
+
+ ActorRef worker = context.actorOf(new Props(Worker.class));
+
+  public void onReceive(Object message) throws Exception {
+    if (message instanceof Integer) worker.forward(message);
+  }
+}
+</pre>	            
+								</div>	            	
+	            </div>	            
+            </div>
+	        </div>
+
+	        <div id="shade"></div>
+	    </div>
+		</div>
+
+
+	</div>
+</div>
+
+<div class="under-light-strip"></div>
+<div class="darker-strip">
+	<div class="container pad">
+
+		<div class="row normal">
+			<div class="span12">
+				<div class="used-by-header"><span class="text">SELECTION OF PRODUCTION USERS</span></div>
+				<div class="used-by-logos">
+					{% include company-logos.html %}
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	<div class="between-dark-strips"></div>
+	<div class="container three-bars">
+		<div class="row">
+
+			<div class="span4">
+				<h2><a href="https://twitter.com/#!/akkateam">@akkateam</a> on Twitter</h2>
+					<div id="tweets" class="tweets"></div>
+			</div>
+
+			<div class="span4">
+				<h2><a href="http://letitcrash.com">Team Blog</a></h2>
+				<div id="blog-feed"></div>
+				<span class="rss-icon"><a href="http://letitcrash.com/rss"><img src="{{ site.baseurl }}/resources/images/rss.png" height="20px" width="20px" /></a></span>
+			</div>
+
+			<div class="span4">
+				<h2><a href="{{ site.baseurl }}/news">News</a></h2>
+				{% include news-feed.html %}
+				<span class="rss-icon"><a href=""><img src="{{ site.baseurl }}/resources/images/rss.png" height="20px" width="20px" /></a></span>
+			</div>
+
+		</div>
+	</div>
+
+
+
+</div>
