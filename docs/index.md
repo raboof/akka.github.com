@@ -36,8 +36,8 @@ title: Akka Documentation
 
 ### Akka 1.0
 
-* Akka Documentation - [http://akka.io/docs/akka/1.0](http://akka.io/docs/akka/1.0) (or in [PDF](http://akka.io/docs/akka/1.0/Akka.pdf))
-* Akka API - [http://akka.io/api/akka/1.0](http://akka.io/api/akka/1.0)
+* Akka Documentation - [http://akka.io/docs/akka-1.0/Home.html](http://akka.io/docs/akka-1.0/Home.html) (or in [PDF format](http://akka.io/docs/akka-1.0.pdf))
+* Akka API - [http://akka.io/api/1.0/](http://akka.io/api/1.0/)
 
 ## Akka Snapshot
 

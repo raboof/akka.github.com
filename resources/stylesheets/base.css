@@ -2,6 +2,8 @@
 ---
 	body { background-image:url('{{ site.baseurl }}/resources/images/dark-blue-bg.png'); color: rgba(0, 0, 0, 0.6); }
 	p { font-size: 14px; }
+	a { color: #447281; }
+	a:hover { color: #73a600; text-decoration: none; }
 	.navbar { position: relative; z-index: 150; margin-bottom: 0px; border-bottom: solid 1px #427380; border-top: solid 1px #83b925;}
 	.navbar .nav { float: right; }
 	.navbar-logo { visibility: hidden; margin-bottom: -31px; }
@@ -105,7 +107,8 @@ a:hover.selected { color: red; }
 .panel h2 { color: #326A78; text-shadow: 0 1px 0 rgba( 255, 255, 255, 0.8); font-family: 'Exo', sans-serif; font-size: 22px; font-weight: 400;}
 .language-header { width: 940px;}
 .scala-header {float: left; width: 460px;}
-.java-header {float: right; width: 480px; font-size: 16px; font-weight: bold; /*color: rgba(89, 80, 80, 0.6);*/ text-shadow: 0 1px 0 white;} 
+.java-header a {float: right; width: 480px; font-size: 16px; font-weight: bold; color: rgba(0, 0, 0, 0.6); text-shadow: 0 1px 0 white;} 
+.java-header a:hover { text-decoration: none; color: #447281; }
 #slider {
   margin: 0 auto;
   position: relative;
