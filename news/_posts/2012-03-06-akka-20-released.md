@@ -96,8 +96,7 @@ Use the Akka Migration package to aid in migrating 1.3 code to 2.0.
 * Huge thanks to Karim Osman and Ivan Porto Carrero
 * Built as an Akka Extension
 
-Brand new website, still at http://akka.io
-* Huge thanks to Heather Miller for her outstanding work
+Brand new website, still at [http://akka.io](http://akka.io), huge thanks to Heather Miller for her outstanding work
 
 ## Upcoming Releases
 
