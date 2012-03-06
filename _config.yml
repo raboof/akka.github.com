@@ -1,2 +1,4 @@
-baseurl: 
-include: [_test.html]
+title: "Akka"
+
+exclude:
+- README
