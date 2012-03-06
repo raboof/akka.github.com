@@ -23,7 +23,7 @@ to Jonas, to all committers, to all users and to the excellent Scala and Java ec
 * 98683 insertions(+)
 * 57415 deletions(-)
 
-Also including 341 pages of reference documentation, and tons of ScalaDoc, available at [http://akka.io/docs/akka/2.0/](http://akka.io/docs/akka/2.0/).
+Also including over 300 pages of reference documentation, and tons of ScalaDoc, available at [http://akka.io/docs/akka/2.0/](http://akka.io/docs/akka/2.0/).
 
 Use the Akka Migration package to aid in migrating 1.3 code to 2.0.
 
