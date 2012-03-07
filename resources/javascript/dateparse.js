@@ -8,6 +8,10 @@ $(window).load(function() {
 		htm += '<div class="feed-year">'+moment(date).format("YYYY")+'</div>';
 		$(this).html(htm)
 	});
+
+	$(".feed-entry").each(function() {
+		$(this).css('height',$(this).height()+10);
+	});
   
 	/*var day = moment("12-25-1995", "MM-DD-YYYY");*/
 });

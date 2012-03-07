@@ -73,7 +73,8 @@ pre { border: 0px solid #333; background-color: transparent;}
 .time a { color: #888; white-space: nowrap; text-decoration: none; }
 .triangle { position: relative; bottom: 9px; left: 40px; height: 0px; width: 1px; margin-left: auto; margin-right: auto; border-top: 16px solid rgba(0, 30, 30, 0.7); border-left: none; border-right: 16px solid transparent; border-bottom: none; }
 .feed-entries { margin-left: 0px; }
-.feed-date { float: left; margin-right: 14px; height: 140px;}
+.feed-entry { position: relative; margin-bottom: 18px; }
+.feed-date { float: left; height: 100%; margin-right: 14px; height: 100%;}
 .feed-month { color: #447281; font-size: 18px; font-weight: bold; text-transform:uppercase;}
 .feed-day { background: #73a600; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; color: #dfdfd9; font-weight: bold; font-size: 24px; text-align: center; line-height: 26px;}
 .feed-year { color: #447281; font-size: 16px; font-weight: bold; }
