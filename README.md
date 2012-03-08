@@ -1,0 +1,73 @@
+# AKKA.IO
+
+This repository contains the source of the [akka.io](akka.io) website. It's built using Jekyll, and with a touch of Twitter's Bootstrap, and other homebaked ingredients.
+
+These instructions are mostly intended for akka committers who would like to update the site (i.e., adding a news item).
+
+## Dependencies
+
+You'll need Jekyll installed. To get it, most people can install via RubyGems:
+
+    gem install jekyll
+
+OSX users might have to update RubyGems:
+
+    sudo gem update --system
+
+If in doubt, head over to the [Jekyll wiki](https://github.com/mojombo/jekyll/wiki) for installation instructions.
+
+## Building
+
+After cloning, cd into the `akka/akka.github.com` directory and run: 
+
+    jekyll --server
+
+To see the generated site, just visit `http://localhost:4000`.
+
+## Adding a News Item
+
+News Items must be:
+1. written in [Markdown](http://daringfireball.net/projects/markdown/syntax)
+2. named according to the following convention: `YYYY-MM-dd-your-title.md`, where of course `YYYY` is the 4-digit year, `MM` is the 2-digit month, and `dd` is the 2-digit day of the month.
+3. placed into the `news/_posts/` directory
+4. contain YAML front matter
+
+The YAML front matter for news items can come in one of three flavors.
+
+For a standard news item that contains a significant body of text, the following YAML front matter will suffice:
+
+    ---
+    layout: news
+    title: Your Title
+    author: Your Name
+    ---
+
+    Write your news article here, and make sure it's in markdown!
+
+In this case, the first 30 or so words will be taken fro the body of the news item and displayed on the front page of akka.io.
+
+However, if you'd like to override the text that's displayed, you could use the following YAML front matter:
+
+    ---
+    layout: news
+    title: Your Title
+    author: Your Name
+    short: A short description should be written here. This is what's rendered on the front page.
+    ---
+
+    Write your news article here, and make sure it's in markdown!
+
+Here, whatever text is written in the `short` field of the front matter will be displayed on the front page of akka.io, underneath the title of the news item.
+
+For a news item which points to another article outside of akka.io, the following YAML front matter will suffice:
+
+    ---
+    layout: news
+    title: Your Title
+    author: Your Name
+
+    short: A short description should be written here. This is what's rendered on the front page.
+    link-out: http://link-to-whatever-site-has-the-article.com
+    ---
+
+In this case, the text in the `short` field will be what is displayed on the front page of akka.io. The URL in the `link-out` field will be what the title of the article links to on the front page of akka.io. There should be no body below the YAML front matter for these news articles.
