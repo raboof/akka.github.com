@@ -1,6 +1,6 @@
 # AKKA.IO
 
-This repository contains the source of the [akka.io](akka.io) website. It's built using Jekyll, and with a touch of Twitter's Bootstrap, and other homebaked ingredients.
+This repository contains the source of the [akka.io](akka.io) website. It's built using Jekyll, and designed with a touch of Twitter's Bootstrap, and other homebaked ingredients.
 
 These instructions are mostly intended for akka committers who would like to update the site (i.e., adding a news item).
 
@@ -27,6 +27,7 @@ To see the generated site, just visit `http://localhost:4000`.
 ## Adding a News Item
 
 News Items must be:
+
 1. written in [Markdown](http://daringfireball.net/projects/markdown/syntax)
 2. named according to the following convention: `YYYY-MM-dd-your-title.md`, where of course `YYYY` is the 4-digit year, `MM` is the 2-digit month, and `dd` is the 2-digit day of the month.
 3. placed into the `news/_posts/` directory
