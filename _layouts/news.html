@@ -4,12 +4,14 @@ layout: page
 
 <div class="row">
 	<div class="span8">
-		<div class="news-date">{{ page.date | date: "%B %d %Y "}}</div>
-		<div class="news-author">{{ page.author }}</div>
-		<div class="news-body" style="padding-top: 10px;">{{ content }}</div>
+		<div class="news-story">
+			<div class="news-date" style="font-size: 20px;">{{ page.date | date: "%B %d %Y "}}</div>
+			<div class="news-author" style="font-size: 18px;">{{ page.author }}</div>
+			<div class="news-body" style="padding-top: 10px;">{{ content }}</div>
+		</div>
 	</div>
 	<div class="span4">
-		<h2 style="margin-bottom: 20px;">Past News Items</h2>
+		<h5 style="margin-bottom: 20px;">Past News Items</h5>
 		{% for p in site.posts limit: 9 %}
 			{% if forloop.index <= 1 %}
 			{% else %}

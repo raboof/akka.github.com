@@ -36,4 +36,4 @@ strong {color: #1d3c52; }
 .committers li:before { content:'\2022'; display: block; position: relative; max-width: 0px; max-height: 0px; left: -20px; top: -0px; color: #0d2428; font-size: 20px; }
 .committers a { color: #73a600; }
 .committers a:hover { color: #447281; }
-
+.news-story h2 { border: 0; color: #404040; padding-bottom: 0px; }
