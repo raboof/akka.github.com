@@ -30,6 +30,13 @@
       })();
 
     </script>
+
+    <!-- Redirect docs to doc.akka.io -->
+    <script type="text/javascript">
+      if (document.location.pathname.indexOf("/docs/akka") == 0) {
+        window.location.hostname = "doc.akka.io"
+      }
+    </script>
 </head>
 <body onload="prettyPrint()" >
 
