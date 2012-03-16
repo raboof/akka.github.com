@@ -66,7 +66,6 @@ greeter ! Greeting("Charlie Parker")
 public class Greeting implements Serializable {
   public final String who;
   public Greeting(String who) { this.who = who; }
-  public String who() { return this.who; }
 }
  
 public class GreetingActor extends UntypedActor {
@@ -74,7 +73,7 @@ public class GreetingActor extends UntypedActor {
 
   public void onReceive(Object message) throws Exception {
     if (message instanceof Greeting)
-      log.info("Hello " + ((Greeting) message).who());
+      log.info("Hello " + ((Greeting) message).who);
   }
 }
 
@@ -151,15 +150,14 @@ akka {
 public class Greeting implements Serializable {
   public final String who;
   public Greeting(String who) { this.who = who; }
-  public String who() { return this.who; }
 }
- 
+
 public class GreetingActor extends UntypedActor {
   LoggingAdapter log = Logging.getLogger(getContext().system(), this);
 
   public void onReceive(Object message) throws Exception {
     if (message instanceof Greeting)
-      log.info("Hello " + ((Greeting) message).who());
+      log.info("Hello " + ((Greeting) message).who);
   }
 }
 
