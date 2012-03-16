@@ -63,9 +63,10 @@ greeter ! Greeting("Charlie Parker")
 								</div>     
 	            	<div class="java-codebox">
 <pre class="prettyprint lang-java linenums">
-public class Greeting extends Serializable {
+public class Greeting implements Serializable {
   public final String who;
-  public Greeting(String who) { this.who = who }
+  public Greeting(String who) { this.who = who; }
+  public String who() { return this.who; }
 }
  
 public class GreetingActor extends UntypedActor {
@@ -79,7 +80,7 @@ public class GreetingActor extends UntypedActor {
 
 ActorSystem system = ActorSystem.create("MySystem");
 ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
-greeter.tell(Greeting("Charlie Parker"));
+greeter.tell(new Greeting("Charlie Parker"));
 </pre>	            
 								</div>
 	            </div>
@@ -124,7 +125,7 @@ val system = ActorSystem("MySystem")
 val greeter = system.actorOf(Props[GreetingActor], name = "greeter")
 
 // ------------------------------
-// on machine 3: Remote Lookup (logical home of “greeter” is machine1, remote deployment is transparent)
+// on machine 3: Remote Lookup (logical home of “greeter” is machine2, remote deployment is transparent)
 val system = ActorSystem("MySystem")
 val greeter = system.actorFor("MySystem@machine2:2552/user/greeter")
 greeter ! Greeting("Sonny Rollins")
@@ -147,9 +148,10 @@ akka {
 
 // ------------------------------
 // define the greeting actor and the greeting message
-public class Greeting extends Serializable {
+public class Greeting implements Serializable {
   public final String who;
-  public Greeting(String who) { this.who = who }
+  public Greeting(String who) { this.who = who; }
+  public String who() { return this.who; }
 }
  
 public class GreetingActor extends UntypedActor {
@@ -171,10 +173,10 @@ ActorSystem system = ActorSystem.create("MySystem");
 ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
 
 // ------------------------------
-// on machine 3: Remote Lookup (logical home of “greeter” is machine1, remote deployment is transparent)
+// on machine 3: Remote Lookup (logical home of “greeter” is machine2, remote deployment is transparent)
 ActorSystem system = ActorSystem.create("MySystem");
 ActorRef greeter = system.actorFor("MySystem@machine2:2552/user/greeter");
-greeter.tell(Greeting("Sonny Rollins"));
+greeter.tell(new Greeting("Sonny Rollins"));
 </pre>	            
 								</div>	            	
 	            </div>
