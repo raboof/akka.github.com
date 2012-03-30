@@ -65,6 +65,8 @@ title: Team
 				<li>Martin Krasser</li>
 				<li>Ivan Porto Carrero</li>
 				<li>Karim Osman</li>
+        <li>Raymond Roestenburg</li>
+        <li>Piotr Gabryanczyk</li>
 				<li><a href="http://lamp.epfl.ch/~phaller">Philipp Haller</a></li>
 			</ul>
 		</div>
