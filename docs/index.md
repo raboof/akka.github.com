@@ -5,13 +5,13 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.0 (current stable release)
+### Akka 2.0 (current stable release) for Scala 2.9
 
 * Akka Documentation - [http://doc.akka.io/docs/akka/2.0](http://doc.akka.io/docs/akka/2.0) (or in [PDF format](http://doc.akka.io/docs/akka/2.0/Akka.pdf))
 * Akka API - [http://doc.akka.io/api/akka/2.0](http://doc.akka.io/api/akka/2.0)
 
 
-### Akka 1.3.1
+### Akka 1.3.1 for Scala 2.9
 
 * Akka Documentation - [http://doc.akka.io/docs/akka/1.3.1](http://doc.akka.io/docs/akka/1.3.1) (or in [PDF](http://doc.akka.io/docs/akka/1.3.1/Akka.pdf))
 * Akka Modules Documentation - [http://doc.akka.io/docs/akka-modules/1.3.1](http://doc.akka.io/docs/akka-modules/1.3.1) (or in [PDF format](http://doc.akka.io/docs/akka-modules/1.3.1/AkkaModules.pdf))
