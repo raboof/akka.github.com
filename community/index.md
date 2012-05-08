@@ -22,14 +22,13 @@ This page contains a list of selected projects and extensions to Akka created by
 ## Selected Extensions To Akka
 
 * [Play Mini](https://github.com/typesafehub/play2-mini)
+* [Akka AMQP Integration](https://github.com/momania/akka-amqp)
 * [Akka WebSocket](https://github.com/mojolly/backchat-websocket)
 
 ### Extensions Available Post The Akka 2.1 Release
 
-* [Akka AMQP Integration](https://github.com/momania/akka-amqp)
 * [MongoDB Durable Mailbox](https://github.com/akka/akka/tree/master/akka-durable-mailboxes/akka-mongo-mailbox)
 * [AMQP Durable Mailbox](https://github.com/akka/akka/pull/272)
-
 
 ### Extensions In Need For Maintainers
 
