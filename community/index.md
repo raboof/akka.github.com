@@ -3,7 +3,7 @@ layout: page-full-width
 title: Community Projects
 ---
 
-Akka has a very vibrant and passionate user community who have created lots of independent projects using Akka as well as extensions to Akka. 
+Akka has a very vibrant and passionate user community who have created lots of independent projects using Akka as well as extensions to Akka.
 
 A selected list of some of the projects hosted on GitHub is collected in the [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html) project.
 
@@ -26,17 +26,17 @@ This page contains a list of selected projects and extensions to Akka created by
 
 ### Extensions Available Post The Akka 2.1 Release
 
+* [Akka AMQP Integration](https://github.com/momania/akka-amqp)
 * [MongoDB Durable Mailbox](https://github.com/akka/akka/tree/master/akka-durable-mailboxes/akka-mongo-mailbox)
-* [AMQP Durable Mailbox](https://github.com/akka/akka/pull/272) 
-* [Akka AMQP Integration](https://github.com/akka/akka/pull/378)
+* [AMQP Durable Mailbox](https://github.com/akka/akka/pull/272)
 
 
 ### Extensions In Need For Maintainers
 
-These will be moved out of Akka in the Akka 2.1 release. Let us know if you are interested in maintaining one or more of these modules. 
+These will be moved out of Akka in the Akka 2.1 release. Let us know if you are interested in maintaining one or more of these modules.
 
 * [Redis Durable Mailbox](https://github.com/akka/akka/tree/master/akka-durable-mailboxes/akka-redis-mailbox)
 * [Beanstalk Durable Mailbox](https://github.com/akka/akka/tree/master/akka-durable-mailboxes/akka-beanstalk-mailbox)
-* [ZooKeeper Durable Mailbox](https://github.com/akka/akka/tree/master/akka-durable-mailboxes/akka-zookeeper-mailbox) 
+* [ZooKeeper Durable Mailbox](https://github.com/akka/akka/tree/master/akka-durable-mailboxes/akka-zookeeper-mailbox)
 
 
