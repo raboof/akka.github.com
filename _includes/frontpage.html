@@ -6,33 +6,33 @@
 			<div class="span4">
 				<div class="logo"><img src="{{ site.baseurl }}/resources/images/logo_dropshadow.png"/></div>
 				<div class="box">Build powerful concurrent & distributed applications<br/><span class="bold">more easily</span>.</div>
-				<div class="small-box">Akka is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.</div>			
+				<div class="small-box">Akka is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.</div>
 			</div>
 			<div class="span8">
 				<div class="simple-concurrency">Simple Concurrency & Distribution
 					<p>Asynchronous and Distributed by design. High-level abstractions like Actors, Futures and STM.</p>
-				</div>			
+				</div>
 				<div class="fault-tolerance">Resilient by Design
 					<p>Write systems that self-heal. Remote and/or local supervisor hierarchies.</p>
-				</div>	
+				</div>
 				<div class="high-performance">High Performance
 					<p>50 million msg/sec on a single machine. Small memory footprint; ~2.7 million actors per GB of heap.</p>
-				</div>															
+				</div>
 				<div class="no-global-state" style="width:220px;">Elastic & Decentralized
 					<p>Adaptive load balancing, routing, partitioning and configuration-driven remoting.</p>
 				</div>
 				<div class="extensible">Extensible
 					<p>Use Akka Extensions to adapt Akka to fit your needs.</p>
-				</div>				
+				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
 </div>
 <div class="light-strip under-main">
 	<div class="container pad">
 
 		<div class="row normal">
-	    <div id="slider">    
+	    <div id="slider">
 	        <ul class="navigation breadcrumb">
 	            <li><a href="#actors">Actors</a></li>
 	            <li><a href="#remoting">Remoting</a></li>
@@ -51,23 +51,23 @@
 case class Greeting(who: String)
 
 class GreetingActor extends Actor with ActorLogging {
- def receive = {
-   case Greeting(who) ⇒ log.info("Hello " + who)
- }
+  def receive = {
+    case Greeting(who) ⇒ log.info("Hello " + who)
+  }
 }
 
 val system = ActorSystem("MySystem")
 val greeter = system.actorOf(Props[GreetingActor], name = "greeter")
 greeter ! Greeting("Charlie Parker")
-</pre>	       
-								</div>     
+</pre>
+								</div>
 	            	<div class="java-codebox">
 <pre class="prettyprint lang-java linenums">
 public class Greeting implements Serializable {
   public final String who;
   public Greeting(String who) { this.who = who; }
 }
- 
+
 public class GreetingActor extends UntypedActor {
   LoggingAdapter log = Logging.getLogger(getContext().system(), this);
 
@@ -80,7 +80,7 @@ public class GreetingActor extends UntypedActor {
 ActorSystem system = ActorSystem.create("MySystem");
 ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
 greeter.tell(new Greeting("Charlie Parker"));
-</pre>	            
+</pre>
 								</div>
 	            </div>
 	            <div class="panel" id="remoting" style="height: 1200px">
@@ -95,12 +95,12 @@ semantics, including actor supervision, retained. <a href="http://doc.akka.io/do
 // config on all machines
 akka {
  actor {
- provider = akka.remote.RemoteActorRefProvider
- deployment {
-   /greeter {
-     remote = akka://MySystem@machine1:2552
+   provider = akka.remote.RemoteActorRefProvider
+   deployment {
+     /greeter {
+       remote = akka://MySystem@machine1:2552
+     }
    }
- }
  }
 }
 
@@ -109,9 +109,9 @@ akka {
 case class Greeting(who: String) extends Serializable
 
 class GreetingActor extends Actor with ActorLogging {
- def receive = {
-   case Greeting(who) ⇒ log.info("Hello " + who)
- }
+  def receive = {
+    case Greeting(who) ⇒ log.info("Hello " + who)
+  }
 }
 
 // ------------------------------
@@ -128,20 +128,20 @@ val greeter = system.actorOf(Props[GreetingActor], name = "greeter")
 val system = ActorSystem("MySystem")
 val greeter = system.actorFor("MySystem@machine2:2552/user/greeter")
 greeter ! Greeting("Sonny Rollins")
-</pre>	       
-								</div>     
+</pre>
+								</div>
 	            	<div class="java-codebox">
 <pre class="prettyprint lang-java linenums">
 // ------------------------------
 // config on all machines
 akka {
- actor {
-   provider = akka.remote.RemoteActorRefProvider
-   deployment {
-     /greeter {
-       remote = akka://MySystem@machine1:2552
-     }
-   }
+  actor {
+    provider = akka.remote.RemoteActorRefProvider
+    deployment {
+      /greeter {
+        remote = akka://MySystem@machine1:2552
+      }
+    }
   }
 }
 
@@ -175,8 +175,8 @@ ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
 ActorSystem system = ActorSystem.create("MySystem");
 ActorRef greeter = system.actorFor("MySystem@machine2:2552/user/greeter");
 greeter.tell(new Greeting("Sonny Rollins"));
-</pre>	            
-								</div>	            	
+</pre>
+								</div>
 	            </div>
 	            <div class="panel" id="supervision" style="height: 750px">
 	            	<h2>Supervision</h2>
@@ -188,22 +188,22 @@ managing failures in a concurrent, distributed system and allows for writing hig
 	            	<div class="scala-codebox">
 <pre class="prettyprint lang-scala linenums">
 class Supervisor extends Actor {
- override val supervisorStrategy =
-   OneForOneStrategy(maxNrOfRetries = 10, withinTimeRange = 1 minute) {
-     case _: ArithmeticException      ⇒ Resume
-     case _: NullPointerException     ⇒ Restart
-     case _: Exception                ⇒ Escalate
-   }
+  override val supervisorStrategy =
+    OneForOneStrategy(maxNrOfRetries = 10, withinTimeRange = 1 minute) {
+      case _: ArithmeticException      ⇒ Resume
+      case _: NullPointerException     ⇒ Restart
+      case _: Exception                ⇒ Escalate
+    }
 
- val worker = context.actorOf(Props[Worker])
+  val worker = context.actorOf(Props[Worker])
 
- def receive = {
-   case n: Int => worker forward n
- }
+  def receive = {
+    case n: Int => worker forward n
+  }
 }
-</pre>	  
-									     
-								</div>     
+</pre>
+
+								</div>
 	            	<div class="java-codebox">
 <pre class="prettyprint lang-java linenums">
 class Supervisor extends UntypedActor {
@@ -223,23 +223,20 @@ class Supervisor extends UntypedActor {
     return strategy;
   }
 
- ActorRef worker = context.actorOf(new Props(Worker.class));
+  ActorRef worker = context.actorOf(new Props(Worker.class));
 
   public void onReceive(Object message) throws Exception {
     if (message instanceof Integer) worker.forward(message);
   }
 }
-</pre>	        	
-								</div>	            	
-	            </div>	            
+</pre>
+								</div>
+	            </div>
             </div>
 	        </div>
-
 	        <div id="shade"></div>
 	    </div>
 		</div>
-
-
 	</div>
 </div>
 
@@ -255,7 +252,7 @@ class Supervisor extends UntypedActor {
 				</div>
 			</div>
 		</div>
-	
+
 	</div>
 	<div class="between-dark-strips"></div>
 	<div class="container three-bars">
@@ -280,7 +277,4 @@ class Supervisor extends UntypedActor {
 
 		</div>
 	</div>
-
-
-
 </div>
