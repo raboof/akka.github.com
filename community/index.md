@@ -15,7 +15,7 @@ This page contains a list of selected projects and extensions to Akka created by
 * [Akka WebSocket](https://github.com/mojolly/backchat-websocket)
 * [Akka AMQP Integration](https://github.com/momania/akka-amqp)
 * [Akka AMQP Durable Mailbox](https://github.com/drexin/akka-amqp-mailbox)
-* 
+
 * ## Selected Projects Using Akka
 
 * [Play! Web Framework](http://www.playframework.org/)
