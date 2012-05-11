@@ -28,7 +28,7 @@ This page contains a list of selected projects and extensions to Akka created by
 ### Extensions Available Post The Akka 2.1 Release
 
 * [MongoDB Durable Mailbox](https://github.com/akka/akka/tree/master/akka-durable-mailboxes/akka-mongo-mailbox)
-* [AMQP Durable Mailbox](https://github.com/akka/akka/pull/272)
+* [AMQP Durable Mailbox](https://github.com/drexin/akka-amqp-mailbox)
 
 ### Extensions In Need For Maintainers
 
