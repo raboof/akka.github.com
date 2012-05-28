@@ -19,7 +19,7 @@ title: Akka Documentation
 * Akka Modules API - [http://doc.akka.io/api/akka-modules/1.3.1](http://doc.akka.io/api/akka-modules/1.3.1)
 
 
-### Release Candidates
+## Release Candidates
 
 ### Akka 2.0.2-RC1 for Scala 2.9
 
