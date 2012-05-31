@@ -16,6 +16,8 @@ This page contains a list of selected projects and extensions to Akka created by
 * [Akka AMQP Integration](https://github.com/momania/akka-amqp)
 * [Akka AMQP Durable Mailbox](https://github.com/drexin/akka-amqp-mailbox)
 * [Akka Protostuff Serialization](https://github.com/romix/akka-protostuff-serialization)
+* [Akka Quickser Serialization](https://github.com/romix/akka-quickser-serialization)
+* [Akka Kryo Serialization](https://github.com/romix/akka-kryo-serialization)
 
 ## Selected Projects Using Akka
 
