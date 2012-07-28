@@ -8,6 +8,11 @@ title: Downloads
 * Akka (all modules): [akka-2.0.2.tgz](http://download.akka.io/downloads/akka-2.0.2.tgz) or [akka-2.0.2.zip](http://download.akka.io/downloads/akka-2.0.2.zip)
 
 
+## Akka 2.1-M1 (current milestone release) for Scala 2.10.0-M6
+
+* Akka (all modules): [akka-2.1-M1.tgz](http://download.akka.io/downloads/akka-2.1-M1.tgz) or [akka-2.1-M1.zip](http://download.akka.io/downloads/akka-2.1-M1.zip)
+
+
 ## Akka 1.3.1 for Scala 2.9
 
 There are three different packages available for download. The Akka Microkernel includes all modules and is a stand-alone app server. The Akka Core package contains only the core Akka modules. The Akka Actors package only includes the Akka actor module.
