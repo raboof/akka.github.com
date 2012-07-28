@@ -23,6 +23,15 @@ title: Akka Documentation
 
 ### None
 
+
+## Current Milestone
+
+### Akka 2.1-M1 for Scala 2.10.0-M6
+
+* Akka Documentation - [http://doc.akka.io/docs/akka/2.1-M1](http://doc.akka.io/docs/akka/2.1-M1) (or in [PDF format](http://doc.akka.io/docs/akka/2.1-M1/Akka.pdf))
+* Akka API - [http://doc.akka.io/api/akka/2.1-M1](http://doc.akka.io/api/akka/2.1-M1)
+
+
 ## Akka Snapshots
 
 Automatically published documentation for the latest SNAPSHOT version of Akka can be found here:
