@@ -5,7 +5,7 @@ title: Frequently Asked Questions
 
 ## Remoting
 
-### I want to send to a connect to a remote system but it does not do anything
+### I want to send to a remote system but it does not do anything
 
 Make sure that you have remoting enabled on both ends: client and server. Both
 do need hostname and port configured, and you will need to know the port of the
