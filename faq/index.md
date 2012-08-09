@@ -12,25 +12,30 @@ do need hostname and port configured, and you will need to know the port of the
 server; the client can use an automatic port in most cases (i.e. configure port
 zero).
 
-If you still do not see anything, look at what the logging of remote life-cycle
-events tells you (normally logged at INFO level) or switch on logging of all
-sent and received messages (logged at DEBUG level).
+If you still do not see anything, look at what the logging of [remote
+life-cycle
+events](http://doc.akka.io/docs/akka/current/scala/remoting.html#Remote_Events)
+tells you (normally logged at INFO level) or [switch on
+logging](https://github.com/akka/akka/blob/v2.0.2/akka-remote/src/main/resources/reference.conf#L66)
+of all sent and received messages (logged at DEBUG level).
 
 ### What is the name of a remote actor?
 
 When you want to send messages to an actor on a remote host, you need to know
-its full path, which is of the form
+its [full path](http://doc.akka.io/docs/akka/current/general/addressing.html),
+which is of the form
 
     akka://system@host:1234/user/my/actor/hierarchy/path
 
 Observe all the parts you need here:
 
-* `system` is the remote system’s name (must match!)
+* `system` is the remote system’s name (must match exactly, case-sensitive!)
 
 * `host` is the remote system’s IP address or DNS name, and it must match that
   system’s configuration (i.e. `akka.remote.netty.hostname`)
 
-* `1234` is the port number on which the remote system is listening
+* `1234` is the port number on which the remote system is listening for
+  connections and receiving messages
 
 * `/user/my/actor/hierarchy/path` is the absolute path of the remote actor in 
   the remote system’s supervision hierarchy, including the system guardian
