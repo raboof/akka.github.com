@@ -10,7 +10,8 @@ title: Frequently Asked Questions
 Make sure that you have remoting enabled on both ends: client and server. Both
 do need hostname and port configured, and you will need to know the port of the
 server; the client can use an automatic port in most cases (i.e. configure port
-zero).
+zero). If both systems are running on the same network host, their ports must
+be different
 
 If you still do not see anything, look at what the logging of [remote
 life-cycle
@@ -38,9 +39,11 @@ Observe all the parts you need here:
   connections and receiving messages
 
 * `/user/my/actor/hierarchy/path` is the absolute path of the remote actor in 
-  the remote system’s supervision hierarchy, including the system guardian
-  (i.e. `/user`); this matches how the actor prints its own `self` reference on
-  the remote host, e.g. in log output.
+  the remote system’s supervision hierarchy, including the system’s guardian
+  (i.e. `/user`, there are others e.g. `/system` which hosts loggers, `/temp`
+  which keeps temporary actor refs used with `ask()`, `/remote` which enables
+  remote deployment, etc.); this matches how the actor prints its own `self`
+  reference on the remote host, e.g. in log output.
 
 ### Why are replies not received from a remote actor?
 
