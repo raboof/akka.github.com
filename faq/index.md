@@ -86,6 +86,17 @@ The most common reason is that the local system’s name (i.e. the
 system’s network location, e.g. because `host` was configured to be `0.0.0.0`,
 `localhost` or a NAT’ed IP address.
 
+### sender/getSender() disappears when I use Future in my Actor, why?
+
+When using future callbacks, inside actors you need to carefully avoid closing over
+the containing actor’s reference, i.e. do not call methods or access mutable state
+on the enclosing actor from within the callback. This breaks the actor encapsulation 
+and may introduce synchronization bugs and race conditions because the callback will
+be scheduled concurrently to the enclosing actor. Unfortunately there is not yet a way
+to detect these illegal accesses at compile time.
+
+Read more about it in the docs about [Actors and the JMM](http://doc.akka.io/docs/akka/2.0.2/general/jmm.html#Actors_and_shared_mutable_state)
+
 ## Microkernel
 
 ### Why doesn’t `sbt dist` copy my subproject into the kernel distribution?
