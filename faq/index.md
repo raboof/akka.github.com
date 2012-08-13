@@ -5,21 +5,21 @@ title: Frequently Asked Questions
 
 ## Akka Project
 
-### Where does the name Akka come from? 
+### Where does the name Akka come from?
 
-It is the name of a beautiful Swedish [mountain](https://lh4.googleusercontent.com/-z28mTALX90E/UCOsd249TdI/AAAAAAAAAB0/zGyNNZla-zY/w442-h331/akka-beautiful-panorama.jpg) 
-up in the northen part of Sweden called Laponia. The mountain is also sometimes 
-called 'The Queen of Laponia'. 
+It is the name of a beautiful Swedish [mountain](https://lh4.googleusercontent.com/-z28mTALX90E/UCOsd249TdI/AAAAAAAAAB0/zGyNNZla-zY/w442-h331/akka-beautiful-panorama.jpg)
+up in the northern part of Sweden called Laponia. The mountain is also sometimes
+called 'The Queen of Laponia'.
 
-Akka is also the name of a goddess in the Sámi (the native Swedish population) 
-mythology. She is the goddess that stands for all the beauty and good in the 
+Akka is also the name of a goddess in the Sámi (the native Swedish population)
+mythology. She is the goddess that stands for all the beauty and good in the
 world. The mountain can be seen as the symbol of this goddess.
 
 Also, the name AKKA is the a palindrome of letters A and K as in Actor Kernel.
 
 Akka is also:
 * the name of the goose that Nils traveled across Sweden on in [The Wonderful Adventures of Nils](http://en.wikipedia.org/wiki/The_Wonderful_Adventures_of_Nils) by the Swedish writer Selma Lagerlöf.
-* the finnish word for 'woman' and the word for 'sister' in some other languages (which one?)
+* the finnish word for 'nasty elderly woman' and the word for 'elder sister' in the Indian language Kannada
 * a town in Morocco
 * a near-earth asteroid
 
@@ -72,7 +72,7 @@ Observe all the parts you need here:
 * `1234` is the port number on which the remote system is listening for
   connections and receiving messages
 
-* `/user/my/actor/hierarchy/path` is the absolute path of the remote actor in 
+* `/user/my/actor/hierarchy/path` is the absolute path of the remote actor in
   the remote system’s supervision hierarchy, including the system’s guardian
   (i.e. `/user`, there are others e.g. `/system` which hosts loggers, `/temp`
   which keeps temporary actor refs used with `ask()`, `/remote` which enables
@@ -90,7 +90,7 @@ system’s network location, e.g. because `host` was configured to be `0.0.0.0`,
 
 When using future callbacks, inside actors you need to carefully avoid closing over
 the containing actor’s reference, i.e. do not call methods or access mutable state
-on the enclosing actor from within the callback. This breaks the actor encapsulation 
+on the enclosing actor from within the callback. This breaks the actor encapsulation
 and may introduce synchronization bugs and race conditions because the callback will
 be scheduled concurrently to the enclosing actor. Unfortunately there is not yet a way
 to detect these illegal accesses at compile time.
