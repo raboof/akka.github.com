@@ -3,6 +3,9 @@ layout: page-full-width
 title: Frequently Asked Questions
 ---
 
+* auto-gen TOC:
+{:toc}
+
 ## Akka Project
 
 ### Where does the name Akka come from?
