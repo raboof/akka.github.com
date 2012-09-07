@@ -105,7 +105,7 @@ and may introduce synchronization bugs and race conditions because the callback 
 be scheduled concurrently to the enclosing actor. Unfortunately there is not yet a way
 to detect these illegal accesses at compile time.
 
-Read more about it in the docs about [Actors and the JMM](http://doc.akka.io/docs/akka/2.0.2/general/jmm.html#Actors_and_shared_mutable_state)
+Read more about it in the docs for [Actors and the JMM](http://doc.akka.io/docs/akka/2.0.3/general/jmm.html#Actors_and_shared_mutable_state)
 
 ## Microkernel
 
@@ -113,3 +113,32 @@ Read more about it in the docs about [Actors and the JMM](http://doc.akka.io/doc
 
 For this to happen, that project’s `name` (in the project’s settings) and `id`
 (argument to the `Project` factory) must match exactly.
+
+## Debugging
+
+### How do I turn on debug logging?
+
+To turn on debug logging in your actor system add the following to your configuration:
+
+```
+akka {
+  loglevel = DEBUG
+  actor {
+    debug {
+      receive = on
+      autoreceive = on
+      lifecycle = on
+    }
+  }
+}
+```
+
+The different options enable the following:
+
+* `receive` will log all messages sent to an actor if that actors `receive` method is a `LoggingReceive`
+
+* `autoreceive` will log all _special_ messages like `Kill`, `PoisonPill` e.t.c. sent to all actors
+
+* `lifecycle` will log all actor lifecycle events of all actors
+
+Read more about it in the docs for [Testing Actor Systems](http://doc.akka.io/docs/akka/2.0.3/scala/testing.html#Tracing_Actor_Invocations)
