@@ -121,16 +121,16 @@ For this to happen, that project’s `name` (in the project’s settings) and `i
 To turn on debug logging in your actor system add the following to your configuration:
 
 ```
-akka {
-  loglevel = DEBUG
-  actor {
-    debug {
-      receive = on
-      autoreceive = on
-      lifecycle = on
-    }
-  }
-}
+akka {  
+  loglevel = DEBUG  
+  actor {  
+    debug {  
+      receive = on  
+      autoreceive = on  
+      lifecycle = on  
+    }  
+  }  
+}  
 ```
 
 The different options enable the following:
