@@ -120,25 +120,14 @@ For this to happen, that project’s `name` (in the project’s settings) and `i
 
 To turn on debug logging in your actor system add the following to your configuration:
 
-```
-akka {  
-  loglevel = DEBUG  
-  actor {  
-    debug {  
-      receive = on  
-      autoreceive = on  
-      lifecycle = on  
-    }  
-  }  
-}  
-```
+`akka.loglevel = DEBUG`
 
-The different options enable the following:
+To enable different types of debug logging add the following to your configuration:
 
-* `receive` will log all messages sent to an actor if that actors `receive` method is a `LoggingReceive`
+* `actor.debug.receive` will log all messages sent to an actor if that actors `receive` method is a `LoggingReceive`
 
-* `autoreceive` will log all _special_ messages like `Kill`, `PoisonPill` e.t.c. sent to all actors
+* `actor.debug.autoreceive` will log all _special_ messages like `Kill`, `PoisonPill` e.t.c. sent to all actors
 
-* `lifecycle` will log all actor lifecycle events of all actors
+* `actor.debug.lifecycle` will log all actor lifecycle events of all actors
 
 Read more about it in the docs for [Testing Actor Systems](http://doc.akka.io/docs/akka/2.0.3/scala/testing.html#Tracing_Actor_Invocations)
