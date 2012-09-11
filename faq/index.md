@@ -105,7 +105,7 @@ and may introduce synchronization bugs and race conditions because the callback 
 be scheduled concurrently to the enclosing actor. Unfortunately there is not yet a way
 to detect these illegal accesses at compile time.
 
-Read more about it in the docs for [Actors and the JMM](http://doc.akka.io/docs/akka/2.0.3/general/jmm.html#Actors_and_shared_mutable_state)
+Read more about it in the docs for [Actors and the JMM](http://doc.akka.io/docs/akka/current/general/jmm.html#Actors_and_shared_mutable_state)
 
 ## Microkernel
 
@@ -113,6 +113,14 @@ Read more about it in the docs for [Actors and the JMM](http://doc.akka.io/docs/
 
 For this to happen, that project’s `name` (in the project’s settings) and `id`
 (argument to the `Project` factory) must match exactly.
+
+### How do I use Play2 Mini with Akka?
+
+In case you need to start Play2 Mini programatically you can use::
+
+    play.core.server.NettyServer.main(Array())
+
+Read more about it in the docs for [Http](http://doc.akka.io/docs/akka/current/modules/http.html)
 
 ## Debugging
 
@@ -130,4 +138,4 @@ To enable different types of debug logging add the following to your configurati
 
 * `akka.actor.debug.lifecycle` will log all actor lifecycle events of all actors
 
-Read more about it in the docs for [Testing Actor Systems](http://doc.akka.io/docs/akka/2.0.3/scala/testing.html#Tracing_Actor_Invocations)
+Read more about it in the docs for [Testing Actor Systems](http://doc.akka.io/docs/akka/current/scala/testing.html#Tracing_Actor_Invocations)
