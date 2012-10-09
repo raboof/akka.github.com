@@ -23,6 +23,7 @@ Also, the name AKKA is the a palindrome of letters A and K as in Actor Kernel.
 Akka is also:
 * the name of the goose that Nils traveled across Sweden on in [The Wonderful Adventures of Nils](http://en.wikipedia.org/wiki/The_Wonderful_Adventures_of_Nils) by the Swedish writer Selma Lagerlöf.
 * the finnish word for 'nasty elderly woman' and the word for 'elder sister' in the Indian languages Tamil, Telugu, Kannada and Marathi.
+* the word for 'earlier' in Korean, written like this: 아까
 * a town in Morocco
 * a near-earth asteroid
 
