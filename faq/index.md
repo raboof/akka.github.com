@@ -41,6 +41,37 @@ the target actor together with the message. When within an actor, always add
 For Scala users this can only happen outside of actors, since the `!` operator
 picks up the sender reference implicitly from the surrounding actor’s context.
 
+### How can I get compile time errors for missing messages in `receive`?
+
+One solution to help you get a compile time warning for not handling a message
+that you should be handling is to define your actors input and output messages
+implementing base traits, and then do a match that the will be checked for
+exhaustiveness.
+
+Here is an example where the compiler will warn you that the match in
+receive isn't exhaustive:
+
+    object MyActor {
+      // these are the messages we accept
+      sealed abstract trait Message
+      case class FooMessage(foo: String) extends Message
+      case class BarMessage(bar: Int) extends Message
+
+      // these are the replies we send
+      sealed abstract trait Reply
+      case class BazMessage(foo: String) extends Reply
+    }
+    
+    class MyActor extends Actor {
+      import MyActor._
+      def receive = {
+        case message: Message ⇒ message match {
+          case BarMessage(bar) => sender ! BazMessage("Got " + bar)
+        }
+      }
+    }
+
+
 ## Remoting
 
 ### I want to send to a remote system but it does not do anything
