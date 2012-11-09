@@ -24,7 +24,7 @@ title: Akka Documentation
 ### Akka 2.1.0-RC2 for Scala 2.10.0-RC2
 
 * Akka Documentation - [http://doc.akka.io/docs/akka/2.1.0-RC2](http://doc.akka.io/docs/akka/2.1.0-RC2) (or in [PDF format](http://doc.akka.io/docs/akka/2.1.0-RC2/Akka.pdf))
-* Akka API - [http://doc.akka.io/api/akka/2.1.0-RC1](http://doc.akka.io/api/akka/2.1.0-RC2)
+* Akka API - [http://doc.akka.io/api/akka/2.1.0-RC2](http://doc.akka.io/api/akka/2.1.0-RC2)
 
 
 ## Current Milestone
