@@ -8,9 +8,7 @@ title: Downloads
 * Akka (all modules): [akka-2.0.4.tgz](http://download.akka.io/downloads/akka-2.0.4.tgz) or [akka-2.0.4.zip](http://download.akka.io/downloads/akka-2.0.4.zip)
 
 
-## Release Candidates
-
-### Akka 2.1.0-RC2 for Scala 2.10.0-RC2
+## Akka 2.1.0-RC2 (current release candidate) for Scala 2.10.0-RC2
 
 * Akka (all modules): [akka-2.1.0-RC2.tgz](http://download.akka.io/downloads/akka-2.1.0-RC2.tgz) or [akka-2.1.0-RC2.zip](http://download.akka.io/downloads/akka-2.1.0-RC2.zip)
 
