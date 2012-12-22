@@ -5,7 +5,12 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.0.4 (current stable release) for Scala 2.9
+### Akka 2.1.0 (current stable release) for Scala 2.10
+
+* Akka Documentation - [http://doc.akka.io/docs/akka/2.1.0](http://doc.akka.io/docs/akka/2.1.0) (or in [PDF format](http://doc.akka.io/docs/akka/2.1.0/Akka.pdf))
+* Akka API - [http://doc.akka.io/api/akka/2.1.0](http://doc.akka.io/api/akka/2.1.0)
+
+### Akka 2.0.4 for Scala 2.9
 
 * Akka Documentation - [http://doc.akka.io/docs/akka/2.0.4](http://doc.akka.io/docs/akka/2.0.4) (or in [PDF format](http://doc.akka.io/docs/akka/2.0.4/Akka.pdf))
 * Akka API - [http://doc.akka.io/api/akka/2.0.4](http://doc.akka.io/api/akka/2.0.4)
@@ -17,22 +22,6 @@ title: Akka Documentation
 * Akka Modules Documentation - [http://doc.akka.io/docs/akka-modules/1.3.1](http://doc.akka.io/docs/akka-modules/1.3.1) (or in [PDF format](http://doc.akka.io/docs/akka-modules/1.3.1/AkkaModules.pdf))
 * Akka API - [http://doc.akka.io/api/akka/1.3.1](http://doc.akka.io/api/akka/1.3.1)
 * Akka Modules API - [http://doc.akka.io/api/akka-modules/1.3.1](http://doc.akka.io/api/akka-modules/1.3.1)
-
-
-## Release Candidates
-
-### Akka 2.1.0-RC6 for Scala 2.10.0-RC5
-
-* Akka Documentation - [http://doc.akka.io/docs/akka/2.1.0-RC6](http://doc.akka.io/docs/akka/2.1.0-RC6) (or in [PDF format](http://doc.akka.io/docs/akka/2.1.0-RC6/Akka.pdf))
-* Akka API - [http://doc.akka.io/api/akka/2.1.0-RC6](http://doc.akka.io/api/akka/2.1.0-RC6)
-
-
-## Current Milestone
-
-### Akka 2.1-M2 for Scala 2.10.0-M7
-
-* Akka Documentation - [http://doc.akka.io/docs/akka/2.1-M2](http://doc.akka.io/docs/akka/2.1-M2) (or in [PDF format](http://doc.akka.io/docs/akka/2.1-M2/Akka.pdf))
-* Akka API - [http://doc.akka.io/api/akka/2.1-M2](http://doc.akka.io/api/akka/2.1-M2)
 
 
 ## Akka Snapshots
