@@ -28,7 +28,7 @@ title: Akka Documentation
 
 Automatically published documentation for the latest SNAPSHOT version of Akka can be found here:
 
-* Akka Documentation - [http://doc.akka.io/docs/akka/snapshot/](http://doc.akka.io/docs/akka/snapshot/) (or in [PDF format](http://doc.akka.io/docs/akka/snapshot/Akka.pdf))
+* Akka Documentation - [http://doc.akka.io/docs/akka/snapshot/](http://doc.akka.io/docs/akka/snapshot/) (or as [PDF](http://doc.akka.io/docs/akka/snapshot/Akka.pdf) or [EPUB](http://doc.akka.io/docs/akka/snapshot/Akka.epub))
 
 Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can be found here:
 
