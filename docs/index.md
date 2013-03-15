@@ -7,36 +7,36 @@ title: Akka Documentation
 
 ### Akka 2.1.2 (current stable release) for Scala 2.10
 
-* Akka Documentation - [http://doc.akka.io/docs/akka/2.1.2](http://doc.akka.io/docs/akka/2.1.2) (or in [PDF format](http://doc.akka.io/docs/akka/2.1.2/Akka.pdf))
-* Akka API - [http://doc.akka.io/api/akka/2.1.2](http://doc.akka.io/api/akka/2.1.2)
+* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.1.2) (or as [PDF](http://doc.akka.io/docs/akka/2.1.2/Akka.pdf))
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.1.2/) and [Scala](http://doc.akka.io/api/akka/2.1.2/)
 
 ### Akka 2.0.5 for Scala 2.9
 
-* Akka Documentation - [http://doc.akka.io/docs/akka/2.0.5](http://doc.akka.io/docs/akka/2.0.5) (or in [PDF format](http://doc.akka.io/docs/akka/2.0.5/Akka.pdf))
-* Akka API - [http://doc.akka.io/api/akka/2.0.5](http://doc.akka.io/api/akka/2.0.5)
+* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.0.5) (or as [PDF](http://doc.akka.io/docs/akka/2.0.5/Akka.pdf))
+* Akka API - for [Scala](http://doc.akka.io/api/akka/2.0.5)
 
 
 ### Akka 1.3.1 for Scala 2.9
 
-* Akka Documentation - [http://doc.akka.io/docs/akka/1.3.1](http://doc.akka.io/docs/akka/1.3.1) (or in [PDF](http://doc.akka.io/docs/akka/1.3.1/Akka.pdf))
-* Akka Modules Documentation - [http://doc.akka.io/docs/akka-modules/1.3.1](http://doc.akka.io/docs/akka-modules/1.3.1) (or in [PDF format](http://doc.akka.io/docs/akka-modules/1.3.1/AkkaModules.pdf))
-* Akka API - [http://doc.akka.io/api/akka/1.3.1](http://doc.akka.io/api/akka/1.3.1)
-* Akka Modules API - [http://doc.akka.io/api/akka-modules/1.3.1](http://doc.akka.io/api/akka-modules/1.3.1)
+* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/1.3.1) (or as [PDF](http://doc.akka.io/docs/akka/1.3.1/Akka.pdf))
+* Akka Modules Documentation - as [HTML](http://doc.akka.io/docs/akka-modules/1.3.1) (or as [PDF](http://doc.akka.io/docs/akka-modules/1.3.1/AkkaModules.pdf))
+* Akka API - for [Scala](http://doc.akka.io/api/akka/1.3.1)
+* Akka Modules API - for [Scala](http://doc.akka.io/api/akka-modules/1.3.1)
 
 
 ## Milestone Versions
 
 ### Akka 2.2-M1 for Scala 2.10
 
-* Akka Documentation - [http://doc.akka.io/docs/akka/2.2-M1](http://doc.akka.io/docs/akka/2.2-M1) (or in [PDF format](http://doc.akka.io/docs/akka/2.2-M1/Akka.pdf))
-* Akka API - [http://doc.akka.io/api/akka/2.2-M1](http://doc.akka.io/api/akka/2.2-M1)
+* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.2-M1) (or as [PDF](http://doc.akka.io/docs/akka/2.2-M1/Akka.pdf))
+* Akka API - for [Scala](http://doc.akka.io/api/akka/2.2-M1)
 
 ## Akka Snapshots
 
 Automatically published documentation for the latest SNAPSHOT version of Akka can be found here:
 
-* Akka Documentation - [http://doc.akka.io/docs/akka/snapshot/](http://doc.akka.io/docs/akka/snapshot/) (or as [PDF](http://doc.akka.io/docs/akka/snapshot/Akka.pdf) or [EPUB](http://doc.akka.io/docs/akka/snapshot/Akka.epub))
+* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/snapshot/) (or as [PDF](http://doc.akka.io/docs/akka/snapshot/Akka.pdf) or [EPUB](http://doc.akka.io/docs/akka/snapshot/Akka.epub))
 
 Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can be found here:
 
-* Akka API - [for Java](http://doc.akka.io/japi/akka/snapshot/) and [for Scala](http://doc.akka.io/api/akka/snapshot/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/snapshot/) and [Scala](http://doc.akka.io/api/akka/snapshot/)
