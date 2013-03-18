@@ -20,6 +20,7 @@ This page contains a list of selected projects and extensions to Akka created by
 * [Akka Kryo Serialization](https://github.com/romix/akka-kryo-serialization)
 * [Akka Quartz](https://github.com/theatrus/akka-quartz)
 * [Akka Event Sourcing](https://github.com/eligosource/eventsourced)
+* [Akka Riak Client](http://riak.scalapenos.com/index.html)
 
 ## Selected Projects Using Akka
 
