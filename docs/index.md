@@ -26,10 +26,10 @@ title: Akka Documentation
 
 ## Milestone Versions
 
-### Akka 2.2-M1 for Scala 2.10
+### Akka 2.2-M2 for Scala 2.10
 
-* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.2-M1) (or as [PDF](http://doc.akka.io/docs/akka/2.2-M1/Akka.pdf))
-* Akka API - for [Scala](http://doc.akka.io/api/akka/2.2-M1)
+* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.2-M2) (or as [PDF](http://doc.akka.io/docs/akka/2.2-M2/Akka.pdf))
+* Akka API - for  [Java](http://doc.akka.io/japi/akka/2.2-M2/) and [Scala](http://doc.akka.io/api/akka/2.2-M2/)
 
 ## Akka Snapshots
 
