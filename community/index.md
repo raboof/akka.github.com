@@ -26,6 +26,7 @@ This page contains a list of selected projects and extensions to Akka created by
 
 * [Play! Web Framework](http://www.playframework.org/)
 * [Spray REST Tool Suite](http://spray.cc)
+* [Spark Cluster Computing](http://spark-project.org/)
 * [Socko Web Server](http://sockoweb.org/)
 * [Scalatra Web Framework](http://www.scalatra.org/)
 * [GeoTrellis Geoprocessing Engine](http://www.azavea.com/products/geotrellis/)
