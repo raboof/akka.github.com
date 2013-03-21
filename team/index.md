@@ -49,7 +49,7 @@ title: Team
 		<span class="profile-name">Jonas Bonér</span>
 		<span class="profile-title">Typesafe CTO</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/jboner">@jboner</a></span>
-		<p class="profile-text">Jonas Bonér is a husband, dad, programmer, teacher, speaker, musician, writer and Java Champion. He is the CTO of Typesafe and is an active contributor to the Open Source community; most notably created the Akka Project, AspectWerkz AOP framework, committer to the Terracotta JVM clustering technology and been part of the Eclipse AspectJ team. <a href="http://jonasboner.com">http://jonasboner.com</a></p>
+		<p class="profile-text">Jonas Bonér invented Akka back in 2008 and is the CTO and co-founder of Typesafe. <a href="http://jonasboner.com">http://jonasboner.com</a></p>
 	</div>
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="http://api.twitter.com/1/users/profile_image/viktorklang.json?size=bigger" /></div>
