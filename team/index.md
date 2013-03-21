@@ -30,6 +30,7 @@ title: Team
     <div class="profile-pic-wrap"><img class="profile-pic" src="http://api.twitter.com/1/users/profile_image/drewhk.json?size=bigger" /></div>
     <span class="profile-name">Endre Sándor Varga</span>
     <span class="profile-twitter-link"><a href="https://twitter.com/drewhk">@drewhk</a></span>
+    <p class="profile-text">Endre has been a teacher and PhD student at the Technical University of Budapest, where he has been researching complex systems and mobile ad hoc networks. His interest in distributed, high-performance and concurrent systems lead him to the world of actors and Akka in 2012.</p>
   </div>
 </div>
 <div class="row">
