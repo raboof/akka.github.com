@@ -48,7 +48,7 @@ title: Team
 		<span class="profile-name">Jonas Bonér</span>
 		<span class="profile-title">Typesafe CTO</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/jboner">@jboner</a></span>
-		<p class="profile-text">Jonas Bonér started the Akka project back in 2008 and is the CTO and co-founder of Typesafe. <a href="http://jonasboner.com">http://jonasboner.com</a></p>
+		<p class="profile-text">Jonas Bonér invented Akka back in 2008 and is the CTO and co-founder of Typesafe. <a href="http://jonasboner.com">http://jonasboner.com</a></p>
 	</div>
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="http://api.twitter.com/1/users/profile_image/viktorklang.json?size=bigger" /></div>
