@@ -39,6 +39,7 @@ title: Team
       <div class="profile-pic-wrap"><img class="profile-pic" src="http://api.twitter.com/1/users/profile_image/richdougherty.json?size=bigger" /></div>
       <span class="profile-name">Rich Dougherty</span>
       <span class="profile-twitter-link"><a href="https://twitter.com/richdougherty">@richdougherty</a></span>
+      <p class="profile-text">Rich has 10 years of development experience in the finance industry. He is interested in building high performance systems using asynchronous programming.</p>
     </div>
   </div>
 </div>
