@@ -33,16 +33,6 @@ title: Team
     <p class="profile-text">Endre has been a teacher and PhD student at the Technical University of Budapest, where he has been researching complex systems and mobile ad hoc networks. His interest in distributed, high-performance and concurrent systems lead him to the world of actors and Akka in 2012.</p>
   </div>
 </div>
-<div class="row">
-  <div>
-    <div class="span6">
-      <div class="profile-pic-wrap"><img class="profile-pic" src="http://api.twitter.com/1/users/profile_image/richdougherty.json?size=bigger" /></div>
-      <span class="profile-name">Rich Dougherty</span>
-      <span class="profile-twitter-link"><a href="https://twitter.com/richdougherty">@richdougherty</a></span>
-      <p class="profile-text">Rich has 10 years of development experience in the finance industry. He is interested in building high performance systems using asynchronous programming.</p>
-    </div>
-  </div>
-</div>
 <h3>Honorary Members</h3>
 <div class="row">
 	<div class="span6">
@@ -88,6 +78,7 @@ title: Team
 				<li><a href="http://lamp.epfl.ch/~phaller">Philipp Haller</a></li>
         <li>Mathias Doenitz</li>
         <li>Johannes Rudolph</li>
+        <li>Rich Dougherty</li>
 			</ul>
 		</div>
 	</div>
