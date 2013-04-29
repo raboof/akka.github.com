@@ -28,7 +28,7 @@ title: Akka Documentation
 
 ### Akka 2.2-M3 for Scala 2.10
 
-* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.2-M3) (or as [PDF](http://doc.akka.io/docs/akka/2.2-M3/Akka.pdf))
+* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.2-M3) (or as [PDF](http://doc.akka.io/docs/akka/2.2-M3/Akka.pdf) or [EPUB](http://doc.akka.io/docs/akka/2.2-M3/Akka.epub))
 * Akka API - for  [Java](http://doc.akka.io/japi/akka/2.2-M3/) and [Scala](http://doc.akka.io/api/akka/2.2-M3/)
 
 ## Akka Snapshots
