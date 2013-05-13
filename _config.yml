@@ -1,6 +1,6 @@
 title: "Akka"
 
-relative_permalinks: false
+baseurl: "http://akka.io"
 
 exclude:
 - README
