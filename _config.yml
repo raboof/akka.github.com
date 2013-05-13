@@ -1,6 +1,6 @@
 title: "Akka"
 
-relative_permalinks: true
+relative_permalinks: false
 
 exclude:
 - README
