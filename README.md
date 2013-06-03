@@ -6,7 +6,7 @@ These instructions are mostly intended for akka committers who would like to upd
 
 ## Dependencies
 
-You'll need Jekyll installed. To get it, most people can install via RubyGems:
+You'll need Jekyll installed. Please make sure that it is version 1.0.2 of Jekyll since that is what is used by GitHub. To get it, most people can install via RubyGems:
 
     gem install jekyll
 
@@ -20,7 +20,7 @@ If in doubt, head over to the [Jekyll wiki](https://github.com/mojombo/jekyll/wi
 
 After cloning, cd into the `akka/akka.github.com` directory and run: 
 
-    jekyll --server
+    jekyll serve --config _config_local.yml
 
 To see the generated site, just visit `http://localhost:4000`.
 
