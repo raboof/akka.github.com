@@ -25,13 +25,14 @@ This page contains a list of selected projects and extensions to Akka created by
 ## Selected Projects Using Akka
 
 * [Play Web Framework](http://www.playframework.org/)
-* [Spray REST Tool Suite](http://spray.io)
-* [Spark Cluster Computing](http://spark-project.org/)
-* [Socko Web Server](http://sockoweb.org/)
-* [Scalatra Web Framework](http://www.scalatra.org/)
-* [GeoTrellis Geoprocessing Engine](http://www.azavea.com/products/geotrellis/)
-* [Gatling Stress Test Tool](http://gatling-tool.org/)
-* [Fyrie Redis Client](https://github.com/derekjw/fyrie-redis)
-* [Raiku Riak client](https://github.com/gideondk/Raiku)
+* [Spray: REST library](http://spray.io)
+* [Spark: Cluster Computing](http://spark-project.org/)
+* [Socko: Web Server](http://sockoweb.org/)
+* [Scalatra: Web Framework](http://www.scalatra.org/)
+* [GeoTrellis: Geoprocessing Engine](http://www.azavea.com/products/geotrellis/)
+* [Gatling: Stress Test Tool](http://gatling-tool.org/)
+* [Fyrie: Redis Client](https://github.com/derekjw/fyrie-redis)
+* [Raiku: Riak client](https://github.com/gideondk/Raiku)
 * [Riak Scala Client](http://riak.scalapenos.com/index.html)
+* [Brando: Redis Client](https://github.com/chrisdinn/brando)
 
