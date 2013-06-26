@@ -26,15 +26,15 @@ title: Akka Documentation
 
 ## Milestone Versions
 
-### Akka 2.2.0-RC1 for Scala 2.10 and Scala 2.11-M3
+### Akka 2.2.0-RC2 for Scala 2.10 and Scala 2.11-M3
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.2.0-RC1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.2.0-RC1/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.2.0-RC1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.2.0-RC1/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.2.0-RC1/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.2.0-RC2/java.html) and [Scala](http://doc.akka.io/docs/akka/2.2.0-RC2/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.2.0-RC2/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.2.0-RC2/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.2.0-RC2/Akka.epub) (Combined Java and Scala)
   
-* Akka API - for  [Java](http://doc.akka.io/japi/akka/2.2.0-RC1/) and [Scala](http://doc.akka.io/api/akka/2.2.0-RC1/)
+* Akka API - for  [Java](http://doc.akka.io/japi/akka/2.2.0-RC2/) and [Scala](http://doc.akka.io/api/akka/2.2.0-RC2/)
 
 ## Akka Snapshots
 
