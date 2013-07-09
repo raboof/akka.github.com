@@ -87,7 +87,7 @@ If you still do not see anything, look at what the logging of [remote
 life-cycle
 events](http://doc.akka.io/docs/akka/current/scala/remoting.html#Remote_Events)
 tells you (normally logged at INFO level) or [switch on
-logging](https://github.com/akka/akka/blob/current/akka-remote/src/main/resources/reference.conf#L66)
+logging](https://github.com/akka/akka/blob/v2.2.0/akka-remote/src/main/resources/reference.conf#L106)
 of all sent and received messages (logged at DEBUG level).
 
 ### Which options shall I enable when debugging remoting issues?
