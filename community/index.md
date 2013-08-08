@@ -35,4 +35,5 @@ This page contains a list of selected projects and extensions to Akka created by
 * [Riak Scala Client](http://riak.scalapenos.com/index.html)
 * [Redis Scala Client](https://github.com/debasishg/scala-redis-nb)
 * [Brando: Redis Client](https://github.com/chrisdinn/brando)
+* [rediscala: Redis Client](https://github.com/etaty/rediscala)
 
