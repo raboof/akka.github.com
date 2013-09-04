@@ -13,7 +13,7 @@ title: Team
 		<p class="profile-text">After earning a PhD in high-energy particle physics and while working as a systems engineer in the space business, Roland came in contact with the Akka project. He started contributing in 2010 and has been employed by Typesafe since 2011 where he has been leading the Akka project since November 2012.</p>
 	</div>
 	<div class="span6">
-		<div class="profile-pic-wrap"><img class="profile-pic" src="http://api.twitter.com/1/users/profile_image/patriknw.json?size=bigger" /></div>
+		<div class="profile-pic-wrap"><img class="profile-pic" src="https://en.gravatar.com/avatar/a036dbdf494ae4c9d46e1d24b53fd5da?s=80" /></div>
 		<span class="profile-name">Patrik Nordwall</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/patriknw">@patriknw</a></span>		
 		<p class="profile-text">Patrik Nordwall has been professional developer and software architect since 1996. He has a passion for technology and new knowledge. His areas of expertise include Scala, Akka, event-driven architecture, and various products for highly scalable systems.</p>
