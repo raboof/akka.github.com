@@ -21,7 +21,7 @@ title: Team
 </div>
 <div class="row">
 	<div class="span6">
-		<div class="profile-pic-wrap"><img class="profile-pic" src="http://api.twitter.com/1/users/profile_image/bantonsson.json?size=bigger" /></div>
+		<div class="profile-pic-wrap"><img class="profile-pic" src="https://en.gravatar.com/avatar/96b5aad495e0efd9fc098b9b3d421623?s=80" /></div>
 		<span class="profile-name">Björn Antonsson</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/bantonsson">@bantonsson</a></span>			
 		<p class="profile-text">Björn Antonsson is a passionate software engineer whose experience ranges from the lowest levels of hardware memory models right through the operating system and the JVM as a founder and long time developer of JRockit, and straight up into high volume financial data systems and large traffic website.</p>
