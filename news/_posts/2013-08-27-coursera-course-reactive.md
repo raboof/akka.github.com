@@ -18,7 +18,7 @@ using Scala’s
 [RxJava](https://github.com/Netflix/RxJava/tree/master/language-adaptors/rxjava-scala)
 and [Akka actors](http://doc.akka.io/docs/akka/2.2.0/general/actors.html).
 Typesafe is offering [online
-tutoring](http://typesafe.com/blog/announcing_typesafe's_new_coursera_tutoring_program)
+tutoring](http://typesafe.com/blog/announcing_typesafe_new_coursera_tutoring_program)
 accompanying the course.
 
 Looking forward to seeing you all in class!
