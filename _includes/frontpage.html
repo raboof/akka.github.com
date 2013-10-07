@@ -209,7 +209,7 @@ class Supervisor extends Actor {
 class Supervisor extends UntypedActor {
 
   private SupervisorStrategy strategy = new OneForOneStrategy(
-    10, Duration.parse("1 minute"), new Function<Throwable, Directive>() {
+    10, Duration.parse("1 minute"), new Function&lt;Throwable, Directive&gt;() {
       @Override
       public Directive apply(Throwable t) {
         if (t instanceof ArithmeticException) return resume();
