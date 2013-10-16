@@ -1,3 +1,0 @@
-$(function(){
-	$("#tweets").liveTwitter('akkateam');
-});
