@@ -33,6 +33,17 @@ title: Akka Documentation
 * Akka API - for [Scala](http://doc.akka.io/api/akka/1.3.1)
 * Akka Modules API - for [Scala](http://doc.akka.io/api/akka-modules/1.3.1)
 
+## Milestone Versions
+
+### Akka 2.3-M1 (pre-release of what is going to become Akka 2.3) for Scala 2.10
+
+* Akka Documentation
+
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.3-M1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3-M1/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.3-M1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3-M1/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.3-M1/Akka.epub) (Combined Java and Scala)
+
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3-M1/) and [Scala](http://doc.akka.io/api/akka/2.3-M1/)
 
 ## Akka Snapshots
 
