@@ -1,3 +1,20 @@
+<script type="text/javascript">
+// doing it this way because jquery is loaded at the bottom of the page
+window.onload = function() {
+  $.getJSON("https://activator-prod.herokuapp.com/latest?callback=?", function(data) {
+    // update the page with the latest values
+    if (data.version != undefined) {
+      var activatorLink = $("#activator-link")
+      activatorLink.prop("href", "http://downloads.typesafe.com/typesafe-activator/" + data.version + "/typesafe-activator-" + data.version + ".zip")
+      activatorLink.text(activatorLink.text().replace("1.0.5", data.version))
+    }
+    if (data.size != undefined) {
+      $("#activator-size").text(data.size)
+    }
+  })
+}
+</script>
+
 <div class="download-title">
     <div class="container">
         <div class="row">
@@ -25,14 +42,14 @@
         <div class="row rel">
             <div class="span6">
                 <div class="latest">
-                    <h2>Latest official version <small>Sep 23, 2013</small></h2>
+                    <h2>Latest official version <small>(open source)</small></h2>
                     <table>
                         <tr>
                             <td>
-                                <a href="http://downloads.typesafe.com/typesafe-activator/1.0.0/typesafe-activator-1.0.0.zip" class="downloadActivatorLink">Activator 1.0.0 with Akka 2.2.1</a>
+                                <a id="activator-link" href="http://downloads.typesafe.com/typesafe-activator/1.0.5/typesafe-activator-1.0.5.zip" class="downloadActivatorLink">Activator 1.0.5 with Akka 2.2.1</a>
                             </td>
-                            <td>
-                                252MB
+                            <td id="activator-size">
+                                229MB
                             </td>
                         </tr>
                     </table>
