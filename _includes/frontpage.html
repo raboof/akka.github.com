@@ -78,7 +78,7 @@ public class GreetingActor extends UntypedActor {
 }
 
 ActorSystem system = ActorSystem.create("MySystem");
-ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
+ActorRef greeter = system.actorOf(Props.create(GreetingActor.class), "greeter");
 greeter.tell(new Greeting("Charlie Parker"), ActorRef.noSender());
 </pre>
 								</div>
