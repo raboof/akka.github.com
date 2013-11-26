@@ -168,7 +168,7 @@ ActorSystem system = ActorSystem.create("MySystem");
 // ------------------------------
 // on machine 2: Remote Deployment - deploying on machine1
 ActorSystem system = ActorSystem.create("MySystem");
-ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
+ActorRef greeter = system.actorOf(Props.create(GreetingActor.class), "greeter");
 
 // ------------------------------
 // on machine 3: Remote Lookup (logical home of “greeter” is machine2, remote deployment is transparent)
@@ -223,7 +223,7 @@ class Supervisor extends UntypedActor {
     return strategy;
   }
 
-  ActorRef worker = context.actorOf(new Props(Worker.class));
+  ActorRef worker = context.actorOf(Props.create(Worker.class));
 
   public void onReceive(Object message) throws Exception {
     if (message instanceof Integer) worker.forward(message, getContext());
