@@ -49,7 +49,7 @@ title: Team
 		<span class="profile-name">Viktor Klang</span>
 		<span class="profile-title">Typesafe Chief Architect</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/viktorklang">@viktorklang</a></span>
-		<p class="profile-text">Viktor Klang was one of the first contributors to Akka, starting on the first day of public availability, and served as Project Lead from July of 2010 to November of 2012.<a href="http://www.linkedin.com/in/viktorklang">√</a></p>
+		<p class="profile-text"><a href="http://www.linkedin.com/in/viktorklang">Viktor Klang (√)</a> was one of the first contributors to Akka, starting on the first day of public availability, and served as Project Lead from July of 2010 to November of 2012.</p>
 	</div>
 </div>
 <div class="row">
