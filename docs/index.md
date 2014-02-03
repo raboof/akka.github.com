@@ -35,15 +35,15 @@ title: Akka Documentation
 
 ## Akka 2.3.0 Release Candidate
 
-### Akka 2.3.0-RC1 (release candidate of what is going to become Akka 2.3.0) for Scala 2.10
+### Akka 2.3.0-RC2 (release candidate of what is going to become Akka 2.3.0) for Scala 2.10
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.0-RC1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.0-RC1/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.0-RC1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.0-RC1/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.3.0-RC1/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.0-RC2/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.0-RC2/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.0-RC2/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.0-RC2/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.3.0-RC2/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.0-RC1/) and [Scala](http://doc.akka.io/api/akka/2.3.0-RC1/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.0-RC2/) and [Scala](http://doc.akka.io/api/akka/2.3.0-RC2/)
 
 ## Akka Snapshots
 
