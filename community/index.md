@@ -17,6 +17,7 @@ Please submit a pull request by [editing](https://github.com/akka/akka.github.co
 
  * [BDB plugin](https://github.com/bseibel/akka-persistence-bdb) (by [Brandon Seibel](https://github.com/bseibel))
  * [Cassandra plugin](https://github.com/krasserm/akka-persistence-cassandra/) (by [Martin Krasser](https://github.com/krasserm))
+ * [DynamoDB plugin](https://github.com/sclasen/akka-persistence-dynamodb/) (by [Scott Clasen](https://github.com/sclasen))
  * [HBase plugin](https://github.com/ktoso/akka-persistence-hbase/) (by [Konrad Malawski](https://github.com/ktoso))
  * [MapDB plugin](https://github.com/drexin/akka-persistence-mapdb/) (by [Dario Rexin](https://github.com/drexin))
  * [MongoDB plugin](https://github.com/ddevore/akka-persistence-mongo/) (by [Duncan DeVore](https://github.com/ddevore))
