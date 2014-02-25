@@ -26,6 +26,7 @@ Please submit a pull request by [editing](https://github.com/akka/akka.github.co
 
  * [HBase plugin](https://github.com/ktoso/akka-persistence-hbase/) (by [Konrad Malawski](https://github.com/ktoso))
  * [MongoDB plugin](https://github.com/scullxbones/akka-persistence-mongo/) (by [Brian Scully](https://github.com/scullxbones))
+ * [MongoDB plugin](https://github.com/ddevore/akka-persistence-mongo/) (by [Duncan DeVore](https://github.com/ddevore))
 
 ## Selected Extensions To Akka
 
