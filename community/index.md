@@ -9,9 +9,11 @@ A selected list of some of the projects hosted on GitHub is collected in the [Ak
 
 This page contains a list of selected projects and extensions to Akka created by the community that we (the [Akka Team](http://akka.io/team)) can recommend and endorse (but not support).
 
-Please submit a pull request by [editing](https://github.com/akka/akka.github.com/edit/master/community/index.md) this page if something is missing.
+Please submit a pull request by [editing](https://github.com/akka/akka.github.com/edit/master/community/index.md) this page if something is missing. 
 
 ## Plugins to Akka Persistence
+
+Before adding a plugin to this list, it should have been tested for compatibility with the [plugin compatibility testkit](https://github.com/krasserm/akka-persistence-testkit).
 
 ### Journal plugins
 
