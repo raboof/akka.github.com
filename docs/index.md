@@ -5,7 +5,17 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.2.4 (current stable release) for Scala 2.10
+### Akka 2.3.0 (current stable release) for Scala 2.10
+
+* Akka Documentation
+
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.0/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.0/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.0/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.0/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.3.0/Akka.epub) (Combined Java and Scala)
+
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.0/) and [Scala](http://doc.akka.io/api/akka/2.3.0/)
+
+### Akka 2.2.4 (previous stable release) for Scala 2.10
 
 * Akka Documentation
 
@@ -15,7 +25,7 @@ title: Akka Documentation
 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.2.4/) and [Scala](http://doc.akka.io/api/akka/2.2.4/)
 
-### Akka 2.1.4 (old stable release) for Scala 2.10
+### Akka 2.1.4 for Scala 2.10
 
 * Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.1.4) (or as [PDF](http://doc.akka.io/docs/akka/2.1.4/Akka.pdf) or [EPUB](http://doc.akka.io/docs/akka/2.1.4/Akka.epub)) 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.1.4/) and [Scala](http://doc.akka.io/api/akka/2.1.4/)
@@ -32,18 +42,6 @@ title: Akka Documentation
 * Akka Modules Documentation - as [HTML](http://doc.akka.io/docs/akka-modules/1.3.1) (or as [PDF](http://doc.akka.io/docs/akka-modules/1.3.1/AkkaModules.pdf))
 * Akka API - for [Scala](http://doc.akka.io/api/akka/1.3.1)
 * Akka Modules API - for [Scala](http://doc.akka.io/api/akka-modules/1.3.1)
-
-## Akka 2.3.0 Release Candidate
-
-### Akka 2.3.0-RC4 (release candidate of what is going to become Akka 2.3.0) for Scala 2.10
-
-* Akka Documentation
-
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.0-RC4/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.0-RC4/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.0-RC4/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.0-RC4/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.3.0-RC4/Akka.epub) (Combined Java and Scala)
-
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.0-RC4/) and [Scala](http://doc.akka.io/api/akka/2.3.0-RC4/)
 
 ## Akka Snapshots
 
