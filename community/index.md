@@ -339,12 +339,12 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 
-* **[elasticmq: message queue with an SQS-compatible interface](https://github.com/adamw/elasticmq)**
+* **[elasticmq: message queue with an SQS-compatible interface](https://github.com/adamw/elasticmq)** (by [Adam Warski](https://twitter.com/adamwarski))
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>n/a</td></tr>
   <tr><td>Latest Akka version:</td><td>2.1.4</td></tr>
-  <tr><td>Latest Release:</td><td><code>"org.elasticmq" %% "elasticmq-rest-sqs" % "0.7.1"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"org.elasticmq" %% "elasticmq-rest-sqs" % "0.7.1"</code> (August 22, 2013)</td></tr>
   </table>
 
 
