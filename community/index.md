@@ -109,8 +109,8 @@ and remove those projects which have not been updated.
   <table class="stats">
   <table class="stats">
     <tr><td>Since Akka version:</td><td>n/a</td></tr>
-    <tr><td>Latest Akka version:</td><td>2.3.0-RC4</td></tr>
-    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "nucleus" % "0.1.1"</code></td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "nucleus" % "0.1.2"</code> (March 12, 2014)</td></tr>
   </table>
   </table>
   
@@ -121,8 +121,8 @@ and remove those projects which have not been updated.
   <table class="stats">
   <table class="stats">
     <tr><td>Since Akka version:</td><td>n/a</td></tr>
-    <tr><td>Latest Akka version:</td><td>2.3.0-RC4</td></tr>
-    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "sentinel" % "0.6.0-M3"</code></td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "sentinel" % "0.6.0"</code> (March 12, 2014)</td></tr>
   </table>
   </table>
   
@@ -312,7 +312,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
     <tr><td>Since Akka version:</td><td>n/a</td></tr>
     <tr><td>Latest Akka version:</td><td>2.2.0</td></tr>
-    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "raiku" % "0.6.1"</code></td></tr>
+    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "raiku" % "0.6.1"</code> (December 23, 2013)</td></tr>
   </table>
   
   Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
