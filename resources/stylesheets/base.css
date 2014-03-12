@@ -120,3 +120,8 @@ a:hover.selected { color: red; }
 pre { overflow: auto; }
 pre.prettyprint { margin-bottom: 0px; }
 code { padding: 1px 2px; color: #5d8700; background-color: #f3f7e9; border: 1px solid #dee1e2; font-family: Menlo, Monaco, "Courier New", monospace; font-size: 12px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+table.stats td { padding-right: 25px; }
+table.stats code { border: none; background-color: rgba(0,0,0,0); font-style: normal; }
+table.stats td + td { font-style: italic; }
+p.notice { border: 1px solid rgba(0,0,0,0.15); background-color: #fff471; padding: 8px; }
+
