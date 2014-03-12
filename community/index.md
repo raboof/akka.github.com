@@ -146,7 +146,22 @@ migration path from Spray 1.3 to Akka HTTP.
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 
+* **[Spray WebSocket](https://github.com/wandoulabs/spray-websocket)**
 
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Release:</td><td>0.1</td></tr>
+  </table>
+
+* **[Spray socket.io](https://github.com/wandoulabs/spray-socketio)**
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Release:</td><td>0.1</td></tr>
+  </table>
+  
 ## Plugins to Akka Persistence
 
 Before adding a plugin to this list, it should have been tested for compatibility with the [plugin compatibility testkit](https://github.com/krasserm/akka-persistence-testkit).
