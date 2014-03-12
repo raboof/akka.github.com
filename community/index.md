@@ -145,6 +145,16 @@ migration path from Spray 1.3 to Akka HTTP.
   <tr><td>Latest Akka version:</td><td>unknown</td></tr>
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
+  
+* **[spray-aws – Spray AWS client](https://github.com/sclasen/spray-aws)**
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.1.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Release:</td><td>0.2.5</td></tr>
+  </table>
+
+Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
 
 
 ## Plugins to Akka Persistence
@@ -176,10 +186,10 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0-RC4</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.sclasen" % "akka-persistence-dynamodb_2.10" % "0.1-SNAPSHOT"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.sclasen" % "akka-persistence-dynamodb_2.10" % "0.1"</code></td></tr>
   </table>
 
-  Published to Sonatype snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
+  Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
 
 * **[HBase plugin](https://github.com/ktoso/akka-persistence-hbase/)** (by [Konrad Malawski](https://github.com/ktoso))
 
