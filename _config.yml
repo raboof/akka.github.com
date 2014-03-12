@@ -4,3 +4,4 @@ baseurl: "http://akka.io"
 
 exclude:
 - README
+
