@@ -254,9 +254,9 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 * **[Spray: REST library](http://spray.io)**
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  <tr><td>Since Akka version:</td><td>1.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Release:</td><td>several, check <a href="http://spray.io/project-info/current-versions/">this page</a> for details</td></tr>
   </table>
 
 * **[Spark: Cluster Computing](http://spark-project.org/)**
