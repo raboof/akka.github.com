@@ -121,6 +121,7 @@ and remove those projects which have not been updated.
   </table>
 
 * **[rxmon: Monitoring akka applications with rx](https://github.com/vigdorchik/rxmon)** (by [Eugene Vigdorchik](https://github.com/vigdorchik))
+
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.2.4</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
