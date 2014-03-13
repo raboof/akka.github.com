@@ -321,12 +321,12 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
 ## Projects Using Akka
 
-* **[Play Web Framework](http://www.playframework.org/)**
+* **[Play Framework](http://www.playframework.org/)**
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  <tr><td>Since Akka version:</td><td>2.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.2.4</td></tr>
+  <tr><td>Latest Release:</td><td>2.2.2 (March 1, 2014)</td></tr>
   </table>
 
 * **[Spray: REST library](http://spray.io)**
