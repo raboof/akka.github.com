@@ -355,11 +355,11 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Release:</td><td><code>"kamon" % "kamon-core" % "0.0.14"</code> (March 12, 2014)</td></tr>
   </table>
 
-  Kamon is a set of tools that helps you to get metrics out of your reactive applications!.
+  Kamon is a set of tools that helps you to get metrics out of your reactive applications.
   With Kamon you can get actor and trace metrics, as well as automatic trace recognition for
   Spray and Play! applications. Currently we support NewRelic as a backend for metric data
   but using our simple subscriptions messaging protocol you can get your metrics data anywhere
-  you want!. Head over to [kamon.io](http://kamon.io) for more information about how to get
+  you want. Head over to [kamon.io](http://kamon.io) for more information about how to get
   started with Kamon!
 
 
