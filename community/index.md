@@ -347,9 +347,23 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Release:</td><td><code>"org.elasticmq" %% "elasticmq-rest-sqs" % "0.7.1"</code> (August 22, 2013)</td></tr>
   </table>
 
+* **[Kamon: reactive applications monitoring](https://github.com/kamon-io/Kamon)**
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.2.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.2.0</td></tr>
+  <tr><td>Latest Release:</td><td><code>"kamon" % "kamon-core" % "0.0.14"</code> (March 12, 2014)</td></tr>
+  </table>
+
+  Kamon is a set of tools that helps you to get metrics out of your reactive applications.
+  With Kamon you can get actor and trace metrics, as well as automatic trace recognition for
+  Spray and Play! applications. Currently we support NewRelic as a backend for metric data
+  but using our simple subscriptions messaging protocol you can get your metrics data anywhere
+  you want. Head over to [kamon.io](http://kamon.io) for more information about how to get
+  started with Kamon!
+
 
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
 project for the purpose of researching code patterns around this actor model
 implementation.
-
