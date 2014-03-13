@@ -120,6 +120,15 @@ and remove those projects which have not been updated.
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 
+* **[rxmon: Monitoring akka applications with rx](https://github.com/vigdorchik/rxmon)** (by [Eugene Vigdorchik](https://github.com/vigdorchik))
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.2.4</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Release:</td><td><code>"org.matmexrhino" % "rxmon_2.10" % "0.2.1"</code> (March 12 2014)</td></tr>
+  </table>
+
+  Published to bintray at "http://dl.bintray.com/vigdorchik/maven".
+
 ## Extensions to Spray
 
 The Spray project is in the process of being merged into Akka as the new HTTP
@@ -380,7 +389,6 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   but using our simple subscriptions messaging protocol you can get your metrics data anywhere
   you want. Head over to [kamon.io](http://kamon.io) for more information about how to get
   started with Kamon!
-
 
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
