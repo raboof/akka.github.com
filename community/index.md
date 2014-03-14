@@ -140,7 +140,7 @@ mean that these will be abandoned, we intend to support the merger of the Spray
 and Akka eco-systems. The details remain to be determined, but there will be a
 migration path from Spray 1.3 to Akka HTTP.
 
-* **[binarycamp/spray-contrib](https://bitbucket.org/binarycamp/spray-contrib/src)**
+* **[binarycamp/spray-contrib](https://bitbucket.org/binarycamp/spray-contrib/src)** (by [Marcel Mojzis, Lukas Kostial](https://bitbucket.org/binarycamp))
 
   <table class="stats">
   <tr><td>Since spray version:</td><td>1.3.0</td></tr>
