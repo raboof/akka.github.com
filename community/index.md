@@ -104,21 +104,29 @@ and remove those projects which have not been updated.
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 
-* **[Bark: RPC-like system build on Akka IO](https://github.com/lab050/Bark)**
+* **[Nucleus: RPC-like reactive system build on Akka IO](https://github.com/gideondk/nucleus)** (by [Gideon de Kok](https://github.com/gideondk))
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>n/a</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "nucleus" % "0.1.2"</code> (March 12, 2014)</td></tr>
   </table>
+  </table>
+  
+  Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
 
-* **[Sentinel: toolkit for creating reactive TCP clients/servers](https://github.com/gideondk/sentinel)**
+* **[Sentinel: toolkit for creating reactive TCP clients & servers](https://github.com/gideondk/sentinel)** (by [Gideon de Kok](https://github.com/gideondk))
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>n/a</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "sentinel" % "0.6.0"</code> (March 12, 2014)</td></tr>
   </table>
+  </table>
+  
+  Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
 
 * **[rxmon: Monitoring akka applications with rx](https://github.com/vigdorchik/rxmon)** (by [Eugene Vigdorchik](https://github.com/vigdorchik))
 
@@ -377,13 +385,15 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 
-* **[Raiku: Riak client](https://github.com/gideondk/Raiku)**
+* **[Raiku: Riak client](https://github.com/gideondk/Raiku)** (by [Gideon de Kok](https://github.com/gideondk))
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
+    <tr><td>Since Akka version:</td><td>n/a</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.2.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "raiku" % "0.6.1"</code> (December 23, 2013)</td></tr>
   </table>
+  
+  Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
 
 * **[Riak Scala Client](http://riak.scalapenos.com/index.html)**
 
