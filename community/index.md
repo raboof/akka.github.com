@@ -104,7 +104,7 @@ and remove those projects which have not been updated.
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 
-* **[Nucleus: RPC-like reactive system build on Akka IO](https://github.com/gideondk/nucleus)**
+* **[Nucleus: RPC-like reactive system build on Akka IO](https://github.com/gideondk/nucleus)** (by [Gideon de Kok](https://github.com/gideondk))
 
   <table class="stats">
   <table class="stats">
@@ -116,7 +116,7 @@ and remove those projects which have not been updated.
   
   Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
 
-* **[Sentinel: toolkit for creating reactive TCP clients/servers](https://github.com/gideondk/sentinel)**
+* **[Sentinel: toolkit for creating reactive TCP clients & servers](https://github.com/gideondk/sentinel)** (by [Gideon de Kok](https://github.com/gideondk))
 
   <table class="stats">
   <table class="stats">
@@ -307,7 +307,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 
-* **[Raiku: Riak client](https://github.com/gideondk/Raiku)**
+* **[Raiku: Riak client](https://github.com/gideondk/Raiku)** (by [Gideon de Kok](https://github.com/gideondk))
 
   <table class="stats">
     <tr><td>Since Akka version:</td><td>n/a</td></tr>
