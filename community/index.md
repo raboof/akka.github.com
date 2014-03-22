@@ -298,6 +298,14 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
   <tr><td>Latest Release:</td><td><code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.10" % "0.0.4"</code></td></tr>
   </table>
+  
+* **[In-Memory plugin for testing](https://github.com/michaelpisula/akka-journal-inmemory)** (by [Michael Pisula](https://github.com/michaelpisula))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Release:</td><td>0.1 (to be published locally)</td></tr>
+  </table>
 
 ### Snapshot plugins
 
