@@ -296,8 +296,10 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.10" % "0.0.4"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.10" % "0.0.8"</code> (March 24, 2014)</td></tr>
   </table>
+
+  Published to Maven Central.  Compliant with 0.0.3 of plugin compatibility testkit.
   
 * **[In-Memory plugin for testing](https://github.com/michaelpisula/akka-journal-inmemory)** (by [Michael Pisula](https://github.com/michaelpisula))
 
@@ -320,10 +322,12 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 * **[MongoDB plugin](https://github.com/scullxbones/akka-persistence-mongo/)** (by [Brian Scully](https://github.com/scullxbones))
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.10" % "0.0.8"</code> (March 24, 2014)</td></tr>
   </table>
+
+  Published to Maven Central.  Compliant with 0.0.3 of plugin compatibility testkit.
 
 * **[MongoDB plugin](https://github.com/ddevore/akka-persistence-mongo/)** (by [Duncan DeVore](https://github.com/ddevore))
 
@@ -332,7 +336,6 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Akka version:</td><td>unknown</td></tr>
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
-
 
 
 ## Projects Using Akka
