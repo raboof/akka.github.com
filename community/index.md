@@ -243,9 +243,11 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0-RC1</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.0-RC2</td></tr>
-  <tr><td>Latest Release:</td><td>none (to be published locally)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.1</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.bseibel" % "akka-persistence-bdb_2.10" % "1.0"</code></td></tr>
   </table>
+
+  Published to bintray at the URL `http://dl.bintray.com/bseibel/release`.
 
 * **[Cassandra plugin](https://github.com/krasserm/akka-persistence-cassandra/)** (by [Martin Krasser](https://github.com/krasserm))
 
