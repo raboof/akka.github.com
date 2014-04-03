@@ -218,8 +218,10 @@ migration path from Spray 1.3 to Akka HTTP.
   <tr><td>Latest spray version:</td><td>unknown</td></tr>
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
+
+  spray template project compatible with Heroku
   
-* **[spray-aws – Spray AWS client](https://github.com/sclasen/spray-aws)**
+* **[spray-aws – Spray AWS client](https://github.com/sclasen/spray-aws)** (by [Scott Clasen](https://github.com/sclasen))
 
   spray-client based clients for dynamodb, kinesis, and sqs. 
 
@@ -229,9 +231,7 @@ migration path from Spray 1.3 to Akka HTTP.
   <tr><td>Latest Release:</td><td><code>"com.sclasen" % "spray-aws" % "0.2.5"</code> (March 12, 2014)</td></tr>
   </table>
 
-Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
-
-  spray template project compatible with Heroku
+  Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
 
 * **[Spray WebSocket](https://github.com/wandoulabs/spray-websocket)** (by [Wandou Labs](https://github.com/wandoulabs))
 
