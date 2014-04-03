@@ -19,20 +19,37 @@ a:hover { color: #73a600; text-decoration: none; }
 .box { font-family: 'Exo', sans-serif; font-size: 36px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 38px; margin-bottom: 20px;}
 .small-box { font-size: 18px; line-height: 22px; font-weight: 300; color: #427380; text-shadow:0 2px 0 #0d262b;}
 .bold { font-weight: 600; }
-.hexagons { position: absolute; top: 60px; left: 490px; height: 385px; width: 252px; background: url('{{ site.baseurl }}/resources/images/hexagons.png') no-repeat center top; }
+.social { height: 32px; top: 30px; right: 10px; position: absolute;}
+.social a { position: relative; display: block; width: 32px; height: 32px; float: left; background: url('{{ site.baseurl }}/resources/images/social-icons.png') no-repeat; }
+.social a span { display: none; position: absolute; top: -25px; right: 0; padding: 3px 6px; background: #2e6d82; color: #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size: 12px; font-family: "HelveticaNeue-CondensedBold","Helvetica Neue",Arial,sans-serif; font-weight: bold; font-stretch: condensed; letter-spacing: -.03em; white-space: nowrap; }
+.social a span:after { content: " "; position: absolute;  top: 100%;  right: 11px; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid #2e6d82; }
+.social a:hover span { display: block; }
+.social a[href*=twitter] { background-position: 0 0; }
+.social a[href*=google] { background-position: -30px 0; }
+.social a[href*=facebook] { background-position: -60px 0; }
+.social a[href*=github] { background-position: -90px 0; }
+.social a[href*=stackoverflow] { background-position: -120px 0; }
+.social a[href*=forum] { background-position: -150px 0; }
+.social a[href*=twitter]:hover { background-position: 0 -30px; }
+.social a[href*=google]:hover { background-position: -30px -30px; }
+.social a[href*=facebook]:hover { background-position: -60px -30px; }
+.social a[href*=github]:hover { background-position: -90px -30px; }
+.social a[href*=stackoverflow]:hover { background-position: -120px -30px; }
+.social a[href*=forum]:hover { background-position: -150px -30px; }
+.hexagons { position: absolute; top: 80px; left: 490px; height: 385px; width: 252px; background: url('{{ site.baseurl }}/resources/images/hexagons.png') no-repeat center top; }
 .light-strip { background: #f2f2eb; min-height: 200px;}
 .under-main { background: #f2f2eb url('{{ site.baseurl }}/resources/images/bottom-main-bg.png') repeat-x; }
 .darker-strip { background: #dfdfd9; min-height: 200px;}
 .under-light-strip { background: #f2f2eb url('{{ site.baseurl }}/resources/images/bottom-light-strip-bg.png') repeat-x; height: 7px; }
-.simple-concurrency { position: absolute; top: 135px; left: 290px; width: 200px; text-align: right; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
+.simple-concurrency { position: absolute; top: 155px; left: 290px; width: 200px; text-align: right; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
 .simple-concurrency p { font-size: 14px; line-height: 18px; font-weight: 300; color: #5696a6; text-shadow:0 2px 0 #0d262b; }
-.fault-tolerance { position: absolute; top: 270px; left: 290px; width: 200px; text-align: right; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
+.fault-tolerance { position: absolute; top: 290px; left: 290px; width: 200px; text-align: right; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
 .fault-tolerance p { font-size: 14px; line-height: 18px; font-weight: 300; color: #427380; text-shadow:0 2px 0 #0d262b; }
-.high-performance { position: absolute; top: 90px; left: 780px; width: 200px; text-align: left; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
+.high-performance { position: absolute; top: 110px; left: 780px; width: 200px; text-align: left; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
 .high-performance p { font-size: 14px; line-height: 18px; font-weight: 300; color: #427380; text-shadow:0 2px 0 #0d262b; }
-.no-global-state { position: absolute; top: 225px; left: 780px; width: 200px; text-align: left; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
+.no-global-state { position: absolute; top: 245px; left: 780px; width: 200px; text-align: left; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
 .no-global-state p { font-size: 14px; line-height: 18px; font-weight: 300; color: #427380; text-shadow:0 2px 0 #0d262b; }
-.extensible { position: absolute; top: 365px; left: 780px; width: 200px; text-align: left; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
+.extensible { position: absolute; top: 385px; left: 780px; width: 200px; text-align: left; font-family: 'Exo', sans-serif; font-size: 20px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 22px;}
 .extensible p { font-size: 14px; line-height: 18px; font-weight: 300; color: #427380; text-shadow:0 2px 0 #0d262b; }
 .pad { padding-top: 40px; }
 .normal { margin-left: 0px; padding-bottom: 30px;}
