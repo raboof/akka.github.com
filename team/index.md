@@ -45,7 +45,7 @@ title: Team
     <p><a href="http://jonasboner.com">jonasboner.com</a></p>
 	</div>
 	<div class="span6">
-		<div class="profile-pic-wrap"><img class="profile-pic" src="http://api.twitter.com/1/users/profile_image/viktorklang.json?size=bigger" /></div>
+		<div class="profile-pic-wrap"><img class="profile-pic" src="http://viktorklang.github.io/assets/images/IAMKLANG.png" /></div>
 		<span class="profile-name">Viktor Klang</span>
 		<span class="profile-title">Typesafe Chief Architect</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/viktorklang">@viktorklang</a></span>
