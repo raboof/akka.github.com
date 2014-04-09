@@ -33,11 +33,10 @@ title: Team
     <span class="profile-twitter-link"><a href="https://twitter.com/drewhk">@drewhk</a></span>
     <p class="profile-text">Endre has been a teacher and PhD student at the Technical University of Budapest, where he has been researching complex systems and mobile ad hoc networks. His interest in distributed, high-performance and concurrent systems lead him to the world of actors and Akka in 2012.</p>
   </div>
-    <div class="span6">
+  <div class="span6">
     <div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e22c5a2db4101b4c4037d5f6bba2128d.png?s=80" /></div>
     <span class="profile-name">Konrad 'ktoso' Malawski</span>
     <span class="profile-twitter-link"><a href="https://twitter.com/ktosopl">@ktosopl</a></span>
-  </div>
     <p class="profile-text">Konrad is a late-night passionate dev, living by the motto "Life is Study!". His favourite discussion topics range from distributed systems and type systems to capybaras. In those rare times he's not coding, he spreads the joy of computer science, through helping local user groups and computer science reading clubs.</p>
   </div>
 </div>
