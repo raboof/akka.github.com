@@ -482,6 +482,19 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   but using our simple subscriptions messaging protocol you can get your metrics data anywhere
   you want. Head over to [kamon.io](http://kamon.io) for more information about how to get
   started with Kamon!
+  
+* **[akka-kafka: actor based kafka consumer](https://github.com/sclasen/akka-kafka)**  (by [Scott Clasen](https://github.com/sclasen))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.sclasen" %% "akka-kafka" % "0.0.2"</code> (April 21, 2014)</td></tr>
+  </table>
+
+  akka-kafka is an actor based kafka consumer built on top of the high-level kafka consumer that allows
+  for asynchronous/concurrent processing of messages from kafka while keeping an upper bound on the number of
+  in-flight messages, and explicitly managing the commit of offsets.
+
 
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
