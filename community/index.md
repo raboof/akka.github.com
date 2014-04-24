@@ -142,8 +142,8 @@ and remove those projects which have not been updated.
 
   <table class="stats">
     <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-    <tr><td>Latest Akka version:</td><td>2.3.1</td></tr>
-    <tr><td>Latest Release:</td><td>only snapshots available atm</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.github.levkhomich" %% "akka-tracing-core" % "0.2"</code> (April 24, 2014)</td></tr>
   </table>
 
 ## Extensions to Spray
