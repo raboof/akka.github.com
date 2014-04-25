@@ -9,6 +9,7 @@ These instructions are mostly intended for akka committers who would like to upd
 You'll need Jekyll installed. Please make sure that it is version 1.0.2 of Jekyll since that is what is used by GitHub. To get it, most people can install via RubyGems:
 
     gem install jekyll
+    gem install kramdown
 
 OSX users might have to update RubyGems:
 
