@@ -472,8 +472,8 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.2.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.2.0</td></tr>
-  <tr><td>Latest Release:</td><td><code>"kamon" % "kamon-core" % "0.0.14"</code> (March 12, 2014)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"io.kamon" % "kamon-core" % "0.3.0"</code> (April 24, 2014)</td></tr>
   </table>
 
   Kamon is a set of tools that helps you to get metrics out of your reactive applications.
