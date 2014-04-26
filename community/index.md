@@ -309,9 +309,12 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.10"  % "0.4-SNAPSHOT"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.10"  % "0.7-SNAPSHOT"</code><br/><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.11"  % "0.7-SNAPSHOT"</code></td></tr>
   </table>
+
+  Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
+  Compliant with <code>akka-persistence-testkit 0.3.1</code>.
 
 * **[MongoDB plugin](https://github.com/scullxbones/akka-persistence-mongo/)** (by [Brian Scully](https://github.com/scullxbones))
 
@@ -354,10 +357,13 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 * **[MongoDB plugin](https://github.com/ddevore/akka-persistence-mongo/)** (by [Duncan DeVore](https://github.com/ddevore))
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.10"  % "0.7-SNAPSHOT"</code><br/><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.11"  % "0.7-SNAPSHOT"</code></td></tr>
   </table>
+
+  Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
+  Compliant with <code>akka-persistence-testkit 0.3.1</code>.
 
 
 ## Projects Using Akka
