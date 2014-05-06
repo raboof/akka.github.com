@@ -103,6 +103,17 @@ and remove those projects which have not been updated.
   <tr><td>Latest Akka version:</td><td>unknown</td></tr>
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
+  
+
+* **[Flow](https://github.com/jodersky/flow)** (by [Jakob Odersky](https://github.com/jodersky))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.2.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.jodersky" % "flow_2.10" % "2.0.1"</code> (May 6, 2014)</td></tr>
+  </table>
+
+  Akka-IO extension for serial communication.
 
 * **[Nucleus: RPC-like reactive system build on Akka IO](https://github.com/gideondk/nucleus)** (by [Gideon de Kok](https://github.com/gideondk))
 
