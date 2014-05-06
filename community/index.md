@@ -103,7 +103,6 @@ and remove those projects which have not been updated.
   <tr><td>Latest Akka version:</td><td>unknown</td></tr>
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
-  
 
 * **[Flow](https://github.com/jodersky/flow)** (by [Jakob Odersky](https://github.com/jodersky))
 
