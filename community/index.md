@@ -513,6 +513,19 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   for asynchronous/concurrent processing of messages from kafka while keeping an upper bound on the number of
   in-flight messages, and explicitly managing the commit of offsets.
 
+* **[de.woq.osgi.java](https://github.com/woq/de.woq.osgi.java)**  (by [Andreas Gies](https://github.com/woq))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Release:</td><td>Feature under development, in version 1.0.6-SNAPSHOT</td></tr>
+  </table>
+
+  *de.woq.odgi.java* is a collection of reusable bundles for OSGi development. The latest additions are 
+  focused on integrating Akka and OSGi to get the best out of the worlds. The first application of the Akka 
+  integration is to add spray support to an OSGi container. The project is the application core for several 
+  retail applications. 
+
 
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
