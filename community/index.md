@@ -524,7 +524,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   *de.woq.osgi.java* is a collection of reusable bundles for OSGi development. The latest additions are 
   focused on integrating Akka and OSGi to get the best out of the worlds. The first application of the Akka 
   integration is to add spray support to an OSGi container. The project is the application core for several 
-  retail applications. Get started by reading our ideas on [akka](https://github.com/woq/de.woq.osgi.java/wiki/AkkaIntegration) and [spray](https://github.com/woq/de.woq.osgi.java/wiki/SprayIntegration)integration.
+  retail applications. Get started by reading our ideas on [akka](https://github.com/woq/de.woq.osgi.java/wiki/AkkaIntegration) and [spray](https://github.com/woq/de.woq.osgi.java/wiki/SprayIntegration) integration.
 
 
 A selected list of some of the projects hosted on GitHub is collected in the
