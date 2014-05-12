@@ -284,10 +284,12 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.2.1"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.2.1"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
+
+  Compliant with <code>akka-persistence-testkit 0.3.1</code>.
 
 * **[DynamoDB plugin](https://github.com/sclasen/akka-persistence-dynamodb/)** (by [Scott Clasen](https://github.com/sclasen))
 
@@ -377,6 +379,17 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   
   Compliant with <code>akka-persistence-testkit 0.3.1</code>.
 
+* **[Cassandra plugin](https://github.com/krasserm/akka-persistence-cassandra/)** (by [Martin Krasser](https://github.com/krasserm))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3"</code></td></tr>
+  </table>
+
+  Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
+
+  Compliant with <code>akka-persistence-testkit 0.3.1</code>.
 
 ## Projects Using Akka
 
