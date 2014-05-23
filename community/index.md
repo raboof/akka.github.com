@@ -352,7 +352,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Release:</td><td>"0.0.1" (May 23, 2014)</td></tr>
+  <tr><td>Latest Release:</td><td>0.0.1 (to be published locally)</td></tr>
   </table>
 
 ### Snapshot plugins
