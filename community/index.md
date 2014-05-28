@@ -280,7 +280,18 @@ migration path from Spray 1.3 to Akka HTTP.
   </table>
 
   Request throttling system for AKKA actors that has been specifically designed to support HttpRequest - HttpReply interactions. Can be used with Spray Client or Spray HTTP Server.   
+
+* **[spray-extensions](https://github.com/Jarlakxen/spray-extensions)** (by [Facundo Viale](https://github.com/Jarlakxen/))
+
+  <table class="stats">
+  <tr><td>Since spray version:</td><td>1.2.1</td></tr>
+  <tr><td>Latest spray version:</td><td>1.2.1</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.jarlakxen" %% "spray-extensions" % "1.0"</code> (May 26, 2014)</td></tr>
+  </table>
+
+  Useful extensions for spray: pagination, [scalate](http://scalate.fusesource.org/) integration, json filtering, etc.
   
+    
 ## Plugins to Akka Persistence
 
 Before adding a plugin to this list, it should have been tested for compatibility with the [plugin compatibility testkit](https://github.com/krasserm/akka-persistence-testkit).
