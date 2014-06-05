@@ -556,6 +556,17 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   retail applications. Get started by reading our ideas on [akka and spray integration](http://www.wayofquality.de/projects/blended/)
   into an OSGi container.
 
+* **[Streamz](https://github.com/krasserm/streamz)** (by [Martin Krasser](https://github.com/krasserm))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.3</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.3</td></tr>
+  <tr><td>Latest Release:</td><td>0.0.1</td></tr>
+  </table>
+
+  Streamz is a [scalaz-stream](https://github.com/scalaz/scalaz-stream) combinator library for [Akka Persistence](http://doc.akka.io/docs/akka/2.3.3/scala/persistence.html) and [Apache Camel](http://camel.apache.org/). It supports the composition of ``scalaz.stream.Process`` instances from Camel endpoints, Persistence journals and snapshot stores.
+
+  Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
