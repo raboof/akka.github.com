@@ -274,8 +274,8 @@ migration path from Spray 1.3 to Akka HTTP.
 * **[spray-funnel](https://github.com/galarragas/spray-funnel)**
 
   <table class="stats">
-  <tr><td>Since spray version:</td><td>2.2.3</td></tr>
-  <tr><td>Latest spray version:</td><td>2.3.2</td></tr>
+  <tr><td>Since spray version:</td><td>1.2.0</td></tr>
+  <tr><td>Latest spray version:</td><td>1.3.1</td></tr>
   <tr><td>Latest Release:</td><td>1.0-RC3</td></tr>
   </table>
 
