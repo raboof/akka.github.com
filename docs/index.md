@@ -53,6 +53,8 @@ The current version of the development preview for the upcoming Akka Streams and
 
 * API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/0.4/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/0.4/)
 
+* [Reference documentation](http://doc.akka.io/docs/akka-stream-and-http-experimental/0.4/scala.html)
+
 ## Old Versions
 
 ### Akka 2.1.4 for Scala 2.10
