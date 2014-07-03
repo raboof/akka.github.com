@@ -108,8 +108,8 @@ and remove those projects which have not been updated.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.2.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.3</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.jodersky" % "flow_2.10" % "2.0.2"</code> (May 28, 2014)<br/><code>"com.github.jodersky" % "flow_2.11" % "2.0.2"</code> (May 28, 2014)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.jodersky" % "flow_2.10" % "2.0.3"</code> (July 3, 2014)<br/><code>"com.github.jodersky" % "flow_2.11" % "2.0.3"</code> (July 3, 2014)</td></tr>
   </table>
 
   Akka-IO extension for serial communication.
