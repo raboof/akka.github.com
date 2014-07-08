@@ -323,8 +323,9 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3-SNAPSHOT</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3-SNAPSHOT</td></tr>
-  <tr><td>Latest Release:</td><td><code>"pl.project13.scala" % "akka-persistence-hbase_2.10" % "0.3"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Release:</td><td><code>"pl.project13.scala" % "akka-persistence-hbase_2.10" % "0.4.1"</code>
+                                  <code>"pl.project13.scala" % "akka-persistence-hbase_2.11" % "0.4.1"</code></td></tr>
   </table>
 
 * **[MapDB plugin](https://github.com/drexin/akka-persistence-mapdb/)** (by [Dario Rexin](https://github.com/drexin))
@@ -380,9 +381,10 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 * **[HBase plugin](https://github.com/ktoso/akka-persistence-hbase/)** (by [Konrad Malawski](https://github.com/ktoso))
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  <tr><td>Since Akka version:</td><td>2.3-SNAPSHOT</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Release:</td><td><code>"pl.project13.scala" % "akka-persistence-hbase_2.10" % "0.4.1"</code>
+                                  <code>"pl.project13.scala" % "akka-persistence-hbase_2.11" % "0.4.1"</code></td></tr>
   </table>
 
 * **[MongoDB plugin](https://github.com/scullxbones/akka-persistence-mongo/)** (by [Brian Scully](https://github.com/scullxbones))
