@@ -324,7 +324,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3-SNAPSHOT</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Release:</td><td><code>"pl.project13.scala" % "akka-persistence-hbase_2.10" % "0.4.1"</code>
+  <tr><td>Latest Release:</td><td><code>"pl.project13.scala" % "akka-persistence-hbase_2.10" % "0.4.1"</code><br/>
                                   <code>"pl.project13.scala" % "akka-persistence-hbase_2.11" % "0.4.1"</code></td></tr>
   </table>
 
@@ -383,7 +383,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3-SNAPSHOT</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Release:</td><td><code>"pl.project13.scala" % "akka-persistence-hbase_2.10" % "0.4.1"</code>
+  <tr><td>Latest Release:</td><td><code>"pl.project13.scala" % "akka-persistence-hbase_2.10" % "0.4.1"</code><br/>
                                   <code>"pl.project13.scala" % "akka-persistence-hbase_2.11" % "0.4.1"</code></td></tr>
   </table>
 
