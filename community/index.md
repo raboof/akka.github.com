@@ -320,6 +320,18 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   Compliant with <code>akka-persistence-testkit 0.3.3</code>.
 
+* **[Kafka plugin](https://github.com/krasserm/akka-persistence-kafka/)** (by [Martin Krasser](https://github.com/krasserm))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-kafka_2.10" % "0.1"</code></td></tr>
+  </table>
+
+  Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
+
+  Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+
 * **[DynamoDB plugin](https://github.com/sclasen/akka-persistence-dynamodb/)** (by [Scott Clasen](https://github.com/sclasen))
 
   <table class="stats">
