@@ -313,7 +313,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.2"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.2"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.3"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.3"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
@@ -325,7 +325,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-kafka_2.10" % "0.1"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-kafka_2.10" % "0.2"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
@@ -437,7 +437,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.2"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.2"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.3"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.3"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
