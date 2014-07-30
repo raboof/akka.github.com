@@ -123,7 +123,7 @@ and remove those projects which have not been updated.
     <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "nucleus" % "0.1.2"</code> (March 12, 2014)</td></tr>
   </table>
   </table>
-  
+
   Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
 
 * **[Sentinel: toolkit for creating reactive TCP clients & servers](https://github.com/gideondk/sentinel)** (by [Gideon de Kok](https://github.com/gideondk))
@@ -135,7 +135,7 @@ and remove those projects which have not been updated.
     <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "sentinel" % "0.6.0"</code> (March 12, 2014)</td></tr>
   </table>
   </table>
-  
+
   Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
 
 * **[rxmon: Monitoring akka applications with rx](https://github.com/vigdorchik/rxmon)** (by [Eugene Vigdorchik](https://github.com/vigdorchik))
@@ -147,7 +147,7 @@ and remove those projects which have not been updated.
   </table>
 
   Published to bintray at "http://dl.bintray.com/vigdorchik/maven".
-  
+
 * **[Akka Tracing](https://github.com/levkhomich/akka-tracing)** (by [Lev Khomich](https://github.com/levkhomich))
 
   <table class="stats">
@@ -155,7 +155,7 @@ and remove those projects which have not been updated.
     <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
     <tr><td>Latest Release:</td><td><code>"com.github.levkhomich" %% "akka-tracing-core" % "0.2"</code> (April 24, 2014)</td></tr>
   </table>
-  
+
 * **[Akka Zookeeper Cluster Seed: bootstrap your akka cluster seed nodes via zookeeper](https://github.com/sclasen/akka-zk-cluster-seed)** (by [Scott Clasen](https://github.com/sclasen))
 
   <table class="stats">
@@ -238,10 +238,10 @@ migration path from Spray 1.3 to Akka HTTP.
   </table>
 
   spray template project compatible with Heroku
-  
+
 * **[spray-aws – Spray AWS client](https://github.com/sclasen/spray-aws)** (by [Scott Clasen](https://github.com/sclasen))
 
-  spray-client based clients for dynamodb, kinesis, and sqs. 
+  spray-client based clients for dynamodb, kinesis, and sqs.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.1.0</td></tr>
@@ -258,7 +258,7 @@ migration path from Spray 1.3 to Akka HTTP.
   <tr><td>Latest spray version:</td><td>1.3.0</td></tr>
   <tr><td>Latest Release:</td><td>0.1 (to be published locally) </td></tr>
   </table>
-  
+
   WebSocket implementation for Spray. Passed all Autobahn test cases (both for "ws" and "wss")
 
 * **[Spray socket.io](https://github.com/wandoulabs/spray-socketio)** (by [Wandou Labs](https://github.com/wandoulabs))
@@ -270,7 +270,7 @@ migration path from Spray 1.3 to Akka HTTP.
   </table>
 
   socket.io implementation on Spray with cluster sharding.
-  
+
 * **[spray-funnel](https://github.com/galarragas/spray-funnel)**
 
   <table class="stats">
@@ -279,7 +279,7 @@ migration path from Spray 1.3 to Akka HTTP.
   <tr><td>Latest Release:</td><td>1.0-RC3</td></tr>
   </table>
 
-  Request throttling system for AKKA actors that has been specifically designed to support HttpRequest - HttpReply interactions. Can be used with Spray Client or Spray HTTP Server.   
+  Request throttling system for AKKA actors that has been specifically designed to support HttpRequest - HttpReply interactions. Can be used with Spray Client or Spray HTTP Server.
 
 * **[spray-extensions](https://github.com/Jarlakxen/spray-extensions)** (by [Facundo Viale](https://github.com/Jarlakxen/))
 
@@ -290,8 +290,8 @@ migration path from Spray 1.3 to Akka HTTP.
   </table>
 
   Useful extensions for spray: pagination, [scalate](http://scalate.fusesource.org/) integration, json filtering, etc.
-  
-    
+
+
 ## Plugins to Akka Persistence
 
 Before adding a plugin to this list, it should have been tested for compatibility with the [plugin compatibility testkit](https://github.com/krasserm/akka-persistence-testkit).
@@ -368,7 +368,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </table>
 
   Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
-  
+
   Compliant with <code>akka-persistence-testkit 0.3.1</code>.
 
 * **[MongoDB plugin](https://github.com/scullxbones/akka-persistence-mongo/)** (by [Brian Scully](https://github.com/scullxbones))
@@ -380,7 +380,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </table>
 
   Published to Maven Central.  Compliant with 0.0.3 of plugin compatibility testkit.
-  
+
 * **[In-Memory plugin for testing](https://github.com/michaelpisula/akka-journal-inmemory)** (by [Michael Pisula](https://github.com/michaelpisula))
 
   <table class="stats">
@@ -388,7 +388,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
   <tr><td>Latest Release:</td><td>"com.github.michaelpisula" %% "akka-persistence-inmemory" % "0.1.1" (May 09, 2014)</td></tr>
   </table>
-  
+
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
   <table class="stats">
@@ -396,7 +396,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
   <tr><td>Latest Release:</td><td><code>"com.github.dnvriend" % "akka-persistence-jdbc_2.10" % "1.0.0"</code><br><code>"com.github.dnvriend" % "akka-persistence-jdbc_2.11" % "1.0.0"</code></td></tr>
   </table>
-  
+
   Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.3</code>.
 
 ### Snapshot plugins
@@ -429,7 +429,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </table>
 
   Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
-  
+
   Compliant with <code>akka-persistence-testkit 0.3.1</code>.
 
 * **[Cassandra plugin](https://github.com/krasserm/akka-persistence-cassandra/)** (by [Martin Krasser](https://github.com/krasserm))
@@ -443,7 +443,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
   Compliant with <code>akka-persistence-testkit 0.3.3</code>.
-  
+
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
   <table class="stats">
@@ -451,7 +451,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
   <tr><td>Latest Release:</td><td><code>"com.github.dnvriend" % "akka-persistence-jdbc_2.10" % "1.0.0"</code><br><code>"com.github.dnvriend" % "akka-persistence-jdbc_2.11" % "1.0.0"</code></td></tr>
   </table>
-  
+
   Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.3</code>.
 
 ## Projects Using Akka
@@ -519,7 +519,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
     <tr><td>Latest Akka version:</td><td>2.2.0</td></tr>
     <tr><td>Latest Release:</td><td><code>"nl.gideondk" %% "raiku" % "0.6.1"</code> (December 23, 2013)</td></tr>
   </table>
-  
+
   Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
 
 * **[Riak Scala Client](http://riak.scalapenos.com/index.html)**
@@ -567,16 +567,15 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.2.0</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Release:</td><td><code>"io.kamon" % "kamon-core" % "0.3.0"</code> (April 24, 2014)</td></tr>
+  <tr><td>Latest Release:</td><td><code>"io.kamon" %% "kamon-core" % "0.3.2"</code> (July 29, 2014)</td></tr>
   </table>
 
-  Kamon is a set of tools that helps you to get metrics out of your reactive applications.
-  With Kamon you can get actor and trace metrics, as well as automatic trace recognition for
-  Spray and Play! applications. Currently we support NewRelic as a backend for metric data
-  but using our simple subscriptions messaging protocol you can get your metrics data anywhere
-  you want. Head over to [kamon.io](http://kamon.io) for more information about how to get
-  started with Kamon!
-  
+  Kamon is a set of tools that helps you to get metrics out of your reactive applications. With Kamon you can get actor,
+  trace and dispatcher metrics, user defined metrics (histograms, counters, gauges)  and automatic trace recognition for
+  Spray and Play! applications. Currently we support NewRelic, Datadog and StatsD as backends for metric data and using
+  our simple subscriptions messaging protocol you can get your metrics data anywhere you want. Head over to
+  [kamon.io](http://kamon.io) for more information about how to get started with Kamon!
+
 * **[akka-kafka: actor based kafka consumer](https://github.com/sclasen/akka-kafka)**  (by [Scott Clasen](https://github.com/sclasen))
 
   <table class="stats">
@@ -597,9 +596,9 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Release:</td><td>Feature under development, in version 1.0.7-SNAPSHOT</td></tr>
   </table>
 
-  *Project Blended* is a collection of reusable bundles for OSGi development. The latest additions are 
-  focused on integrating Akka and OSGi to get the best out of the worlds. The first application of the Akka 
-  integration is to add spray support to an OSGi container. The project is the application core for several 
+  *Project Blended* is a collection of reusable bundles for OSGi development. The latest additions are
+  focused on integrating Akka and OSGi to get the best out of the worlds. The first application of the Akka
+  integration is to add spray support to an OSGi container. The project is the application core for several
   retail applications. Get started by reading our ideas on [akka and spray integration](http://www.wayofquality.de/projects/blended/)
   into an OSGi container.
 
