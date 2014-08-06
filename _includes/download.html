@@ -6,7 +6,7 @@ window.onload = function() {
     if (data.version != undefined) {
       var activatorLink = $("#activator-link")
       activatorLink.prop("href", "http://downloads.typesafe.com/typesafe-activator/" + data.version + "/typesafe-activator-" + data.version + ".zip")
-      activatorLink.text(activatorLink.text().replace("1.0.5", data.version))
+      activatorLink.text(activatorLink.text().replace("1.0.13", data.version))
     }
     if (data.size != undefined) {
       $("#activator-size").text(data.size)
