@@ -6,7 +6,7 @@ window.onload = function() {
     if (data.version != undefined) {
       var activatorLink = $("#activator-link")
       activatorLink.prop("href", "http://downloads.typesafe.com/typesafe-activator/" + data.version + "/typesafe-activator-" + data.version + ".zip")
-      activatorLink.text(activatorLink.text().replace("1.2.17", data.version));
+      activatorLink.text(activatorLink.text().replace("1.2.7", data.version));
       activatorLink.text(activatorLink.text().replace("2.3.4", data.akkaVersion));
     }
     if (data.size != undefined) {
@@ -47,7 +47,7 @@ window.onload = function() {
                     <table>
                         <tr>
                             <td>
-                                <a id="activator-link" href="http://downloads.typesafe.com/typesafe-activator/1.2.17/typesafe-activator-1.2.17.zip" class="downloadActivatorLink">Activator 1.2.17 with Akka 2.2.4</a>
+                                <a id="activator-link" href="http://downloads.typesafe.com/typesafe-activator/1.2.7/typesafe-activator-1.2.7.zip" class="downloadActivatorLink">Activator 1.2.7 with Akka 2.2.4</a>
                             </td>
                             <td id="activator-size">
                                 229MB
