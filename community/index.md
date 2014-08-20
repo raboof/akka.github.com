@@ -389,6 +389,22 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Release:</td><td>"com.github.michaelpisula" %% "akka-persistence-inmemory" % "0.1.1" (May 09, 2014)</td></tr>
   </table>
 
+* **[InMemory plugin](https://github.com/dnvriend/akka-persistence-inmemory)** (by [Dennis Vriend](https://github.com/dnvriend))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
+  <tr>
+    <td>Latest Release:</td>
+    <td>
+      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.10" % "0.0.1"</code><br/>
+      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.11" % "0.0.1""</code>
+    </td>
+  </tr>
+  </table>
+  
+  Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
   <table class="stats">
@@ -403,7 +419,6 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </tr>
   </table>
   
-
   Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
 
 ### Snapshot plugins
@@ -462,6 +477,22 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
   Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+
+* **[InMemory plugin](https://github.com/dnvriend/akka-persistence-inmemory)** (by [Dennis Vriend](https://github.com/dnvriend))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
+  <tr>
+    <td>Latest Release:</td>
+    <td>
+      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.10" % "0.0.1"</code><br/>
+      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.11" % "0.0.1""</code>
+    </td>
+  </tr>
+  </table>
+  
+  Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
 
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
