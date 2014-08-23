@@ -674,11 +674,15 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.3</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.3</td></tr>
-  <tr><td>Latest Release:</td><td>0.0.1</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.5</td></tr>
+  <tr><td>Latest Release:</td><td>0.1</td></tr>
   </table>
 
-  Streamz is a [scalaz-stream](https://github.com/scalaz/scalaz-stream) combinator library for [Akka Persistence](http://doc.akka.io/docs/akka/2.3.3/scala/persistence.html) and [Apache Camel](http://camel.apache.org/). It supports the composition of ``scalaz.stream.Process`` instances from Camel endpoints, Persistence journals and snapshot stores.
+  Streamz is a resource combinator library for [scalaz-stream](https://github.com/scalaz/scalaz-stream). It allows ``scalaz.stream.Process`` instances to consume from and produce to
+
+  - [Apache Camel](http://camel.apache.org/) endpoints
+  - [Akka Persistence](http://doc.akka.io/docs/akka/2.3.5/scala/persistence.html) journals and snapshot stores and
+  - [Akka Stream](http://akka.io/docs/#akka-streams-and-http) flows (reactive streams) with full back-pressure support.
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
