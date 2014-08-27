@@ -656,12 +656,12 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
-* **[Project Blended](https://github.com/woq/de.woq.osgi.java)** (formerly de.woq.osgi.java, by [Andreas Gies](https://github.com/woq))
+* **[Project Blended](https://github.com/woq-blended/blended)**
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Release:</td><td>Feature under development, in version 1.0.7-SNAPSHOT</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.5</td></tr>
+  <tr><td>Latest Release:</td><td>1.0.7-M3</td></tr>
   </table>
 
   *Project Blended* is a collection of reusable bundles for OSGi development. The latest additions are
@@ -669,6 +669,8 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   integration is to add spray support to an OSGi container. The project is the application core for several
   retail applications. Get started by reading our ideas on [akka and spray integration](http://www.wayofquality.de/projects/blended/)
   into an OSGi container.
+  
+  We have just added an integration test framework based on Akka, Docker and Scalatest. 
 
 * **[Streamz](https://github.com/krasserm/streamz)** (by [Martin Krasser](https://github.com/krasserm))
 
