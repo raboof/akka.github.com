@@ -409,12 +409,12 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.5</td></tr>
   <tr>
     <td>Latest Release:</td>
     <td>
-      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.10" % "1.0.3"</code><br/>
-      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.11" % "1.0.3"</code>
+      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.10" % "1.0.4"</code><br/>
+      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.11" % "1.0.4"</code>
     </td>
   </tr>
   </table>
@@ -498,12 +498,12 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.5</td></tr>
   <tr>
     <td>Latest Release:</td>
     <td>
-      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.10" % "1.0.3"</code><br/>
-      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.11" % "1.0.3"</code>
+      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.10" % "1.0.4"</code><br/>
+      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.11" % "1.0.4"</code>
     </td>
   </tr>
   </table>
