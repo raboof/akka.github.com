@@ -164,6 +164,18 @@ and remove those projects which have not been updated.
     <tr><td>Latest Release:</td><td><code>"com.sclasen" %% "akka-zk-cluster-seed" % "0.0.5"</code> (June 3, 2014)</td></tr>
   </table>  
 
+* **[Akka Data Replication](https://github.com/patriknw/akka-data-replication)** (by [Patrik Nordwall](https://github.com/patriknw))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.3</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.patriknw" %% "akka-data-replication" % "0.6"</code> (September 21, 2014)</td></tr>
+  </table>
+
+  A replicated in-memory data store and library of Conflict Free Replicated Data Types (CRDT).
+  
+  Published to bintray URL `http://dl.bintray.com/patriknw/maven`.
+
 ## Extensions to Spray
 
 The Spray project is in the process of being merged into Akka as the new HTTP
