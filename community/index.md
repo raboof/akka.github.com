@@ -410,7 +410,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
     <td>Latest Release:</td>
     <td>
       <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.10" % "0.0.2"</code><br/>
-      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.11" % "0.0.2""</code>
+      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.11" % "0.0.2"</code>
     </td>
   </tr>
   </table>
@@ -432,6 +432,16 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </table>
   
   Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+
+* **[MySQL & PostgreSQL plugin](https://github.com/okumin/akka-persistence-sql-async)** (by [okumin](https://github.com/okumin))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.3.6</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.okumin" %% "akka-persistence-sql-async" % "0.1"</code> (Sep 30, 2014)</td></tr>
+  </table>
+
+  Published to Maven Central. Compliant with <code>[akka-persistence-tck](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck)</code>
 
 ### Snapshot plugins
 
@@ -499,7 +509,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
     <td>Latest Release:</td>
     <td>
       <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.10" % "0.0.2"</code><br/>
-      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.11" % "0.0.2""</code>
+      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.11" % "0.0.2"</code>
     </td>
   </tr>
   </table>
@@ -521,6 +531,16 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </table>
 
   Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+
+* **[MySQL & PostgreSQL plugin](https://github.com/okumin/akka-persistence-sql-async)** (by [okumin](https://github.com/okumin))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.3.6</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.okumin" %% "akka-persistence-sql-async" % "0.1"</code> (Sep 30, 2014)</td></tr>
+  </table>
+
+  Published to Maven Central. Compliant with <code>[akka-persistence-tck](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck)</code>
 
 ## Projects Using Akka
 
