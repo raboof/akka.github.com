@@ -441,7 +441,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
     <tr><td>Latest Release:</td><td><code>"com.okumin" %% "akka-persistence-sql-async" % "0.1"</code> (Sep 30, 2014)</td></tr>
   </table>
 
-  Published to Maven Central. Compliant with <code>[akka-persistence-tck](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck)</code>
+  Published to Maven Central. Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck).
 
 ### Snapshot plugins
 
@@ -540,7 +540,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
     <tr><td>Latest Release:</td><td><code>"com.okumin" %% "akka-persistence-sql-async" % "0.1"</code> (Sep 30, 2014)</td></tr>
   </table>
 
-  Published to Maven Central. Compliant with <code>[akka-persistence-tck](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck)</code>
+  Published to Maven Central. Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck).
 
 ## Projects Using Akka
 
