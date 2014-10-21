@@ -10,7 +10,7 @@
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums { margin: 0 0 0 40px; } /* IE indents via margin-left */
-ol.linenums li { color: rgba(0,0,0,.15); line-height: 20px; }
+ol.linenums li { color: rgba(0,0,0,.35); line-height: 20px; }
 /* Alternate shading for lines */
 li.L1, li.L3, li.L5, li.L7, li.L9 {  }
 

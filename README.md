@@ -19,11 +19,15 @@ If in doubt, head over to the [Jekyll wiki](https://github.com/mojombo/jekyll/wi
 
 ## Building
 
-After cloning, cd into the `akka/akka.github.com` directory and run: 
+After cloning, cd into the `akka/akka.github.com` directory and run:
 
     jekyll serve --config _config_local.yml
 
 To see the generated site, just visit `http://localhost:4000`.
+
+To watch for changes:
+
+    jekyll serve --watch --config _config_local.yml
 
 ## Adding a News Item
 
