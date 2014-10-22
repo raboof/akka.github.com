@@ -17,7 +17,7 @@ a:hover { color: #15A9CE; text-decoration: underline; }
 .navbar-logo .svg-logo {
     height: 75px;
 }
-.top-bar { background: #0d262b url('{{ site.baseurl }}/resources/images/top-bar-bg.gif') repeat-x; height: 40px; border-bottom: solid 1px #427380; border-top: solid 1px #83b925;}
+.top-bar { background: #0d262b; height: 40px; border-bottom: solid 1px #427380; border-top: solid 1px #83b925;}
 .top-menu { margin-top: 10px; padding:0; float: right; }
 .top-menu li { display:inline; padding: 0px 10px 0px; margin:0; color: rgba(255, 255, 255, 0.8);  font-size: 14px; font-weight: 500;}
 .top-menu li a { color: #ffffff; font-weight: 500; font-weight: 500;}
@@ -134,22 +134,8 @@ a:hover.selected { color: red; }
 .breadcrumb li a { padding-left: 80px; padding-right: 80px; font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 18px; font-weight: 400; color: #ffffff; width: 150px; } 
 .breadcrumb li a:hover { text-decoration: none; color: #ffffff; }
 .selected-arrow { position: relative; background: url('{{ site.baseurl }}/resources/images/arrow.png') no-repeat; height: 18px; width: 32px; margin-top: -1px; z-index: 10; margin-left: 205px;}
-.breadcrumb li a.selected { padding-top: 3px; padding-bottom: 6px; 
-    background-color: #15A9CE; 
-    position: relative; z-index: 10; 
-    margin-bottom: 0px;
-}
-.breadcrumb {
-    text-align: center;
-    padding: 6px 0;
-    position: relative;
-    z-index: 10;
-    margin-bottom: 0px;
-    background: #0B5567;
-    border: none;
-    box-shadow: 0 0 0 #ffffff;
- }
-
+.breadcrumb li a.selected { padding-top: 3px; padding-bottom: 6px; background-color: #15A9CE; position: relative; z-index: 10; margin-bottom: 0px;}
+.breadcrumb {text-align: center;padding: 6px 0;position: relative;z-index: 10;margin-bottom: 0px;background: #0B5567;border: none;box-shadow: 0 0 0 #ffffff;}
 .scroll { overflow: auto; position: relative; /* fix for IE to respect overflow */ clear: left; }
 .scrollContainer div.panel { padding: 20px; padding-top: 0px; width: 900px; }
 .scrollButtons { position: absolute; top: 150px; cursor: pointer; }
@@ -165,8 +151,4 @@ table.stats td { padding-right: 25px; }
 table.stats code { border: none; background-color: rgba(0,0,0,0); font-style: normal; }
 table.stats td + td { font-style: italic; }
 p.notice { border: 1px solid rgba(0,0,0,0.15); background-color: #fff471; padding: 8px; }
-
-.reactive-ribbon {
-    display: none;
-}
-
+@media (max-width: 1200px) {.reactive-ribbon {display: none;}}
