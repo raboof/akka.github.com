@@ -13,7 +13,7 @@ a { color: #15A9CE; }
 a:hover { color: #15A9CE; text-decoration: underline; }
 .navbar { background: #ffffff; position: relative; z-index: 150; margin-bottom: 0px; border-top: solid 5px #15A9CE; height: 75px;}
 .navbar .nav { float: right; }
-.navbar-logo { float: left;  }
+.navbar-logo { float: left; overflow: hidden; height: 75px; }
 .navbar-logo .svg-logo {
     height: 75px;
 }
@@ -26,8 +26,10 @@ a:hover { color: #15A9CE; text-decoration: underline; }
 .main { height: 520px;}
 .news-banner { height: 30px; background: rgba(130, 188, 0, 0.2); border-top: solid 1px rgba(130, 188, 0, 1); border-bottom: solid 1px rgba(130, 188, 0, 1); margin-top: -20px; margin-bottom: 10px;}
 .rel { position: relative; }
-.box { font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 36px; font-weight: 400; color: rgba(255, 255, 255, 1); line-height: 38px; margin: 80px 0 20px;}
+.box {font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 36px; font-weight: 400; color: rgba(255, 255, 255, 1); line-height: 38px; margin: 80px 0 20px 0;}
 .small-box { font-size: 18px; line-height: 22px; font-weight: 300; color: #0B5567;}
+.home-box {position: absolute; width: 280px; top: 80px; font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 36px; font-weight: 400; color: rgba(255, 255, 255, 1); line-height: 38px; }
+.home-small-box {position: absolute; width: 280px; top: 290px; font-size: 18px; line-height: 22px; font-weight: 300; color: #0B5567;}
 .bold { font-weight: 600; }
 .social { height: 32px; top: 30px; right: 10px; position: absolute;}
 .social a { position: relative; display: block; width: 32px; height: 32px; float: left; background: url('{{ site.baseurl }}/resources/images/social-icons.png') no-repeat; }
@@ -46,7 +48,7 @@ a:hover { color: #15A9CE; text-decoration: underline; }
 .social a[href*=github]:hover { background-position: -90px -30px; }
 .social a[href*=stackoverflow]:hover { background-position: -120px -30px; }
 .social a[href*=forum]:hover { background-position: -150px -30px; }
-.hexagons { position: absolute; top: 80px; left: 490px; height: 385px; width: 252px; background: url('{{ site.baseurl }}/resources/images/hexagons.png') no-repeat center top; }
+.hexagons { position: absolute; top: 80px; left: 490px; height: 385px; width: 252px; background: url('{{ site.baseurl }}/resources/images/hexagons.svg') no-repeat center top; }
 .light-strip { background: #ffffff; min-height: 200px;}
 .under-main { background: #ffffff; }
 .darker-strip { background: #EFF2F5; min-height: 200px;}
