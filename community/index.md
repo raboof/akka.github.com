@@ -443,6 +443,19 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   Published to Maven Central. Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck).
 
+* **[Shared In-Memory Plugin](https://github.com/jdgoldie/akka-persistence-shared-inmemory/)** (by [Joshua Goldie](https://github.com/jdgoldie))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.jdgoldie" % "akka-persistence-shared-inmemory_2.10" % "1.0.15"</code><br><code>"com.github.jdgoldie" % "akka-persistence-shared-inmemory_2.11" % "1.0.15"</code></td></tr>
+  </table>
+
+  Published to bintray at the URL `http://dl.bintray.com/jdgoldie/maven`.
+
+  In-memory implementations of the journal and snapshot store designed to work with multi-node and single-node unit tests.  Tested against `akka-persistence-tck-experimental` version 2.3.6
+
+
 ### Snapshot plugins
 
 * **[HBase plugin](https://github.com/ktoso/akka-persistence-hbase/)** (by [Konrad Malawski](https://github.com/ktoso))
@@ -541,6 +554,18 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </table>
 
   Published to Maven Central. Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck).
+
+* **[Shared In-Memory Plugin](https://github.com/jdgoldie/akka-persistence-shared-inmemory/)** (by [Joshua Goldie](https://github.com/jdgoldie))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.jdgoldie" % "akka-persistence-shared-inmemory_2.10" % "1.0.15"</code><br><code>"com.github.jdgoldie" % "akka-persistence-shared-inmemory_2.11" % "1.0.15"</code></td></tr>
+  </table>
+
+  Published to bintray at the URL `http://dl.bintray.com/jdgoldie/maven`.
+
+  In-memory implementations of the journal and snapshot store designed to work with multi-node and single-node unit tests.  Tested against `akka-persistence-tck-experimental` version 2.3.6
 
 ## Projects Using Akka
 
