@@ -169,7 +169,7 @@ and remove those projects which have not been updated.
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.3</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.patriknw" %% "akka-data-replication" % "0.6"</code> (September 21, 2014)</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.patriknw" %% "akka-data-replication" % "0.8"</code> (November 9, 2014)</td></tr>
   </table>
 
   A replicated in-memory data store and library of Conflict Free Replicated Data Types (CRDT).
