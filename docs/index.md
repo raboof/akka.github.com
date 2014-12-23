@@ -39,21 +39,21 @@ Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can
 
 ## Akka Streams and HTTP
 
-The current version of the development preview for the upcoming Akka Streams and HTTP modules are `1.0-M1`.
+The current version of the development preview for the upcoming Akka Streams and HTTP modules are `1.0-M2`.
 
 * The artifacts are available on Maven Central:
 
-    `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "1.0-M1"` (for use with `scala-library.jar` version 2.10.x)
+    `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "1.0-M2"` (for use with `scala-library.jar` version 2.10.x)
 
-    `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "1.0-M1"` (for use with `scala-library.jar` version 2.11.x)
+    `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "1.0-M2"` (for use with `scala-library.jar` version 2.11.x)
 
-    `"com.typesafe.akka" % "akka-http-core-experimental_2.10" % "1.0-M1"` (for use with `scala-library.jar` version 2.10.x)
+    `"com.typesafe.akka" % "akka-http-core-experimental_2.10" % "1.0-M2"` (for use with `scala-library.jar` version 2.10.x)
 
-    `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-M1"` (for use with `scala-library.jar` version 2.11.x)
+    `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-M2"` (for use with `scala-library.jar` version 2.11.x)
 
-* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/1.0-M1/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/1.0-M1/)
+* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/1.0-M2/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/1.0-M2/)
 
-* [Reference documentation](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M1/scala.html)
+* Reference documentation [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M2/scala.html)
 
 ## Old Versions
 
