@@ -455,6 +455,16 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   In-memory implementations of the journal and snapshot store designed to work with multi-node and single-node unit tests.  Tested against `akka-persistence-tck-experimental` version 2.3.6
 
+* **[EventStore plugin](https://github.com/EventStore/EventStore.Akka.Persistence)** (by [Yaroslav Klymko](https://github.com/t3hnar))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.geteventstore" %% "akka-persistence-eventstore" % "1.1.0"</code> (Oct 19, 2014)</td></tr>
+  </table>
+
+  Published to Maven Central. Tested against [`akka-persistence-testkit`](https://github.com/krasserm/akka-persistence-testkit).
+
 
 ### Snapshot plugins
 
@@ -566,6 +576,17 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   Published to bintray at the URL `http://dl.bintray.com/jdgoldie/maven`.
 
   In-memory implementations of the journal and snapshot store designed to work with multi-node and single-node unit tests.  Tested against `akka-persistence-tck-experimental` version 2.3.6
+  
+* **[EventStore plugin](https://github.com/EventStore/EventStore.Akka.Persistence)** (by [Yaroslav Klymko](https://github.com/t3hnar))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.geteventstore" %% "akka-persistence-eventstore" % "1.1.0"</code> (Oct 19, 2014)</td></tr>
+  </table>
+
+  Published to Maven Central. Tested against [`akka-persistence-testkit`](https://github.com/krasserm/akka-persistence-testkit).  
+
 
 ## Projects Using Akka
 
