@@ -148,12 +148,12 @@ and remove those projects which have not been updated.
 
   Published to bintray at "http://dl.bintray.com/vigdorchik/maven".
 
-* **[Akka Tracing](https://github.com/levkhomich/akka-tracing)** (by [Lev Khomich](https://github.com/levkhomich))
+* **[Akka Tracing](https://github.com/levkhomich/akka-tracing/wiki)** (by [Lev Khomich](https://github.com/levkhomich))
 
   <table class="stats">
     <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-    <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
-    <tr><td>Latest Release:</td><td><code>"com.github.levkhomich" %% "akka-tracing-core" % "0.2"</code> (April 24, 2014)</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.github.levkhomich" %% "akka-tracing-core" % "0.4"</code> (December 25, 2014)</td></tr>
   </table>
 
 * **[Akka Zookeeper Cluster Seed: bootstrap your akka cluster seed nodes via zookeeper](https://github.com/sclasen/akka-zk-cluster-seed)** (by [Scott Clasen](https://github.com/sclasen))
