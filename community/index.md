@@ -324,13 +324,13 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.4"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.4"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.6"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.6"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck).
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.8/scala/persistence.html#plugin-tck).
 
 * **[Kafka plugin](https://github.com/krasserm/akka-persistence-kafka/)** (by [Martin Krasser](https://github.com/krasserm))
 
@@ -503,13 +503,13 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.4"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.4"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.6"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.6"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.6/scala/persistence.html#plugin-tck).
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.8/scala/persistence.html#plugin-tck).
 
 * **[Kafka plugin](https://github.com/krasserm/akka-persistence-kafka/)** (by [Martin Krasser](https://github.com/krasserm))
 
