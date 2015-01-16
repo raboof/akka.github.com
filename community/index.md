@@ -466,6 +466,16 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   Published to Maven Central. Tested against [`akka-persistence-testkit`](https://github.com/krasserm/akka-persistence-testkit).
 
 
+* **[Chronicle plugin](https://github.com/carrot-garden/akka-persistence-chronicle)** (by [Andrei Pozolotin](https://github.com/Andrei-Pozolotin))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.carrotgarden.akka" %% "akka-persistence-chronicle" % "1.1.0"</code> (Release TBD)</td></tr>
+  </table>
+
+  Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-chronicle). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
+
 ### Snapshot plugins
 
 * **[HBase plugin](https://github.com/ktoso/akka-persistence-hbase/)** (by [Konrad Malawski](https://github.com/ktoso))
@@ -587,6 +597,15 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   Published to Maven Central. Tested against [`akka-persistence-testkit`](https://github.com/krasserm/akka-persistence-testkit).  
 
+* **[Chronicle plugin](https://github.com/carrot-garden/akka-persistence-chronicle)** (by [Andrei Pozolotin](https://github.com/Andrei-Pozolotin))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.carrotgarden.akka" %% "akka-persistence-chronicle" % "1.1.0"</code> (Release TBD)</td></tr>
+  </table>
+
+  Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-chronicle). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
 
 ## Projects Using Akka
 
