@@ -387,11 +387,20 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.10" % "0.0.8"</code> (March 24, 2014)</td></tr>
-  </table>
+  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
+  <tr><td>Latest Release:</td>
+  <td>One of:
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.10" % "0.2.1"</code><br/>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.11" % "0.2.1"</code><br/>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-rxmongo_2.10" % "0.2.1"</code><br/>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-rxmongo_2.11" % "0.2.1"</code>
+  </td></tr></table>
 
-  Published to Maven Central.  Compliant with 0.0.3 of plugin compatibility testkit.
+  Published to Maven Central.  Compliant with latest plugin compatibility testkit.  
+  
+  [Change Log](https://github.com/scullxbones/akka-persistence-mongo/blob/master/README.md)
+  
+  [Bug tracker](https://github.com/scullxbones/akka-persistence-mongo/issues)
 
 * **[In-Memory plugin for testing](https://github.com/michaelpisula/akka-journal-inmemory)** (by [Michael Pisula](https://github.com/michaelpisula))
 
@@ -491,12 +500,21 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.10" % "0.0.8"</code> (March 24, 2014)</td></tr>
-  </table>
+  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
+  <tr><td>Latest Release:</td>
+  <td>One of:
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.10" % "0.2.1"</code><br/>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.11" % "0.2.1"</code><br/>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-rxmongo_2.10" % "0.2.1"</code><br/>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-rxmongo_2.11" % "0.2.1"</code>
+  </td></tr></table>
 
-  Published to Maven Central.  Compliant with 0.0.3 of plugin compatibility testkit.
-
+  Published to Maven Central.  Compliant with latest plugin compatibility testkit.  
+  
+  [Change Log](https://github.com/scullxbones/akka-persistence-mongo/blob/master/README.md)
+  
+  [Bug tracker](https://github.com/scullxbones/akka-persistence-mongo/issues)
+  
 * **[MongoDB plugin](https://github.com/ddevore/akka-persistence-mongo/)** (by [Duncan DeVore](https://github.com/ddevore))
 
   <table class="stats">
