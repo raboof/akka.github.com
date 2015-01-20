@@ -802,6 +802,19 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   - [Akka Stream](http://akka.io/docs/#akka-streams-and-http) flows (reactive streams) with full back-pressure support.
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
+  
+* **[Akka RabbitMQ client](https://github.com/thenewmotion/akka-rabbitmq)**
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.0.5</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.7</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.thenewmotion.akka" %% "akka-rabbitmq" % "1.2.3"</code> (Dec 14, 2014)</td></tr>
+  </table>
+
+   Actors based client for RabbitMQ
+
+  Published to http://nexus.thenewmotion.com.
+
 
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
