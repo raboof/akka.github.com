@@ -21,14 +21,6 @@ we also do not tolerate any kind of abusive behavior).  Being listed here does
 not represent an endorsement by or affiliation with Typesafe, Inc. or the Akka
 open-source project.
 
-<p class="notice">
-This page is currently being created: we have seeded it with those projects
-which were previously listed as community projects selected by the Akka team.
-Now we ask for your help in adding the missing meta-data (like for which
-releases of Akka a certain project is available). We will eventually clean up
-and remove those projects which have not been updated.
-</p>
-
 ### Example Section
 
 * **[Example Project Name](https://github.com/akka)** (by [Akka Team](https://github.com/akka))
@@ -47,62 +39,6 @@ and remove those projects which have not been updated.
   and so on.
 
 ## Extensions to Akka
-
-* **[Akka WebSocket](http://backchatio.github.com/hookup/)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Akka AMQP Integration](https://github.com/momania/akka-amqp)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Akka AMQP Durable Mailbox](https://github.com/drexin/akka-amqp-mailbox)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Akka Protostuff Serialization](https://github.com/romix/akka-protostuff-serialization)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Akka Quickser Serialization](https://github.com/romix/akka-quickser-serialization)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Akka Kryo Serialization](https://github.com/romix/akka-kryo-serialization)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Akka Quartz](https://github.com/theatrus/akka-quartz)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
 
 * **[flow](https://github.com/jodersky/flow)** (by [Jakob Odersky](https://github.com/jodersky))
 
@@ -196,60 +132,6 @@ migration path from Spray 1.3 to Akka HTTP.
 
   Extension modules built on top of spray.io: session management, OAuth 2.0 server (preview)
 
-
-* **[SprayWebSockets](https://github.com/lihaoyi/SprayWebSockets)**
-
-  <table class="stats">
-  <tr><td>Since spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-  An implementation of a websocket server on top of spray.io
-
-
-* **[NET-A-PORTER/spray-actor-per-request](https://github.com/NET-A-PORTER/spray-actor-per-request)**
-
-  <table class="stats">
-  <tr><td>Since spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-  Example spray application that uses the actor per request model
-
-
-* **[SprayLearning](https://github.com/karthik20522/SprayLearning)**
-
-  <table class="stats">
-  <tr><td>Since spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-  Guide to learning Spray.io web framework
-
-
-* **[S4 – Spray Slick Scala Start](https://github.com/jacobus/s4)**
-
-  <table class="stats">
-  <tr><td>Since spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-  Spray Slick Starter Stack
-
-
-* **[Spray template for Heroku](https://github.com/matanster/spray-heroku)**
-
-  <table class="stats">
-  <tr><td>Since spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest spray version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-  spray template project compatible with Heroku
 
 * **[spray-aws – Spray AWS client](https://github.com/sclasen/spray-aws)** (by [Scott Clasen](https://github.com/sclasen))
 
@@ -643,46 +525,6 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Release:</td><td>several, check <a href="http://spray.io/project-info/current-versions/">this page</a> for details</td></tr>
   </table>
 
-* **[Spark: Cluster Computing](http://spark-project.org/)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Socko: Web Server](http://sockoweb.org/)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Scalatra: Web Framework](http://www.scalatra.org/)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[GeoTrellis: Geoprocessing Engine](http://www.azavea.com/products/geotrellis/)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Gatling: Stress Test Tool](http://gatling-tool.org/)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
 * **[Raiku: Riak client](https://github.com/gideondk/Raiku)** (by [Gideon de Kok](https://github.com/gideondk))
 
   <table class="stats">
@@ -692,38 +534,6 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </table>
 
   Published to: `https://raw.github.com/gideondk/gideondk-mvn-repo/master`
-
-* **[Riak Scala Client](http://riak.scalapenos.com/index.html)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Redis Scala Client](https://github.com/debasishg/scala-redis-nb)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[Brando: Redis Client](https://github.com/chrisdinn/brando)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
-
-* **[rediscala: Redis Client](https://github.com/etaty/rediscala)**
-
-  <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Release:</td><td>unknown</td></tr>
-  </table>
 
 * **[elasticmq: message queue with an SQS-compatible interface](https://github.com/adamw/elasticmq)** (by [Adam Warski](https://twitter.com/adamwarski))
 
