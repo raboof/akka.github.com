@@ -192,6 +192,16 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
 ### Journal plugins
 
+* **[Android SQLite plugin](https://github.com/leafme/akka-persistence-android)** (by [Leaf](https://github.com/leafme))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.8</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
+  <tr><td>Latest Release:</td><td><code>"me.leaf" % "akka-persistence-android_2.11" % "0.4"</code></td></tr>
+  </table>
+  
+  Published to Maven Central. Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.8/scala/persistence.html#plugin-tck).
+
 * **[BDB plugin](https://github.com/bseibel/akka-persistence-bdb)** (by [Brandon Seibel](https://github.com/bseibel))
 
   <table class="stats">
@@ -368,6 +378,16 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-chronicle). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
 
 ### Snapshot plugins
+
+* **[Android SQLite plugin](https://github.com/leafme/akka-persistence-android)** (by [Leaf](https://github.com/leafme))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.8</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
+  <tr><td>Latest Release:</td><td><code>"me.leaf" % "akka-persistence-android_2.11" % "0.4"</code></td></tr>
+  </table>
+  
+  Published to Maven Central. Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.8/scala/persistence.html#plugin-tck).
 
 * **[HBase plugin](https://github.com/ktoso/akka-persistence-hbase/)** (by [Konrad Malawski](https://github.com/ktoso))
 
