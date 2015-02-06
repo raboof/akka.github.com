@@ -53,7 +53,7 @@ The current version of the development preview for the upcoming Akka Streams and
 
 * API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/1.0-M3/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/1.0-M3/)
 
-* Reference documentation [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M3/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M3/scala.html)
+* Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M3/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M3/scala.html)
 
 ## Old Versions
 
