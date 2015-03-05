@@ -15,15 +15,15 @@ title: Akka Documentation
 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.9/) and [Scala](http://doc.akka.io/api/akka/2.3.9/)
 
-### Akka 2.2.4 (previous stable release) for Scala 2.10
+### Akka 2.2.5 (previous stable release) for Scala 2.10
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.2.4/java.html) and [Scala](http://doc.akka.io/docs/akka/2.2.4/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.2.4/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.2.4/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.2.4/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.2.5/java.html) and [Scala](http://doc.akka.io/docs/akka/2.2.5/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.2.5/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.2.5/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.2.5/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.2.4/) and [Scala](http://doc.akka.io/api/akka/2.2.4/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.2.5/) and [Scala](http://doc.akka.io/api/akka/2.2.5/)
 
 ## Akka Snapshots
 
