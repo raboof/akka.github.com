@@ -29,7 +29,8 @@ a:hover { color: #15A9CE; text-decoration: underline; }
 .box {font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 36px; font-weight: 400; color: rgba(255, 255, 255, 1); line-height: 38px; margin: 80px 0 20px 0;}
 .small-box { font-size: 18px; line-height: 22px; font-weight: 300; color: #0B5567;}
 .home-box {position: absolute; width: 280px; top: 80px; font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 36px; font-weight: 400; color: rgba(255, 255, 255, 1); line-height: 38px; }
-.home-small-box {position: absolute; width: 280px; top: 290px; font-size: 18px; line-height: 22px; font-weight: 300; color: #0B5567;}
+.home-small-box {position: absolute; width: 500px; top: 290px; font-size: 18px; line-height: 22px; font-weight: 300; color: #0B5567;}
+.home-small-box a {color: white;}
 .bold { font-weight: 600; }
 .social { height: 32px; top: 30px; right: 10px; position: absolute;}
 .social a { position: relative; display: block; width: 32px; height: 32px; float: left; background: url('{{ site.baseurl }}/resources/images/social-icons.png') no-repeat; }
