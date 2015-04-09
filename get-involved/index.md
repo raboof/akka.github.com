@@ -8,9 +8,9 @@ title: Get Involved
 		<article>
             <h1>How you can help</h1>
 
-            <h4>
+            <p>
                 Akka is an open source project and everyone is encouraged to get involved! There are lots of ways you can contribute.
-            </h4>
+            </p>
 
             <div class="get-involved-links">
 
