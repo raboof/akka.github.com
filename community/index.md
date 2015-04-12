@@ -105,7 +105,7 @@ open-source project.
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.3</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.9</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.patriknw" %% "akka-data-replication" % "0.9"</code> (January 29, 2015)</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.patriknw" %% "akka-data-replication" % "0.11"</code> (April 12, 2015)</td></tr>
   </table>
 
   A replicated in-memory data store and library of Conflict Free Replicated Data Types (CRDT).
