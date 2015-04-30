@@ -39,25 +39,25 @@ Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can
 
 ## Akka Streams and HTTP
 
-The current version of the release candidate for the upcoming Akka Streams and HTTP modules are `1.0-RC1`.
+The current version of the release candidate for the upcoming Akka Streams and HTTP modules are `1.0-RC2`.
 
 * The artifacts are available on Maven Central (for use with `scala-library.jar` version `2.11.x`):
-  * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "1.0-RC1"`
-  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC1"`
-  * `"com.typesafe.akka" % "akka-http-scala-experimental_2.11" % "1.0-RC1"` (for Scala DSL)
-  * `"com.typesafe.akka" % "akka-http-java-experimental_2.11" % "1.0-RC1"` (for Java DSL)
+  * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "1.0-RC2"`
+  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC2"`
+  * `"com.typesafe.akka" % "akka-http-scala-experimental_2.11" % "1.0-RC2"` (for Scala DSL)
+  * `"com.typesafe.akka" % "akka-http-java-experimental_2.11" % "1.0-RC2"` (for Java DSL)
 
 
 * similarily artifacts for use with `scala-library.jar` version `2.10.x`, are available as:
-  * `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "1.0-RC1"`
-  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC1"`
-  * `"com.typesafe.akka" % "akka-http-scala-experimental_2.10" % "1.0-RC1"` (for Scala DSL)
-  * `"com.typesafe.akka" % "akka-http-java-experimental_2.10" % "1.0-RC1"` (for Java DSL)
+  * `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "1.0-RC2"`
+  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC2"`
+  * `"com.typesafe.akka" % "akka-http-scala-experimental_2.10" % "1.0-RC2"` (for Scala DSL)
+  * `"com.typesafe.akka" % "akka-http-java-experimental_2.10" % "1.0-RC2"` (for Java DSL)
 
 
-* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/1.0-RC1/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/1.0-RC1/)
+* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/1.0-RC2/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/1.0-RC2/)
 
-* Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-RC1/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-RC1/scala.html)
+* Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-RC2/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-RC2/scala.html)
 
 ## Old Versions
 
