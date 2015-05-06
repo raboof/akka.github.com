@@ -44,8 +44,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.2.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.jodersky" % "flow_2.10" % "2.0.9"</code> (January 12, 2015)<br/><code>"com.github.jodersky" % "flow_2.11" % "2.0.9"</code> (January 12, 2015)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.10</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.jodersky" % "flow_2.10" % "2.1.1"</code> (May 6, 2015)<br/><code>"com.github.jodersky" % "flow_2.11" % "2.1.1"</code> (May 6, 2015)</td></tr>
   </table>
 
   Akka-IO extension for serial communication.
