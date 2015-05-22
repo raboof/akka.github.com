@@ -5,7 +5,7 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.3.11 (current stable release) for Scala 2.10 and 2.11
+### Akka 2.3.11 (current stable release) for Scala 2.10 / 2.11 and Java 6+
 
 * Akka Documentation
 
@@ -15,7 +15,7 @@ title: Akka Documentation
 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.11/) and [Scala](http://doc.akka.io/api/akka/2.3.11/)
 
-### Akka 2.2.5 (previous stable release) for Scala 2.10
+### Akka 2.2.5 (previous stable release) for Scala 2.10 and Java 6+
 
 * Akka Documentation
 
@@ -24,6 +24,18 @@ title: Akka Documentation
   * [EPUB](http://doc.akka.io/docs/akka/2.2.5/Akka.epub) (Combined Java and Scala)
 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.2.5/) and [Scala](http://doc.akka.io/api/akka/2.2.5/)
+
+## Milestone Versions
+ 
+### Akka 2.4-M1 (pre-release of what is going to become Akka 2.4) for Scala 2.11 / 2.12.0-M1 and Java 8+
+
+* Akka Documentation
+
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.4-M1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4-M1/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.4-M1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4-M1/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.4-M1/Akka.epub) (Combined Java and Scala)
+
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4-M1/) and [Scala](http://doc.akka.io/api/akka/2.4-M1/)
 
 ## Akka Snapshots
 
