@@ -56,16 +56,14 @@ The current version of the release candidate for the upcoming Akka Streams and H
 * The artifacts are available on Maven Central (for use with `scala-library.jar` version `2.11.x`):
   * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "1.0-RC3"`
   * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC3"`
-  * `"com.typesafe.akka" % "akka-http-scala-experimental_2.11" % "1.0-RC3"` (for Scala DSL)
-  * `"com.typesafe.akka" % "akka-http-java-experimental_2.11" % "1.0-RC3"` (for Java DSL)
-
+  * `"com.typesafe.akka" % "akka-http-experimental_2.11" % "1.0-RC3"` (for Java & Scala DSL)
+  * plus testkits and marshallers
 
 * similarily artifacts for use with `scala-library.jar` version `2.10.x`, are available as:
   * `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "1.0-RC3"`
   * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "1.0-RC3"`
-  * `"com.typesafe.akka" % "akka-http-scala-experimental_2.10" % "1.0-RC3"` (for Scala DSL)
-  * `"com.typesafe.akka" % "akka-http-java-experimental_2.10" % "1.0-RC3"` (for Java DSL)
-
+  * `"com.typesafe.akka" % "akka-http-experimental_2.10" % "1.0-RC3"` (for Java & Scala DSL)
+  * plus testkits and marshallers
 
 * API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/1.0-RC3/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/1.0-RC3/)
 
