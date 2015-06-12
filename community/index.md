@@ -112,6 +112,18 @@ open-source project.
 
   Published to bintray URL `http://dl.bintray.com/patriknw/maven`.
 
+* **[akka-log4j](https://github.com/hseeberger/akka-log4j)** (by [Heiko Seeberger](http://heikoseeberger.de))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "0.2.0"</code> (May 18, 2015)</td></tr>
+  </table>
+
+  akka-log4j is a logging backend implementation for Akka based on Log4j 2. It is an alternative to the official akka-slf4j backend which uses SLF4J.
+
+  Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
+
 ## Extensions to Akka HTTP
 
 * **[akka-http-json](https://github.com/hseeberger/akka-http-json)** (by [Heiko Seeberger](http://heikoseeberger.de))
@@ -130,6 +142,18 @@ open-source project.
   akka-http-json provides JSON (un)marshalling support for Akka HTTP. It offers support for the following JSON libraries:
   - Play JSON
   - Json4s
+
+  Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
+
+* **[akka-sse](https://github.com/hseeberger/akka-sse)** (by [Heiko Seeberger](http://heikoseeberger.de))
+
+  <table class="stats">
+  <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>1.0-RC3</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "0.13.0"</code> (May 22, 2015)</td></tr>
+  </table>
+
+  akka-sse adds support for Server-Sent Events (SSE) to Akka HTTP.
 
   Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
 
