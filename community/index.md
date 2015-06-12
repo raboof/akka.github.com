@@ -109,8 +109,29 @@ open-source project.
   </table>
 
   A replicated in-memory data store and library of Conflict Free Replicated Data Types (CRDT).
-  
+
   Published to bintray URL `http://dl.bintray.com/patriknw/maven`.
+
+## Extensions to Akka HTTP
+
+* **[akka-http-json](https://github.com/hseeberger/akka-http-json)** (by [Heiko Seeberger](http://heikoseeberger.de))
+
+  <table class="stats">
+  <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>1.0-RC3</td></tr>
+  <tr><td>Latest Releases:</td><td>
+    <ul>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "0.8.0"</code> (June 12, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "0.8.0"</code> (June 12, 2015)</li>
+    </ul>
+  </td></tr>
+  </table>
+
+  akka-http-json provides JSON (un)marshalling support for Akka HTTP. It offers support for the following JSON libraries:
+  - Play JSON
+  - Json4s
+
+  Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
 
 ## Extensions to Spray
 
@@ -199,7 +220,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
   <tr><td>Latest Release:</td><td><code>"me.leaf" % "akka-persistence-android_2.11" % "0.4"</code></td></tr>
   </table>
-  
+
   Published to Maven Central. Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.8/scala/persistence.html#plugin-tck).
 
 * **[BDB plugin](https://github.com/bseibel/akka-persistence-bdb)** (by [Brandon Seibel](https://github.com/bseibel))
@@ -289,9 +310,9 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </td></tr></table>
 
   Published to Maven Central.  Compliant with latest plugin compatibility testkit.  
-  
+
   [Change Log](https://github.com/scullxbones/akka-persistence-mongo/blob/master/README.md)
-  
+
   [Bug tracker](https://github.com/scullxbones/akka-persistence-mongo/issues)
 
 * **[In-Memory plugin for testing](https://github.com/michaelpisula/akka-journal-inmemory)** (by [Michael Pisula](https://github.com/michaelpisula))
@@ -315,7 +336,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
     </td>
   </tr>
   </table>
-  
+
   Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
 
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
@@ -331,7 +352,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
     </td>
   </tr>
   </table>
-  
+
   Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
 
 * **[MySQL & PostgreSQL plugin](https://github.com/okumin/akka-persistence-sql-async)** (by [okumin](https://github.com/okumin))
@@ -386,7 +407,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
   <tr><td>Latest Release:</td><td><code>"me.leaf" % "akka-persistence-android_2.11" % "0.4"</code></td></tr>
   </table>
-  
+
   Published to Maven Central. Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.8/scala/persistence.html#plugin-tck).
 
 * **[HBase plugin](https://github.com/ktoso/akka-persistence-hbase/)** (by [Konrad Malawski](https://github.com/ktoso))
@@ -412,11 +433,11 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   </td></tr></table>
 
   Published to Maven Central.  Compliant with latest plugin compatibility testkit.  
-  
+
   [Change Log](https://github.com/scullxbones/akka-persistence-mongo/blob/master/README.md)
-  
+
   [Bug tracker](https://github.com/scullxbones/akka-persistence-mongo/issues)
-  
+
 * **[MongoDB plugin](https://github.com/ddevore/akka-persistence-mongo/)** (by [Duncan DeVore](https://github.com/ddevore))
 
   <table class="stats">
@@ -466,7 +487,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
     </td>
   </tr>
   </table>
-  
+
   Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
 
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
@@ -506,7 +527,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   Published to bintray at the URL `http://dl.bintray.com/jdgoldie/maven`.
 
   In-memory implementations of the journal and snapshot store designed to work with multi-node and single-node unit tests.  Tested against `akka-persistence-tck-experimental` version 2.3.6
-  
+
 * **[EventStore plugin](https://github.com/EventStore/EventStore.Akka.Persistence)** (by [Yaroslav Klymko](https://github.com/t3hnar))
 
   <table class="stats">
@@ -614,8 +635,8 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   integration is to add spray support to an OSGi container. The project is the application core for several
   retail applications. Get started by reading our ideas on [akka and spray integration](http://www.wayofquality.de/projects/blended/)
   into an OSGi container.
-  
-  We have just added an integration test framework based on Akka, Docker and Scalatest. 
+
+  We have just added an integration test framework based on Akka, Docker and Scalatest.
 
 * **[Streamz](https://github.com/krasserm/streamz)** (by [Martin Krasser](https://github.com/krasserm))
 
@@ -632,7 +653,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   - [Akka Stream](http://akka.io/docs/#akka-streams-and-http) flows (reactive streams) with full back-pressure support.
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
-  
+
 * **[Akka RabbitMQ client](https://github.com/thenewmotion/akka-rabbitmq)**
 
   <table class="stats">
