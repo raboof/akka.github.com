@@ -273,8 +273,8 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.9</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-kafka_2.10" % "0.3.4"</code><br><code>"com.github.krasserm" % "akka-persistence-kafka_2.11" % "0.3.4"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-kafka_2.10" % "0.4"</code><br><code>"com.github.krasserm" % "akka-persistence-kafka_2.11" % "0.4"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
@@ -490,8 +490,8 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.9</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-kafka_2.10" % "0.3.4"</code><br><code>"com.github.krasserm" % "akka-persistence-kafka_2.11" % "0.3.4"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-kafka_2.10" % "0.4"</code><br><code>"com.github.krasserm" % "akka-persistence-kafka_2.11" % "0.4"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
@@ -638,8 +638,8 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-analytics-cassandra_2.10" % "0.2"</code><br><code>"com.github.krasserm" % "akka-analytics-kafka_2.10" % "0.2"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-analytics-cassandra_2.10" % "0.3"</code><br><code>"com.github.krasserm" % "akka-analytics-cassandra_2.11" % "0.3"</code><br><code>"com.github.krasserm" % "akka-analytics-kafka_2.10" % "0.3"</code><br><code>"com.github.krasserm" % "akka-analytics-kafka_2.11" % "0.3"</code></td></tr>
   </table>
 
   Large-scale event processing with Akka Persistence and Apache Spark.
@@ -666,8 +666,8 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.3</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
-  <tr><td>Latest Release:</td><td>0.2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Release:</td><td>0.3</td></tr>
   </table>
 
   Streamz is a resource combinator library for [scalaz-stream](https://github.com/scalaz/scalaz-stream). It allows ``scalaz.stream.Process`` instances to consume from and produce to
@@ -690,6 +690,27 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   Published to http://nexus.thenewmotion.com.
 
+* **[Eventuate](https://github.com/RBMHTechnology/eventuate)** (by [Red Bull Media House Technology](https://github.com/RBMHTechnology))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.rbmhtechnology" % "eventuate_2.11" % "0.2"</td></tr>
+  </table>
+
+  Eventuate is a toolkit for building distributed, highly-available and partition-tolerant event-sourced applications. It is written in Scala and built on top of Akka. Eventuate
+
+  - derives current application state from logged events (event sourcing)
+  - replicates application state by replicating events across multiple locations
+  - allows updates to replicated state at multiple locations concurrently (multi-master)
+  - allows individual locations to continue writing even if they are partitioned from other locations
+  - provides means to detect, track and resolve conflicting updates (automated and interactive)
+  - enables applications to implement a causal consistency model
+  - preserves causal ordering of replicated events
+  - provides implementations of operation-based CRDTs
+  - supports distribution up to global scale.
+
+  A comparison to Akka Pertsistence in given in [this article](https://krasserm.github.io/2015/05/25/akka-persistence-eventuate-comparison/). Find out more in the [project documentation](http://rbmhtechnology.github.io/eventuate/). Eventuate binaries are [published](http://rbmhtechnology.github.io/eventuate/download.html) to bintray at the URL `https://dl.bintray.com/rbmhtechnology/maven`.
 
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
