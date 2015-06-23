@@ -695,7 +695,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.rbmhtechnology" % "eventuate_2.11" % "0.2"</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.rbmhtechnology" % "eventuate_2.11" % "0.2"</code></td></tr>
   </table>
 
   Eventuate is a toolkit for building distributed, highly-available and partition-tolerant event-sourced applications. It is written in Scala and built on top of Akka. Eventuate
