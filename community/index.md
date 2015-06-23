@@ -710,7 +710,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   - provides implementations of operation-based CRDTs
   - supports distribution up to global scale.
 
-  A comparison to Akka Pertsistence in given in [this article](https://krasserm.github.io/2015/05/25/akka-persistence-eventuate-comparison/). Find out more in the [project documentation](http://rbmhtechnology.github.io/eventuate/). Eventuate binaries are [published](http://rbmhtechnology.github.io/eventuate/download.html) to bintray at the URL `https://dl.bintray.com/rbmhtechnology/maven`.
+  A comparison to Akka Persistence in given in [this article](https://krasserm.github.io/2015/05/25/akka-persistence-eventuate-comparison/). Find out more in the [project documentation](http://rbmhtechnology.github.io/eventuate/). Eventuate binaries are [published](http://rbmhtechnology.github.io/eventuate/download.html) to bintray at the URL `https://dl.bintray.com/rbmhtechnology/maven`.
 
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
