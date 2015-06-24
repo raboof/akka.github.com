@@ -113,6 +113,49 @@ pre { border: 0px solid #333; background-color: transparent;}
 .news-title a { color: #447281;  }
 .news-title a:hover { color: #15A9CE; text-decoration: none; }
 .rss-icon { float: right; padding-right: 10px; }
+
+.upper-footer {
+    background: #107F9B;
+}
+.upper-footer .support-item {
+  display: inline-block;
+  margin: 40px 60px 40px 0;
+}
+.upper-footer .support-icon {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.upper-footer .support-icon .svg-icon {
+  width: 50px;
+  height: 50px;
+}
+.upper-footer .support-detail {
+  display: inline-block;
+  min-height: 50px;
+  vertical-align: top;
+  text-align: left;
+}
+.upper-footer .support-detail h2 {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 6px 0 0 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+.upper-footer .support-detail a {
+  color: #c2d2dc;
+  margin-right: 6px;
+}
+body .upper-footer .support-detail a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
 .footer { padding-top: 15px; clear: both; width: 100%; color: #ffffff;  }
 .footer ul { float: left; margin: 0; padding: 10px 2% 20px 0; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; width: 22%; list-style: none; }
 .footer a {text-decoration: none;color: #ffffff; font-size: 12px;}
