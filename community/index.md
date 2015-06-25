@@ -130,11 +130,11 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>1.0-RC3</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>1.0-RC4</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "0.8.0"</code> (June 12, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "0.8.0"</code> (June 12, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "0.9.1"</code> (June 25, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "0.9.1"</code> (June 25, 2015)</li>
     </ul>
   </td></tr>
   </table>
