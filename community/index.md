@@ -261,13 +261,13 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.6"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.6"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.9"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.9"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.8/scala/persistence.html#plugin-tck).
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.11/scala/persistence.html#plugin-tck).
 
 * **[Kafka plugin](https://github.com/krasserm/akka-persistence-kafka/)** (by [Martin Krasser](https://github.com/krasserm))
 
@@ -478,13 +478,13 @@ Before adding a plugin to this list, it should have been tested for compatibilit
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.8</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.6"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.6"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.9"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.9"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.8/scala/persistence.html#plugin-tck).
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.11/scala/persistence.html#plugin-tck).
 
 * **[Kafka plugin](https://github.com/krasserm/akka-persistence-kafka/)** (by [Martin Krasser](https://github.com/krasserm))
 
@@ -695,7 +695,7 @@ Before adding a plugin to this list, it should have been tested for compatibilit
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.rbmhtechnology" % "eventuate_2.11" % "0.2"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.rbmhtechnology" % "eventuate_2.11" % "0.2.1"</code></td></tr>
   </table>
 
   Eventuate is a toolkit for building distributed, highly-available and partition-tolerant event-sourced applications. It is written in Scala and built on top of Akka. Eventuate
