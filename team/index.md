@@ -21,12 +21,6 @@ title: Team
 	</div>	
 </div>
 <div class="row">
-	<div class="span6">
-		<div class="profile-pic-wrap"><img class="profile-pic" src="https://en.gravatar.com/avatar/96b5aad495e0efd9fc098b9b3d421623?s=80" /></div>
-		<span class="profile-name">Björn Antonsson</span>
-		<span class="profile-twitter-link"><a href="https://twitter.com/bantonsson">@bantonsson</a></span>			
-		<p class="profile-text">Björn Antonsson is a passionate software engineer whose experience ranges from the lowest levels of hardware memory models right through the operating system and the JVM as a founder and long time developer of JRockit, and straight up into high volume financial data systems and large traffic website.</p>
-	</div>
   <div class="span6">
     <div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e00d3476c1ca077dd6ba6897e724655d?s=80" /></div>
     <span class="profile-name">Endre Sándor Varga</span>
@@ -37,7 +31,15 @@ title: Team
     <div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e22c5a2db4101b4c4037d5f6bba2128d.png?s=80" /></div>
     <span class="profile-name">Konrad 'ktoso' Malawski</span>
     <span class="profile-twitter-link"><a href="https://twitter.com/ktosopl">@ktosopl</a></span>
-    <p class="profile-text">Konrad is a late-night passionate dev, living by the motto "Life is Study!". His favourite discussion topics range from distributed systems and type systems to capybaras. In those rare times he's not coding, he spreads the joy of computer science, through helping local user groups and computer science reading clubs.</p>
+    <p class="profile-text">Konrad is a late-night passionate dev, living by the motto "Life is Study!". His favourite discussion topics range from distributed systems and type systems to capybaras. In those rare times he is not coding, he spreads the joy of computer science, through helping local user groups and computer science reading clubs.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="span6">
+    <div class="profile-pic-wrap"><img class="profile-pic" src="https://s.gravatar.com/avatar/57ed73ccebd016ee0e4d5e906d674a50?s=80" /></div>
+    <span class="profile-name">Martynas Mickevičius</span>
+    <span class="profile-twitter-link"><a href="https://twitter.com/mmartynas">@mmartynas</a></span>
+    <p class="profile-text">Martynas has acquired his formal education from Vilnius University while working on coding theory and cryptography fusion during his M.Sc degree studies. After this brief introduction to academia he continued his endeavours in the industry working on various banking and transportation systems which lead him to distributed computing and the Akka project.</p>
   </div>
 </div>
 <h3>Honorary Members</h3>
@@ -53,7 +55,7 @@ title: Team
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="http://viktorklang.github.io/assets/images/IAMKLANG.png" /></div>
 		<span class="profile-name">Viktor Klang</span>
-		<span class="profile-title">Typesafe Chief Architect</span>
+		<span class="profile-title">Typesafe Deputy CTO</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/viktorklang">@viktorklang</a></span>
 		<p class="profile-text"><a href="http://www.linkedin.com/in/viktorklang">Viktor Klang (√)</a> was one of the first contributors to Akka, starting on the first day of public availability, and served as Project Lead from July of 2010 to November of 2012.</p>
 	</div>
@@ -62,13 +64,21 @@ title: Team
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/d1d4a046f41854a01e461b1732bb764b?s=80" /></div>
 		<span class="profile-name">Peter Vlugter</span>
-		<p class="profile-text">Peter's background is in Artificial Intelligence research, particularly Natural Language Processing systems. He has also worked as a graphic designer, played music, and cooked in restaurants. Peter is currently the farthest flung member of the Akka team, living on the South Island of New Zealand.</p>
+		<p class="profile-text">Peter&apos;s background is in Artificial Intelligence research, particularly Natural Language Processing systems. He has also worked as a graphic designer, played music, and cooked in restaurants. Peter is currently the farthest flung member of the Akka team, living on the South Island of New Zealand.</p>
 	</div>
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/f37dcc04641b226a984e06482a19cb25?s=80" /></div>
 		<span class="profile-name">Henrik Engström</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/h3nk3">@h3nk3</a></span>		
 		<p class="profile-text">After graduating with a M.Sc degree in Computer Science in 1998 at the Royal Institute of Technology Henrik Engström has been working as a consultant up until his Typesafe employment in 2011. Henrik has not only vast experience from various types of programming but also great domain knowledge within the finance, retail and e-gaming industries. Apart from his major interest, programming languages, he is also an avid Arsenal supporter, black belt in Shotokan Karate and a hobby wine connoisseur.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="span6">
+		<div class="profile-pic-wrap"><img class="profile-pic" src="https://en.gravatar.com/avatar/96b5aad495e0efd9fc098b9b3d421623?s=80" /></div>
+		<span class="profile-name">Björn Antonsson</span>
+		<span class="profile-twitter-link"><a href="https://twitter.com/bantonsson">@bantonsson</a></span>			
+		<p class="profile-text">Björn Antonsson is a passionate software engineer whose experience ranges from the lowest levels of hardware memory models right through the operating system and the JVM as a founder and long time developer of JRockit, and straight up into high volume financial data systems and large traffic website.</p>
 	</div>
 </div>
 <div class="row">
