@@ -233,7 +233,7 @@ migration path from Spray 1.3 to Akka HTTP.
 
 ## Plugins to Akka Persistence
 
-Before adding a plugin to this list, it should have been tested for compatibility with the [plugin compatibility testkit](https://github.com/krasserm/akka-persistence-testkit).
+Before adding a plugin to this list, it must be tested for compatibility using the [Plugin Technology Compatibility Kit](http://doc.akka.io/docs/akka/current/scala/persistence.html#Plugin_TCK) available for each release of Akka Persistence.
 
 ### Journal plugins
 
