@@ -157,6 +157,24 @@ open-source project.
 
   Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
 
+
+* **[akka-http-extensions](https://github.com/denigma/akka-http-extensions)** (by [Anton Kulaga](https://github.com/antonkulaga))
+
+  <table class="stats">
+  <tr><td>Since Akka HTTP version:</td><td>1.0-RC2</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>1.0-RC4</td></tr>
+  <tr><td>Latest Releases:</td><td>
+    <ul>
+      <li><code>"org.denigma" %% "akka-http-extensions" % "0.4-RC4"</code> (July 7, 2015)</li>
+    </ul>
+  </td></tr>
+  </table>
+
+  akka-http-extensions provide useful directives and utils for akka-http projects like login (with password encryption), cookie-based authorization/authentication and P-JAX.
+
+  Published to bintray at https://bintray.com/denigma/denigma-releases/.
+
+
 ## Extensions to Spray
 
 The Spray project is in the process of being merged into Akka as the new HTTP
