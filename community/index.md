@@ -730,6 +730,17 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   A comparison to Akka Persistence in given in [this article](https://krasserm.github.io/2015/05/25/akka-persistence-eventuate-comparison/). Find out more in the [project documentation](http://rbmhtechnology.github.io/eventuate/). Eventuate binaries are [published](http://rbmhtechnology.github.io/eventuate/download.html) to bintray at the URL `https://dl.bintray.com/rbmhtechnology/maven`.
 
+
+* **[CurioDB](https://github.com/stephenmcd/curiodb)**
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
+  </table>
+
+  CurioDB is a distributed and persistent Redis clone, built with Scala and Akka.
+  You can read more about it in this [introductory article](http://blog.jupo.org/2015/07/08/curiodb-a-distributed-persistent-redis-clone/).
+
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
 project for the purpose of researching code patterns around this actor model
