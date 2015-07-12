@@ -175,6 +175,23 @@ open-source project.
   Published to bintray at https://bintray.com/denigma/denigma-releases/.
 
 
+* **[akka-http-session](https://github.com/softwaremill/akka-http-session)** (by [Softwaremill](https://github.com/softwaremill))
+
+  <table class="stats">
+  <tr><td>Since Akka HTTP version:</td><td>1.0-RC4</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>1.0-RC4</td></tr>
+  <tr><td>Latest Releases:</td><td>
+    <ul>
+      <li><code>"com.softwaremill" %% "akka-http-session" % "0.1.1"</code> (July 12, 2015)</li>
+    </ul>
+  </td></tr>
+  </table>
+
+  akka-http-session contains directives for client-side, cookie-based session handling (with type-safe, signed, optionally expiring and optionally encrypted session data), CSRF protection and "remember me" support via persistent cookies.
+
+  Published to Maven Central.
+
+
 ## Extensions to Spray
 
 The Spray project is in the process of being merged into Akka as the new HTTP
@@ -622,8 +639,8 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.1.4</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Release:</td><td><code>"org.elasticmq" %% "elasticmq-rest-sqs" % "0.8.0"</code> (April 29, 2014)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Release:</td><td><code>"org.elasticmq" %% "elasticmq-rest-sqs" % "0.8.8"</code> (April 10, 2015)</td></tr>
   </table>
 
 * **[Kamon: reactive applications monitoring](https://github.com/kamon-io/Kamon)**
