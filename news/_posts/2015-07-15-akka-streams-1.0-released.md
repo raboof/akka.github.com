@@ -45,7 +45,8 @@ Since the RC4 release:
   - 1558 files changed, 125283 insertions(+), 40765 deletions(-),
   - ... and a total of 9 contributors!
 
-```
+1.0 compared to 1.0-RC4:
+
     commits   added removed
          26    2342     335 Johannes Rudolph
          11   10112      97 Endre Sándor Varga
@@ -56,6 +57,5 @@ Since the RC4 release:
           2      43       7 Rafał Krzewski
           2     801      42 Alexander Golubev
           1       8       8 Heiko Seeberger
-```
 
 *Happy hAkking!*
