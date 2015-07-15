@@ -42,7 +42,7 @@ and [http](https://github.com/akka/akka/issues?q=milestone%3Ahttp-1.0) milestone
 Since the RC4 release:
 
   - 32 tickets closed
-  - 1558 files changed, 125283 insertions(+), 40765 deletions(-),
+  - 252 files changed, 17613 insertions(+), 1834 deletions(-),
   - ... and a total of 9 contributors!
 
 1.0 compared to 1.0-RC4:
