@@ -637,6 +637,7 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
     background: transparent url(../images/involved.png) no-repeat 0 0;
     background-size: 50px 250px;
     background-position: -5px -3px;
+    margin-left: -50px;
 }
 .get-involved-links h3.mailing {
     background-position: -5px -3px;
@@ -656,8 +657,9 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 
 .get-involved-links h3 + a {
     font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
 }
-
-.get-involved-links p {
+.get-involved-links {
     padding-left: 50px;
 }
