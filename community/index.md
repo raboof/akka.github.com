@@ -758,6 +758,28 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   CurioDB is a distributed and persistent Redis clone, built with Scala and Akka.
   You can read more about it in this [introductory article](http://blog.jupo.org/2015/07/08/curiodb-a-distributed-persistent-redis-clone/).
 
+* **[Gearpump](https://github.com/intel-hadoop/gearpump)**
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.2.3</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.github.intel-hadoop" %% "gearpump" % "0.4.1"</code></td></tr>
+  </table>
+  
+  Gearpump is a lightweight real-time big data streaming engine built on Akka and written in Scala. Gearpump features in
+  
+  - using Actor everywhere
+  - exactly once semantics
+  - topology DAG DSL and high-level DSL
+  - flow control and back-pressure
+  - no inherent latency and high performance message passing
+  - ability to handle in out-of-order message
+  - high availability 
+  - dynamic DAG
+  - fancy built-in dashboard
+  
+  Find out more at [project site](http://www.gearpump.io/). Gearpump binaries are published to [sonatype](https://oss.sonatype.org/).
+
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
 project for the purpose of researching code patterns around this actor model
