@@ -116,8 +116,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4-M2</td></tr>
-  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "0.3.1"</code> (June 26, 2015)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4-M3</td></tr>
+  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "0.3.2"</code> (August 14, 2015)</td></tr>
   </table>
 
   akka-log4j is a logging backend implementation for Akka based on Log4j 2. It is an alternative to the official akka-slf4j backend which uses SLF4J.
@@ -765,19 +765,19 @@ Before adding a plugin to this list, it must be tested for compatibility using t
     <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
     <tr><td>Latest Release:</td><td><code>"com.github.intel-hadoop" %% "gearpump" % "0.4.1"</code></td></tr>
   </table>
-  
+
   Gearpump is a lightweight real-time big data streaming engine built on Akka and written in Scala. Gearpump features in
-  
+
   - using Actor everywhere
   - exactly once semantics
   - topology DAG DSL and high-level DSL
   - flow control and back-pressure
   - no inherent latency and high performance message passing
   - ability to handle in out-of-order message
-  - high availability 
+  - high availability
   - dynamic DAG
   - fancy built-in dashboard
-  
+
   Find out more at [project site](http://www.gearpump.io/). Gearpump binaries are published to [sonatype](https://oss.sonatype.org/).
 
 A selected list of some of the projects hosted on GitHub is collected in the
