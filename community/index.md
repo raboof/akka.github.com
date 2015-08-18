@@ -150,7 +150,7 @@ open-source project.
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
   <tr><td>Latest Akka HTTP version:</td><td>1.0</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.0.0"</code> (July 16, 2015)</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.1.0"</code> (August 18, 2015)</td></tr>
   </table>
 
   akka-sse adds support for Server-Sent Events (SSE) to Akka HTTP.
