@@ -780,6 +780,17 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   Find out more at [project site](http://www.gearpump.io/). Gearpump binaries are published to [sonatype](https://oss.sonatype.org/).
 
+* **[Ainterface](https://github.com/ainterface/ainterface)** (by [okumin](https://github.com/okumin))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.12</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.12</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.okumin" %% "ainterface" % "0.1"</code> (August 19, 2015)</td></tr>
+  </table>
+
+  Ainterface is a tool for Akka actors to communicate with Erlang processes.
+  APIs of Ainterface are designed to integrate Akka with Erlang seamlessly.
+
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
 project for the purpose of researching code patterns around this actor model
