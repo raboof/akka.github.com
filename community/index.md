@@ -162,10 +162,10 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC2</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>1.0-RC4</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>1.0</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"org.denigma" %% "akka-http-extensions" % "0.4-RC4"</code> (July 7, 2015)</li>
+      <li><code>"org.denigma" %% "akka-http-extensions" % "0.4"</code> (July 16, 2015)</li>
     </ul>
   </td></tr>
   </table>
