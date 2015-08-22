@@ -15,7 +15,7 @@ OSX users might have to update RubyGems:
 
     sudo gem update --system
 
-If in doubt, head over to the [Jekyll wiki](https://github.com/mojombo/jekyll/wiki) for installation instructions.
+If in doubt, head over to the [Jekyll wiki](http://jekyllrb.com/docs/installation/) for installation instructions.
 
 ## Building
 
