@@ -721,6 +721,30 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   Published to http://nexus.thenewmotion.com.
 
+* **[Op-Rabbit](https://github.com/SpinGo/op-rabbit)**
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.7</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
+  <tr><td>Latest Akka Stream and HTTP Experimental version:</td><td>1.0</td></tr>
+  <tr>
+    <td>Latest Release:</td>
+    <td><pre>
+    val opRabbitVersion = "1.0.0-RC2"
+    Seq(
+      "com.spingo" %% "op-rabbit-core"         % opRabbitVersion,
+      "com.spingo" %% "op-rabbit-play-json"    % opRabbitVersion, // optional Play-Json marshalling integration
+      "com.spingo" %% "op-rabbit-json4s"       % opRabbitVersion, // optional Json4s marshalling integration
+      "com.spingo" %% "op-rabbit-akka-stream"  % opRabbitVersion  // optional Akka Stream integration
+    )
+    </pre></td>
+  </tr>
+  </table>
+
+  High-level, opinionated messaging framework for RabbitMQ / Akka. Builds on `akka-rabbitmq`.
+
+  Published to http://spingo-oss.s3.amazonaws.com/repositories/releases.
+
 * **[Eventuate](https://github.com/RBMHTechnology/eventuate)** (by [Red Bull Media House Technology](https://github.com/RBMHTechnology))
 
   <table class="stats">
