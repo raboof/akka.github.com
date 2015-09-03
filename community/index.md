@@ -133,15 +133,17 @@ open-source project.
   <tr><td>Latest Akka HTTP version:</td><td>1.0</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.0.0"</code> (July 16, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.0.0"</code> (July 16, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.1.0"</code> (Sep 03, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.1.0"</code> (Sep 03, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.1.0"</code> (Sep 03, 2015)</li>
     </ul>
   </td></tr>
   </table>
 
   akka-http-json provides JSON (un)marshalling support for Akka HTTP. It offers support for the following JSON libraries:
-  - Play JSON
   - Json4s
+  - Play JSON
+  - uPickle
 
   Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
 
