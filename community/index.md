@@ -386,33 +386,33 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0-RC2</td></tr>
   <tr>
     <td>Latest Release:</td>
-    <td>
-      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.10" % "0.0.2"</code><br/>
-      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.11" % "0.0.2"</code>
-    </td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.1.0-RC2"</code> (Sept 5, 2015)</td>
   </tr>
   </table>
 
-  Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+  Published to bintray at the URL `http://dl.bintray.com/dnvriend/maven`.
+
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
 
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0-RC2</td></tr>
   <tr>
     <td>Latest Release:</td>
     <td>
-      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.10" % "1.0.5"</code><br/>
-      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.11" % "1.0.5"</code>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "1.2.0-RC2"</code> (Sept 7, 2015)</td>
     </td>
   </tr>
   </table>
 
-  Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+  Published to bintray at the URL `http://dl.bintray.com/dnvriend/maven`.
+
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
 
 * **[MySQL & PostgreSQL plugin](https://github.com/okumin/akka-persistence-sql-async)** (by [okumin](https://github.com/okumin))
 
@@ -535,33 +535,33 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0-RC2</td></tr>
   <tr>
     <td>Latest Release:</td>
-    <td>
-      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.10" % "0.0.2"</code><br/>
-      <code>"com.github.dnvriend" % "akka-persistence-inmemory_2.11" % "0.0.2"</code>
-    </td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.1.0-RC2"</code> (Sept 5, 2015)</td>
   </tr>
   </table>
 
-  Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+  Published to bintray at the URL `http://dl.bintray.com/dnvriend/maven`.
+
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
 
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.6</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0-RC2</td></tr>
   <tr>
     <td>Latest Release:</td>
     <td>
-      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.10" % "1.0.5"</code><br/>
-      <code>"com.github.dnvriend" % "akka-persistence-jdbc_2.11" % "1.0.5"</code>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "1.2.0-RC2"</code> (Sept 7, 2015)</td>
     </td>
   </tr>
   </table>
 
-  Published to Maven Central. Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+  Published to bintray at the URL `http://dl.bintray.com/dnvriend/maven`.
+
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
 
 * **[MySQL & PostgreSQL plugin](https://github.com/okumin/akka-persistence-sql-async)** (by [okumin](https://github.com/okumin))
 
