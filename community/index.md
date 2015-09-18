@@ -116,8 +116,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.0-RC1</td></tr>
-  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "1.0.0-RC1"</code> (August 23, 2015)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0-RC3</td></tr>
+  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "1.0.0-RC2"</code> (September 17, 2015)</td></tr>
   </table>
 
   akka-log4j is a logging backend implementation for Akka based on Log4j 2. It is an alternative to the official akka-slf4j backend which uses SLF4J.
