@@ -364,8 +364,8 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
   <tr><td>Latest Release:</td>
   <td>One of:
-  <code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.11" % "1.0.0"</code><br/>
-  <code>"com.github.scullxbones" % "akka-persistence-mongo-rxmongo_2.11" % "1.0.0"</code>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.11" % "1.0.6"</code><br/>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-rxmongo_2.11" % "1.0.6"</code>
   </td></tr></table>
 
   Published to Maven Central.  Compliant with latest plugin compatibility testkit.  
@@ -485,8 +485,8 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
   <tr><td>Latest Release:</td>
   <td>One of:
-  <code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.11" % "1.0.0"</code><br/>
-  <code>"com.github.scullxbones" % "akka-persistence-mongo-rxmongo_2.11" % "1.0.0"</code>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-casbah_2.11" % "1.0.6"</code><br/>
+  <code>"com.github.scullxbones" % "akka-persistence-mongo-rxmongo_2.11" % "1.0.6"</code>
   </td></tr></table>
 
   Published to Maven Central.  Compliant with latest plugin compatibility testkit.  
