@@ -401,10 +401,10 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.4-M3</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4-M3</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
   <tr>
     <td>Latest Release:</td>
-      <td><code>"org.dmonix.akka" %% "akka-persistence-mock" % "1.0"</code> (Oct 6, 2015)</td>
+      <td><code>"org.dmonix.akka" %% "akka-persistence-mock" % "1.1"</code> (Oct 15, 2015)</td>
   </tr>
   </table>
 
@@ -624,10 +624,10 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.4-M3</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4-M3</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
   <tr>
     <td>Latest Release:</td>
-      <td><code>"org.dmonix.akka" %% "akka-persistence-mock" % "1.0"</code> (Oct 6, 2015)</td>
+      <td><code>"org.dmonix.akka" %% "akka-persistence-mock" % "1.1"</code> (Oct 15, 2015)</td>
   </tr>
   </table>
 
