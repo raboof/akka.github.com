@@ -397,6 +397,21 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
 
+* **[In-Memory/Mock plugin](https://github.com/pnerg/akka-persistence-mock)** (by [Peter Nerg](https://github.com/pnerg))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.4-M3</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4-M3</td></tr>
+  <tr>
+    <td>Latest Release:</td>
+      <td><code>"org.dmonix.akka" %% "akka-persistence-mock" % "1.0"</code> (Oct 6, 2015)</td>
+  </tr>
+  </table>
+
+  Published to [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dmonix.akka%22).
+
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4-M3/scala/persistence.html#plugin-tck).
+  
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
   <table class="stats">
@@ -604,6 +619,21 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   </table>
 
   Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-chronicle). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
+  
+* **[In-Memory/Mock plugin](https://github.com/pnerg/akka-persistence-mock)** (by [Peter Nerg](https://github.com/pnerg))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.4-M3</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4-M3</td></tr>
+  <tr>
+    <td>Latest Release:</td>
+      <td><code>"org.dmonix.akka" %% "akka-persistence-mock" % "1.0"</code> (Oct 6, 2015)</td>
+  </tr>
+  </table>
+
+  Published to [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dmonix.akka%22).
+
+  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4-M3/scala/persistence.html#plugin-tck).
 
 ## Projects Using Akka
 
