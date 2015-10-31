@@ -247,15 +247,15 @@ migration path from Spray 1.3 to Akka HTTP.
 
   socket.io implementation on Spray with cluster sharding.
 
-* **[spray-funnel](https://github.com/galarragas/spray-funnel)**
+* **[spray-funnel](https://github.com/galarragas/spray-funnel)** (by [Stefano Galarraga](https://github.com/galarragas))
 
   <table class="stats">
   <tr><td>Since spray version:</td><td>1.2.0</td></tr>
   <tr><td>Latest spray version:</td><td>1.3.1</td></tr>
-  <tr><td>Latest Release:</td><td>1.0-RC3</td></tr>
+  <tr><td>Latest Release:</td><td>1.1</td></tr>
   </table>
 
-  Request throttling system for AKKA actors that has been specifically designed to support HttpRequest - HttpReply interactions. Can be used with Spray Client or Spray HTTP Server.
+  Throttling system for AKKA actors that has been specifically designed to support Request-Reply patterns and in particular for HttpRequest - HttpReply interactions via Spray. Can be used with Spray Client or Spray HTTP Server. 
 
 * **[spray-extensions](https://github.com/Jarlakxen/spray-extensions)** (by [Facundo Viale](https://github.com/Jarlakxen/))
 
