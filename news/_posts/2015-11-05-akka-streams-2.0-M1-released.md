@@ -32,36 +32,36 @@ Similarily, we would like to give a huge thanks and kudos to @2beaucoup, a long-
 
 For this release we had the help of 30 committers.
 
-   63    5469    1117 Johannes Rudolph
-   46    5747    1609 Konrad Malawski
-   23    3331     688 Alexander Golubev
-   17    7503    2397 Endre Sándor Varga
-   15    2756    2955 Viktor Klang
-   12     499     345 2beaucoup
-   10    4160     689 Mathias
-   10     742     143 Martynas Mickevičius
-    7    3900    8463 Roland Kuhn
-    3     383      61 Johan Andrén
-    3      16       1 hepin
-    2       2       2 netcomm
-    1     243       0 Philipp
-    1      64       2 kulikov
-    1      25       1 James Roper
-    1       1       1 egisj
-    1       1       1 Sören Brunk
-    1      16      16 何品
-    1     227      64 pjan vandaele
-    1       1       1 luben karavelov
-    1     518       1 Patrik Nordwall
-    1      81      81 kukido
-    1      37       8 Frank Murphy
-    1       6       0 Ryan Bair
-    1       0       2 Richard Bradley
-    1       8       8 Balazs Kossovics
-    1       3       3 Fehmi Can Saglam
-    1      66      22 Mathias Bogaert
-    1     180     223 André Rüdiger
-    1       1       1 Jesse Haber-Kucharsky
+    63    5469    1117 Johannes Rudolph
+    46    5747    1609 Konrad Malawski
+    23    3331     688 Alexander Golubev
+    17    7503    2397 Endre Sándor Varga
+    15    2756    2955 Viktor Klang
+    12     499     345 2beaucoup
+    10    4160     689 Mathias
+    10     742     143 Martynas Mickevičius
+     7    3900    8463 Roland Kuhn
+     3     383      61 Johan Andrén
+     3      16       1 hepin
+     2       2       2 netcomm
+     1     243       0 Philipp
+     1      64       2 kulikov
+     1      25       1 James Roper
+     1       1       1 egisj
+     1       1       1 Sören Brunk
+     1      16      16 何品
+     1     227      64 pjan vandaele
+     1       1       1 luben karavelov
+     1     518       1 Patrik Nordwall
+     1      81      81 kukido
+     1      37       8 Frank Murphy
+     1       6       0 Ryan Bair
+     1       0       2 Richard Bradley
+     1       8       8 Balazs Kossovics
+     1       3       3 Fehmi Can Saglam
+     1      66      22 Mathias Bogaert
+     1     180     223 André Rüdiger
+     1       1       1 Jesse Haber-Kucharsky
  
 Happy hakking,
  - The Akka Team
