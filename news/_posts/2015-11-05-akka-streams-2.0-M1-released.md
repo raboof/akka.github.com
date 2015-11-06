@@ -16,7 +16,8 @@ There have been several changes in user facing APIs mostly driven by two goals. 
  - In the Scala DSL the only graph building API is the arrow ~> notation, the edge-based alternative (more klunky) API has been removed.
  - Creating Flows, Sources, etc. from Graphs now can be only done in two steps, first creating the Graph, then using fromGraph to turn it into the desired target type. The second step is only necessary when subsequently using the combinators defined on the Source/Flow types, reuse of processing setups is better done using the language-agnostic Graph type.
 
-*For the full list of changes see the Github [milestone](https://github.com/akka/akka/issues?q=milestone%3Astreams-2.0-M1)*
+*For the full list of changes see the Github [milestone](https://github.com/akka/akka/issues?q=milestone%3Astreams-2.0-M1) and 
+[http-2.0-M1](https://github.com/akka/akka/issues?q=milestone%3Ahttp-2.0-M1)*
 
 On the internals front the most important change is that we removed almost all of the custom actor-based stage implementations, thanks to a new abstraction called *GraphStage*. GraphStage is a new user API that replaces FlexiMerge, FlexiRoute and AsyncStage. Compared to the previous abstractions GraphStage is capable of modeling a stage with any number of input and output ports and asynchronous notifications and without the limitations that the FlexiMerge/FlexiRoute implementations suffered. A testament to the flexibility and usefulness of this new stage design is that nearly all of the built-in stages are now GraphStage based implementations (with the remaining ones being scheduled to be rewritten—there is no reason why dedicated actors are still needed given the expressive power of GraphStage). A fun fact is that this rewrite also resulted in 29% jar size reduction compared to the 1.0 artifact while having more features than ever before.
  
