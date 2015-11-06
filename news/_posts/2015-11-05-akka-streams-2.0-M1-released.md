@@ -1,4 +1,4 @@
-﻿---
+---
 layout: news
 title: Akka Stream and Http 2.0-M1 Released!
 author: Endre Sándor Varga
