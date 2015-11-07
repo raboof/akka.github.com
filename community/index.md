@@ -298,8 +298,8 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.9"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.9"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.4"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
@@ -527,7 +527,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.10" % "0.3.9"</code><br><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.3.9"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.4"</code></td></tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
@@ -781,8 +781,8 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4-M2</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.rbmhtechnology" % "eventuate_2.11" % "0.2.2"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.rbmhtechnology" % "eventuate_2.11" % "0.4"</code></td></tr>
   </table>
 
   Eventuate is a toolkit for building distributed, highly-available and partition-tolerant event-sourced applications. It is written in Scala and built on top of Akka. Eventuate
@@ -791,11 +791,12 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   - replicates application state by replicating events across multiple locations
   - allows updates to replicated state at multiple locations concurrently (multi-master)
   - allows individual locations to continue writing even if they are partitioned from other locations
-  - provides means to detect, track and resolve conflicting updates (automated and interactive)
+  - provides means to detect, track and resolve conflicting updates (interactive and automated)
+  - enables reliable event collaboration between event-sourced microservices
   - enables applications to implement a causal consistency model
   - preserves causal ordering of replicated events
   - provides implementations of operation-based CRDTs
-  - supports distribution up to global scale.
+  - supports distribution up to global scale
 
   A comparison to Akka Persistence in given in [this article](https://krasserm.github.io/2015/05/25/akka-persistence-eventuate-comparison/). Find out more in the [project documentation](http://rbmhtechnology.github.io/eventuate/). Eventuate binaries are [published](http://rbmhtechnology.github.io/eventuate/download.html) to bintray at the URL `https://dl.bintray.com/rbmhtechnology/maven`.
 
