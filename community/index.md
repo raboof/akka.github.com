@@ -130,12 +130,12 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>1.0</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.0-M1</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.1.0"</code> (Sep 03, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.1.0"</code> (Sep 03, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.1.0"</code> (Sep 03, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.2.0"</code> (November 07, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.2.0"</code> (November 07, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.2.0"</code> (November 07, 2015)</li>
     </ul>
   </td></tr>
   </table>
@@ -151,8 +151,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>1.0</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.1.0"</code> (August 18, 2015)</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.0-M1</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.2.0"</code> (November 70, 2015)</td></tr>
   </table>
 
   akka-sse adds support for Server-Sent Events (SSE) to Akka HTTP.
@@ -255,7 +255,7 @@ migration path from Spray 1.3 to Akka HTTP.
   <tr><td>Latest Release:</td><td>1.1</td></tr>
   </table>
 
-  Throttling system for AKKA actors that has been specifically designed to support Request-Reply patterns and in particular for HttpRequest - HttpReply interactions via Spray. Can be used with Spray Client or Spray HTTP Server. 
+  Throttling system for AKKA actors that has been specifically designed to support Request-Reply patterns and in particular for HttpRequest - HttpReply interactions via Spray. Can be used with Spray Client or Spray HTTP Server.
 
 * **[spray-extensions](https://github.com/Jarlakxen/spray-extensions)** (by [Facundo Viale](https://github.com/Jarlakxen/))
 
@@ -411,7 +411,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   Published to [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dmonix.akka%22).
 
   Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4-M3/scala/persistence.html#plugin-tck).
-  
+
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
   <table class="stats">
@@ -619,7 +619,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   </table>
 
   Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-chronicle). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
-  
+
 * **[In-Memory/Mock plugin](https://github.com/pnerg/akka-persistence-mock)** (by [Peter Nerg](https://github.com/pnerg))
 
   <table class="stats">
