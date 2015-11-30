@@ -31,7 +31,7 @@ The following bugs were fixed:
  - HTTP Client error handling has been improved.
  - Some built-in stages were hardened thanks to the new fuzzing-mode
  
-The full list of changes can be found on Github: (stream)[https://github.com/akka/akka/issues?q=milestone%3Astreams-2.0-M2+is%3Aclosed] and [http](https://github.com/akka/akka/issues?q=milestone%3Ahttp-2.0-M2+is%3Aclosed)
+The full list of changes can be found on Github: [stream](https://github.com/akka/akka/issues?q=milestone%3Astreams-2.0-M2+is%3Aclosed) and [http](https://github.com/akka/akka/issues?q=milestone%3Ahttp-2.0-M2+is%3Aclosed)
 
 What comes next? We have in progress several improvements that will likely arrive next milestone. Our GraphStage based TLS support is now almost ready. We also changed how stream-of-streams operations like groupBy are expressed in the API, making the DSL both safer, and easier to implement in non-local materialization contexts. At the same time, the algorithm to finally start fusing stages is progressing steadily to finally put the crown on top of our internals cleanup effort.
 
