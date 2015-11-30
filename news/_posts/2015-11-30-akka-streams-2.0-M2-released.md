@@ -21,7 +21,7 @@ With the new milestone arrived new API refactorings. The File and Input/OutputSt
 
 There are some new features available as well, most notably there are now a `headOption` on Sink, a `throttle` on Sources and Flows.
 
-The focus of the Akka HTTP remained the same as in previous iterations. We have fixed and hardened parts of the HTTP server and continued preparing its internals for the upcoming graph fusing, which will yield the promised performance improvements in 2.0. We also fixed a critical actor-leak case in the HTTP Client, which would manifest itself when open connections failed.
+The focus of the Akka HTTP work remained the same as in previous iterations. We have fixed and hardened parts of the HTTP server and continued preparing its internals for the upcoming graph fusing, which will yield the promised performance improvements in 2.0. We also fixed a critical actor-leak case in the HTTP Client, which would manifest itself when open connections failed.
 Other than that, new documentation sections as well as simplified directives for common use cases, such as file uploads have been added.
 
 The following bugs were fixed:
