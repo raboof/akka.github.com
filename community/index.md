@@ -124,18 +124,30 @@ open-source project.
 
   Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
 
+* **[ConstructR](https://github.com/hseeberger/constructr)** (by [Heiko Seeberger](http://heikoseeberger.de))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.3.14</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.1</td></tr>
+  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "constructr-akka" % "0.6.0"</code> (December 2, 2015)</td></tr>
+  </table>
+
+  ConstructR aims at cluster bootstrapping (construction) by using a coordination service. Currently it provides libraries for bootstrapping Akka and Cassandra clusters via etcd and Consul.
+
+  Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
+
 ## Extensions to Akka HTTP
 
 * **[akka-http-json](https://github.com/hseeberger/akka-http-json)** (by [Heiko Seeberger](http://heikoseeberger.de))
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.0-M1</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.0-M2</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.2.0"</code> (November 07, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.2.0"</code> (November 07, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.2.0"</code> (November 07, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.3.0"</code> (December 01, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.3.0"</code> (December , 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.3.0"</code> (December , 2015)</li>
     </ul>
   </td></tr>
   </table>
@@ -151,8 +163,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.0-M1</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.2.0"</code> (November 70, 2015)</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.0-M2</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.3.0"</code> (December 01, 2015)</td></tr>
   </table>
 
   akka-sse adds support for Server-Sent Events (SSE) to Akka HTTP.
