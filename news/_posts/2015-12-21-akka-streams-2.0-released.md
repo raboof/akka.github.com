@@ -42,51 +42,49 @@ The full list of changes since the last milestone is available under the [stream
 
 We would like to thank everyone who contributed to this release of Akka Streams & HTTP since its 1.0 release a few months ago:
 
-```
-commits added removed
-   80    7822    2022 Konrad Malawski
-   71    5803    1316 Johannes Rudolph
-   42    5292    1142 Alexander Golubev
-   32    7954    3082 Mathias
-   27    3932    4035 Viktor Klang
-   27   10637    3578 Endre Sándor Varga
-   26   10587   12318 Roland Kuhn
-   21     608     521 2beaucoup
-   12    3232     941 Johan Andrén
-   13    1679     930 Martynas Mickevičius
-    6     573      82 lolski
-    3      16       1 hepin
-    2      35       3 Anton Karamanov
-    2     205       7 Gilad Hoch
-    2       2       2 netcomm
-    2     148      24 Catalin Ursachi
-    1       1       1 Johan Andrén
-    1       3       3 Fehmi Can Saglam
-    1      37       8 Frank Murphy
-    1     180     223 André Rüdiger
-    1      64       2 kulikov
-    1       8       6 Heiko Seeberger
-    1      26       1 Anderson Osagie
-    1      29       6 Daniel Wegener
-    1      81      81 kukido
-    1       1       1 Jesse Haber-Kucharsky
-    1       4       0 Harit Himanshu
-    1      16      16 何品
-    1     216       1 Iain Monro
-    1       8       8 Balazs Kossovics
-    1       6       0 André Cardoso
-    1       4       1 Tim Harper
-    1       6       0 Ryan Bair
-    1       1       1 Sören Brunk
-    1      66      22 Mathias Bogaert
-    1     227      64 pjan vandaele
-    1       1       1 luben karavelov
-    1       0       2 Richard Bradley
-    1      25       1 James Roper
-    1     243       0 Philipp
-    1     518       1 Patrik Nordwall
-    1       1       1 egisj
-```
+    commits added removed
+       80    7822    2022 Konrad Malawski
+       71    5803    1316 Johannes Rudolph
+       42    5292    1142 Alexander Golubev
+       32    7954    3082 Mathias
+       27    3932    4035 Viktor Klang
+       27   10637    3578 Endre Sándor Varga
+       26   10587   12318 Roland Kuhn
+       21     608     521 2beaucoup
+       12    3232     941 Johan Andrén
+       13    1679     930 Martynas Mickevičius
+        6     573      82 lolski
+        3      16       1 hepin
+        2      35       3 Anton Karamanov
+        2     205       7 Gilad Hoch
+        2       2       2 netcomm
+        2     148      24 Catalin Ursachi
+        1       1       1 Johan Andrén
+        1       3       3 Fehmi Can Saglam
+        1      37       8 Frank Murphy
+        1     180     223 André Rüdiger
+        1      64       2 kulikov
+        1       8       6 Heiko Seeberger
+        1      26       1 Anderson Osagie
+        1      29       6 Daniel Wegener
+        1      81      81 kukido
+        1       1       1 Jesse Haber-Kucharsky
+        1       4       0 Harit Himanshu
+        1      16      16 何品
+        1     216       1 Iain Monro
+        1       8       8 Balazs Kossovics
+        1       6       0 André Cardoso
+        1       4       1 Tim Harper
+        1       6       0 Ryan Bair
+        1       1       1 Sören Brunk
+        1      66      22 Mathias Bogaert
+        1     227      64 pjan vandaele
+        1       1       1 luben karavelov
+        1       0       2 Richard Bradley
+        1      25       1 James Roper
+        1     243       0 Philipp
+        1     518       1 Patrik Nordwall
+        1       1       1 egisj
 
 Happy hakking,
 
