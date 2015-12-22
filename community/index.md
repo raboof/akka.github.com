@@ -142,17 +142,19 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.0-M2</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.0</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.3.0"</code> (December 01, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.3.0"</code> (December , 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.3.0"</code> (December , 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-circe" % "1.4.0"</code> (December 22, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.4.0"</code> (December 22, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.4.0"</code> (December 22, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.4.0"</code> (December 22, 2015)</li>
     </ul>
   </td></tr>
   </table>
 
   akka-http-json provides JSON (un)marshalling support for Akka HTTP. It offers support for the following JSON libraries:
+  - circe
   - Json4s
   - Play JSON
   - uPickle
@@ -163,8 +165,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.0-M2</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.3.0"</code> (December 01, 2015)</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.0</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.4.0"</code> (December 22, 2015)</td></tr>
   </table>
 
   akka-sse adds support for Server-Sent Events (SSE) to Akka HTTP.
