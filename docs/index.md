@@ -40,23 +40,23 @@ Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can
 
 ## Akka Streams and HTTP
 
-The current version of the release candidate for the upcoming Akka Streams and HTTP modules are `2.0`.
+The current version of the release candidate for the upcoming Akka Streams and HTTP modules are `2.0.1`.
 
 * The artifacts are available on Maven Central (for use with `scala-library.jar` version `2.11.x`):
-  * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "2.0"`
-  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "2.0"`
-  * `"com.typesafe.akka" % "akka-http-experimental_2.11" % "2.0"` (for Java & Scala DSL)
+  * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "2.0.1"`
+  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "2.0.1"`
+  * `"com.typesafe.akka" % "akka-http-experimental_2.11" % "2.0.1"` (for Java & Scala DSL)
   * plus testkits and marshallers
 
 * similarily artifacts for use with `scala-library.jar` version `2.10.x`, are available as:
-  * `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "2.0"`
-  * `"com.typesafe.akka" % "akka-http-core-experimental_2.10" % "2.0"`
-  * `"com.typesafe.akka" % "akka-http-experimental_2.10" % "2.0"` (for Java & Scala DSL)
+  * `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "2.0.1"`
+  * `"com.typesafe.akka" % "akka-http-core-experimental_2.10" % "2.0.1"`
+  * `"com.typesafe.akka" % "akka-http-experimental_2.10" % "2.0.1"` (for Java & Scala DSL)
   * plus testkits and marshallers
 
-* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/2.0/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/2.0/)
+* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/2.0.1/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/2.0.1/)
 
-* Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala.html)
+* Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.1/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.1/scala.html)
 
 ## Old Versions
 
