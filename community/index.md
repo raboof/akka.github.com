@@ -359,17 +359,20 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr><td>Latest Release:</td><td>none (to be published locally)</td></tr>
   </table>
 
-* **[MongoDB plugin](https://github.com/ddevore/akka-persistence-mongo/)** (by [Duncan DeVore](https://github.com/ddevore))
+* **[MongoDB plugin](https://github.com/ironfish/akka-persistence-mongo/)** (by [Duncan DeVore](https://github.com/ironfish))
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.5</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.10"  % "0.7.4-SNAPSHOT"</code><br/><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.11"  % "0.7.4-SNAPSHOT"</code></td></tr>
-  </table>
+  <tr><td>Latest Akka version:</td><td>2.4.1</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.github.ironfish" % "akka-persistence-mongo_2.11"  % "1.0.0-SNAPSHOT"</code></td></tr></table>
 
-  Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
+  Published to Maven Central. Snapshots at [Maven Central Snapshots](https://oss.sonatype.org/content/repositories/snapshots/com/github/ironfish/akka-persistence-mongo_2.11/)
+  
+  [README.md](https://github.com/ironfish/akka-persistence-mongo/blob/master/README.md)
 
-  Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+  [Issues](https://github.com/ironfish/akka-persistence-mongo/issues)
+  
+  Compliant with [Plugin TCK](http://doc.akka.io/docs/akka/current/scala/persistence.html#Plugin_TCK).
 
 * **[MongoDB plugin](https://github.com/scullxbones/akka-persistence-mongo/)** (by [Brian Scully](https://github.com/scullxbones))
 
@@ -524,17 +527,20 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   [Bug tracker](https://github.com/scullxbones/akka-persistence-mongo/issues)
 
-* **[MongoDB plugin](https://github.com/ddevore/akka-persistence-mongo/)** (by [Duncan DeVore](https://github.com/ddevore))
+* **[MongoDB plugin](https://github.com/ironfish/akka-persistence-mongo/)** (by [Duncan DeVore](https://github.com/ironfish))
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
   <tr><td>Latest Akka version:</td><td>2.3.5</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.10"  % "0.7.4-SNAPSHOT"</code><br/><code>"com.github.ddevore" % "akka-persistence-mongo-casbah_2.11"  % "0.7.4-SNAPSHOT"</code></td></tr>
-  </table>
+  <tr><td>Latest Release:</td><td><code>"com.github.ironfish" % "akka-persistence-mongo_2.11"  % "1.0.0-SNAPSHOT"</code></td></tr></table>
 
-  Published to Maven Central. Snapshots at the URL `https://oss.sonatype.org/content/repositories/snapshots`.
+  Published to Maven Central. Snapshots at [Maven Central Snapshots](https://oss.sonatype.org/content/repositories/snapshots/com/github/ironfish/akka-persistence-mongo_2.11/)
+  
+  [README.md](https://github.com/ironfish/akka-persistence-mongo/blob/master/README.md)
 
-  Compliant with <code>akka-persistence-testkit 0.3.4</code>.
+  [Issues](https://github.com/ironfish/akka-persistence-mongo/issues)
+
+  Compliant with [Plugin TCK](http://doc.akka.io/docs/akka/current/scala/persistence.html#Plugin_TCK).
 
 * **[Cassandra plugin](https://github.com/krasserm/akka-persistence-cassandra/)** (by [Martin Krasser](https://github.com/krasserm))
 
