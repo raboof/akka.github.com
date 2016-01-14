@@ -25,8 +25,7 @@ If you are upgrading from the old 1.0.x series, you may want to read the followi
 [migration guide for Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/java/migration-guide-1.0-2.x-java.html) 
 or [migration guide for Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/scala/migration-guide-1.0-2.x-scala.html).
 
-The full list of changes since the last milestone is available under the [streams-2.0.2](https://github.com/akka/akka/issues?q=is%3Aissue+milestone%3Astreams-2.0.2+is%3Aclosed) 
-and [http-2.0.2](https://github.com/akka/akka/issues?q=is%3Aissue+milestone%3Ahttp-2.0.2+is%3Aclosed) milestones on github for your reference.
+The full list of changes since the last milestone is available under the [stream-http-2.0.2](https://github.com/akka/akka/issues?q=is%3Aissue+milestone%3Astream-http-2.0.2+is%3Aclosed) milestone on github for your reference.
 
 #### Credits ####
 
