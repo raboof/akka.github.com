@@ -142,18 +142,20 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.0</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.0.1</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"de.heikoseeberger" %% "akka-http-circe" % "1.4.0"</code> (December 22, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.4.0"</code> (December 22, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.4.0"</code> (December 22, 2015)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.4.0"</code> (December 22, 2015)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-argonaut" % "1.4.2"</code> (January 12, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-circe" % "1.4.2"</code> (January 12, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.4.2"</code> (January 12, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.4.2"</code> (January 12, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.4.2"</code> (January 12, 2016)</li>
     </ul>
   </td></tr>
   </table>
 
   akka-http-json provides JSON (un)marshalling support for Akka HTTP. It offers support for the following JSON libraries:
+  - Argonaut
   - circe
   - Json4s
   - Play JSON
@@ -165,8 +167,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.0</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.4.0"</code> (December 22, 2015)</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.0.1</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.5.0"</code> (January 20, 2016)</td></tr>
   </table>
 
   akka-sse adds support for Server-Sent Events (SSE) to Akka HTTP.
@@ -367,11 +369,11 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr><td>Latest Release:</td><td><code>"com.github.ironfish" % "akka-persistence-mongo_2.11"  % "1.0.0-SNAPSHOT"</code></td></tr></table>
 
   Published to Maven Central. Snapshots at [Maven Central Snapshots](https://oss.sonatype.org/content/repositories/snapshots/com/github/ironfish/akka-persistence-mongo_2.11/)
-  
+
   [README.md](https://github.com/ironfish/akka-persistence-mongo/blob/master/README.md)
 
   [Issues](https://github.com/ironfish/akka-persistence-mongo/issues)
-  
+
   Compliant with [Plugin TCK](http://doc.akka.io/docs/akka/current/scala/persistence.html#Plugin_TCK).
 
 * **[MongoDB plugin](https://github.com/scullxbones/akka-persistence-mongo/)** (by [Brian Scully](https://github.com/scullxbones))
@@ -535,7 +537,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr><td>Latest Release:</td><td><code>"com.github.ironfish" % "akka-persistence-mongo_2.11"  % "1.0.0-SNAPSHOT"</code></td></tr></table>
 
   Published to Maven Central. Snapshots at [Maven Central Snapshots](https://oss.sonatype.org/content/repositories/snapshots/com/github/ironfish/akka-persistence-mongo_2.11/)
-  
+
   [README.md](https://github.com/ironfish/akka-persistence-mongo/blob/master/README.md)
 
   [Issues](https://github.com/ironfish/akka-persistence-mongo/issues)
