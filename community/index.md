@@ -310,17 +310,19 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   Published to bintray at the URL `http://dl.bintray.com/bseibel/release`.
 
-* **[Cassandra plugin](https://github.com/krasserm/akka-persistence-cassandra/)** (by [Martin Krasser](https://github.com/krasserm))
+* **[Cassandra plugin](https://github.com/akka/akka-persistence-cassandra)** (by [Martin Krasser](https://github.com/krasserm), Typesafe and contributors)
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.4"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.1</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.typesafe.akka" %% "akka-persistence-cassandra" % "0.7"</code></td></tr>
   </table>
 
-  Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
+  Published to maven central.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.11/scala/persistence.html#plugin-tck).
+  Compliant with Akka Persistence TCK 2.4.1.
+
+  Implements Persistence Queries: allPersistenceIds, eventsByPersistenceId, eventsByTag
 
 * **[Kafka plugin](https://github.com/krasserm/akka-persistence-kafka/)** (by [Martin Krasser](https://github.com/krasserm))
 
@@ -544,17 +546,17 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   Compliant with [Plugin TCK](http://doc.akka.io/docs/akka/current/scala/persistence.html#Plugin_TCK).
 
-* **[Cassandra plugin](https://github.com/krasserm/akka-persistence-cassandra/)** (by [Martin Krasser](https://github.com/krasserm))
+* **[Cassandra plugin](https://github.com/akka/akka-persistence-cassandra)** (by [Martin Krasser](https://github.com/krasserm), Typesafe and contributors)
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.github.krasserm" % "akka-persistence-cassandra_2.11" % "0.4"</code></td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.1</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.typesafe.akka" %% "akka-persistence-cassandra" % "0.7"</code></td></tr>
   </table>
 
-  Published to bintray at the URL `http://dl.bintray.com/krasserm/maven`.
+  Published to maven central.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.3.11/scala/persistence.html#plugin-tck).
+  Compliant with Akka Persistence TCK 2.4.1.
 
 * **[Kafka plugin](https://github.com/krasserm/akka-persistence-kafka/)** (by [Martin Krasser](https://github.com/krasserm))
 
