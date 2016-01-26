@@ -116,8 +116,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.1</td></tr>
-  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "1.0.3"</code> (December 14, 2015)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2-RC1</td></tr>
+  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "1.1.0"</code> (January 26, 2016)</td></tr>
   </table>
 
   akka-log4j is a logging backend implementation for Akka based on Log4j 2. It is an alternative to the official akka-slf4j backend which uses SLF4J.
@@ -142,14 +142,14 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.0.1</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2-RC1</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"de.heikoseeberger" %% "akka-http-argonaut" % "1.4.2"</code> (January 12, 2016)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-circe" % "1.4.2"</code> (January 12, 2016)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.4.2"</code> (January 12, 2016)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.4.2"</code> (January 12, 2016)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.4.2"</code> (January 12, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-argonaut" % "1.5.0"</code> (January 26, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-circe" % "1.5.0"</code> (January 26, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.5.0"</code> (January 26, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.5.0"</code> (January 26, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.5.0"</code> (January 26, 2016)</li>
     </ul>
   </td></tr>
   </table>
@@ -167,8 +167,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.0.1</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.5.0"</code> (January 20, 2016)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2-RC1</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.6.0"</code> (January 26, 2016)</td></tr>
   </table>
 
   akka-sse adds support for Server-Sent Events (SSE) to Akka HTTP.
