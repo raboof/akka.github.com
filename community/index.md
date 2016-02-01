@@ -315,7 +315,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
   <tr><td>Latest Akka version:</td><td>2.4.2-RC1</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.typesafe.akka" %% "akka-persistence-cassandra" % "0.8"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.typesafe.akka" %% "akka-persistence-cassandra" % "0.9"</code></td></tr>
   </table>
 
   Published to maven central.
@@ -551,7 +551,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
   <tr><td>Latest Akka version:</td><td>2.4.2-RC1</td></tr>
-  <tr><td>Latest Release:</td><td><code>"com.typesafe.akka" %% "akka-persistence-cassandra" % "0.8"</code></td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.typesafe.akka" %% "akka-persistence-cassandra" % "0.9"</code></td></tr>
   </table>
 
   Published to maven central.
