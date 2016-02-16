@@ -492,6 +492,16 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   </table>
 
   Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-chronicle). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
+  
+* **[Redis plugin](https://github.com/hootsuite/akka-persistence-redis)** (by [Hootsuite](https://github.com/hootsuite/) and contributors)
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.3.12</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.hootsuite" %% "akka-persistence-redis" % "0.3.0"</code></td></tr>
+  </table>
+  
+  Published to [Bintray](https://bintray.com/hootsuite/maven/akka-persistence-redis/view). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0/scala/persistence.html#plugin-tck).
 
 ### Snapshot plugins
 
@@ -658,6 +668,16 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   Published to [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dmonix.akka%22).
 
   Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4-M3/scala/persistence.html#plugin-tck).
+  
+* **[Redis plugin](https://github.com/hootsuite/akka-persistence-redis)** (by [Hootsuite](https://github.com/hootsuite/) and contributors)
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.3.12</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.hootsuite" %% "akka-persistence-redis" % "0.3.0"</code></td></tr>
+  </table>
+  
+  Published to [Bintray](https://bintray.com/hootsuite/maven/akka-persistence-redis/view). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0/scala/persistence.html#plugin-tck).
 
 ## Projects Using Akka
 
