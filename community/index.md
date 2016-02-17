@@ -407,16 +407,16 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.0-RC2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
   <tr>
     <td>Latest Release:</td>
-      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.1.0-RC2"</code> (Sept 5, 2015)</td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.2.6"</code> (Feb 17, 2016)</td>
   </tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/dnvriend/maven`.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
+  Compliant with `akka-persistence-tck`.
 
 * **[In-Memory/Mock plugin](https://github.com/pnerg/akka-persistence-mock)** (by [Peter Nerg](https://github.com/pnerg))
 
@@ -437,18 +437,18 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.0-RC2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
   <tr>
     <td>Latest Release:</td>
     <td>
-      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "1.2.0-RC2"</code> (Sept 7, 2015)</td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "2.2.7"</code> (Feb 17, 2016)</td>
     </td>
   </tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/dnvriend/maven`.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
+  Compliant with `akka-persistence-tck`.
 
 * **[MySQL & PostgreSQL plugin](https://github.com/okumin/akka-persistence-sql-async)** (by [okumin](https://github.com/okumin))
 
@@ -584,33 +584,33 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.4</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.0-RC2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
   <tr>
     <td>Latest Release:</td>
-      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.1.0-RC2"</code> (Sept 5, 2015)</td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.2.6"</code> (Feb 17, 2016)</td>
   </tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/dnvriend/maven`.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
+  Compliant with `akka-persistence-tck`.
 
 * **[JDBC plugin](https://github.com/dnvriend/akka-persistence-jdbc)** (by [Dennis Vriend](https://github.com/dnvriend))
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.2</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.0-RC2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
   <tr>
     <td>Latest Release:</td>
     <td>
-      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "1.2.0-RC2"</code> (Sept 7, 2015)</td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "2.2.7"</code> (Feb 17, 2016)</td>
     </td>
   </tr>
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/dnvriend/maven`.
 
-  Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0-RC2/scala/persistence.html#plugin-tck).
+  Compliant with `akka-persistence-tck`.
 
 * **[MySQL & PostgreSQL plugin](https://github.com/okumin/akka-persistence-sql-async)** (by [okumin](https://github.com/okumin))
 
