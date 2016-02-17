@@ -5,15 +5,15 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.4.1 (current stable release) for Scala Scala 2.11 / 2.12.0-M3 and Java 8+
+### Akka 2.4.2 (current stable release) for Scala Scala 2.11 / 2.12.0-M3 and Java 8+
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.4.1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4.1/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.4.1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4.1/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.4.1/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.4.2/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4.2/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.4.2/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4.2/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.4.2/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4.1/) and [Scala](http://doc.akka.io/api/akka/2.4.1/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4.2/) and [Scala](http://doc.akka.io/api/akka/2.4.2/)
 
 
 ### Akka 2.3.14 (previous stable release) for Scala 2.10 / 2.11 and Java 6+
@@ -38,9 +38,11 @@ Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can
 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/snapshot/) and [Scala](http://doc.akka.io/api/akka/snapshot/)
 
-## Akka Streams and HTTP
+## Old Versions
 
-The current version of the Akka Streams and HTTP modules are `2.0.3`.
+### Akka Streams and HTTP
+
+The current version of the Akka Streams and HTTP modules is included in the stable version listed at the top of the page. The versions documented here are from the 2.0.x branch that is based on Akka 2.3 and Java 6.
 
 * The artifacts are available on Maven Central (for use with `scala-library.jar` version `2.11.x`):
   * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "2.0.3"`
@@ -57,8 +59,6 @@ The current version of the Akka Streams and HTTP modules are `2.0.3`.
 * API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/2.0.3/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/2.0.3/)
 
 * Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/scala.html)
-
-## Old Versions
 
 ### Akka 2.2.5 for Scala 2.10 and Java 6+
 
