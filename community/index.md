@@ -116,8 +116,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.11</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.2-RC1</td></tr>
-  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "1.1.0"</code> (January 26, 2016)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "akka-log4j" % "1.1.2"</code> (February 17, 2016)</td></tr>
   </table>
 
   akka-log4j is a logging backend implementation for Akka based on Log4j 2. It is an alternative to the official akka-slf4j backend which uses SLF4J.
@@ -128,8 +128,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.14</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.1</td></tr>
-  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "constructr-akka" % "0.7.1"</code> (December 8, 2015)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "constructr-akka" % "0.9.1"</code> (February 17, 2016)</td></tr>
   </table>
 
   ConstructR aims at cluster bootstrapping (construction) by using a coordination service. Currently it provides libraries for bootstrapping Akka and Cassandra clusters via etcd and Consul.
@@ -142,14 +142,14 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.2-RC1</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
   <tr><td>Latest Releases:</td><td>
     <ul>
-      <li><code>"de.heikoseeberger" %% "akka-http-argonaut" % "1.5.0"</code> (January 26, 2016)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-circe" % "1.5.0"</code> (January 26, 2016)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.5.0"</code> (January 26, 2016)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.5.0"</code> (January 26, 2016)</li>
-      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.5.0"</code> (January 26, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-argonaut" % "1.5.2"</code> (February 17, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-circe" % "1.5.2"</code> (February 17, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-json4s" % "1.5.2"</code> (February 17, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-play-json" % "1.5.2"</code> (February 17, 2016)</li>
+      <li><code>"de.heikoseeberger" %% "akka-http-upickle" % "1.5.2"</code> (February 17, 2016)</li>
     </ul>
   </td></tr>
   </table>
@@ -167,8 +167,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>1.0-RC3</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.2-RC1</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.6.0"</code> (January 26, 2016)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"de.heikoseeberger" %% "akka-sse" % "1.6.3"</code> (February 17, 2016)</td></tr>
   </table>
 
   akka-sse adds support for Server-Sent Events (SSE) to Akka HTTP.
@@ -492,7 +492,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   </table>
 
   Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-chronicle). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
-  
+
 * **[Redis plugin](https://github.com/hootsuite/akka-persistence-redis)** (by [Hootsuite](https://github.com/hootsuite/) and contributors)
 
   <table class="stats">
@@ -500,7 +500,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
     <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
     <tr><td>Latest Release:</td><td><code>"com.hootsuite" %% "akka-persistence-redis" % "0.3.0"</code></td></tr>
   </table>
-  
+
   Published to [Bintray](https://bintray.com/hootsuite/maven/akka-persistence-redis/view). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0/scala/persistence.html#plugin-tck).
 
 ### Snapshot plugins
@@ -668,7 +668,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   Published to [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.dmonix.akka%22).
 
   Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4-M3/scala/persistence.html#plugin-tck).
-  
+
 * **[Redis plugin](https://github.com/hootsuite/akka-persistence-redis)** (by [Hootsuite](https://github.com/hootsuite/) and contributors)
 
   <table class="stats">
@@ -676,7 +676,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
     <tr><td>Latest Akka version:</td><td>2.4.0</td></tr>
     <tr><td>Latest Release:</td><td><code>"com.hootsuite" %% "akka-persistence-redis" % "0.3.0"</code></td></tr>
   </table>
-  
+
   Published to [Bintray](https://bintray.com/hootsuite/maven/akka-persistence-redis/view). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0/scala/persistence.html#plugin-tck).
 
 ## Projects Using Akka
