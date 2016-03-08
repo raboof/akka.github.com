@@ -77,7 +77,7 @@
     "current": {
       "latest": "current",
       "outdated": true,
-      "instead": ["akka", "current"]
+      "instead": ["akka", "2.4."]
     }
   }
 }
