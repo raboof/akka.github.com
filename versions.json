@@ -73,6 +73,11 @@
       "latest": "2.0.3",
       "outdated": true,
       "instead": ["akka", "2.4."]
+    },
+    "current": {
+      "latest": "current",
+      "outdated": true,
+      "instead": ["akka", "current"]
     }
   }
 }
