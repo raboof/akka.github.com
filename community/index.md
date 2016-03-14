@@ -410,7 +410,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
   <tr>
     <td>Latest Release:</td>
-      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.2.6"</code> (Feb 17, 2016)</td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.2.8"</code> (March 3, 2016)</td>
   </tr>
   </table>
 
@@ -441,7 +441,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr>
     <td>Latest Release:</td>
     <td>
-      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "2.2.7"</code> (Feb 17, 2016)</td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "2.2.11"</code> (March 9, 2016)</td>
     </td>
   </tr>
   </table>
@@ -587,7 +587,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
   <tr>
     <td>Latest Release:</td>
-      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.2.6"</code> (Feb 17, 2016)</td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-inmemory" % "1.2.8"</code> (March 3, 2016)</td>
   </tr>
   </table>
 
@@ -603,7 +603,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr>
     <td>Latest Release:</td>
     <td>
-      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "2.2.7"</code> (Feb 17, 2016)</td>
+      <td><code>"com.github.dnvriend" %% "akka-persistence-jdbc" % "2.2.11"</code> (March 9, 2016)</td>
     </td>
   </tr>
   </table>
