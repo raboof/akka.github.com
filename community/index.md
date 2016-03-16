@@ -394,6 +394,18 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   [README](https://github.com/scullxbones/akka-persistence-mongo/blob/master/README.md)
 
   [Bug tracker](https://github.com/scullxbones/akka-persistence-mongo/issues)
+  
+* **[Couchbase plugin](https://github.com/Product-Foundry/akka-persistence-couchbase)** (by [Product Foundry](https://github.com/Product-Foundry))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.4.2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.productfoundry" % "akka-persistence-couchbase_2.11" % "0.3"</code></td></tr>
+  </table>
+
+  Published to bintray at the URL `http://dl.bintray.com/productfoundry/maven`.
+  
+  Compliant with `akka-persistence-tck`.
 
 * **[In-Memory plugin for testing](https://github.com/michaelpisula/akka-journal-inmemory)** (by [Michael Pisula](https://github.com/michaelpisula))
 
