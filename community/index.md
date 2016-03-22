@@ -209,6 +209,17 @@ open-source project.
 
   Published to Maven Central.
 
+* **[akka-http-cors](https://github.com/lomigmegard/akka-http-cors)** (by [Lomig Mégard](http://lomig.megard.ch/))
+
+  <table class="stats">
+  <tr><td>Since Akka HTTP version:</td><td>2.4.2</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.4.2</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"ch.megard" %% "akka-http-cors" % "0.1.0"</code> (March 20, 2016)</td></tr>
+  </table>
+
+  akka-http-cors adds support for the [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) mechanism to Akka HTTP (server-side only). In particular, the [specification](https://www.w3.org/TR/cors/) written by the W3C is implemented by new directives, enabling cross origin requests in your application.
+
+  Published to Maven Central.
 
 ## Extensions to Spray
 
@@ -394,7 +405,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   [README](https://github.com/scullxbones/akka-persistence-mongo/blob/master/README.md)
 
   [Bug tracker](https://github.com/scullxbones/akka-persistence-mongo/issues)
-  
+
 * **[Couchbase plugin](https://github.com/Product-Foundry/akka-persistence-couchbase)** (by [Product Foundry](https://github.com/Product-Foundry))
 
   <table class="stats">
@@ -404,7 +415,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   </table>
 
   Published to bintray at the URL `http://dl.bintray.com/productfoundry/maven`.
-  
+
   Compliant with `akka-persistence-tck`.
 
 * **[In-Memory plugin for testing](https://github.com/michaelpisula/akka-journal-inmemory)** (by [Michael Pisula](https://github.com/michaelpisula))
