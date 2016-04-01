@@ -70,20 +70,20 @@ This release is maintained by backporting important fixes and remains binary com
 If possible, it is strongly recommended to upgrade to Akka 2.4.x instead, which includes Akka Streams and HTTP since version 2.4.2.
 
 * The artifacts are available on Maven Central (for use with Scala version `2.11.x`):
-  * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "2.0.3"`
-  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "2.0.3"`
-  * `"com.typesafe.akka" % "akka-http-experimental_2.11" % "2.0.3"` (for Java & Scala DSL)
+  * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "2.0.4"`
+  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "2.0.4"`
+  * `"com.typesafe.akka" % "akka-http-experimental_2.11" % "2.0.4"` (for Java & Scala DSL)
   * plus testkits and marshallers
 
-* similarily artifacts for use with `scala-library.jar` version `2.10.x`, are available as:
-  * `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "2.0.3"`
-  * `"com.typesafe.akka" % "akka-http-core-experimental_2.10" % "2.0.3"`
-  * `"com.typesafe.akka" % "akka-http-experimental_2.10" % "2.0.3"` (for Java & Scala DSL)
+* similarily artifacts for use with Scala version `2.10.x`, are available as:
+  * `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "2.0.4"`
+  * `"com.typesafe.akka" % "akka-http-core-experimental_2.10" % "2.0.4"`
+  * `"com.typesafe.akka" % "akka-http-experimental_2.10" % "2.0.4"` (for Java & Scala DSL)
   * plus testkits and marshallers
 
-* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/2.0.3/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/2.0.3/)
+* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/2.0.4/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/2.0.4/)
 
-* Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/scala.html)
+* Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala.html)
 
 ### Akka 2.2.5 for Scala 2.10 and Java 6+
 
