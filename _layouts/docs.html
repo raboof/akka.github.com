@@ -9,40 +9,40 @@ layout: default
 {% include headerbottom.html %}
 {% include topbar.html %}
 <div class="main">
-	<div class="container">
-		<div class="page-title">{{ page.title }}</div>
-		<div class="pdf-link"><a href="#"><img src="{{ site.baseurl }}/resources/images/pdf-icon.png" style="height: 40px;" /></a></div>
-	</div>
-	<div class="main-container">
-		<div class="container">
-			<div class="row">
-				<div class="span12">
-					<ul class="breadcrumb">						
-					  <li>
-					    <a href="#">Next</a> <span class="divider">»</span>
-					  </li>
-					  <li>
-					  	<span class="divider">|</span> <a href="#">Contents</a> <span class="divider">|</span> 
-					  </li>
-					  <li>
-					  	<span class="divider">«</span> <a href="#">Previous</a>
-					  </li>
-					  <li>
-					  	Version 2.0-RC1
-					  </li>
-					</ul>					
-				</div>
-			</div>
-			<div class="row">
-				<div class="span9">
-					{{ content }}
-				</div>
-				<div class="span3">
-					<h3>Contents</h3>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="page-title">{{ page.title }}</div>
+    <div class="pdf-link"><a href="#"><img src="{{ site.baseurl }}/resources/images/pdf-icon.png" style="height: 40px;" /></a></div>
+  </div>
+  <div class="main-container">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <ul class="breadcrumb">            
+            <li>
+              <a href="#">Next</a> <span class="divider">»</span>
+            </li>
+            <li>
+              <span class="divider">|</span> <a href="#">Contents</a> <span class="divider">|</span> 
+            </li>
+            <li>
+              <span class="divider">«</span> <a href="#">Previous</a>
+            </li>
+            <li>
+              Version 2.0-RC1
+            </li>
+          </ul>          
+        </div>
+      </div>
+      <div class="row">
+        <div class="span9">
+          {{ content }}
+        </div>
+        <div class="span3">
+          <h3>Contents</h3>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 {% include footermenu.html %}
 {% include footer.html %}

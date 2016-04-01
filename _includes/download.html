@@ -1,6 +1,6 @@
 <script type="text/javascript">
 // doing it this way because jquery is loaded at the bottom of the page
-window.onload = function() {
+$(document).ready(function () {
   $.getJSON("https://activator-prod.herokuapp.com/latest?callback=?", function(data) {
     // update the page with the latest values
     if (data.version != undefined) {
@@ -13,7 +13,7 @@ window.onload = function() {
       $("#activator-size").text(data.size)
     }
   })
-}
+});
 </script>
 
 <div class="main">

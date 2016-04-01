@@ -15,32 +15,28 @@ title: Akka Documentation
 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.4.3/) and [Scala](http://doc.akka.io/api/akka/2.4.3/)
 
-Artifacts are available on Maven Central:
+All artifacts are available on Maven Central.
 
-* `"com.typesafe.akka" % "akka-actor_2.11"              % "2.4.3"`
-* `"com.typesafe.akka" % "akka-agent_2.11"              % "2.4.3"`
-* `"com.typesafe.akka" % "akka-camel_2.11"              % "2.4.3"`
-* `"com.typesafe.akka" % "akka-cluster_2.11"            % "2.4.3"`
-* `"com.typesafe.akka" % "akka-cluster-metrics_2.11"    % "2.4.3"`
-* `"com.typesafe.akka" % "akka-cluster-sharding_2.11"   % "2.4.3"`
-* `"com.typesafe.akka" % "akka-cluster-tools_2.11"      % "2.4.3"`
-* `"com.typesafe.akka" % "akka-contrib_2.11"            % "2.4.3"`
-* `"com.typesafe.akka" % "akka-multi-node-testkit_2.11" % "2.4.3"`
-* `"com.typesafe.akka" % "akka-osgi_2.11"               % "2.4.3"`
-* `"com.typesafe.akka" % "akka-persistence_2.11"        % "2.4.3"`
-* `"com.typesafe.akka" % "akka-persistence-tck_2.11"    % "2.4.3"`
-* `"com.typesafe.akka" % "akka-remote_2.11"             % "2.4.3"`
-* `"com.typesafe.akka" % "akka-slf4j_2.11"              % "2.4.3"`
-* `"com.typesafe.akka" % "akka-stream_2.11"             % "2.4.3"`
-* `"com.typesafe.akka" % "akka-testkit_2.11"            % "2.4.3"`
-* all artifacts are also available for Scala `2.12.0-M3` as early preview 
+Note that for Akka HTTP you most likely want to depend on `akka-http-experimental` which provides the Routing DSL,
+rather than just `akka-http-core` which provides the raw HTTP model as well as low level HTTP server.
 
-As well as experimental modules:
+<div class="container">
+  <ul class="tabs">
+    <li class="tab-link sbt current" data-tab="stable-dependencies-sbt-tab">sbt</li>
+    <li class="tab-link gradle" data-tab="stable-dependencies-gradle-tab">gradle</li>
+    <li class="tab-link maven" data-tab="stable-dependencies-maven-tab">maven</li>
+  </ul>
 
-* `"com.typesafe.akka" % "akka-http-testkit-experimental_2.11"      % "2.4.3"`
-* `"com.typesafe.akka" % "akka-stream-experimental_2.11"            % "2.4.3"`
-* `"com.typesafe.akka" % "akka-persistence-query-experimental_2.11" % "2.4.3"`
-* `"com.typesafe.akka" % "akka-typed-experimental_2.11"             % "2.4.3"`
+  <div id="stable-dependencies-sbt-tab" class="tab-content current">
+    <pre><code id="stable-dependencies-sbt">    </code></pre>
+  </div>
+  <div id="stable-dependencies-gradle-tab" class="tab-content">
+     <pre><code id="stable-dependencies-gradle">    </code></pre>
+  </div>
+  <div id="stable-dependencies-maven-tab" class="tab-content">
+    <pre><code id="stable-dependencies-maven">    </code></pre>
+  </div>
+</div>
 
 ### Akka 2.3.15 (previous stable release) for Scala 2.10 / 2.11 and Java 6+
 
