@@ -70,7 +70,7 @@
       "instead": ["akka", "2.4."]
     },
     "2.": {
-      "latest": "2.0.3",
+      "latest": "2.0.4",
       "outdated": true,
       "instead": ["akka", "2.4."]
     },
