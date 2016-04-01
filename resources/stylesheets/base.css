@@ -83,7 +83,7 @@ pre { border: 0px solid #333; background-color: transparent;}
 .used-by h2 { font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 32px; font-weight: 400; color: #595959; line-height: 34px; margin-bottom: 12px; } /*gray: 595959, green: 49bf00*/
 .used-by-header { text-align: center; margin-bottom: 20px; }
 .used-by-header .text {display: inline-block; padding: 0 20px; background: #C1D2DC; font-weight: bold; color: rgba(88, 111, 117, 0.8);}
-.used-by-logos { text-align: center; /*white-space: nowrap;*/ } 
+.used-by-logos { text-align: center; /*white-space: nowrap;*/ }
 .between-dark-strips { background: #C1D2DC; height: 2px; margin-bottom: 40px; }
 .three-bars { padding-bottom: 30px; }
 .three-bars h2 { font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 28px; font-weight: 400; color: #595959;  line-height: 30px; margin-bottom: 8px; }
@@ -169,10 +169,10 @@ a:hover.selected { color: red; }
 .panel h2 { color: #326A78;  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 22px; font-weight: 400;}
 .language-header { width: 940px;}
 .scala-header {float: left; width: 460px;}
-.java-header a {float: right; width: 480px; font-size: 16px; font-weight: bold; color: rgba(0, 0, 0, 0.6); } 
+.java-header a {float: right; width: 480px; font-size: 16px; font-weight: bold; color: rgba(0, 0, 0, 0.6); }
 .java-header a:hover { text-decoration: none; color: #447281; }
 #slider { margin: 0 auto; position: relative; }
-.breadcrumb li a { padding-left: 80px; padding-right: 80px; font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 18px; font-weight: 400; color: #ffffff; width: 150px; } 
+.breadcrumb li a { padding-left: 80px; padding-right: 80px; font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 18px; font-weight: 400; color: #ffffff; width: 150px; }
 .breadcrumb li a:hover { text-decoration: none; color: #ffffff; }
 .selected-arrow { position: relative; background: url('{{ site.baseurl }}/resources/images/arrow.png') no-repeat; height: 18px; width: 32px; margin-top: -1px; z-index: 10; margin-left: 205px;}
 .breadcrumb li a.selected { padding-top: 3px; padding-bottom: 6px; background-color: #15A9CE; position: relative; z-index: 10; margin-bottom: 0px;}
@@ -193,3 +193,68 @@ table.stats code { border: none; background-color: rgba(0,0,0,0); font-style: no
 table.stats td + td { font-style: italic; }
 p.notice { border: 1px solid rgba(0,0,0,0.15); background-color: #fff471; padding: 8px; }
 @media (max-width: 1200px) {.reactive-ribbon {display: none;}}
+
+
+/* -- dependencies box -- */
+.dependencies-box {
+  border: solid #0c2327 1px;
+  width: 90%;
+}
+
+.build-tool {
+  float: left;
+  clear: none;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  height: 1em;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.last {
+  clear: right;
+}
+.build-tool.sbt {
+  background-color: #1f6377;
+  color: white;
+}
+.build-tool.maven {
+  background-color: #c6af19;
+  color: white;
+}
+.build-tool.gradle {
+  background-color: #62ba41;
+  color: white;
+}
+.dependencies-space {
+  clear: left;
+}
+
+ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul.tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+ul.tabs li.current {
+  background: #ededed;
+  color: #222;
+}
+
+.tab-content {
+  display: none;
+  background: #ededed;
+  padding: 15px;
+}
+
+.tab-content.current {
+  display: inherit;
+}
