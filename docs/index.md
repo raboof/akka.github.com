@@ -5,16 +5,42 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.4.2 (current stable release) for Scala Scala 2.11 / 2.12.0-M3 and Java 8+
+### Akka 2.4.3 (current stable release) for Scala Scala 2.11 / 2.12.0-M3 and Java 8+
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.4.2/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4.2/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.4.2/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4.2/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.4.2/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.4.3/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4.3/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.4.3/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4.3/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.4.3/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4.2/) and [Scala](http://doc.akka.io/api/akka/2.4.2/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4.3/) and [Scala](http://doc.akka.io/api/akka/2.4.3/)
 
+Artifacts are available on Maven Central:
+
+* `"com.typesafe.akka" % "akka-actor_2.11"              % "2.4.3"`
+* `"com.typesafe.akka" % "akka-agent_2.11"              % "2.4.3"`
+* `"com.typesafe.akka" % "akka-camel_2.11"              % "2.4.3"`
+* `"com.typesafe.akka" % "akka-cluster_2.11"            % "2.4.3"`
+* `"com.typesafe.akka" % "akka-cluster-metrics_2.11"    % "2.4.3"`
+* `"com.typesafe.akka" % "akka-cluster-sharding_2.11"   % "2.4.3"`
+* `"com.typesafe.akka" % "akka-cluster-tools_2.11"      % "2.4.3"`
+* `"com.typesafe.akka" % "akka-contrib_2.11"            % "2.4.3"`
+* `"com.typesafe.akka" % "akka-multi-node-testkit_2.11" % "2.4.3"`
+* `"com.typesafe.akka" % "akka-osgi_2.11"               % "2.4.3"`
+* `"com.typesafe.akka" % "akka-persistence_2.11"        % "2.4.3"`
+* `"com.typesafe.akka" % "akka-persistence-tck_2.11"    % "2.4.3"`
+* `"com.typesafe.akka" % "akka-remote_2.11"             % "2.4.3"`
+* `"com.typesafe.akka" % "akka-slf4j_2.11"              % "2.4.3"`
+* `"com.typesafe.akka" % "akka-stream_2.11"             % "2.4.3"`
+* `"com.typesafe.akka" % "akka-testkit_2.11"            % "2.4.3"`
+* all artifacts are also available for Scala `2.12.0-M3` as early preview 
+
+As well as experimental modules:
+
+* `"com.typesafe.akka" % "akka-http-testkit-experimental_2.11"      % "2.4.3"`
+* `"com.typesafe.akka" % "akka-stream-experimental_2.11"            % "2.4.3"`
+* `"com.typesafe.akka" % "akka-persistence-query-experimental_2.11" % "2.4.3"`
+* `"com.typesafe.akka" % "akka-typed-experimental_2.11"             % "2.4.3"`
 
 ### Akka 2.3.15 (previous stable release) for Scala 2.10 / 2.11 and Java 6+
 
@@ -42,9 +68,12 @@ Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can
 
 ### Akka Streams and HTTP
 
-The current version of the Akka Streams and HTTP modules is included in the stable version listed at the top of the page. The versions documented here are from the 2.0.x branch that is based on Akka 2.3 and Java 6.
+The `2.0.x` series of the Akka Streams and HTTP is available if you need to use them on JDK 6.
+This release is maintained by backporting important fixes and remains binary compatible withn it's own series.
 
-* The artifacts are available on Maven Central (for use with `scala-library.jar` version `2.11.x`):
+If possible, it is strongly recommended to upgrade to Akka 2.4.x instead, which includes Akka Streams and HTTP since version 2.4.2.
+
+* The artifacts are available on Maven Central (for use with Scala version `2.11.x`):
   * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "2.0.3"`
   * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "2.0.3"`
   * `"com.typesafe.akka" % "akka-http-experimental_2.11" % "2.0.3"` (for Java & Scala DSL)
