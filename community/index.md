@@ -213,8 +213,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>2.4.2</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.4.2</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"ch.megard" %% "akka-http-cors" % "0.1.0"</code> (March 20, 2016)</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>2.4.3</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"ch.megard" %% "akka-http-cors" % "0.1.1"</code> (April 7, 2016)</td></tr>
   </table>
 
   akka-http-cors adds support for the [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) mechanism to Akka HTTP (server-side only). In particular, the [specification](https://www.w3.org/TR/cors/) written by the W3C is implemented by new directives, enabling cross origin requests in your application.
