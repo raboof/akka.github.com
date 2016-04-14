@@ -5,15 +5,15 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.4.3 (current stable release) for Scala Scala 2.11 / 2.12.0-M3 and Java 8+
+### Akka 2.4.4 (current stable release) for Scala Scala 2.11 / 2.12.0-M3 and Java 8+
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.4.3/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4.3/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.4.3/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4.3/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.4.3/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.4.4/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4.4/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.4.4/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4.4/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.4.4/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4.3/) and [Scala](http://doc.akka.io/api/akka/2.4.3/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4.4/) and [Scala](http://doc.akka.io/api/akka/2.4.4/)
 
 All artifacts are available on Maven Central.
 
