@@ -13,35 +13,37 @@
   <a class="reactive-ribbon" href="http://www.reactivemanifesto.org/"> <img style="border: 0; position: fixed; right: 0; top:0; z-index: 9000" src="http://www.reactivemanifesto.org/images/ribbons/we-are-reactive-black-right.png"> </a>
 
   <script type="text/javascript">
+     var akkaVersion = "2.4.4"
+
       var akkaLatestProjects = [
-          { groupId: "com.typesafe.akka", artifactId: "akka-actor"              , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-agent"              , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-camel"              , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-cluster"            , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-cluster-metrics"    , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-cluster-sharding"   , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-cluster-tools"      , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-contrib"            , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-http-core"          , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-http-testkit"       , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-multi-node-testkit" , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-osgi"               , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-persistence"        , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-persistence-tck"    , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-remote"             , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-slf4j"              , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-stream"             , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-stream-testkit"     , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-testkit"            , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
+          { groupId: "com.typesafe.akka", artifactId: "akka-actor"              , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-agent"              , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-camel"              , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-cluster"            , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-cluster-metrics"    , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-cluster-sharding"   , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-cluster-tools"      , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-contrib"            , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-http-core"          , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-http-testkit"       , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-multi-node-testkit" , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-osgi"               , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-persistence"        , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-persistence-tck"    , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-remote"             , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-slf4j"              , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-stream"             , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-stream-testkit"     , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-testkit"            , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
           // -- experimental modules --
-          { groupId: "com.typesafe.akka", artifactId: "akka-distributed-data-experimental"  , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-typed-experimental"             , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-http-experimental"              , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-http-jackson-experimental"      , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-http-spray-json-experimental"   , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-http-xml-experimental"          , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-persistence-query-experimental" , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" },
-          { groupId: "com.typesafe.akka", artifactId: "akka-typed-experimental"             , scalaVersions: ["2.11", "2.12.0-M4"], version: "2.4.4" }
+          { groupId: "com.typesafe.akka", artifactId: "akka-distributed-data-experimental"  , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-typed-experimental"             , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-http-experimental"              , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-http-jackson-experimental"      , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-http-spray-json-experimental"   , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-http-xml-experimental"          , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-persistence-query-experimental" , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion },
+          { groupId: "com.typesafe.akka", artifactId: "akka-typed-experimental"             , scalaVersions: ["2.11", "2.12.0-M4"], version: akkaVersion }
 
       ];
 
@@ -85,6 +87,33 @@
           $(this).addClass('current');
           $("#" + tab_id).addClass('current');
       });
+
+      if ($('#search-ref-docs').length > 0) {
+        $("#docs-language").change(function(el) {
+          $("#search-ref-docs li.lang").addClass("hidden");
+          $("#search-ref-docs li#" + el.currentTarget.value.toLowerCase()).removeClass("hidden");
+        });
+
+        docsearch({
+          apiKey: '543bad5ad786495d9ccd445ed34ed082',
+          indexName: 'akka_io',
+          inputSelector: '#search-scala',
+          algoliaOptions: {
+            hitsPerPage: 5,
+            facetFilters: '[' + '["language:scala","language:general"]' + ',"version:' + akkaVersion + '"]'
+          }
+        });
+
+        docsearch({
+          apiKey: '543bad5ad786495d9ccd445ed34ed082',
+          indexName: 'akka_io',
+          inputSelector: '#search-java',
+          algoliaOptions: {
+            hitsPerPage: 5,
+            facetFilters: '[' + '["language:java","language:general"]' + ',"version:' + akkaVersion + '"]'
+          }
+        });
+      }
   </script>
   </body>
 </html>
