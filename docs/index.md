@@ -3,9 +3,25 @@ layout: page-full-width
 title: Akka Documentation
 ---
 
+## Search Reference Documentation
+
+<ul id="search-ref-docs">
+  <li>Jump immediately to</li>
+  <li id="scala" class="lang"><input type="search" id="search-scala" class="search" /></li>
+  <li id="java" class="hidden lang"><input type="search" id="search-java" class="search" /></li>
+  <li>in</li>
+  <li>
+    <select id="docs-language" class="form-control">
+      <option selected="selected">Scala</option>
+      <option>Java</option>
+    </select>
+  </li>
+  <li><a href="http://doc.akka.io/docs/akka/2.4.4">reference documentation</a>.</li>
+</ul>
+
 ## Release Versions
 
-### Akka 2.4.4 (current stable release) for Scala Scala 2.11 / 2.12.0-M3 and Java 8+
+### Akka 2.4.4 (current stable release) for Scala Scala 2.11 / 2.12.0-M4 and Java 8+
 
 * Akka Documentation
 

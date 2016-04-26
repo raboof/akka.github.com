@@ -663,3 +663,24 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .get-involved-links {
     padding-left: 50px;
 }
+
+#search-ref-docs {
+  margin: 0px;
+}
+
+#search-ref-docs li {
+  display: inline;
+}
+
+#search-ref-docs li.hidden {
+  display: none;
+}
+
+#search-ref-docs .search {
+  margin-top: 3px;
+}
+
+#search-ref-docs #docs-language {
+  width: 5em;
+  margin-top: 3px;
+}
