@@ -6,16 +6,9 @@ title: Team
 <h2>Akka Team</h2>
 <div class="row">
 	<div class="span6">
-		<div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e1d5b0ce7b5147919a99a9078c32acd1?s=80" /></div>
-		<span class="profile-name">Roland Kuhn</span>
-    <span class="profile-title">Akka Tech Lead</span>
-		<span class="profile-twitter-link"><a href="https://twitter.com/rolandkuhn">@rolandkuhn</a></span>			
-		<p class="profile-text">After earning a PhD in high-energy particle physics and while working as a systems engineer in the space business, Roland came in contact with the Akka project. He started contributing in 2010 and has been employed by Typesafe since 2011 where he has been leading the Akka project since November 2012.</p>
-    <p><a href="http://rolandkuhn.com/">rolandkuhn.com</a></p>
-	</div>
-	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="https://en.gravatar.com/avatar/a036dbdf494ae4c9d46e1d24b53fd5da?s=80" /></div>
 		<span class="profile-name">Patrik Nordwall</span>
+		<span class="profile-title">Akka Tech Lead</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/patriknw">@patriknw</a></span>		
 		<p class="profile-text">Patrik Nordwall has been professional developer and software architect since 1996. He has a passion for technology and new knowledge. His areas of expertise include Scala, Akka, event-driven architecture, and various products for highly scalable systems.</p>
 	</div>	
@@ -41,6 +34,12 @@ title: Team
     <span class="profile-twitter-link"><a href="https://twitter.com/mmartynas">@mmartynas</a></span>
     <p class="profile-text">Martynas has acquired his formal education from Vilnius University while working on coding theory and cryptography fusion during his M.Sc degree studies. After this brief introduction to academia he continued his endeavours in the industry working on various banking and transportation systems which lead him to distributed computing and the Akka project.</p>
   </div>
+  <div class="span6">
+    <div class="profile-pic-wrap"><img class="profile-pic" src="https://s.gravatar.com/avatar/8abe1b0be421fc3c2ccce0a39243a409?s=80" /></div>
+    <span class="profile-name">Johan Andrén</span>
+    <span class="profile-twitter-link"><a href="https://twitter.com/apnylle">@apnylle</a></span>
+    <p class="profile-text">Johan has worked as developer since 2004 when he completed his M.Sc. in Computer Science, most of the time has been with various technologies on top of the JVM. Before joining Lightbend he worked as a consultant and mentor focusing on Scala, Play and Akka.</p>
+  </div>
 </div>
 <h3>Honorary Members</h3>
 <div class="row">
@@ -61,19 +60,26 @@ title: Team
 	</div>
 </div>
 <div class="row">
+    <div class="span6">
+		<div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e1d5b0ce7b5147919a99a9078c32acd1?s=80" /></div>
+		<span class="profile-name">Roland Kuhn</span>
+		<span class="profile-twitter-link"><a href="https://twitter.com/rolandkuhn">@rolandkuhn</a></span>
+		<p class="profile-text">After earning a PhD in high-energy particle physics and while working as a systems engineer in the space business, Roland came in contact with the Akka project. He started contributing in 2010 and was employed by Typesafe 2011-2016 where he was leading the Akka project from November 2012.</p>
+    <p><a href="http://rolandkuhn.com/">rolandkuhn.com</a></p>
+	</div>
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/d1d4a046f41854a01e461b1732bb764b?s=80" /></div>
 		<span class="profile-name">Peter Vlugter</span>
 		<p class="profile-text">Peter&apos;s background is in Artificial Intelligence research, particularly Natural Language Processing systems. He has also worked as a graphic designer, played music, and cooked in restaurants. Peter is currently the farthest flung member of the Akka team, living on the South Island of New Zealand.</p>
 	</div>
-	<div class="span6">
-		<div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/f37dcc04641b226a984e06482a19cb25?s=80" /></div>
-		<span class="profile-name">Henrik Engström</span>
-		<span class="profile-twitter-link"><a href="https://twitter.com/h3nk3">@h3nk3</a></span>		
-		<p class="profile-text">After graduating with a M.Sc degree in Computer Science in 1998 at the Royal Institute of Technology Henrik Engström has been working as a consultant up until his Typesafe employment in 2011. Henrik has not only vast experience from various types of programming but also great domain knowledge within the finance, retail and e-gaming industries. Apart from his major interest, programming languages, he is also an avid Arsenal supporter, black belt in Shotokan Karate and a hobby wine connoisseur.</p>
-	</div>
 </div>
 <div class="row">
+    <div class="span6">
+		<div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/f37dcc04641b226a984e06482a19cb25?s=80" /></div>
+		<span class="profile-name">Henrik Engström</span>
+		<span class="profile-twitter-link"><a href="https://twitter.com/h3nk3">@h3nk3</a></span>
+		<p class="profile-text">After graduating with a M.Sc degree in Computer Science in 1998 at the Royal Institute of Technology Henrik Engström has been working as a consultant up until his Typesafe employment in 2011. Henrik has not only vast experience from various types of programming but also great domain knowledge within the finance, retail and e-gaming industries. Apart from his major interest, programming languages, he is also an avid Arsenal supporter, black belt in Shotokan Karate and a hobby wine connoisseur.</p>
+	</div>
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="https://en.gravatar.com/avatar/96b5aad495e0efd9fc098b9b3d421623?s=80" /></div>
 		<span class="profile-name">Björn Antonsson</span>
