@@ -136,6 +136,18 @@ open-source project.
 
   Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
 
+* **[Akka-DNS](https://github.com/ilya-epifanov/akka-dns)** (by [Ilya Epifanov](https://github.com/ilya-epifanov))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.4.0</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.7</td></tr>
+  <tr><td>Latest Release:</td><td><code>"ru.smslv.akka" %% "akka-dns" % "2.4.0"</code> (June 04, 2016)</td></tr>
+  </table>
+
+  Provides an asynchronous DNS resolution using plain Akka actors. See example at https://github.com/ilya-epifanov/akka-dns/blob/master/README.md
+
+  Published to Maven Central and bintray at https://dl.bintray.com/hajile/maven.
+
 ## Extensions to Akka HTTP
 
 * **[akka-http-json](https://github.com/hseeberger/akka-http-json)** (by [Heiko Seeberger](http://heikoseeberger.de))
