@@ -714,6 +714,17 @@ Before adding a plugin to this list, it must be tested for compatibility using t
 
   Published to [Bintray](https://bintray.com/hootsuite/maven/akka-persistence-redis/view). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0/scala/persistence.html#plugin-tck).
 
+## Other
+
+* **[Akka Stream OmniGraffle Stencils](https://www.graffletopia.com/stencils/1493)** (by [Derek Wyatt](https://github.com/derekwyatt))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.4.4</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.4.7 (although it doesn't matter too much)</td></tr>
+  </table>
+
+  Some [stencils](https://www.graffletopia.com/stencils/1493) for [OmniGraffle](https://www.omnigroup.com/omnigraffle/) that can be used to illustrate Akka Stream graphs.
+
 ## Projects Using Akka
 
 * **[Play Framework](http://www.playframework.org/)**
