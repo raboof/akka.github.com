@@ -16,7 +16,7 @@ title: Akka Documentation
       <option>Java</option>
     </select>
   </li>
-  <li><a href="http://doc.akka.io/docs/akka/2.4.8">reference documentation</a>.</li>
+  <li><a href="http://doc.akka.io/docs/akka/2.4">reference documentation</a>.</li>
 </ul>
 
 ## Release Versions
@@ -25,11 +25,11 @@ title: Akka Documentation
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.4.8/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4.8/scala.html)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.4/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4/scala.html)
   * PDF for [Java](http://doc.akka.io/docs/akka/2.4.8/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4.8/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.4.8/Akka.epub) (Combined Java and Scala)
+  * [EPUB](http://doc.akka.io/docs/akka/2.4/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4.8/) and [Scala](http://doc.akka.io/api/akka/2.4.8/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4/) and [Scala](http://doc.akka.io/api/akka/2.4/)
 
 All artifacts are available on Maven Central.
 
