@@ -1,6 +1,6 @@
 # AKKA.IO
 
-This repository contains the source of the [akka.io](http:/akka.io) website. It's built using Jekyll, and designed with a touch of Twitter's Bootstrap, and other homebaked ingredients.
+This repository contains the source of the [akka.io](http://akka.io) website. It's built using Jekyll, and designed with a touch of Twitter's Bootstrap, and other homebaked ingredients.
 
 These instructions are mostly intended for akka committers who would like to update the site (i.e., adding a news item).
 
