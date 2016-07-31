@@ -537,6 +537,16 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   </table>
 
   Published to [Bintray](https://bintray.com/hootsuite/maven/akka-persistence-redis/view). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0/scala/persistence.html#plugin-tck).
+  
+* **[Titan plugin](https://github.com/acflorea/akka-persistence-titan)** (by [Adrian FLOREA](https://github.com/acflorea/))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.4.1</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.github.acflorea" %% "akka-persistence-titan" % "1.0.0"</code></td></tr>
+  </table>
+
+  Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-titan). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
 
 ### Snapshot plugins
 
@@ -713,6 +723,16 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   </table>
 
   Published to [Bintray](https://bintray.com/hootsuite/maven/akka-persistence-redis/view). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0/scala/persistence.html#plugin-tck).
+
+* **[Titan plugin](https://github.com/acflorea/akka-persistence-titan)** (by [Adrian FLOREA](https://github.com/acflorea/))
+
+  <table class="stats">
+    <tr><td>Since Akka version:</td><td>2.4.0</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.4.1</td></tr>
+    <tr><td>Latest Release:</td><td><code>"com.github.acflorea" %% "akka-persistence-titan" % "1.0.0"</code></td></tr>
+  </table>
+
+  Artifacts on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cakka-persistence-titan). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#plugin-tck).
 
 ## Other
 
