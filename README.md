@@ -78,3 +78,5 @@ For a news item which points to another article outside of akka.io, the followin
 
 In this case, the text in the `short` field will be what is displayed on the front page of akka.io. The URL in the `link-out` field will be what the title of the article links to on the front page of akka.io. There should be no body below the YAML front matter for these news articles.
 
+
+
