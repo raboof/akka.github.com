@@ -36,12 +36,12 @@
       "instead": "2.4."
     },
     "2.4-": {
-      "latest": "2.4.4",
+      "latest": "2.4.9",
       "outdated": true,
       "instead": "2.4."
     },
     "2.4.": {
-      "latest": "2.4.9-RC2"
+      "latest": "2.4.9"
     },
 
     "rp-15v01": {
