@@ -952,6 +952,24 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   Ainterface is a tool for Akka actors to communicate with Erlang processes.
   APIs of Ainterface are designed to integrate Akka with Erlang seamlessly.
 
+* **[Quckoo](https://github.com/alonsodomin/quckoo)** (by [alonsodomin](https://github.com/alonsodomin))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.4.9</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.9</td></tr>
+  <tr><td>Latest Release:</td><td><code>"io.quckoo" %% "quckoo" % "0.1.0"</code> (August 31, 2016)</td></tr>
+  </table>
+  
+  Quckoo is a fault tolerant distributed task scheduler. Is only focused on short-running,
+  recurrent tasks. Quckoo features the following:
+  
+  - Linear scalable for running jobs as well as for triggering.
+  - Automatic resolution of job's dependencies.
+  - Internal registry of job definitions.
+  - Client libraries in Scala & ScalaJS
+  - HTTP REST service
+  - Built-in administration console
+
 A selected list of some of the projects hosted on GitHub is collected in the
 [Akka Actor Corpus](http://actor-applications.cs.illinois.edu/akka.html)
 project for the purpose of researching code patterns around this actor model
