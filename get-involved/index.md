@@ -38,7 +38,7 @@ title: Get Involved
 
                 <p>We care a lot about good documentation, and it’s a good place to start contributing as well. So if you feel you’d like to contribute some doc updates, here is a small guide to get you started with <a href="http://doc.akka.io/docs/akka/current/dev/documentation.html">compiling the docs</a>.</p>
 
-                <p>You're welcome to work on any feature you like&mdash;Akka is open source after all!&mdash;and if you'd like some good ideas, look for issues tagged with the <a href="https://github.com/akka/akka/labels/easy-to-contribute">easy-to-contribute label</a>. These issues are ready and waiting for volunteers to pick them up, and if you want, you can always team up with someone else to work on it!</p>
+                <p>You're welcome to work on any feature you like&mdash;Akka is open source after all!&mdash;and if you'd like some good ideas, look for issues tagged with the <a href="https://github.com/akka/akka/labels/community">community label</a>. These issues are ready and waiting for volunteers to pick them up, and if you want, you can always team up with someone else to work on it!</p>
 
                 <p>If you’re not sure where to start, or need some hints with a tough problem when working on an issue you can pop into the <a href="https://gitter.im/akka/dev">akka/dev channel on gitter</a> where the core team and other contributors hang out and help each other work on tickets. You’re more than welcome to join that channel and ask Akka development related questions (note that for general “how to use Akka” style questions the <a href="https://gitter.im/akka/akka">akka/akka channel</a> is more appropriate).</p>
 
