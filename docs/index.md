@@ -21,7 +21,7 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.4.11 (current stable release) for Scala Scala 2.11 / 2.12.0-RC1 and Java 8+
+### Akka 2.4.12 (current stable release) for Scala Scala 2.11 / 2.12.0-RC2 and Java 8+
 
 * Akka Documentation
 
@@ -32,9 +32,6 @@ title: Akka Documentation
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.4/) and [Scala](http://doc.akka.io/api/akka/2.4/)
 
 All artifacts are available on Maven Central.
-
-Note that for Akka HTTP you most likely want to depend on `akka-http-experimental` which provides the Routing DSL,
-rather than just `akka-http-core` which provides the raw HTTP model as well as low level HTTP server.
 
 <div class="container">
   <ul class="tabs">
@@ -53,6 +50,34 @@ rather than just `akka-http-core` which provides the raw HTTP model as well as l
     <pre><code id="stable-dependencies-maven">    </code></pre>
   </div>
 </div>
+
+### Akka HTTP
+
+Note that Akka HTTP is detached from the core Akka modules with it's own versioning scheme soon to come.
+This currently means you must depend on the HTTP 2.4.11 artifacts together with Akka 2.4.12 as there is
+no 2.4.12 HTTP artifacts.
+
+Additionally you most likely want to depend on `akka-http-experimental` which provides the Routing DSL,
+rather than just `akka-http-core` which provides the raw HTTP model as well as low level HTTP server.
+
+<div class="container">
+  <ul class="tabs">
+    <li class="tab-link sbt current" data-tab="http-dependencies-sbt-tab">sbt</li>
+    <li class="tab-link gradle" data-tab="http-dependencies-gradle-tab">gradle</li>
+    <li class="tab-link maven" data-tab="http-dependencies-maven-tab">maven</li>
+  </ul>
+
+  <div id="http-dependencies-sbt-tab" class="tab-content current">
+    <pre><code id="http-dependencies-sbt">    </code></pre>
+  </div>
+  <div id="http-dependencies-gradle-tab" class="tab-content">
+     <pre><code id="http-dependencies-gradle">    </code></pre>
+  </div>
+  <div id="http-dependencies-maven-tab" class="tab-content">
+    <pre><code id="http-dependencies-maven">    </code></pre>
+  </div>
+</div>
+
 
 ### Akka 2.3.15 (previous stable release) for Scala 2.10 / 2.11 and Java 6+
 
