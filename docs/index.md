@@ -21,7 +21,7 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.4.12 (current stable release) for Scala 2.11 / 2.12.0-RC2 and Java 8+
+### Akka 2.4.13 (current stable release) for Scala 2.11 / 2.12.0-RC2 and Java 8+
 
 * Akka Documentation
 
@@ -54,8 +54,8 @@ All artifacts are available on Maven Central.
 ### Akka HTTP
 
 Note that Akka HTTP is detached from the core Akka modules with it's own versioning scheme soon to come.
-This currently means you must depend on the HTTP 2.4.11 artifacts together with Akka 2.4.12 as there is
-no 2.4.12 HTTP artifacts.
+This currently means you must depend on the HTTP 2.4.11 artifacts together with Akka 2.4.13 as there is
+no 2.4.13 HTTP artifacts.
 
 Additionally you most likely want to depend on `akka-http-experimental` which provides the Routing DSL,
 rather than just `akka-http-core` which provides the raw HTTP model as well as low level HTTP server.
