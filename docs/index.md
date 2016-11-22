@@ -29,7 +29,7 @@ title: Akka Documentation
   * PDF for [Java](http://doc.akka.io/docs/akka/2.4/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4/AkkaScala.pdf)
   * [EPUB](http://doc.akka.io/docs/akka/2.4/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.4/) and [Scala](http://doc.akka.io/api/akka/2.4/)
+* Akka API - for [JavaDoc](http://doc.akka.io/japi/akka/2.4/) and [ScalaDoc](http://doc.akka.io/api/akka/2.4/)
 
 All artifacts are available on Maven Central.
 
@@ -53,9 +53,18 @@ All artifacts are available on Maven Central.
 
 ### Akka HTTP
 
-Akka HTTP maintains its own release cycle. The current stable series is <code>10.x</code>, and it is compatible with the latest Akka 2.4.x.
+* Akka HTTP Documentation
 
-If you've been using Akka HTTP while some of it's modules were experimental, please note that now you should **remove the `-experimental`** suffix from all artifact names you depend on.
+  * HTML for [Java](http://doc.akka.io/docs/akka-http/current/java.html) and [Scala](http://doc.akka.io/docs/akka-http/current/scala.html)
+
+* Akka API - [JavaDoc](http://doc.akka.io/japi/akka-http/current/) and [ScalaDoc](http://doc.akka.io/api/akka-http/current/)
+
+
+*Akka HTTP maintains its own release cycle.*
+The current stable series is <code>10.x</code>, and it is compatible with the latest Akka 2.4.x.
+
+If you've been using Akka HTTP while some of it's modules were experimental, 
+please note that now you should *remove the `-experimental`* suffix from all artifact names you depend on.
 
 Additionally you most likely want to depend on `akka-http` which provides the Routing DSL,
 rather than just `akka-http-core` which provides the raw HTTP model as well as low level HTTP server.

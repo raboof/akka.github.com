@@ -13,8 +13,8 @@
   <a class="reactive-ribbon" href="http://www.reactivemanifesto.org/"> <img style="border: 0; position: fixed; right: 0; top:0; z-index: 9000" src="http://www.reactivemanifesto.org/images/ribbons/we-are-reactive-black-right.png"> </a>
 
   <script type="text/javascript">
-     var akkaVersion = "2.4.14"
-     var akkaHttpVersion = "2.4.11"
+     var akkaVersion = "2.4.14";
+     var akkaHttpVersion = "10.0.0";
 
      var makeModuleDescription = function(version) {
        return function(artifactId) {
@@ -25,7 +25,7 @@
            version: version
          }
        }
-     }
+     };
 
      var akkaLatestProjects = [
        "akka-actor",
@@ -51,17 +51,17 @@
        "akka-distributed-data-experimental",
        "akka-typed-experimental",
        "akka-persistence-query-experimental"
-     ].map(makeModuleDescription(akkaVersion))
+     ].map(makeModuleDescription(akkaVersion));
 
 
      var akkaHttpLatestProjects = [
        "akka-http-core",
-       "akka-http-experimental",
-       "akka-http-jackson-experimental",
-       "akka-http-spray-json-experimental",
+       "akka-http",
        "akka-http-testkit",
-       "akka-http-xml-experimental"
-     ].map(makeModuleDescription(akkaHttpVersion))
+       "akka-http-spray-json",
+       "akka-http-jackson",
+       "akka-http-xml"
+     ].map(makeModuleDescription(akkaHttpVersion));
 
       function sbtDependency(artifact) {
           return '"' + artifact.groupId + '" %% "' + artifact.artifactId + '" % "' + artifact.version + '"\n';
