@@ -57,7 +57,7 @@ All artifacts are available on Maven Central.
 
   * HTML for [Java](http://doc.akka.io/docs/akka-http/current/java.html) and [Scala](http://doc.akka.io/docs/akka-http/current/scala.html)
 
-* Akka API - [JavaDoc](http://doc.akka.io/japi/akka-http/current/) and [ScalaDoc](http://doc.akka.io/api/akka-http/current/)
+* Akka API - [JavaDoc](http://doc.akka.io/japi/akka-http/current/) and [ScalaDoc](http://doc.akka.io/api/akka-http/current/akka/http/scaladsl/index.html)
 
 
 *Akka HTTP maintains its own release cycle.*
