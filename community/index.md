@@ -128,13 +128,25 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka version:</td><td>2.3.14</td></tr>
-  <tr><td>Latest Akka version:</td><td>2.4.2</td></tr>
-  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "constructr-akka" % "0.9.1"</code> (February 17, 2016)</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.14</td></tr>
+  <tr><td>Latest Release:</td><td><code>"de.heikoseeberger" %% "constructr-akka" % "0.15.0"</code> (November 23, 2016)</td></tr>
   </table>
 
-  ConstructR aims at cluster bootstrapping (construction) by using a coordination service. Currently it provides libraries for bootstrapping Akka and Cassandra clusters via etcd and Consul.
+  ConstructR is for bootstrapping (construction) an [Akka](http://akka.io) cluster by using a coordination service.
 
   Published to Maven Central and bintray at http://dl.bintray.com/hseeberger/maven.
+  
+* **[ConstructR-Consul](https://github.com/Tecsisa/constructr-consul)** (by [Tecsisa](https://github.com/Tecsisa))
+
+  <table class="stats">
+  <tr><td>Since Akka version:</td><td>2.4.2</td></tr>
+  <tr><td>Latest Akka version:</td><td>2.4.11</td></tr>
+  <tr><td>Latest Release:</td><td><code>"com.tecsisa" %% "constructr-coordination-consul" % "0.4.0"</code> (November 23, 2016)</td></tr>
+  </table>
+
+  This library enables to use [Consul](https://www.consul.io/) as cluster coordinator in a [ConstructR](https://github.com/hseeberger/constructr) based node.
+
+  Published to Maven Central and bintray at http://dl.bintray.com/tecsisa/maven-bintray-repo/.
 
 * **[Akka-DNS](https://github.com/ilya-epifanov/akka-dns)** (by [Ilya Epifanov](https://github.com/ilya-epifanov))
 
