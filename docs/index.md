@@ -63,7 +63,7 @@ All artifacts are available on Maven Central.
 *Akka HTTP maintains its own release cycle.*
 The current stable series is <code>10.x</code>, and it is compatible with the latest Akka 2.4.x.
 
-If you've been using Akka HTTP while some of it's modules were experimental, 
+If you've been using Akka HTTP while some of its modules were experimental, 
 please note that now you should *remove the `-experimental`* suffix from all artifact names you depend on.
 
 Additionally you most likely want to depend on `akka-http` which provides the Routing DSL,
