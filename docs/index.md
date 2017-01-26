@@ -98,6 +98,18 @@ rather than just `akka-http-core` which provides the raw HTTP model as well as l
 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.15/) and [Scala](http://doc.akka.io/api/akka/2.3.15/)
 
+## Milestone Versions
+
+### Akka 2.5-M1 (pre-release of what is going to become Akka 2.5) for Scala 2.11 / 2.12 and Java 8+
+
+* Akka Documentation
+
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.5-M1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5-M1/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.5-M1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5-M1/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.5-M1/Akka.epub) (Combined Java and Scala)
+
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5-M1/) and [Scala](http://doc.akka.io/api/akka/2.5-M1/)
+
 ## Akka Snapshots
 
 Automatically published documentation for the latest SNAPSHOT version of Akka can be found here:
