@@ -4,5 +4,9 @@ baseurl: ""
 
 markdown: kramdown
 
+sass: 
+  sass_dir: resources/stylesheets
+  style: compressed
+
 exclude:
 - README

@@ -4,6 +4,10 @@ baseurl: "http://akka.io"
 
 markdown: kramdown
 
+sass: 
+  sass_dir: resources/stylesheets
+  style: compressed
+
 exclude:
 - README
 
