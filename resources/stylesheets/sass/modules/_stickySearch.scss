@@ -1,0 +1,60 @@
+.stickySearchBar {
+	opacity: 0;
+	z-index: -100;
+	position: absolute;
+  top: 166px;
+  left: 0;
+  right: 0;
+  background-color: $pri_midblue;
+	background-size: cover;
+	background-position: 50% 58%;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	@include single-column {
+		display: none;
+		z-index: -100;
+	}
+	.row {
+		.headerContainer {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: baseline;
+			.headerSearch {
+				input {
+					width: 250px;
+					-webkit-transition: width 0.5s; /* Safari */
+    			transition: width 0.5s;
+    			-webkit-appearance: none;
+  			}
+  			span {
+					margin-left: 10px;
+					color: #fff;
+					@include x-rem(font-size, 1.6);
+				}
+			}
+			.headerButtons {
+				a {
+					margin: 0 0 0 15px;
+					@include x-rem(font-size, 1.4);
+  				padding: 16px 25px;
+				}
+			}
+		}
+	}
+}
+.navbar-fixed {
+	z-index: 1000;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	padding: 15px;
+	@include single-column {
+		display: none;
+		z-index: -100;
+	}
+	.row .headerContainer .headerSearch input {
+		width: 300px;		
+	}
+}
