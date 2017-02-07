@@ -1,38 +1,39 @@
 ---
-layout: page
-title: Akka News
+layout: news-main
+title: News
 ---
 
-<div class="row">
-	<div class="span8">
-		<h5>Most Recent</h5>
-		<div class="news-story">
-			{% assign mostRecent = site.posts.first %} 
-			<div class="news-title" style="font-size: 28px; padding-top: 14px; padding-bottom: 8px;"><a href="{{ mostRecent.url }}">{{ mostRecent.title }}</a></div>
-			<div class="news-date" style="font-size: 18px">{{ mostRecent.date | date: "%B %d %Y "}}</div>
-			<div class="news-body" style="padding-top: 10px;">{{ mostRecent.content }}</div>
+<div class="ninecol">
+	<div class="box selArticle">
+		{% assign mostRecent = site.posts.first %} 
+		<div class="selArticleHeader">
+			<div class="date">
+				<p>{{ mostRecent.date | date: "%B %d"}}</p>
+				<p>{{ mostRecent.date | date: "%Y"}}</p>
+			</div>
+			<h1>{{ mostRecent.title }}</h1>
+		</div>
+		<div class="selArticleContent">
+			{{ mostRecent.content }}
 		</div>
 	</div>
-	<div class="span4">
-		<h5 style="margin-bottom: 20px;">Past News Items</h5>
-		{% for p in site.posts limit: 9 %}
+</div>
+<div class="threecol latestArticles">
+	<h2>Latest articles</h2>
+	<ul>
+		{% for p in site.posts limit: 5 %}
 			{% if forloop.index <= 1 %}
 			{% else %}
-				<div class="news-item">
-					<div class="news-date">{{ p.date | date: "%b %d %Y" }}</div>
+				<li>
+					<p>{{ p.date | date: "%b %d %Y" }}</p>
 					{% if p.link-out %}
-						<div class="news-title"><a href="{{ p.link-out }}">{{ p.title }}</a></div>
+					<a href="{{ p.link-out }}">{{ p.title }}</a>
 					{% else %}
-						<div class="news-title"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></div>
-					{% endif %}
-					{% if p.short %}
-						<div class="news-body">{{ p.short }}</div>
-					{% else %}
-						<div class="news-body">{{ p.content | strip_html | truncatewords: 30 }}</div>
-					{% endif %}
-				</div>			
+					<a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+				{% endif %}
+				</li>
 			{% endif %}
-		{% endfor %}		
-		<div class="centered"><a href="{{ site.baseurl }}/news/all-news.html">Full Index of News Stories</a></div>
-	</div>
+		{% endfor %}	
+	</ul>
+	<a href="{{ site.baseurl }}/news/all-news.html" class="btn sec">Full archive</a>
 </div>
