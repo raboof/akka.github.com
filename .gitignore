@@ -9,3 +9,7 @@ _site
 # Idea
 .idea
 *.iml
+
+# Ignore cache
+/.sass-cache
+/.cache
