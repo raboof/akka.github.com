@@ -21,7 +21,7 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.4.16 (current stable release) for Scala 2.11 / 2.12 and Java 8+
+### Akka 2.4.17 (current stable release) for Scala 2.11 / 2.12 and Java 8+
 
 * Akka Documentation
 
