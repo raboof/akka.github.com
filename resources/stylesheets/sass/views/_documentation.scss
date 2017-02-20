@@ -20,20 +20,71 @@
 			flex-direction: row;
 			flex-wrap: nowrap;
 			justify-content: space-between;
-			align-items: baseline;
+			align-items: center;
 			@include single-column {
 				flex-direction: column;
 				justify-content: flex-start;
 			}
 			.headerSearch {
-				input {
-					min-width: 250px;
+				@include single-column {
+					width: 100%;
+				}
+				#search-ref-docs {
+					display: flex;
+					flex-direction: row;
+					flex-wrap: nowrap;
+					justify-content: space-between;
+					align-items: center;
 					@include single-column {
-						display: block;
+						justify-content: flex-start;
+					}
+					li {
+						p {
+							color: #fff;
+							margin: 0 15px;
+						}
+						input {
+  						-webkit-appearance: none;
+  						-moz-appearance: none;
+  						min-width: 250px;
+  						@include single-column {
+  							min-width: auto;
+  						}
+						}
+						select {
+  						border: none;
+  						border-radius: 0;
+  						display: inline-block;
+  						font: inherit;
+  						line-height: 1.5em;
+  						padding: 0.4em 3.5em 0.4em 1em;
+  						margin: 0;      
+  						-webkit-box-sizing: border-box;
+  						-moz-box-sizing: border-box;
+  						box-sizing: border-box;
+  						-webkit-appearance: none;
+  						-moz-appearance: none;
+							background-image:
+    						url("../images/arrowdown.svg");
+  						background-position:
+    						calc(100% - 20px) calc(0em + 15px),
+    						calc(100% - 15px) calc(1em + 2px),
+    						100% 0;
+  						background-size:
+    						10px 10px,
+    						10px 10px,
+    						2.5em 2.5em;
+  						background-repeat: no-repeat;
+    					&:focus {
+    						outline: none;
+    					}
+							option {
+
+							}
+						}
 					}
 				}
 				span {
-					margin-left: 10px;
 					color: #fff;
 					@include x-rem(font-size, 1.6);
 					@include single-column {
@@ -48,13 +99,12 @@
 				}
 				a {
 					box-sizing: border-box;
-					margin: 0 0 0 15px;
+					margin: 0 15px 0 0;
 					@include x-rem(font-size, 1.4);
-  				padding: 16px 25px;
-  				@include single-column {
-  					width: 100%;
-  					margin: 15px 0;
-  				}
+  				// @include single-column {
+  				// 	width: 100%;
+  				// 	margin: 15px 0;
+  				// }
 				}
 			}
 		}

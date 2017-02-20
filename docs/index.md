@@ -1,173 +1,265 @@
 ---
-layout: page-full-width
-title: Akka Documentation
+layout: documentation
+title: Documentation
 ---
 
-## Search Reference Documentation
 
-<ul id="search-ref-docs">
-  <li>Jump immediately to</li>
-  <li id="scala" class="lang"><input type="search" id="search-scala" class="search" /></li>
-  <li id="java" class="hidden lang"><input type="search" id="search-java" class="search" /></li>
-  <li>in</li>
-  <li>
-    <select id="docs-language" class="form-control">
-      <option selected="selected">Scala</option>
-      <option>Java</option>
-    </select>
-  </li>
-  <li><a href="http://doc.akka.io/docs/akka/2.4">reference documentation</a>.</li>
-</ul>
-
-## Release Versions
-
-### Akka 2.4.16 (current stable release) for Scala 2.11 / 2.12 and Java 8+
-
-* Akka Documentation
-
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.4/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.4/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.4/Akka.epub) (Combined Java and Scala)
-
-* Akka API - for [JavaDoc](http://doc.akka.io/japi/akka/2.4/) and [ScalaDoc](http://doc.akka.io/api/akka/2.4/)
-
-All artifacts are available on Maven Central.
-
-<div class="container">
-  <ul class="tabs">
-    <li class="tab-link sbt current" data-tab="stable-dependencies-sbt-tab">sbt</li>
-    <li class="tab-link gradle" data-tab="stable-dependencies-gradle-tab">gradle</li>
-    <li class="tab-link maven" data-tab="stable-dependencies-maven-tab">maven</li>
-  </ul>
-
-  <div id="stable-dependencies-sbt-tab" class="tab-content current">
-    <pre><code id="stable-dependencies-sbt">    </code></pre>
+<section class="wrapper">
+  <div class="row">
+    <div class="sevencol">
+      <h1>Getting started</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla.</p>
+    </div>
+    <div class="fivecol">
+      <a class="btn getStarted" href="/documentationContents.html">Get started</a>
+    </div>
   </div>
-  <div id="stable-dependencies-gradle-tab" class="tab-content">
-     <pre><code id="stable-dependencies-gradle">    </code></pre>
+</section>
+
+<section class="wrapper">
+  <div class="row">
+    <div class="docModuleGrid">
+      <div class="box">
+        <img src="{{ site.baseurl }}/resources/images/experimental.png" class="experimental" />
+        <h1>Http</h1>
+        <span class="underLine"></span>
+        <p>The Streaming-first HTTP server and client</p>
+        <div class="docMeta">
+          <div class="docMetaContent">
+            <h2>Scala</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+          <div class="docMetaContent">
+            <h2>Java</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+        </div>
+        <div class="docTabPanel">
+          <ul class="tabPanelList">
+            <li rel="1-panel-sbt" class="active">sbt</li>
+            <li rel="1-panel-gradle">gradle</li>
+            <li rel="1-panel-maven">maven</li>
+          </ul>
+          <div id="1-panel-sbt" class="tabPanel active">
+            <p>"com.typesafe.akka" %% "akka-actor" % "2.4.16"</p>
+          </div>
+          <div id="1-panel-gradle" class="tabPanel">
+            <p>compile 'com.typesafe.akka:akka-actor_2.11:2.4.16'</p>
+          </div>
+          <div id="1-panel-maven" class="tabPanel">
+            <p>
+              <dependency>
+              <groupId>com.typesafe.akka</groupId>
+              <artifactId>akka-actor_2.11</artifactId>
+              <version>2.4.16</version>
+              </dependency>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h1>Stream</h1>
+        <span class="underLine"></span>
+        <p>Intuitive and safe way to formulate stream processing</p>
+        <div class="docMeta">
+          <div class="docMetaContent">
+            <h2>Scala</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+          <div class="docMetaContent">
+            <h2>Java</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+        </div>
+        <div class="docTabPanel">
+          <ul class="tabPanelList">
+            <li rel="2-panel-sbt" class="active">sbt</li>
+            <li rel="2-panel-gradle">gradle</li>
+            <li rel="2-panel-maven">maven</li>
+          </ul>
+          <div id="2-panel-sbt" class="tabPanel active">
+            <p>"com.typesafe.akka" %% "akka-actor" % "2.4.16"</p>
+          </div>
+          <div id="2-panel-gradle" class="tabPanel">
+            <p>compile 'com.typesafe.akka:akka-actor_2.11:2.4.16'</p>
+          </div>
+          <div id="2-panel-maven" class="tabPanel">
+            <p>
+              <dependency>
+              <groupId>com.typesafe.akka</groupId>
+              <artifactId>akka-actor_2.11</artifactId>
+              <version>2.4.16</version>
+              </dependency>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <img src="{{ site.baseurl }}/resources/images/experimental.png" class="experimental" />
+        <h1>Cluster Sharding</h1>
+        <span class="underLine"></span>
+        <p>Distribute actors across several nodes in the cluster</p>
+        <div class="docMeta">
+          <div class="docMetaContent">
+            <h2>Scala</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+          <div class="docMetaContent">
+            <h2>Java</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+        </div>
+        <div class="docTabPanel">
+          <ul class="tabPanelList">
+            <li rel="3-panel-sbt" class="active">sbt</li>
+            <li rel="3-panel-gradle">gradle</li>
+            <li rel="3-panel-maven">maven</li>
+          </ul>
+          <div id="3-panel-sbt" class="tabPanel active">
+            <p>"com.typesafe.akka" %% "akka-actor" % "2.4.16"</p>
+          </div>
+          <div id="3-panel-gradle" class="tabPanel">
+            <p>compile 'com.typesafe.akka:akka-actor_2.11:2.4.16'</p>
+          </div>
+          <div id="3-panel-maven" class="tabPanel">
+            <p>
+              <dependency>
+              <groupId>com.typesafe.akka</groupId>
+              <artifactId>akka-actor_2.11</artifactId>
+              <version>2.4.16</version>
+              </dependency>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="stable-dependencies-maven-tab" class="tab-content">
-    <pre><code id="stable-dependencies-maven">    </code></pre>
+  <div class="row">
+    <div class="docModuleGrid">
+      <div class="box">
+        <img src="{{ site.baseurl }}/resources/images/experimental.png" class="experimental" />
+        <h1>Persistence</h1>
+        <span class="underLine"></span>
+        <p>Recover actor state after a JVM crash</p>
+        <div class="docMeta">
+          <div class="docMetaContent">
+            <h2>Scala</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+          <div class="docMetaContent">
+            <h2>Java</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+        </div>
+        <div class="docTabPanel">
+          <ul class="tabPanelList">
+            <li rel="4-panel-sbt" class="active">sbt</li>
+            <li rel="4-panel-gradle">gradle</li>
+            <li rel="4-panel-maven">maven</li>
+          </ul>
+          <div id="4-panel-sbt" class="tabPanel active">
+            <p>"com.typesafe.akka" %% "akka-actor" % "2.4.16"</p>
+          </div>
+          <div id="4-panel-gradle" class="tabPanel">
+            <p>compile 'com.typesafe.akka:akka-actor_2.11:2.4.16'</p>
+          </div>
+          <div id="4-panel-maven" class="tabPanel">
+            <p>
+              <dependency>
+              <groupId>com.typesafe.akka</groupId>
+              <artifactId>akka-actor_2.11</artifactId>
+              <version>2.4.16</version>
+              </dependency>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h1>Distributed Data</h1>
+        <span class="underLine"></span>
+        <p>Eventually consistent, highly read and write available, low latency data</p>
+        <div class="docMeta">
+          <div class="docMetaContent">
+            <h2>Scala</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+          <div class="docMetaContent">
+            <h2>Java</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+        </div>
+        <div class="docTabPanel">
+          <ul class="tabPanelList">
+            <li rel="5-panel-sbt" class="active">sbt</li>
+            <li rel="5-panel-gradle">gradle</li>
+            <li rel="5-panel-maven">maven</li>
+          </ul>
+          <div id="5-panel-sbt" class="tabPanel active">
+            <p>"com.typesafe.akka" %% "akka-actor" % "2.4.16"</p>
+          </div>
+          <div id="5-panel-gradle" class="tabPanel">
+            <p>compile 'com.typesafe.akka:akka-actor_2.11:2.4.16'</p>
+          </div>
+          <div id="5-panel-maven" class="tabPanel">
+            <p>
+              <dependency>
+              <groupId>com.typesafe.akka</groupId>
+              <artifactId>akka-actor_2.11</artifactId>
+              <version>2.4.16</version>
+              </dependency>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h1>Distributed Data</h1>
+        <span class="underLine"></span>
+        <p>Eventually consistent, highly read and write available, low latency data</p>
+        <div class="docMeta">
+          <div class="docMetaContent">
+            <h2>Scala</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+          <div class="docMetaContent">
+            <h2>Java</h2>
+            <a href="">Reference</a>
+            <a href="">API</a>
+          </div>
+        </div>
+        <div class="docTabPanel">
+          <ul class="tabPanelList">
+            <li rel="6-panel-sbt" class="active">sbt</li>
+            <li rel="6-panel-gradle">gradle</li>
+            <li rel="6-panel-maven">maven</li>
+          </ul>
+          <div id="6-panel-sbt" class="tabPanel active">
+            <p>"com.typesafe.akka" %% "akka-actor" % "2.4.16"</p>
+          </div>
+          <div id="6-panel-gradle" class="tabPanel">
+            <p>compile 'com.typesafe.akka:akka-actor_2.11:2.4.16'</p>
+          </div>
+          <div id="6-panel-maven" class="tabPanel">
+            <p>
+              <dependency>
+              <groupId>com.typesafe.akka</groupId>
+              <artifactId>akka-actor_2.11</artifactId>
+              <version>2.4.16</version>
+              </dependency>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
-### Akka HTTP
-
-* Akka HTTP Documentation
-
-  * HTML for [Java](http://doc.akka.io/docs/akka-http/current/java.html) and [Scala](http://doc.akka.io/docs/akka-http/current/scala.html)
-
-* Akka HTTP API - [JavaDoc](http://doc.akka.io/japi/akka-http/current/) and [ScalaDoc](http://doc.akka.io/api/akka-http/current/akka/http/scaladsl/index.html)
-
-
-*Akka HTTP maintains its own release cycle.*
-The current stable series is <code>10.x</code>, and it is compatible with the latest Akka 2.4.x.
-
-If you've been using Akka HTTP while some of its modules were experimental, 
-please note that now you should *remove the `-experimental`* suffix from all artifact names you depend on.
-
-Additionally you most likely want to depend on `akka-http` which provides the Routing DSL,
-rather than just `akka-http-core` which provides the raw HTTP model as well as low level HTTP server.
-
-<div class="container">
-  <ul class="tabs">
-    <li class="tab-link sbt current" data-tab="http-dependencies-sbt-tab">sbt</li>
-    <li class="tab-link gradle" data-tab="http-dependencies-gradle-tab">gradle</li>
-    <li class="tab-link maven" data-tab="http-dependencies-maven-tab">maven</li>
-  </ul>
-
-  <div id="http-dependencies-sbt-tab" class="tab-content current">
-    <pre><code id="http-dependencies-sbt">    </code></pre>
-  </div>
-  <div id="http-dependencies-gradle-tab" class="tab-content">
-     <pre><code id="http-dependencies-gradle">    </code></pre>
-  </div>
-  <div id="http-dependencies-maven-tab" class="tab-content">
-    <pre><code id="http-dependencies-maven">    </code></pre>
-  </div>
-</div>
-
-
-### Akka 2.3.15 (previous stable release) for Scala 2.10 / 2.11 and Java 6+
-
-* Akka Documentation
-
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.15/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.15/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.15/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.15/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.3.15/Akka.epub) (Combined Java and Scala)
-
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.15/) and [Scala](http://doc.akka.io/api/akka/2.3.15/)
-
-## Milestone Versions
-
-### Akka 2.5-M1 (pre-release of what is going to become Akka 2.5) for Scala 2.11 / 2.12 and Java 8+
-
-* Akka Documentation
-
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.5-M1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5-M1/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.5-M1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5-M1/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.5-M1/Akka.epub) (Combined Java and Scala)
-
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5-M1/) and [Scala](http://doc.akka.io/api/akka/2.5-M1/)
-
-## Akka Snapshots
-
-Automatically published documentation for the latest SNAPSHOT version of Akka can be found here:
-
-* HTML for [Java](http://doc.akka.io/docs/akka/snapshot/java.html) and [Scala](http://doc.akka.io/docs/akka/snapshot/scala.html)
-* PDF for [Java](http://doc.akka.io/docs/akka/snapshot/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/snapshot/AkkaScala.pdf)
-* [EPUB](http://doc.akka.io/docs/akka/snapshot/Akka.epub) (Combined Java and Scala)
-
-Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can be found here:
-
-* Akka API - for [Java](http://doc.akka.io/japi/akka/snapshot/) and [Scala](http://doc.akka.io/api/akka/snapshot/)
-
-## Old Versions
-
-### Akka Streams and HTTP
-
-The `2.0.x` series of the Akka Streams and HTTP is available if you need to use them on JDK 6.
-This release is maintained by backporting important fixes and remains binary compatible withn it's own series.
-
-If possible, it is strongly recommended to upgrade to Akka 2.4.x instead, which includes Akka Streams and HTTP since version 2.4.2.
-
-* The artifacts are available on Maven Central (for use with Scala version `2.11.x`):
-  * `"com.typesafe.akka" % "akka-stream-experimental_2.11" % "2.0.4"`
-  * `"com.typesafe.akka" % "akka-http-core-experimental_2.11" % "2.0.4"`
-  * `"com.typesafe.akka" % "akka-http-experimental_2.11" % "2.0.4"` (for Java & Scala DSL)
-  * plus testkits and marshallers
-
-* similarily artifacts for use with Scala version `2.10.x`, are available as:
-  * `"com.typesafe.akka" % "akka-stream-experimental_2.10" % "2.0.4"`
-  * `"com.typesafe.akka" % "akka-http-core-experimental_2.10" % "2.0.4"`
-  * `"com.typesafe.akka" % "akka-http-experimental_2.10" % "2.0.4"` (for Java & Scala DSL)
-  * plus testkits and marshallers
-
-* API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/2.0.4/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/2.0.4/)
-
-* Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala.html)
-
-### Akka 2.2.5 for Scala 2.10 and Java 6+
-
-* HTML for [Java](http://doc.akka.io/docs/akka/2.2.5/java.html) and [Scala](http://doc.akka.io/docs/akka/2.2.5/scala.html)
-* PDF for [Java](http://doc.akka.io/docs/akka/2.2.5/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.2.5/AkkaScala.pdf)
-* [EPUB](http://doc.akka.io/docs/akka/2.2.5/Akka.epub) (Combined Java and Scala)
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.2.5/) and [Scala](http://doc.akka.io/api/akka/2.2.5/)
-
-### Akka 2.1.4 for Scala 2.10 and Java 6+
-
-* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.1.4) (or as [PDF](http://doc.akka.io/docs/akka/2.1.4/Akka.pdf) or [EPUB](http://doc.akka.io/docs/akka/2.1.4/Akka.epub))
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.1.4/) and [Scala](http://doc.akka.io/api/akka/2.1.4/)
-
-### Akka 2.0.5 for Scala 2.9 and Java 6+
-
-* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/2.0.5) (or as [PDF](http://doc.akka.io/docs/akka/2.0.5/Akka.pdf))
-* Akka API - for [Scala](http://doc.akka.io/api/akka/2.0.5)
-
-
-### Akka 1.3.1 for Scala 2.9 and Java 6+
-
-* Akka Documentation - as [HTML](http://doc.akka.io/docs/akka/1.3.1) (or as [PDF](http://doc.akka.io/docs/akka/1.3.1/Akka.pdf))
-* Akka Modules Documentation - as [HTML](http://doc.akka.io/docs/akka-modules/1.3.1) (or as [PDF](http://doc.akka.io/docs/akka-modules/1.3.1/AkkaModules.pdf))
-* Akka API - for [Scala](http://doc.akka.io/api/akka/1.3.1)
-* Akka Modules API - for [Scala](http://doc.akka.io/api/akka-modules/1.3.1)
+</section>
