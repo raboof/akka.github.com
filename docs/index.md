@@ -88,15 +88,15 @@ rather than just `akka-http-core` which provides the raw HTTP model as well as l
 </div>
 
 
-### Akka 2.3.15 (previous stable release) for Scala 2.10 / 2.11 and Java 6+
+### Akka 2.3.16 (previous stable release) for Scala 2.10 / 2.11 and Java 6+
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.15/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.15/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.15/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.15/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.3.15/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.16/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.16/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.16/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.16/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.3.16/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.15/) and [Scala](http://doc.akka.io/api/akka/2.3.15/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.16/) and [Scala](http://doc.akka.io/api/akka/2.3.16/)
 
 ## Milestone Versions
 
