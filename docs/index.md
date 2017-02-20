@@ -20,7 +20,7 @@ title: Documentation
   <div class="row">
     <div class="docModuleGrid">
       <div class="box">
-        <img src="{{ site.baseurl }}/resources/images/experimental.png" class="experimental" />
+        <img src="{{ site.baseurl }}/resources/images/change.png" class="mayChangeStamp" />
         <h1>Http</h1>
         <span class="underLine"></span>
         <p>The Streaming-first HTTP server and client</p>
@@ -99,7 +99,7 @@ title: Documentation
         </div>
       </div>
       <div class="box">
-        <img src="{{ site.baseurl }}/resources/images/experimental.png" class="experimental" />
+        <img src="{{ site.baseurl }}/resources/images/change.png" class="mayChangeStamp" />
         <h1>Cluster Sharding</h1>
         <span class="underLine"></span>
         <p>Distribute actors across several nodes in the cluster</p>
@@ -143,7 +143,7 @@ title: Documentation
   <div class="row">
     <div class="docModuleGrid">
       <div class="box">
-        <img src="{{ site.baseurl }}/resources/images/experimental.png" class="experimental" />
+        <img src="{{ site.baseurl }}/resources/images/change.png" class="mayChangeStamp" />
         <h1>Persistence</h1>
         <span class="underLine"></span>
         <p>Recover actor state after a JVM crash</p>
