@@ -101,10 +101,6 @@
 					box-sizing: border-box;
 					margin: 0 15px 0 0;
 					@include x-rem(font-size, 1.4);
-  				// @include single-column {
-  				// 	width: 100%;
-  				// 	margin: 15px 0;
-  				// }
 				}
 			}
 		}
@@ -129,7 +125,7 @@
 			width: 32%;
 			text-align: left;
 			position: relative;
-			.experimental {
+			.mayChangeStamp {
  				position: absolute;
     		top: 5px;
     		right: 5px;
