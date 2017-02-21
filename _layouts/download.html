@@ -3,13 +3,19 @@ layout: default
 ---
 
 {% include headertop.html %}
-<link href="{{ site.baseurl }}/resources/stylesheets/prettify.css" type="text/css" rel="stylesheet" />
-<link href="{{ site.baseurl }}/resources/stylesheets/base.css" type="text/css" rel="stylesheet" />
-<link href="{{ site.baseurl }}/resources/stylesheets/page.css" type="text/css" rel="stylesheet" />
-<link href="{{ site.baseurl }}/resources/stylesheets/download.css" type="text/css" rel="stylesheet" />
 {% include headerbottom.html %}
 {% include topbar.html %}
-{% include download.html %}
+<section class="wrapper headerHero">
+	<div class="row">
+		<h1>Downloads</h1>
+	</div>
+</section>
+
+<section class="wrapper">
+	<div class="row">
+		{% include download.html %}
+	</div>
+</section>
 {% include footermenu.html %}
 {% include footer.html %}
 
