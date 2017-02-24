@@ -100,15 +100,15 @@ rather than just `akka-http-core` which provides the raw HTTP model as well as l
 
 ## Milestone Versions
 
-### Akka 2.5-M1 (pre-release of what is going to become Akka 2.5) for Scala 2.11 / 2.12 and Java 8+
+### Akka 2.5-M2 (pre-release of what is going to become Akka 2.5) for Scala 2.11 / 2.12 and Java 8+
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.5-M1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5-M1/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.5-M1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5-M1/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.5-M1/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.5-M2/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5-M2/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.5-M2/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5-M2/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.5-M2/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5-M1/) and [Scala](http://doc.akka.io/api/akka/2.5-M1/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5-M2/) and [Scala](http://doc.akka.io/api/akka/2.5-M2/)
 
 ## Akka Snapshots
 
