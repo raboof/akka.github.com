@@ -18,9 +18,26 @@ title: Get Involved
 		    </g>
 		</svg>
 		<h1>Join the mailing list</h1>
-		<a href="//groups.google.com/forum/#!forum/akka-user">4,000+ members</a>
+		<a href="https://groups.google.com/forum/#!forum/akka-user">5,500+ members</a>
 		<p>The Akka mailing list is where the Akka community meets. Asking and answering questions on the mailing list is a great way to share knowledge about Akka.</p>
 	</div>
+    <div class="box">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+            <title>Gitter</title>
+            <desc></desc>
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Gitter" fill="#15A9CE" fill-rule="nonzero">
+                    <path d="M7,2 L9.27586207,2 L9.27586207,18.8275862 L7,18.8275862 L7,2 Z M20.7241379,5.86206897 L23,5.86206897 L23,18.8275862 L20.7241379,18.8275862 L20.7241379,5.86206897 Z M11.5517241,5.86206897 L13.8275862,5.86206897 L13.8275862,28 L11.5517241,28 L11.5517241,5.86206897 Z M16.1724138,5.86206897 L18.4482759,5.86206897 L18.4482759,28 L16.1724138,28 L16.1724138,5.86206897 Z"></path>
+                </g>
+            </g>
+        </svg>
+        <h1>Gitter</h1>
+        <a href="https://gitter.im/akka/akka">Chat with other Akka users</a>
+        <p>The akka/akka gitter channel is available for ad-hoc discussions of all things Akka-related with the community and the Akka team.</p>
+    </div>
 	<div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg width="50px" height="60px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -35,10 +52,12 @@ title: Get Involved
 		    </g>
 		</svg>
 		<h1>Contribute to Stack Overflow</h1>
-		<a href="//stackoverflow.com/questions/tagged/akka">2,900+ questions</a>
+		<a href="//stackoverflow.com/questions/tagged/akka">4,500+ questions with answers</a>
 		<p>Stack Overflow is a Q&A site for programmers. Stack Overflow has a very active community of people asking and answering questions about Akka.</p>
 	</div>
-	<div class="box">
+</div>
+<div class="communityContent">
+    <div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
@@ -55,8 +74,6 @@ title: Get Involved
 		<a href="//github.com/akka/akka/issues">1,900+ bug reporters</a>
 		<p>Bug reports help Akka improve, so please report any issues you have! Akka uses GitHub to track issues.</p>
 	</div>
-</div>
-<div class="communityContent">
 	<div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -70,15 +87,17 @@ title: Get Involved
 		        </g>
 		    </g>
 		</svg>
-		<h1>Patch the core</h1>
-		<a href="//github.com/akka/akka/graphs/contributors">190+ committers</a>
-		<p>Akka's code and documentation is hosted on Github. It's easy to get the code and build Akka from source.</p>
+		<h1>Contribute</h1>
+		<a href="https://github.com/akka/akka/blob/master/CONTRIBUTING.md">300+ active contributors</a>
+		<p>
+		  Akka's code and documentation is hosted on Github. It's easy to get the code and build Akka from source.
+		</p>
 	</div>
 	<div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-		    <title>Plugins</title>
+		    <title>Extend Akka</title>
 		    <desc></desc>
 		    <defs></defs>
 		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -87,25 +106,8 @@ title: Get Involved
 		        </g>
 		    </g>
 		</svg>
-		<h1>Create extensions or plugins</h1>
-		<p></p>
-		<p>You can add new features to Akka applications by creating an Akka Extension or Plugin (if a given module has pluggable elements).</p>
+		<h1>Other modules</h1>
+		<p>Create your own features on top of Akka, Akka HTTP or Akka Streams. Tag the project on Scaladex to <a href="{{ site.baseurl}}/community">get it listed</a></p>
 	</div>
-	<div class="box">
-		<?xml version="1.0" encoding="UTF-8"?>
-		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-		    <title>Gitter</title>
-		    <desc></desc>
-		    <defs></defs>
-		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-		        <g id="Gitter" fill="#15A9CE" fill-rule="nonzero">
-		            <path d="M7,2 L9.27586207,2 L9.27586207,18.8275862 L7,18.8275862 L7,2 Z M20.7241379,5.86206897 L23,5.86206897 L23,18.8275862 L20.7241379,18.8275862 L20.7241379,5.86206897 Z M11.5517241,5.86206897 L13.8275862,5.86206897 L13.8275862,28 L11.5517241,28 L11.5517241,5.86206897 Z M16.1724138,5.86206897 L18.4482759,5.86206897 L18.4482759,28 L16.1724138,28 L16.1724138,5.86206897 Z"></path>
-		        </g>
-		    </g>
-		</svg>
-		<h1>Gitter</h1>
-		<p></p>
-		<p>You can add new features to Akka applications by creating an Akka Extension or Plugin (if a given module has pluggable elements).</p>
-	</div>
+	
 </div>
