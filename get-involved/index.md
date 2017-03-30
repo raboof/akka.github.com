@@ -107,7 +107,8 @@ title: Get Involved
 		    </g>
 		</svg>
 		<h1>Other modules</h1>
-		<p>Create your own features on top of Akka, Akka HTTP or Akka Streams. Tag the project on Scaladex to <a href="{{ site.baseurl}}/community">get it listed</a></p>
+        <a href="{{ site.baseurl}}/community">See the community page</a>
+		<p>Create your own features on top of Akka, Akka HTTP or Akka Streams. Tag the project on Scaladex to get listed.</p>
 	</div>
 	
 </div>
