@@ -1,33 +1,29 @@
 # AKKA.IO
 
-This repository contains the source of the [akka.io](http://akka.io) website. It's built using Jekyll, and designed with a touch of Twitter's Bootstrap, and other homebaked ingredients.
+This repository contains the source of the [akka.io](http://akka.io) website. It's built using Jekyll.
 
 These instructions are mostly intended for akka committers who would like to update the site (i.e., adding a news item).
 
 ## Dependencies
 
-You'll need Jekyll installed. Please make sure that it is version 1.0.2 of Jekyll since that is what is used by GitHub. To get it, most people can install via RubyGems:
+Install the needed ruby stuff using bundler:
 
-    gem install jekyll
-    gem install kramdown
+    bundle install
 
-OSX users might have to update RubyGems:
-
-    sudo gem update --system
-
-If in doubt, head over to the [Jekyll wiki](http://jekyllrb.com/docs/installation/) for installation instructions.
+If in doubt, head over to the github pages-page for instructions: 
+https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-4-build-your-local-jekyll-site
 
 ## Building
 
 After cloning, cd into the `akka/akka.github.com` directory and run:
 
-    jekyll serve --config _config_local.yml
+    jekyll serve --baseurl ''
 
 To see the generated site, just visit `http://localhost:4000`.
 
 To watch for changes:
 
-    jekyll serve --watch --config _config_local.yml
+    jekyll serve --baseurl '' --watch
 
 ## Adding a News Item
 

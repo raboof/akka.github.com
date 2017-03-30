@@ -1,6 +1,7 @@
 ---
 layout: documentation
 title: Documentation
+redirect_from: "/downloads"
 ---
 
 
@@ -283,6 +284,13 @@ title: Documentation
           </div>
         </div>
       </div>
+    </div>
+    
+    
+    <div class="row">
+        <div>
+           <a href="other-releases.html">Information about other releases of Akka</a>
+        </div>
     </div>
   
   
