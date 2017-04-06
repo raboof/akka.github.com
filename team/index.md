@@ -52,15 +52,15 @@ title: Team
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e0b5787d1a1935a2800e0bbffc81c196?s=80" /></div>
 		<span class="profile-name">Jonas Bonér</span>
-		<span class="profile-title">Typesafe CTO</span>
+		<span class="profile-title">Lightbend CTO</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/jboner">@jboner</a></span>
-		<p class="profile-text">Jonas Bonér invented Akka back in 2008 and is the CTO and co-founder of Typesafe.</p>
+		<p class="profile-text">Jonas Bonér invented Akka back in 2008 and is the CTO and co-founder of Lightbend (initially known as Typesafe).</p>
     <p><a href="http://jonasboner.com">jonasboner.com</a></p>
 	</div>
 	<div class="span6">
 		<div class="profile-pic-wrap"><img class="profile-pic" src="http://viktorklang.github.io/assets/images/IAMKLANG.png" /></div>
 		<span class="profile-name">Viktor Klang</span>
-		<span class="profile-title">Typesafe Deputy CTO</span>
+		<span class="profile-title">Lightbend Deputy CTO</span>
 		<span class="profile-twitter-link"><a href="https://twitter.com/viktorklang">@viktorklang</a></span>
 		<p class="profile-text"><a href="http://www.linkedin.com/in/viktorklang">Viktor Klang (√)</a> was one of the first contributors to Akka, starting on the first day of public availability, and served as Project Lead from July of 2010 to November of 2012.</p>
 	</div>
