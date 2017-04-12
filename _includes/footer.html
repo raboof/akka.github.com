@@ -35,11 +35,13 @@
        "akka-cluster-metrics",
        "akka-cluster-sharding",
        "akka-cluster-tools",
-       "akka-contrib",
+       "akka-distributed-data",
+       
 
        "akka-multi-node-testkit",
        "akka-osgi",
        "akka-persistence",
+       "akka-persistence-query",
        "akka-persistence-tck",
        "akka-remote",
        "akka-slf4j",
@@ -48,9 +50,9 @@
        "akka-testkit",
 
        // -- experimental modules --
-       "akka-distributed-data-experimental",
-       "akka-typed-experimental",
-       "akka-persistence-query-experimental"
+       "akka-typed",
+       "akka-contrib"
+       
      ].map(makeModuleDescription(akkaVersion));
 
 

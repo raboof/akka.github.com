@@ -21,15 +21,15 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.4.17 (current stable release) for Scala 2.11 / 2.12 and Java 8+
+### Akka 2.5.0 (current stable release) for Scala 2.11 / 2.12 and Java 8+
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.4/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.4/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.4/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.5/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.5/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.5/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [JavaDoc](http://doc.akka.io/japi/akka/2.4/) and [ScalaDoc](http://doc.akka.io/api/akka/2.4/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5/) and [Scala](http://doc.akka.io/api/akka/2.5/)
 
 All artifacts are available on Maven Central.
 
@@ -50,6 +50,16 @@ All artifacts are available on Maven Central.
     <pre><code id="stable-dependencies-maven">    </code></pre>
   </div>
 </div>
+
+### Akka 2.4.17 (previous stable release) for Scala 2.11 / 2.12 and Java 8+
+
+* Akka Documentation
+
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.4/java.html) and [Scala](http://doc.akka.io/docs/akka/2.4/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.4/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.4/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.4/Akka.epub) (Combined Java and Scala)
+
+* Akka API - for [JavaDoc](http://doc.akka.io/japi/akka/2.4/) and [ScalaDoc](http://doc.akka.io/api/akka/2.4/)
 
 ### Akka HTTP
 
@@ -88,28 +98,6 @@ rather than just `akka-http-core` which provides the raw HTTP model as well as l
 </div>
 
 
-### Akka 2.3.16 (previous stable release) for Scala 2.10 / 2.11 and Java 6+
-
-* Akka Documentation
-
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.16/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.16/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.16/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.16/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.3.16/Akka.epub) (Combined Java and Scala)
-
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.16/) and [Scala](http://doc.akka.io/api/akka/2.3.16/)
-
-## Milestone Versions
-
-### Akka 2.5.0-RC2 (release candidate of what is going to become Akka 2.5) for Scala 2.11 / 2.12 and Java 8+
-
-* Akka Documentation
-
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.5/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.5/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.5/Akka.epub) (Combined Java and Scala)
-
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5/) and [Scala](http://doc.akka.io/api/akka/2.5/)
-
 ## Akka Snapshots
 
 Automatically published documentation for the latest SNAPSHOT version of Akka can be found here:
@@ -122,7 +110,7 @@ Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can
 
 * Akka API - for [Java](http://doc.akka.io/japi/akka/snapshot/) and [Scala](http://doc.akka.io/api/akka/snapshot/)
 
-## Old Versions
+## Old Versions (End-of-Life)
 
 ### Akka Streams and HTTP
 
@@ -146,6 +134,16 @@ If possible, it is strongly recommended to upgrade to Akka 2.4.x instead, which 
 * API documentation for [Java](http://doc.akka.io/japi/akka-stream-and-http-experimental/2.0.4/) and [Scala](http://doc.akka.io/api/akka-stream-and-http-experimental/2.0.4/)
 
 * Reference documentation for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala.html)
+
+### Akka 2.3.16 for Scala 2.10 / 2.11 and Java 6+
+
+* Akka Documentation
+
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.3.16/java.html) and [Scala](http://doc.akka.io/docs/akka/2.3.16/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.3.16/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.3.16/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.3.16/Akka.epub) (Combined Java and Scala)
+
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.3.16/) and [Scala](http://doc.akka.io/api/akka/2.3.16/)
 
 ### Akka 2.2.5 for Scala 2.10 and Java 6+
 
