@@ -1,5 +1,36 @@
 {
   "akka": {
+    "latest": {
+      "name":"2.5.",
+      "group_id": "com.typesafe.akka",
+      "scala_versions": ["2.11", "2.12"],
+      "projects": [
+        "akka-actor",
+        "akka-agent",
+        "akka-camel",
+        "akka-cluster",
+        "akka-cluster-metrics",
+        "akka-cluster-sharding",
+        "akka-cluster-tools",
+        "akka-distributed-data",
+
+
+        "akka-multi-node-testkit",
+        "akka-osgi",
+        "akka-persistence",
+        "akka-persistence-query",
+        "akka-persistence-tck",
+        "akka-remote",
+        "akka-slf4j",
+        "akka-stream",
+        "akka-stream-testkit",
+        "akka-testkit",
+
+        "akka-typed",
+        "akka-contrib"
+      ]
+    },
+
     "1.1": {
       "latest": "1.1.3",
       "outdated": true,
@@ -61,6 +92,27 @@
       "rp": true,
       "latest": "rp-16s01p05"
     }
+  },
+
+  "akka-http": {
+    "latest": {
+      "name":"10.0",
+      "group_id": "com.typesafe.akka",
+      "scala_versions": ["2.11", "2.12"],
+      "projects": [
+        "akka-http-core",
+        "akka-http",
+        "akka-http-testkit",
+        "akka-http-spray-json",
+        "akka-http-jackson",
+        "akka-http-xml"
+      ]
+    },
+
+    "10.0": {
+      "latest": "10.0.5"
+    }
+
   },
 
   "akka-stream-and-http-experimental": {
