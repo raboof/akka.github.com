@@ -16,7 +16,7 @@ title: Akka Documentation
       <option>Java</option>
     </select>
   </li>
-  <li><a href="http://doc.akka.io/docs/akka/2.4">reference documentation</a>.</li>
+  <li><a href="http://doc.akka.io/docs/akka/current">reference documentation</a>.</li>
 </ul>
 
 ## Release Versions
