@@ -22,10 +22,10 @@ defaults:
     path: "" # all files
   values:
     # note that changing this requires a jekyll restart to be picked up if serving locally
-    # it does not generate a new versions.json so that you will have to update manually
-    current_akka_version: 2.4.17
+    # it does not generate a new versions.json so that you will have to update manually if changing here
+    current_akka_version: 2.5.0
     current_akka_http_version: 10.0.4
-    previous_akka_version: 2.3.16
+    previous_akka_version: 2.4.17
     current_java_scala_version: 2.11 # used for deps for Java
 
 

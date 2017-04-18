@@ -13,3 +13,6 @@ _site
 # Ignore cache
 /.sass-cache
 /.cache
+
+# ruby/jekyll
+Gemfile.lock

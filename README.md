@@ -13,6 +13,8 @@ Install the needed ruby stuff using bundler:
 If in doubt, head over to the github pages-page for instructions: 
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-4-build-your-local-jekyll-site
 
+Github lists their versions of Jekyll etc. here: https://pages.github.com/versions/
+
 ## Building
 
 After cloning, cd into the `akka/akka.github.com` directory and run:
