@@ -11,6 +11,10 @@
             {% endif %}
         </li>
         {% endfor %}
+
+        <li>
+            <a href="{{ site.baseurl }}/blog/news-archive.html">All News</a>
+        </li>
     </ul>
 
 
@@ -32,8 +36,12 @@
             {% endif %}
         </li>
         {% endfor %}
+
+        <li>
+            <a href="{{ site.baseurl }}/blog/article-archive.html">All Articles</a>
+        </li>
     </ul>
-    <a href="{{ site.baseurl }}/blog/archive.html" class="btn sec">Full archive</a>
+    <!-- <a href="{{ site.baseurl }}/blog/archive.html" class="btn sec">Full archive</a> -->
 
     {% include JB/tags_list %}
 </div>
