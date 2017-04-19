@@ -1,0 +1,47 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ site.url }}/blog</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>{{ site.url }}/docs</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>{{ site.url }}/get-involved</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>{{ site.url }}/community</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    <url>
+        <loc>{{ site.url }}/team</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    {% assign prio = 1.0 %}
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        {% if post.lastmod != null %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        <changefreq>monthly</changefreq>
+        <priority>{{ prio }}</priority>
+        {% assign prio = prio | minus: 0.025 %}
+        {% if 0.3 > prio %}
+            {% assign prio = 0.3 %}
+        {% endif %}
+    </url>
+    {% endfor %}
+</urlset>
