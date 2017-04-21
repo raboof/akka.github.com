@@ -38,6 +38,7 @@ All artifacts are available on Maven Central.
     <li class="tab-link sbt current" data-tab="stable-dependencies-sbt-tab">sbt</li>
     <li class="tab-link gradle" data-tab="stable-dependencies-gradle-tab">gradle</li>
     <li class="tab-link maven" data-tab="stable-dependencies-maven-tab">maven</li>
+    <li class="tab-link wget" data-tab="stable-dependencies-wget-tab">wget</li>
   </ul>
 
   <div id="stable-dependencies-sbt-tab" class="tab-content current">
@@ -48,6 +49,9 @@ All artifacts are available on Maven Central.
   </div>
   <div id="stable-dependencies-maven-tab" class="tab-content">
     <pre><code id="stable-dependencies-maven">    </code></pre>
+  </div>
+  <div id="stable-dependencies-wget-tab" class="tab-content">
+    <pre><code id="stable-dependencies-wget">    </code></pre>
   </div>
 </div>
 
@@ -84,6 +88,7 @@ rather than just `akka-http-core` which provides the raw HTTP model as well as l
     <li class="tab-link sbt current" data-tab="http-dependencies-sbt-tab">sbt</li>
     <li class="tab-link gradle" data-tab="http-dependencies-gradle-tab">gradle</li>
     <li class="tab-link maven" data-tab="http-dependencies-maven-tab">maven</li>
+    <li class="tab-link maven" data-tab="http-dependencies-wget-tab">wget</li>
   </ul>
 
   <div id="http-dependencies-sbt-tab" class="tab-content current">
@@ -94,6 +99,9 @@ rather than just `akka-http-core` which provides the raw HTTP model as well as l
   </div>
   <div id="http-dependencies-maven-tab" class="tab-content">
     <pre><code id="http-dependencies-maven">    </code></pre>
+  </div>
+  <div id="http-dependencies-wget-tab" class="tab-content">
+    <pre><code id="http-dependencies-wget">    </code></pre>
   </div>
 </div>
 
