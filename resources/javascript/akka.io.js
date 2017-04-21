@@ -15,6 +15,14 @@ function mavenDependency(artifact) {
         '  <version>' + artifact.version + '</version>\n' +
         '</dependency>\n';
 }
+function wgetDependency(artifact) {
+  var path = artifact.groupId.replace(new RegExp('\\.', 'g'), "/");
+  return 'wget http://repo1.maven.org/maven2/' + 
+      path + '/' +
+      artifact.artifactId + '_' + artifact.scalaVersions[0] + '/' +
+      artifact.version + '/' +
+      artifact.artifactId + '_' + artifact.scalaVersions[0] + '-' + artifact.version + '.jar';
+}
 
 var makeModuleDescription = function (version, groupId, scalaVersions) {
     return function (artifactId) {
@@ -30,17 +38,20 @@ var makeModuleDescription = function (version, groupId, scalaVersions) {
 function makeDependencies(projects, idPrefix) {
     var sbtDeps = '',
         gradleDeps = '',
-        mavenDeps = '';
+        mavenDeps = '',
+        wgetDeps = '';
 
     projects.forEach(function (project) {
         sbtDeps += sbtDependency(project);
         gradleDeps += gradleDependency(project);
         mavenDeps += mavenDependency(project);
+        wgetDeps += wgetDependency(project);
     });
 
     $("#" + idPrefix + "-dependencies-sbt").text(sbtDeps);
     $("#" + idPrefix + "-dependencies-gradle").text(gradleDeps);
     $("#" + idPrefix + "-dependencies-maven").text(mavenDeps);
+    $("#" + idPrefix + "-dependencies-wget").text(wgetDeps);
 }
 
 $('ul.tabs li').click(function () {
