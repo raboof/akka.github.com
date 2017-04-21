@@ -21,7 +21,7 @@ function wgetDependency(artifact) {
       path + '/' +
       artifact.artifactId + '_' + artifact.scalaVersions[0] + '/' +
       artifact.version + '/' +
-      artifact.artifactId + '_' + artifact.scalaVersions[0] + '-' + artifact.version + '.jar';
+      artifact.artifactId + '_' + artifact.scalaVersions[0] + '-' + artifact.version + '.jar\n';
 }
 
 var makeModuleDescription = function (version, groupId, scalaVersions) {
