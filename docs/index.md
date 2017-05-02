@@ -25,11 +25,11 @@ title: Akka Documentation
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.5.1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5.1/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.5.1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5.1/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.5.1/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.5/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.5/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.5/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5.1/) and [Scala](http://doc.akka.io/api/akka/2.5.1/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5/) and [Scala](http://doc.akka.io/api/akka/2.5/)
 
 All artifacts are available on Maven Central.
 
