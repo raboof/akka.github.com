@@ -55,7 +55,7 @@ All artifacts are available on Maven Central.
   </div>
 </div>
 
-### Akka 2.4.17 (previous stable release) for Scala 2.11 / 2.12 and Java 8+
+### Akka 2.4.18 (previous stable release) for Scala 2.11 / 2.12 and Java 8+
 
 * Akka Documentation
 
