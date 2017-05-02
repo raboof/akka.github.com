@@ -21,15 +21,15 @@ title: Akka Documentation
 
 ## Release Versions
 
-### Akka 2.5.0 (current stable release) for Scala 2.11 / 2.12 and Java 8+
+### Akka 2.5.1 (current stable release) for Scala 2.11 / 2.12 and Java 8+
 
 * Akka Documentation
 
-  * HTML for [Java](http://doc.akka.io/docs/akka/2.5/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5/scala.html)
-  * PDF for [Java](http://doc.akka.io/docs/akka/2.5/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5/AkkaScala.pdf)
-  * [EPUB](http://doc.akka.io/docs/akka/2.5/Akka.epub) (Combined Java and Scala)
+  * HTML for [Java](http://doc.akka.io/docs/akka/2.5.1/java.html) and [Scala](http://doc.akka.io/docs/akka/2.5.1/scala.html)
+  * PDF for [Java](http://doc.akka.io/docs/akka/2.5.1/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/2.5.1/AkkaScala.pdf)
+  * [EPUB](http://doc.akka.io/docs/akka/2.5.1/Akka.epub) (Combined Java and Scala)
 
-* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5/) and [Scala](http://doc.akka.io/api/akka/2.5/)
+* Akka API - for [Java](http://doc.akka.io/japi/akka/2.5.1/) and [Scala](http://doc.akka.io/api/akka/2.5.1/)
 
 All artifacts are available on Maven Central.
 
@@ -77,7 +77,7 @@ All artifacts are available on Maven Central.
 *Akka HTTP maintains its own release cycle.*
 The current stable series is <code>10.x</code>, and it is compatible with the latest Akka 2.4.x.
 
-If you've been using Akka HTTP while some of its modules were experimental, 
+If you've been using Akka HTTP while some of its modules were experimental,
 please note that now you should *remove the `-experimental`* suffix from all artifact names you depend on.
 
 Additionally you most likely want to depend on `akka-http` which provides the Routing DSL,
