@@ -17,7 +17,7 @@ https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-
 
 After cloning, cd into the `akka/akka.github.com` directory and run:
 
-    jekyll serve --baseurl ''
+    bundle exec jekyll serve --baseurl ''
 
 To see the generated site, just visit `http://localhost:4000`.
 
