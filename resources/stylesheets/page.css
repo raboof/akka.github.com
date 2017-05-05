@@ -9,6 +9,7 @@ body { position: relative; }
 a { color: #15A9CE; }
 a:hover { color: #15A9CE; text-decoration: underline; }
 p { padding-top: 4px; font-size: 14px; }
+li { font-size: 14px; }
 h1 {color: #15A9CE; }
 h2 { padding-top: 14px; padding-bottom: 4px; margin-bottom: 2px; border-bottom: solid 1px rgba(0, 0, 0, 0.15); color: #0B5567; }
 h2 a {  color: #0B5567; }
@@ -26,7 +27,7 @@ strong {color: #0B5567; }
 .row { margin-bottom: 14px; }
 .profile-pic { float: left; padding: 10px; margin: 16px; border: solid 1px #d3e1e4; background: rgba(240, 250, 252, 0.6); height: 80px; width: 80px; max-width: 80px }
 .profile-pic-wrap { float: left; height: 260px; }
-.profile-name { display: block; margin-top: 20px; margin-bottom: 6px; font-size: 18px; font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 24px; font-weight: 400; color: #447281; }
+.profile-name { display: block; margin-top: 20px; margin-bottom: 6px; font-family: "Source Sans Pro", "Helvetica Neue", sans-serif; font-size: 24px; font-weight: 400; color: #447281; }
 .profile-title { display: block; margin-top: 6px; font-size: 16px; font-weight: bold; color: #0d2428; }
 .profile-twitter-link { display: block; margin-top: 6px; font-size: 16px; font-weight: bold; }
 .profile-text { padding-top: 10px; }
@@ -38,3 +39,107 @@ strong {color: #0B5567; }
 .committers a { color: #15A9CE; }
 .committers a:hover { color: #447281; }
 .news-story h2 { border: 0; color: #404040; padding-bottom: 0px; }
+.news .selArticle, .news-main .selArticle, .series_post .selArticle,
+.post .selArticle, .blogArchive .selArticle {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 20px;
+}
+.news .selArticle .selArticleHeader, .news-main .selArticle .selArticleHeader,
+.series_post .selArticle .selArticleHeader, .post .selArticle .selArticleHeader,
+.blogArchive .selArticle .selArticleHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.news .selArticle .selArticleHeader .date, .news-main .selArticle .selArticleHeader .date,
+.series_post .selArticle .selArticleHeader .date, .post .selArticle .selArticleHeader .date,
+.blogArchive .selArticle .selArticleHeader .date {
+    background-color: #ffa94b;
+    padding: 15px;
+    text-align: center
+}
+
+.news .selArticle .selArticleHeader .date p, .news-main .selArticle .selArticleHeader .date p,
+.series_post .selArticle .selArticleHeader .date p, .post .selArticle .selArticleHeader .date p,
+.blogArchive .selArticle .selArticleHeader .date p {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 14px;
+    font-size: .77778rem;
+    color: #fff
+}
+
+.news .selArticle .selArticleHeader h1, .news-main .selArticle .selArticleHeader h1,
+.series_post .selArticle .selArticleHeader h1, .post .selArticle .selArticleHeader h1,
+.blogArchive .selArticle .selArticleHeader h1 {
+    margin-left: 15px
+}
+
+.news .selArticle .selArticleContent ul, .news .selArticle .selArticleContent ol,
+.news-main .selArticle .selArticleContent ul, .news-main .selArticle .selArticleContent ol,
+.series_post .selArticle .selArticleContent ul, .series_post .selArticle .selArticleContent ol,
+.post .selArticle .selArticleContent ul, .post .selArticle .selArticleContent ol,
+.blogArchive .selArticle .selArticleContent ul, .blogArchive .selArticle .selArticleContent ol {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px
+}
+
+.news .selArticle .selArticleDisqus, .news-main .selArticle .selArticleDisqus,
+.series_post .selArticle .selArticleDisqus, .post .selArticle .selArticleDisqus,
+.blogArchive .selArticle .selArticleDisqus {
+    margin-top: 100px
+}
+
+.news .selArticle .selArticleSeries p, .news-main .selArticle .selArticleSeries p,
+.series_post .selArticle .selArticleSeries p, .post .selArticle .selArticleSeries p,
+.blogArchive .selArticle .selArticleSeries p {
+    color: #0B5567;
+    font-weight: bold;
+    margin-bottom: 0
+}
+
+.news .selArticle .selArticleSeries p i, .news-main .selArticle .selArticleSeries p i,
+.series_post .selArticle .selArticleSeries p i, .post .selArticle .selArticleSeries p i,
+.blogArchive .selArticle .selArticleSeries p i {
+    font-style: italic
+}
+
+@media only screen and (max-width: 767px) {
+    .news .latestArticles, .news-main .latestArticles, .series_post .latestArticles,
+    .post .latestArticles, .blogArchive .latestArticles {
+        margin: 60px 0
+    }
+}
+
+.news .latestArticles h2, .news-main .latestArticles h2, .series_post .latestArticles h2,
+.post .latestArticles h2, .blogArchive .latestArticles h2 {
+    margin-bottom: 15px
+}
+
+.news .latestArticles .btn.sec, .news-main .latestArticles .btn.sec,
+.series_post .latestArticles .btn.sec, .post .latestArticles .btn.sec,
+.blogArchive .latestArticles .btn.sec {
+    margin-top: 20px
+}
+
+.news .latestArticles ul li, .news-main .latestArticles ul li, .series_post .latestArticles ul li,
+.post .latestArticles ul li, .blogArchive .latestArticles ul li {
+    margin-bottom: 15px
+}
+
+.news .latestArticles ul li p, .news-main .latestArticles ul li p, .series_post .latestArticles ul li p,
+.post .latestArticles ul li p, .blogArchive .latestArticles ul li p {
+    color: #000;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-size: .66667rem
+}

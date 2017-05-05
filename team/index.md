@@ -8,34 +8,52 @@ title: Team
 {% for member in site.data.team %}
   {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
-    <div class="row">
+<div class="row">
   {% endif %}
-    <div class="span6">
-        <div class="profile-pic-wrap"><img class="profile-pic" src="{{ member.avatar }}" /></div>
-        <span class="profile-name">{{ member.name }}</span>
-        <span class="profile-title">{{ member.title }}</span>
-        <span class="profile-twitter-link"><a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></span>		
-        <p class="profile-text">{{ member.desc }}</p>
-    </div>	
+<div class="sixcol">
+    <div class="profile-pic-wrap"><img class="profile-pic" src="{{ member.avatar }}" /></div>
+    <span class="profile-name">{{ member.name }}</span>
+    <span class="profile-title">{{ member.title }}</span>
+    {% if member.twitter %}
+    <span class="profile-twitter-link"><a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></span>
+    {% endif %}
+    <p class="profile-text">{{ member.desc }}</p>
+</div>
   {% if loopindex == 0 %}
     </div>
   {% endif %}
 {% endfor %}
 
+{% assign mod = site.data.team.size | modulo:2 %}
+{% if mod == 1 %}
+</div>
+{% endif %}
+
 <h3>Honorary Members</h3>
 
 {% for member in site.data.alumni_team %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 %}
 <div class="row">
-	<div class="span6">
-		<div class="profile-pic-wrap"><img class="profile-pic" src="{{ member.avatar }}" /></div>
-		<span class="profile-name">{{ member.name }}</span>
-		<span class="profile-title">{{ member.title }}</span>
-		<span class="profile-twitter-link"><a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></span>		
-		<p class="profile-text">{{ member.desc }}.</p>
-	</div>	
+  {% endif %}
+<div class="sixcol">
+    <div class="profile-pic-wrap"><img class="profile-pic" src="{{ member.avatar }}" /></div>
+    <span class="profile-name">{{ member.name }}</span>
+    <span class="profile-title">{{ member.title }}</span>
+    {% if member.twitter %}
+    <span class="profile-twitter-link"><a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></span>
+    {% endif %}
+    <p class="profile-text">{{ member.desc }}.</p>
 </div>
-
+  {% if loopindex == 0 %}
+</div>
+  {% endif %}
 {% endfor %}
+
+{% assign mod = site.data.alumni_team.size | modulo:2 %}
+{% if mod == 1 %}
+</div>
+{% endif %}
 
 <div class="row">
 	<div class="span12">
@@ -51,6 +69,7 @@ title: Team
         		<li>Piotr Gabryanczyk</li>
 				<li><a href="http://lamp.epfl.ch/~phaller">Philipp Haller</a></li>
         		<li>Mathias Doenitz</li>
+        		<li>Johannes Rudolph</li>
         		<li>Rich Dougherty</li>
 			</ul>
 		</div>

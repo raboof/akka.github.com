@@ -1,0 +1,47 @@
+<div class="threecol latestArticles">
+    <h2>Latest news</h2>
+    <ul>
+        {% for post in site.categories.news limit: 5 %}
+        <li>
+            <p>{{ post.date | date: "%b %d %Y" }}</p>
+            {% if post.link-out %}
+            <a href="{{ post.link-out }}">{{ post.title }}</a>
+            {% else %}
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            {% endif %}
+        </li>
+        {% endfor %}
+
+        <li>
+            <a href="{{ site.baseurl }}/blog/news-archive.html">All News</a>
+        </li>
+    </ul>
+
+
+    <h2>Latest articles</h2>
+    <ul>
+        {% assign not_news = "" | split: "" %}
+        {% for post in site.posts %}
+        {% unless post.categories contains 'news' %}
+        {% assign not_news = not_news | push: post %}
+        {% endunless %}
+        {% endfor %}
+        {% for post in not_news limit: 5 %}
+        <li>
+            <p>{{ post.date | date: "%b %d %Y" }}</p>
+            {% if post.link-out %}
+            <a href="{{ post.link-out }}">{{ post.title }}</a>
+            {% else %}
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            {% endif %}
+        </li>
+        {% endfor %}
+
+        <li>
+            <a href="{{ site.baseurl }}/blog/article-archive.html">All Articles</a>
+        </li>
+    </ul>
+    <!-- <a href="{{ site.baseurl }}/blog/archive.html" class="btn sec">Full archive</a> -->
+
+    {% include JB/tags_list %}
+</div>
