@@ -55,23 +55,3 @@ title: Team
 </div>
 {% endif %}
 
-<div class="row">
-	<div class="span12">
-		<h2>Contributors</h2>
-		<div class="committers">
-			<ul>
-				<li>Derek Williams</li>
-				<li>Debasish Ghosh</li>
-				<li>Martin Krasser</li>
-				<li>Ivan Porto Carrero</li>
-				<li>Karim Osman</li>
-        		<li>Raymond Roestenburg</li>
-        		<li>Piotr Gabryanczyk</li>
-				<li><a href="http://lamp.epfl.ch/~phaller">Philipp Haller</a></li>
-        		<li>Mathias Doenitz</li>
-        		<li>Johannes Rudolph</li>
-        		<li>Rich Dougherty</li>
-			</ul>
-		</div>
-	</div>
-</div>
