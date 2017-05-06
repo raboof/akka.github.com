@@ -105,7 +105,8 @@
         "akka-http-testkit",
         "akka-http-spray-json",
         "akka-http-jackson",
-        "akka-http-xml"
+        "akka-http-xml",
+        "akka-parsing"
       ]
     },
 
