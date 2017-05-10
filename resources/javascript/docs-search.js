@@ -1,5 +1,5 @@
 ---
-# front matter to make jekyll process it
+# front matter to make jekyll process the file
 layout: null
 ---
 
