@@ -43,7 +43,6 @@ redirect_from: "/downloads"
              <li rel="3-panel-sbt" class="active">sbt</li>
              <li rel="3-panel-gradle">gradle</li>
              <li rel="3-panel-maven">maven</li>
-             <li rel="3-panel-link">link</li>
            </ul>
            <div id="3-panel-sbt" class="tabPanel active">
              <p>"com.typesafe.akka" %% "akka-actor" % "{{page.current_akka_version}}"</p>
@@ -59,13 +58,6 @@ redirect_from: "/downloads"
                &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
                &lt;/dependency&gt;<br>
              </p>
-           </div>
-           <div id="3-panel-link" class="tabPanel">
-            <p>
-              <a href="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-actor_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar">
-              http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-actor_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar
-              </a>
-            </p>
            </div>
          </div>
       </div>
@@ -92,7 +84,6 @@ redirect_from: "/downloads"
             <li rel="2-panel-sbt" class="active">sbt</li>
             <li rel="2-panel-gradle">gradle</li>
             <li rel="2-panel-maven">maven</li>
-            <li rel="2-panel-link">link</li>
           </ul>
           <div id="2-panel-sbt" class="tabPanel active">
             <p>"com.typesafe.akka" %% "akka-stream" % "{{page.current_akka_version}}"</p>
@@ -107,13 +98,6 @@ redirect_from: "/downloads"
               &nbsp;&nbsp;&lt;artifactId&gt;akka-stream_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
               &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
               &lt;/dependency&gt;<br>
-            </p>
-          </div>
-          <div id="2-panel-link" class="tabPanel">
-            <p>
-              <a href="http://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-stream_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar">
-              http://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-stream_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar
-              </a>
             </p>
           </div>
         </div>
@@ -141,7 +125,6 @@ redirect_from: "/downloads"
             <li rel="1-panel-sbt" class="active">sbt</li>
             <li rel="1-panel-gradle">gradle</li>
             <li rel="1-panel-maven">maven</li>
-            <li rel="1-panel-link">link</li>
           </ul>
           <div id="1-panel-sbt" class="tabPanel active">
             <p>"com.typesafe.akka" %% "akka-http" % "{{page.current_akka_http_version}}"</p>
@@ -156,13 +139,6 @@ redirect_from: "/downloads"
               &nbsp;&nbsp;&lt;artifactId&gt;akka-http_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
               &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_http_version}}&lt;/version&gt;<br>
               &lt;/dependency&gt;<br>
-            </p>
-          </div>
-          <div id="1-panel-link" class="tabPanel">
-            <p>
-              <a href="http://repo1.maven.org/maven2/com/typesafe/akka/akka-http_{{page.current_java_scala_version}}/{{page.current_akka_http_version}}/akka-http_{{page.current_java_scala_version}}-{{page.current_akka_http_version}}.jar">
-              http://repo1.maven.org/maven2/com/typesafe/akka/akka-http_{{page.current_java_scala_version}}/{{page.current_akka_http_version}}/akka-http_{{page.current_java_scala_version}}-{{page.current_akka_http_version}}.jar
-              </a>
             </p>
           </div>
         </div>
@@ -192,7 +168,6 @@ redirect_from: "/downloads"
             <li rel="4-panel-sbt" class="active">sbt</li>
             <li rel="4-panel-gradle">gradle</li>
             <li rel="4-panel-maven">maven</li>
-            <li rel="4-panel-link">link</li>
           </ul>
           <div id="4-panel-sbt" class="tabPanel active">
             <p>"com.typesafe.akka" %% "akka-cluster" % "{{page.current_akka_version}}"</p>
@@ -208,13 +183,6 @@ redirect_from: "/downloads"
               &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
               &lt;/dependency&gt;<br>
             </p>
-            </p>
-          </div>
-          <div id="4-panel-link" class="tabPanel">
-            <p>
-              <a href="http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-cluster_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar">
-              http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-cluster_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar
-              </a>
             </p>
           </div>
         </div>
@@ -240,7 +208,6 @@ redirect_from: "/downloads"
             <li rel="5-panel-sbt" class="active">sbt</li>
             <li rel="5-panel-gradle">gradle</li>
             <li rel="5-panel-maven">maven</li>
-            <li rel="5-panel-link">link</li>
           </ul>
           <div id="5-panel-sbt" class="tabPanel active">
             <p>"com.typesafe.akka" %% "akka-cluster-sharding" %  "{{page.current_akka_version}}"</p>
@@ -255,13 +222,6 @@ redirect_from: "/downloads"
               &nbsp;&nbsp;&lt;artifactId&gt;akka-cluster-sharding_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
               &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
               &lt;/dependency&gt;<br>
-            </p>
-          </div>
-          <div id="5-panel-link" class="tabPanel">
-            <p>
-              <a href="http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-sharding_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-cluster-sharding_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar">
-              http://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster-sharding_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-cluster-sharding_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar
-              </a>
             </p>
           </div>
         </div>
@@ -287,7 +247,6 @@ redirect_from: "/downloads"
                <li rel="7-panel-sbt" class="active">sbt</li>
                <li rel="7-panel-gradle">gradle</li>
                <li rel="7-panel-maven">maven</li>
-               <li rel="7-panel-link">link</li>
              </ul>
              <div id="7-panel-sbt" class="tabPanel active">
                <p>"com.typesafe.akka" %% "akka-distributed-data" % "{{page.current_akka_version}}"</p>
@@ -303,13 +262,6 @@ redirect_from: "/downloads"
                  &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
                  &lt;/dependency&gt;<br>
                </p>
-             </div>
-             <div id="7-panel-link" class="tabPanel">
-               <p>
-                <a href="http://repo1.maven.org/maven2/com/typesafe/akka/akka-distributed-data_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-distributed-data_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar">
-              http://repo1.maven.org/maven2/com/typesafe/akka/akka-distributed-data_{{page.current_java_scala_version}}/{{page.current_akka_version}}/akka-distributed-data_{{page.current_java_scala_version}}-{{page.current_akka_version}}.jar
-                </a>
-              </p>
              </div>
            </div>
         </div>
