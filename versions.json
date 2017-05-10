@@ -1,5 +1,5 @@
 ---
-# front matter to make jekyll process the file
+# front matter to make jekyll process the file and replace the page.current_akka_version from _config.yml
 layout: null
 ---
 {
@@ -45,13 +45,11 @@ layout: null
       "instead": "2.5."
     },
     "2.5-": {
-      // updated by jekkyll
       "latest": "{{ page.current_akka_version }}",
       "outdated": true,
       "instead": "2.5."
     },
     "2.5.": {
-      // updated by jekkyll
       "latest": "{{ page.current_akka_version }}"
     },
 
