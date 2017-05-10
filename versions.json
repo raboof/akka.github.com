@@ -1,3 +1,7 @@
+---
+# front matter to make jekyll process the file and replace the page.current_akka_version from _config.yml
+layout: null
+---
 {
   "akka": {
     "1.1": {
@@ -36,17 +40,17 @@
       "instead": "2.5."
     },
     "2.4": {
-      "latest": "2.4.17",
+      "latest": "{{ page.previous_akka_version }}",
       "outdated": true,
       "instead": "2.5."
     },
     "2.5-": {
-      "latest": "2.5.0",
+      "latest": "{{ page.current_akka_version }}",
       "outdated": true,
       "instead": "2.5."
     },
     "2.5.": {
-      "latest": "2.5.0"
+      "latest": "{{ page.current_akka_version }}"
     },
 
     "rp-15v01": {
