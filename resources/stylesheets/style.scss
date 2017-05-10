@@ -1,5 +1,8 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
+# This is the main stylesheet source for akka.io, compiled with sass into the "style.css" that is used
+# Compilation should happen automagically when run locally or deployed all customizations should go in the referenced
+# sass files
 ---
 
 @charset "utf-8";
@@ -48,12 +51,12 @@ $main-font-size: 18px;
 
 // Views
 @import "sass/views/start-page.scss";
-@import "sass/views/documentation.scss";
-@import "sass/views/news-page.scss";
+@import "sass/views/docs.scss";
+@import "sass/views/blog-page.scss";
 @import "sass/views/get-involved-page.scss";
-@import "sass/views/actors-page.scss";
-@import "sass/views/contents-page.scss";
+@import "sass/views/team-page.scss";
 
 //Modules
 @import "sass/modules/news.scss";
 @import "sass/modules/stickySearch.scss";
+@import "sass/modules/algolia.scss";

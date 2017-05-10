@@ -23,10 +23,6 @@ After cloning, cd into the `akka/akka.github.com` directory and run:
 
 To see the generated site, just visit `http://localhost:4000`.
 
-To watch for changes:
-
-    jekyll serve --baseurl '' --watch
-
 ## Adding a News Item
 
 News Items must be:
