@@ -60,7 +60,28 @@
 	p {
 		color: $pri_text;
 	}
+	.hover_group:hover {
+		opacity:1;
+	}
+	figure {
+		position: relative;
+		width: 100%;
+		padding-bottom: 18%;
+		vertical-align: middle;
+		margin: 0;
+		overflow: hidden;
+		max-height: 400px;
+		font-size: 30pt;
+	}
+	figure svg {
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
 }
+
 
 .indexLatest {
 	margin: 60px 0 0 0;
