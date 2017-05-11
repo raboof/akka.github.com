@@ -72,12 +72,18 @@
 		overflow: hidden;
 		max-height: 400px;
 		font-size: 30pt;
-	}
-	figure svg {
-		display: inline-block;
-		position: absolute;
-		top: 0;
-		left: 0;
+		svg {
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			text {
+				font-size: 32px;
+				text-anchor: middle;
+				fill: #ffa94b;
+				text-decoration: underline;
+			}
+		}
 	}
 
 }
