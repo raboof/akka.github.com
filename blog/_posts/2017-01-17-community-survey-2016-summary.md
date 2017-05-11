@@ -3,7 +3,7 @@ layout: series_post
 title: "Community Survey 2016 Summary"
 description: ""
 author: Konrad 'ktoso' Malawski
-category: community
+category: news
 series_title: survey
 series_tag: survey
 tags: [community,survey]

@@ -2,6 +2,7 @@
 layout: post
 title: Typesafe Stack 2.0 Released
 author: Jonas Bonér
+category: news
 tags: [releases]
 ---
 

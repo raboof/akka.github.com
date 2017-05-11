@@ -3,7 +3,7 @@ layout: series_post
 title: "Looking for hakker!"
 description: ""
 author: Konrad 'ktoso' Malawski
-category: work
+category: news
 series_title: work
 series_tag: work
 tags: [work]

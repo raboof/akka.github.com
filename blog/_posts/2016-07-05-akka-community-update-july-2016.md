@@ -3,7 +3,7 @@ layout: post
 title: "Akka Community update July 2016"
 description: ""
 author: Konrad 'ktoso' Malawski
-category: community
+category: news
 tags: [community,contributing,akka]
 ---
 {% include JB/setup %}

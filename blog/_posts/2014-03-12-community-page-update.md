@@ -2,6 +2,7 @@
 layout: post
 title: Community Page Reinvisioned
 author: Roland Kuhn
+category: news
 short: Initiating community driven collection of Akka-related projects
 ---
 
