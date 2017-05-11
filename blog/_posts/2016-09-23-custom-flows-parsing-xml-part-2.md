@@ -3,7 +3,7 @@ layout: series_post
 title: "Custom Flows: Parsing XML (part II)"
 description: ""
 author: Endre Varga
-category: integrations
+redirect_from: /integrations/2016/09/23/custom-flows-parsing-xml-part-2
 series_title: Integration
 series_tag: integration
 tags: [streams,integration]
@@ -276,7 +276,6 @@ This was quite a lot, and it is not expected that you understand everything at o
 6. If you use any kind of buffering in the stage double-check that it can never go arbitrarily large (unless you explicitly desire so). This means to check all call sites where anything is added to your container/buffer. Introduce an explicit capacity parameter to the stage if needed.
 
 This concludes our Streaming XML parsing series. **Happy Hakking!**
-
 
 
 

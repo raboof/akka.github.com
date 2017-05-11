@@ -3,7 +3,7 @@ layout: post
 title: "Threading & Concurrency in Akka Streams Explained (part I)"
 description: ""
 author: Endre Varga
-category: streams
+redirect_from: /streams/2016/07/06/threading-and-concurrency-in-akka-streams-explained
 tags: [streams,internals,intro]
 ---
 {% include JB/setup %}

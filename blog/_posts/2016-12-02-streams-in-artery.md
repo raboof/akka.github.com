@@ -3,7 +3,7 @@ layout: series_post
 title: "Streams in Artery"
 description: ""
 author: Patrik Nordwall
-category: artery
+redirect_from: /artery/2016/12/02/streams-in-artery
 series_title: Artery
 series_tag: artery
 tags: [artery]
@@ -83,6 +83,5 @@ In the inbound stream the messages are in the end dispatched to the recipient ac
 Bottom line, flow control for actor messages must be implemented at the application level. Artery does not change that fact.
 
 I hope this blog post gives you a better high-level understanding of how the new remoting is implemented. In next blog post I will describe in more detail how we have used Aeron.
-
 
 

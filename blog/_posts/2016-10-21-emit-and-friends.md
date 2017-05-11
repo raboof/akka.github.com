@@ -3,7 +3,7 @@ layout: post
 title: "Spotlight: GraphStage emit and friends"
 description: ""
 author: Patrik Nordwall
-category: streams
+redirect_from: /streams/2016/10/21/emit-and-friends
 tags: [streams,spotlight]
 ---
 {% include JB/setup %}
@@ -177,4 +177,3 @@ There are other similar methods that can be good to be aware of, such as:
 In some cases it is inconvenient and error prone to react on the regular state machine events with the signal based push/pull API. The API based on declarative sequencing of actions (e.g. `emit` and `read`) will greatly simplify some of those cases. The difference between the two APIs could be described as that the first one is signal driven from the outside, while the other is more active and drives its surroundings.
 
 The complete source code for the example in this blog post is available in this [gist](https://gist.github.com/patriknw/65e94e0913db450fb0ea2da4c3e2d846). 
-

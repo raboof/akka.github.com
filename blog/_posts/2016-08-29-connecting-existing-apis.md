@@ -3,7 +3,7 @@ layout: series_post
 title: "Writing Akka Streams Connectors for existing APIs"
 description: ""
 author: Johan Andrén
-category: integrations
+redirect_from: /integrations/2016/08/29/connecting-existing-apis
 series_title: Integration
 series_tag: integration
 tags: [streams,integration]

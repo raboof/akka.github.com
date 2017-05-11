@@ -3,7 +3,7 @@ layout: series_post
 title: "Aeron in Artery"
 description: ""
 author: Patrik Nordwall
-category: artery
+redirect_from: /artery/2016/12/05/aeron-in-artery
 series_title: Artery
 series_tag: artery
 tags: [artery]
@@ -58,5 +58,4 @@ Aeron has support for unicast (point-to-point sender and receiver) and multicast
 Our experience of using Aeron has been very good. We have had very few problems, and when we had questions or found bugs Martin and Todd have been very responsive. Thank you! The most difficult part was to get the shutdown sequence right, including removal of the files for the embedded media driver. If some thread tried to use Aeron after it had been closed it would cause JVM segmentation faults. This problem is not specific for Aeron but something that must be carefully managed when working with memory mapped files.
 
 We are looking forward to harden and optimize Artery even more and eventually make it the default transport for actor messages. Your help is welcome!
-
 

@@ -4,6 +4,7 @@ title: Akka Stream and Http 2.0.4 Released!
 author: Martynas Mickevičius
 short: Akka Stream and Http 2.0.4 Released!
 category: news
+redirect_from: /news/2016/04/01/akka-streams-2.0.4-released
 tags: [releases]
 ---
 

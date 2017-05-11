@@ -3,7 +3,7 @@ layout: series_post
 title: "Akka Typed: Hello World in the new API"
 description: ""
 author: Patrik Nordwall
-category: typed
+redirect_from: /typed/2017/05/05/typed-intro
 series_title: Introducing Akka Typed
 series_tag: typed
 tags: [actor,typed]

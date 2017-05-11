@@ -3,7 +3,7 @@ layout: series_post
 title: "Akka Streams Integration, codename Alpakka"
 description: ""
 author: Patrik Nordwall
-category: integrations
+redirect_from: /integrations/2016/08/23/intro-alpakka
 series_title: Integration
 series_tag: integration
 tags: [streams,integration]
