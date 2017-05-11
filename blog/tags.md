@@ -9,14 +9,15 @@ group: navigation
 <div class="wrapper">
 	<div class="row">
 		<ul class="tag_box inline">
-  		{% assign tags_list = site.tags %}  
+		{% assign tags_list = site.tags | sort %}
   		{% include JB/tags_list %}
 		</ul>
 
-		{% for tag in site.tags %} 
-  		<h2 id="{{ tag[0] }}-ref">Tag: {{ tag[0] }}</h2>
+        {% assign tags_list = site.tags | sort %}
+		{% for tag in tags_list %}
+		<h2 id="{{ tag[0] }}-ref">{{ tag[0] | capitalize }}</h2>
   		<ul>
-    		{% assign pages_list = tag[1] %}  
+			{% assign pages_list = tag[1] | sort "date" %}
     		{% include JB/pages_list %}
   		</ul>
 		{% endfor %}
