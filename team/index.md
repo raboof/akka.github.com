@@ -3,7 +3,7 @@ layout: page
 title: Team
 ---
 
-<h2>Akka Team</h2>
+<h2>Core Akka Team</h2>
 
 {% for member in site.data.team %}
   {% assign loopindex = forloop.index | modulo: 2 %}
@@ -29,7 +29,7 @@ title: Team
 </div>
 {% endif %}
 
-<h3>Honorary Members</h3>
+<h2>Honorary Members</h2>
 
 {% for member in site.data.alumni_team %}
   {% assign loopindex = forloop.index | modulo: 2 %}
