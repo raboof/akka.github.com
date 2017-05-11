@@ -1,7 +1,7 @@
 ---
 layout: news-main
 title: Article Archive
-redirect_from: "news/all-news"
+redirect_from: "/news/all-news.html"
 group: navigation
 ---
 

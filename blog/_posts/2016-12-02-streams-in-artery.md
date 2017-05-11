@@ -38,7 +38,7 @@ We have embraced this unidirectional aspect in the design of the Akka streams th
 
 The following diagram illustrates the stages of the outbound and inbound streams for sending and receiving ordinary messages. Actors are located to the left of the green arrows and Aeron and the network to the right of the red arrows.
 
-![Message stream]({{ site.url }}/blog/assets/artery-streams1.png)
+![Message stream]({{ site.baseurl }}/blog/assets/artery-streams1.png)
 
 The ActorSystem must have a known address for inbound messages. This corresponds to an Aeron UDP channel that is bound to a hostname and port. This binding is created by the `AeronSource` stage in the inbound stream.
 
@@ -46,7 +46,7 @@ We wanted isolation of internal control and system messages from ordinary messag
 
 The following diagram shows how the stages are composed for the control streams. Compared to the streams for the ordinary messages (see above) the control streams handle more things, e.g. reliable delivery of system messages. 
 
-![Control stream]({{ site.url }}/blog/assets/artery-streams2.png)
+![Control stream]({{ site.baseurl }}/blog/assets/artery-streams2.png)
 
 Maybe you have heard that Aeron has reliable delivery of messages, so why do we need something more for system messages? It is true that Aeron will not drop any messages as long as the session is alive, but in the case of long network partitions the session will be broken and no messages will be delivered. That is the same for TCP connections, where the classic remoting also had additional infrastructure to handle these situations. Therefore we implemented acknowledgments, resending and deduplication for system messages. For user messages such semantics can be achieved on the application level by utilising the `AtLeastOnceDelivery` trait.
 
@@ -60,7 +60,7 @@ This feature is implemented and can be enabled with configuration, but currently
 
 When 2 outbound and 2 inbound lanes are defined it looks like this:
 
-![Lanes]({{ site.url }}/blog/assets/artery-streams3.png)
+![Lanes]({{ site.baseurl }}/blog/assets/artery-streams3.png)
 
 That will result in an asynchronous boundary before the MergeHub in the outbound stream, i.e. serialization in the Encoder stages can be performed in parallel. Selection of lane is done with consistent hashing of the destination actor reference, i.e. all messages for the same destination actor always go through the same lane. The reason for that is to preserve message ordering. Messages to different actors are allowed to arrive in any order anyway and can therefore take different lanes.
 

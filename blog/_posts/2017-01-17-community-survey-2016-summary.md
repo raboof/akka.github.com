@@ -36,7 +36,7 @@ So once more, we’d like to thank all of your who participated in the survey. T
 We hope those will help you share your love for Akka, concurrency and distributed computing among your peers! 
 You’ll notice we also sent out a few special *happy hakking* t-shirts, this was a secret initiative we launched in 2016 in which we rewarded top contributors to Akka for their ongoing efforts and awesome streams of pull requests. Want one of these? Simple, keep hacking, we’ll continue awarding the top-n most active / awesome contributors in 2017 (every few months).
 
-![happy hakkers]({{ site_url }}/blog/assets/happy-hakkers-2017.png)
+![happy hakkers]({{ site.baseurl }}/blog/assets/happy-hakkers-2017.png)
 
 Having that said, let 2017 begin with full steam ahead.
 
