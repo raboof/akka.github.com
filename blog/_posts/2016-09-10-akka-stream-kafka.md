@@ -3,7 +3,7 @@ layout: series_post
 title: "Akka Streams Kafka 0.11"
 description: ""
 author: Adam Warski & Krzysiek Ciesielski
-category: integrations
+redirect_from: /integrations/2016/09/10/akka-stream-kafka
 series_title: Integration
 series_tag: integration
 tags: [streams,integration]
@@ -63,5 +63,4 @@ Sometimes one needs to commit each single message before processing, which gives
 Our last benchmark tests a producer continuously sending messages to a Kafka topic. Current version of akka-stream-kafka writes over 85,000 messages per second. This result has been achieved with producer parallelism set to 100, which indicates how many parallel writes can be waiting for confirmation until this stage backpressures. The “plain-producer” test chosen for comparison writes to Kafka in a loop being bound only by its internal buffer size.
 
 Give it a try, we’d love to hear your feedback!
-
 

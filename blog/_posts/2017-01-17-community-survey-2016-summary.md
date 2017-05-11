@@ -3,9 +3,10 @@ layout: series_post
 title: "Community Survey 2016 Summary"
 description: ""
 author: Konrad 'ktoso' Malawski
-category: community
+redirect_from: /community/2017/01/17/community-survey-2016-summary
 series_title: survey
 series_tag: survey
+category: news
 tags: [community,survey]
 ---
 {% include JB/setup %}
@@ -45,4 +46,3 @@ Having that said, let 2017 begin with full steam ahead.
 While we have your attention here: We’re starting off the year 2017 strong, and looking to hire an additional hakker to the core Akka team. If that’s something you’d be interested in [head over to this post for more details](http://blog.akka.io/work/2017/01/17/looking-for-hakker). We’d love to hear from you, please follow the instructions in the other post to apply.
 
 Happy hakking!
-

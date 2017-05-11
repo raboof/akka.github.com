@@ -3,9 +3,10 @@ layout: series_post
 title: "Looking for hakker!"
 description: ""
 author: Konrad 'ktoso' Malawski
-category: work
+redirect_from: /work/2017/01/17/looking-for-hakker
 series_title: work
 series_tag: work
+category: news
 tags: [work]
 ---
 {% include JB/setup %}
@@ -23,4 +24,3 @@ The core Akka project includes several technically interesting parts, such as ac
 We’re looking forward to hearing from you,
 
 Happy hakking!
-

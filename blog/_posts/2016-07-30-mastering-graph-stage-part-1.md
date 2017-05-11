@@ -3,7 +3,7 @@ layout: post
 title: "Mastering GraphStages (part I, Introduction)"
 description: ""
 author: Endre Varga
-category: streams
+redirect_from: /streams/2016/07/30/mastering-graph-stage-part-1
 tags: [streams,internals,intro]
 ---
 {% include JB/setup %}
@@ -85,4 +85,3 @@ These features will all be detailed in future posts of this series, for now, you
 Yes there is ;-) Let’s not go that deep in this post, it is rather lengthy already. I hope I managed to demonstrate the underlying complexity (and the abyss) of writing correct stream processing stages. There are edge cases, undefined behavior, resource leaks lurking around every corner when you go down to raw Reactive Streams interfaces. We have been there, and we wanted to solve the problems we encountered once and for all, and provide an abstraction that *we use internally* and something that we can rely on. Today, practically all of our built-in operators are implemented as GraphStages. 
 
 We believe that if you ever need to build custom processing stages not expressible in terms of built-in combinators, a `GraphStage` is a good choice as it provides an excellent safety net built on more than 2 years of suffering debugging experience.
-

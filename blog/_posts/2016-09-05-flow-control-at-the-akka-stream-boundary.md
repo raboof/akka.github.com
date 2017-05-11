@@ -3,7 +3,7 @@ layout: series_post
 title: "Flow control at the boundary of Akka Streams and a data provider"
 description: ""
 author: Martynas Mickevičius
-category: integrations
+redirect_from: /integrations/2016/09/05/flow-control-at-the-akka-stream-boundary
 series_title: Integration
 series_tag: integration
 tags: [streams,connectors,integration]

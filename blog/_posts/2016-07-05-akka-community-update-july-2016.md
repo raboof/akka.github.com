@@ -3,7 +3,8 @@ layout: post
 title: "Akka Community update July 2016"
 description: ""
 author: Konrad 'ktoso' Malawski
-category: community
+redirect_from: /community/2016/07/05/akka-community-update-july-2016
+category: news
 tags: [community,contributing,akka]
 ---
 {% include JB/setup %}
@@ -59,4 +60,3 @@ The [akka.io/news](http://akka.io/news/) site will remain unchanged, as it hosts
 The [letitcrash.com](http://letitcrash.com/) blog will be kept as-is, which is mostly as archive of old yet still very relevant posts as well as an aggregator of links to interesting blog posts. We do not plan to maintain it from now on though, as the need for aggregating Akka / Scala related blogs is nowadays served very well by the excellent [this week in #scala](http://www.cakesolutions.net/teamblogs) series by Cake Solutions as well as the [ScalaTimes](http://scalatimes.com/) by SoftwareMill, thus the need for such re-blogging has lessened significantly. 
 
 The [lightbend.com blog](https://www.lightbend.com/blog) remains active and focused on delivering top notch webinars, case-studies, white papers and more - many of which contain Akka content so it is highly recommended to keep an eye on it as well.
-

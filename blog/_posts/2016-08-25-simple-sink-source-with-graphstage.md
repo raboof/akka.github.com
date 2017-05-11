@@ -3,7 +3,7 @@ layout: series_post
 title: "A gentle introduction to building Sinks and Sources using GraphStage APIs (Mastering GraphStages, Part II)"
 description: ""
 author: Konrad Malawski & Johan Andrén
-category: integrations
+redirect_from: /integrations/2016/08/25/simple-sink-source-with-graphstage
 series_title: Integration
 series_tag: integration
 tags: [streams,integration]

@@ -3,7 +3,8 @@ layout: post
 title: "Akka Community Survey 2016"
 description: ""
 author: Markus Eisele & Konrad Malawski
-category: community
+redirect_from: /community/2016/09/01/akka-community-survey-2016
+category: news
 tags: [community,contributing,akka,survey]
 ---
 {% include JB/setup %}
