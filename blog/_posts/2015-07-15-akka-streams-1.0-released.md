@@ -4,6 +4,7 @@ title: Akka Streams & Http 1.0 Released!
 author: Konrad 'ktoso' Malawski
 short: Akka Streams & Http 1.0 Released
 category: news
+tags: [releases]
 ---
 
 *Dear hakkers,*

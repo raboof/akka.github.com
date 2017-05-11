@@ -2,6 +2,7 @@
 layout: post
 title: Typesafe Stack 2.0 Released
 author: Jonas Bonér
+tags: [releases]
 ---
 
 Following our release of Akka 2.0 last week, we are now releasing Typesafe Stack 2.0 targeting both Java and Scala developers. Read more about it in the [official announcement](http://blog.typesafe.com/introducing-typesafe-stack-20).
