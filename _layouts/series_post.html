@@ -16,7 +16,7 @@ layout: news
                 <div class="selArticleContent">
                     {{ content }}
                     <div class="selArticleSeries">
-                        <p>This post is part of <i>{{ page.series_title }}</i> series. Explore other posts in this series:</p>
+                        <p>This post is part of the <i>"{{ page.series_title }}"</i> series. Explore other posts in this series:</p>
                         {% assign series_posts = site.tags.[page.series_tag] | sort: "date" %}
                         {% include series %}
                     </div>
