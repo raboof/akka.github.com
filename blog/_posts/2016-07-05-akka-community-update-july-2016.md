@@ -50,7 +50,7 @@ A few weeks ago in Berlin, right after Martin Odersky’s excellent keynote on S
 
 We hope this kind of get together will become our small tradition, and hope to see *you*–future or current hakker–on the next one!
 
-![hakker dinner]({{ site.url }}/blog/assets/hakker-dinner-2016-berlin.jpg)
+![hakker dinner]({{ site.baseurl }}/blog/assets/hakker-dinner-2016-berlin.jpg)
 
 ## This blog’s relation to other blogs
 
