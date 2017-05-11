@@ -4,6 +4,7 @@ title: Akka Streams &amp; Http 1.0-RC1 Released!
 author: Patrik Nordwall
 short: Akka Streams and Http 1.0-RC1 Released
 category: news
+tags: [releases]
 ---
 
 *Dear hAkkers,*

@@ -1,13 +1,13 @@
 ---
 layout: news-main
-title: Article Archive
+title: News Archive
 redirect_from: "/news/all-news.html"
 group: navigation
 ---
 
 <div class="ninecol">
 	<ul class="newsContainer">
-		{% for p in site.posts %}
+		{% for p in site.categories.news %}
 			<li>
 				<a href="{{ site.baseurl }}{{ p.url }}">
 					<div class="newsDate">

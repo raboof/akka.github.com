@@ -4,6 +4,7 @@ title: Akka Stream and Http 2.0 Released!
 author: Konrad 'ktoso' Malawski
 short: Akka Stream and Http 2.0 Released!
 category: news
+tags: [releases]
 ---
 
 *Dear Hakkers,*

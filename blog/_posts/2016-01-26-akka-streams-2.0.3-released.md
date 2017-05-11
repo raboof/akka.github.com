@@ -4,6 +4,7 @@ title: Akka Stream and Http 2.0.3 Released!
 author: Martynas Mickevičius
 short: Akka Stream and Http 2.0.3 Released!
 category: news
+tags: [releases]
 ---
 
 *Dear Hakkers,*
