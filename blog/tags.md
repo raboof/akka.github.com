@@ -17,6 +17,7 @@ group: navigation
 		{% for tag in tags_list %}
 		<h2 id="{{ tag[0] }}-ref">{{ tag[0] | capitalize }}</h2>
   		<ul>
+		    {% assign BASE_PATH = site.baseurl %}
 			{% assign pages_list = tag[1] | sort "date" %}
     		{% include JB/pages_list %}
   		</ul>
