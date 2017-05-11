@@ -8,6 +8,7 @@ group: navigation
 <div class="ninecol">
 	<ul class="newsContainer">
 		{% for p in site.posts %}
+		    {% if p.categories contains 'news' %}
 			<li>
 				<a href="{{ site.baseurl }}{{ p.url }}">
 					<div class="newsDate">
@@ -21,6 +22,7 @@ group: navigation
 					</div>
 				</a>
 			</li>
+			{% endif %}
 		{% endfor %}
 	</ul>
 </div>
