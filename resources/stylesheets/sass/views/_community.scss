@@ -1,0 +1,24 @@
+
+.communityContent {
+  table.scaladex {
+    margin-bottom: 20px;
+    td {
+      padding: 10px;
+    }
+    .stats {
+      text-align: right;
+      // to keep the page from jumping/rerendering when the images load
+      // will need update if we add a wider scaladex image than "akka-persistence-plugin"
+      width: 220px;
+    }
+  }
+
+  a.scaladex {
+    border-bottom: none;
+    img {
+      vertical-align: middle;
+      height: 1.5em;
+    }
+  }
+
+}
