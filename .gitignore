@@ -16,3 +16,4 @@ _site
 
 # ruby/jekyll
 Gemfile.lock
+.jekyll-metadata
