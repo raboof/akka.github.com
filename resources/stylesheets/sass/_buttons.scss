@@ -28,6 +28,7 @@ button::-moz-focus-inner {
   -webkit-box-sizing:content-box;
   -moz-box-sizing:content-box;
   box-sizing:content-box;
+  transition: background-color 150ms ease-in-out;
 
   @include single-column {
     width: 100%;
@@ -68,4 +69,12 @@ button::-moz-focus-inner {
   background-color: $pri_blue;
   @include x-rem(font-size, 1.4);
   padding: 16px 25px;
+}
+
+.btn.akkaLogoBtn {
+  padding-left: 70px;
+  background-repeat: no-repeat;
+  background-position: left 10px top 5px;
+  background-size: 50px 50px;
+  background-image: url(/resources/images/akka_icon_reverse.svg);
 }
