@@ -1,39 +1,11 @@
 ---
+# It eludes me why this layout is needed, but if I remove it the docs page breaks
 layout: default
 ---
 
-{% include headertop.html %}
-{% include headerbottom.html %}
 
-{% include topbar.html %}
-<div id="stickyFill"></div>
-<section id="stickySearch" class="wrapper docuHeaderHero">
-	<div class="row">
-		<h1>{{ page.title }}</h1>
-		<div class="headerContainer">
-			<div class="headerSearch">
-				<ul id="search-ref-docs">
-  				<li id="scala" class="lang"><input type="search" id="search-scala" class="search" /></li>
-  				<li id="java" class="hidden lang"><input type="search" id="search-java" class="search" /></li>
-  				<li><p>in</p></li>
-  				<li>
-    				<select id="docs-language" class="form-control">
-      				<option selected="selected">Scala</option>
-      				<option>Java</option>
-    				</select>
-  				</li>
-				</ul>
-				<span class="searchVersion">Version {{ page.current_akka_version }}</span>
-			</div>
-			<div class="headerButtons">
-				<a href="http://doc.akka.io/docs/akka/current/java.html" class="bright">Java contents</a>
-				<a href="http://doc.akka.io/docs/akka/current/scala.html" class="bright">Scala contents</a>
-			</div>
-		</div>
-	</div>
-</section>
+
+
 
 {{ content }}
 
-{% include footermenu.html %}
-{% include footer.html %}
