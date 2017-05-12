@@ -5,14 +5,14 @@ redirect_from: "/downloads"
 ---
 
 
-<section class="wrapper">
+<section class="wrapper getStarted">
   <div class="row">
     <div class="sevencol">
       <h1>Getting started</h1>
       <p>New to Akka, want to get up and running and learn the basics as fast as possible? Check out the get started section of the documentation!</p>
     </div>
     <div class="fivecol">
-      <a class="btn getStarted" href="/documentationContents.html">Get started</a>
+      <a class="btn getStartedBtn" href="/documentationContents.html">Get started</a>
     </div>
   </div>
 </section>
@@ -40,17 +40,17 @@ redirect_from: "/downloads"
          </div>
          <div class="docTabPanel">
            <ul class="tabPanelList">
-             <li rel="3-panel-sbt" class="active">sbt</li>
-             <li rel="3-panel-gradle">gradle</li>
-             <li rel="3-panel-maven">maven</li>
+             <li rel="1-panel-sbt" class="active">sbt</li>
+             <li rel="1-panel-gradle">gradle</li>
+             <li rel="1-panel-maven">maven</li>
            </ul>
-           <div id="3-panel-sbt" class="tabPanel active">
+           <div id="1-panel-sbt" class="tabPanel active">
              <p>"com.typesafe.akka" %% "akka-actor" % "{{page.current_akka_version}}"</p>
            </div>
-           <div id="3-panel-gradle" class="tabPanel">
+           <div id="1-panel-gradle" class="tabPanel">
              <p>compile 'com.typesafe.akka:akka-actor_{{page.current_java_scala_version}}:{{page.current_akka_version}}'</p>
            </div>
-           <div id="3-panel-maven" class="tabPanel">
+           <div id="1-panel-maven" class="tabPanel">
              <p>
                &lt;dependency&gt;<br>
                &nbsp;&nbsp;&lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;<br>
@@ -122,17 +122,17 @@ redirect_from: "/downloads"
         </div>
         <div class="docTabPanel">
           <ul class="tabPanelList">
-            <li rel="1-panel-sbt" class="active">sbt</li>
-            <li rel="1-panel-gradle">gradle</li>
-            <li rel="1-panel-maven">maven</li>
+            <li rel="3-panel-sbt" class="active">sbt</li>
+            <li rel="3-panel-gradle">gradle</li>
+            <li rel="3-panel-maven">maven</li>
           </ul>
-          <div id="1-panel-sbt" class="tabPanel active">
+          <div id="3-panel-sbt" class="tabPanel active">
             <p>"com.typesafe.akka" %% "akka-http" % "{{page.current_akka_http_version}}"</p>
           </div>
-          <div id="1-panel-gradle" class="tabPanel">
+          <div id="3-panel-gradle" class="tabPanel">
             <p>compile 'com.typesafe.akka:akka-http_{{current_java_scala_version}}:{{page.current_akka_http_version}}'</p>
           </div>
-          <div id="1-panel-maven" class="tabPanel">
+          <div id="3-panel-maven" class="tabPanel">
             <p>
               &lt;dependency&gt;<br>
               &nbsp;&nbsp;&lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;<br>
