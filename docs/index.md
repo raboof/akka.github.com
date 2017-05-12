@@ -45,13 +45,16 @@ redirect_from: "/downloads"
              <li rel="1-panel-maven">maven</li>
            </ul>
            <div id="1-panel-sbt" class="tabPanel active">
-<pre>libraryDependencies += 
-  "com.typesafe.akka" %% "akka-actor" % "{{page.current_akka_version}}"
+<pre>libraryDependencies ++= Seq( 
+  "com.typesafe.akka" %% "akka-actor" % "{{page.current_akka_version}}",
+  "com.typesafe.akka" %% "akka-testkit" % "{{page.current_akka_version}}" % Test
+)
 </pre>
            </div>
            <div id="1-panel-gradle" class="tabPanel">
 <pre>dependencies {
   compile group: 'com.typesafe.akka', name: 'akka-actor_{{page.current_java_scala_version}}', version: '{{page.current_akka_version}}'
+  testCompile group: 'com.typesafe.akka', name: 'akka-testkit_{{page.current_java_scala_version}}', version: '{{page.current_akka_version}}'
 }</pre>
            </div>
            <div id="1-panel-maven" class="tabPanel">
@@ -59,6 +62,12 @@ redirect_from: "/downloads"
   &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
   &lt;artifactId&gt;akka-actor_{{page.current_java_scala_version}}&lt;/artifactId&gt;
   &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-testkit_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+  &lt;scope&gt;test&lt;/scope&gt;
 &lt;/dependency&gt;</pre>
            </div>
          </div>
@@ -88,13 +97,16 @@ redirect_from: "/downloads"
             <li rel="2-panel-maven">maven</li>
           </ul>
           <div id="2-panel-sbt" class="tabPanel active">
-<pre>libraryDependencies += 
-  "com.typesafe.akka" %% "akka-stream" % "{{page.current_akka_version}}"
+<pre>libraryDependencies ++= Seq( 
+  "com.typesafe.akka" %% "akka-stream" % "{{page.current_akka_version}}",
+  "com.typesafe.akka" %% "akka-stream-testkit" % "{{page.current_akka_version}}" % Test
+)
 </pre>
           </div>
           <div id="2-panel-gradle" class="tabPanel">
 <pre>dependencies {
   compile group: 'com.typesafe.akka', name: 'akka-stream_{{page.current_java_scala_version}}', version:'{{page.current_akka_version}}'
+  testCompile group: 'com.typesafe.akka', name: 'akka-stream-testkit_{{page.current_java_scala_version}}', version:'{{page.current_akka_version}}'
 }</pre>
           </div>
           <div id="2-panel-maven" class="tabPanel">
@@ -102,6 +114,12 @@ redirect_from: "/downloads"
   &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
   &lt;artifactId&gt;akka-stream_{{page.current_java_scala_version}}&lt;/artifactId&gt;
   &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-stream-testkit_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+  &lt;scope&gt;test&lt;/scope&gt;
 &lt;/dependency&gt;</pre>
           </div>
         </div>
@@ -131,13 +149,16 @@ redirect_from: "/downloads"
             <li rel="3-panel-maven">maven</li>
           </ul>
           <div id="3-panel-sbt" class="tabPanel active">
-<pre>libraryDependencies += 
-  "com.typesafe.akka" %% "akka-http" % "{{page.current_akka_http_version}}"
+<pre>libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-http" % "{{page.current_akka_http_version}}",
+  "com.typesafe.akka" %% "akka-http-testkit" % "{{page.current_akka_http_version}}" % Test
+)
 </pre>
           </div>
           <div id="3-panel-gradle" class="tabPanel">
 <pre>dependencies {
   compile group: 'com.typesafe.akka', name: 'akka-http_{{page.current_java_scala_version}}', version:'{{page.current_akka_http_version}}'
+  testCompile group: 'com.typesafe.akka', name: 'akka-http-testkit_{{page.current_java_scala_version}}', version:'{{page.current_akka_http_version}}'
 }</pre>
           </div>
           <div id="3-panel-maven" class="tabPanel">
@@ -145,6 +166,12 @@ redirect_from: "/downloads"
   &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
   &lt;artifactId&gt;akka-http_{{page.current_java_scala_version}}&lt;/artifactId&gt;
   &lt;version&gt;{{page.current_akka_http_version}}&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-http-testkit_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_http_version}}&lt;/version&gt;
+  &lt;scope&gt;test&lt;/scope&gt;
 &lt;/dependency&gt;</pre>
           </div>
         </div>
