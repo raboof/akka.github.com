@@ -45,19 +45,21 @@ redirect_from: "/downloads"
              <li rel="1-panel-maven">maven</li>
            </ul>
            <div id="1-panel-sbt" class="tabPanel active">
-             <p>"com.typesafe.akka" %% "akka-actor" % "{{page.current_akka_version}}"</p>
+<pre>libraryDependencies += 
+  "com.typesafe.akka" %% "akka-actor" % "{{page.current_akka_version}}"
+</pre>
            </div>
            <div id="1-panel-gradle" class="tabPanel">
-             <p>compile 'com.typesafe.akka:akka-actor_{{page.current_java_scala_version}}:{{page.current_akka_version}}'</p>
+<pre>dependencies {
+  compile group: 'com.typesafe.akka', name: 'akka-actor_{{page.current_java_scala_version}}', version: '{{page.current_akka_version}}'
+}</pre>
            </div>
            <div id="1-panel-maven" class="tabPanel">
-             <p>
-               &lt;dependency&gt;<br>
-               &nbsp;&nbsp;&lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;<br>
-               &nbsp;&nbsp;&lt;artifactId&gt;akka-actor_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
-               &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
-               &lt;/dependency&gt;<br>
-             </p>
+<pre>&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-actor_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+&lt;/dependency&gt;</pre>
            </div>
          </div>
       </div>
@@ -86,19 +88,21 @@ redirect_from: "/downloads"
             <li rel="2-panel-maven">maven</li>
           </ul>
           <div id="2-panel-sbt" class="tabPanel active">
-            <p>"com.typesafe.akka" %% "akka-stream" % "{{page.current_akka_version}}"</p>
+<pre>libraryDependencies += 
+  "com.typesafe.akka" %% "akka-stream" % "{{page.current_akka_version}}"
+</pre>
           </div>
           <div id="2-panel-gradle" class="tabPanel">
-            <p>compile 'com.typesafe.akka:akka-stream_{{current_java_scala_version}}:{{page.current_akka_version}}'</p>
+<pre>dependencies {
+  compile group: 'com.typesafe.akka', name: 'akka-stream_{{page.current_java_scala_version}}', version:'{{page.current_akka_version}}'
+}</pre>
           </div>
           <div id="2-panel-maven" class="tabPanel">
-            <p>
-              &lt;dependency&gt;<br>
-              &nbsp;&nbsp;&lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;<br>
-              &nbsp;&nbsp;&lt;artifactId&gt;akka-stream_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
-              &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
-              &lt;/dependency&gt;<br>
-            </p>
+<pre>&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-stream_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+&lt;/dependency&gt;</pre>
           </div>
         </div>
       </div>
@@ -127,19 +131,21 @@ redirect_from: "/downloads"
             <li rel="3-panel-maven">maven</li>
           </ul>
           <div id="3-panel-sbt" class="tabPanel active">
-            <p>"com.typesafe.akka" %% "akka-http" % "{{page.current_akka_http_version}}"</p>
+<pre>libraryDependencies += 
+  "com.typesafe.akka" %% "akka-http" % "{{page.current_akka_http_version}}"
+</pre>
           </div>
           <div id="3-panel-gradle" class="tabPanel">
-            <p>compile 'com.typesafe.akka:akka-http_{{current_java_scala_version}}:{{page.current_akka_http_version}}'</p>
+<pre>dependencies {
+  compile group: 'com.typesafe.akka', name: 'akka-http_{{page.current_java_scala_version}}', version:'{{page.current_akka_http_version}}'
+}</pre>
           </div>
           <div id="3-panel-maven" class="tabPanel">
-            <p>
-              &lt;dependency&gt;<br>
-              &nbsp;&nbsp;&lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;<br>
-              &nbsp;&nbsp;&lt;artifactId&gt;akka-http_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
-              &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_http_version}}&lt;/version&gt;<br>
-              &lt;/dependency&gt;<br>
-            </p>
+<pre>&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-http_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_http_version}}&lt;/version&gt;
+&lt;/dependency&gt;</pre>
           </div>
         </div>
       </div>
@@ -170,20 +176,21 @@ redirect_from: "/downloads"
             <li rel="4-panel-maven">maven</li>
           </ul>
           <div id="4-panel-sbt" class="tabPanel active">
-            <p>"com.typesafe.akka" %% "akka-cluster" % "{{page.current_akka_version}}"</p>
+<pre>libraryDependencies += 
+  "com.typesafe.akka" %% "akka-cluster" % "{{page.current_akka_version}}"
+</pre>
           </div>
           <div id="4-panel-gradle" class="tabPanel">
-            <p>compile 'com.typesafe.akka:akka-cluster_{{page.current_java_scala_version}}:{{page.current_akka_version}}'</p>
+<pre>dependencies {
+  compile group: 'com.typesafe.akka', name: 'akka-cluster_{{page.current_java_scala_version}}', version: '{{page.current_akka_version}}'
+}</pre>
           </div>
           <div id="4-panel-maven" class="tabPanel">
-            <p>
-              &lt;dependency&gt;<br>
-              &nbsp;&nbsp;&lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;<br>
-              &nbsp;&nbsp;&lt;artifactId&gt;akka-cluster_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
-              &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
-              &lt;/dependency&gt;<br>
-            </p>
-            </p>
+<pre>&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-cluster_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+&lt;/dependency&gt;</pre>
           </div>
         </div>
       </div>
@@ -210,19 +217,21 @@ redirect_from: "/downloads"
             <li rel="5-panel-maven">maven</li>
           </ul>
           <div id="5-panel-sbt" class="tabPanel active">
-            <p>"com.typesafe.akka" %% "akka-cluster-sharding" %  "{{page.current_akka_version}}"</p>
+<pre>libraryDependencies += 
+  "com.typesafe.akka" %% "akka-cluster-sharding" %  "{{page.current_akka_version}}"
+</pre>
           </div>
           <div id="5-panel-gradle" class="tabPanel">
-            <p>compile 'com.typesafe.akka:akka-cluster-sharding_{{page.current_java_scala_version}}:{{page.current_akka_version}}'</p>
+<pre>dependencies {
+  compile group: 'com.typesafe.akka', name: 'akka-cluster-sharding_{{page.current_java_scala_version}}', version: '{{page.current_akka_version}}'
+}</pre>
           </div>
           <div id="5-panel-maven" class="tabPanel">
-            <p>
-              &lt;dependency&gt;<br>
-              &nbsp;&nbsp;&lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;<br>
-              &nbsp;&nbsp;&lt;artifactId&gt;akka-cluster-sharding_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
-              &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
-              &lt;/dependency&gt;<br>
-            </p>
+<pre>&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-cluster-sharding_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+&lt;/dependency&gt;</pre>
           </div>
         </div>
       </div>
@@ -249,19 +258,22 @@ redirect_from: "/downloads"
                <li rel="7-panel-maven">maven</li>
              </ul>
              <div id="7-panel-sbt" class="tabPanel active">
-               <p>"com.typesafe.akka" %% "akka-distributed-data" % "{{page.current_akka_version}}"</p>
+<pre>libraryDependencies += 
+  "com.typesafe.akka" %% "akka-distributed-data" % "{{page.current_akka_version}}"
+</pre>
              </div>
              <div id="7-panel-gradle" class="tabPanel">
-               <p>compile 'com.typesafe.akka:akka-distributed-data_{{page.current_java_scala_version}}:{{page.current_akka_version}}'</p>
+<pre>dependencies {
+  compile group: 'com.typesafe.akka', name: 'akka-distributed-data_{{page.current_java_scala_version}}', version: '{{page.current_akka_version}}'
+}
+</pre>
              </div>
              <div id="7-panel-maven" class="tabPanel">
-               <p>
-                 &lt;dependency&gt;<br>
-                 &nbsp;&nbsp;&lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;<br>
-                 &nbsp;&nbsp;&lt;artifactId&gt;akka-distributed-data_{{page.current_java_scala_version}}&lt;/artifactId&gt;<br>
-                 &nbsp;&nbsp;&lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;<br>
-                 &lt;/dependency&gt;<br>
-               </p>
+<pre>&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-distributed-data_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+&lt;/dependency&gt;</pre>
              </div>
            </div>
         </div>
