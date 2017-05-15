@@ -110,9 +110,7 @@ rather than just `akka-http-core` which provides the raw HTTP model as well as l
 
 Automatically published documentation for the latest SNAPSHOT version of Akka can be found here:
 
-* HTML for [Java](http://doc.akka.io/docs/akka/snapshot/java.html) and [Scala](http://doc.akka.io/docs/akka/snapshot/scala.html)
-* PDF for [Java](http://doc.akka.io/docs/akka/snapshot/AkkaJava.pdf) and [Scala](http://doc.akka.io/docs/akka/snapshot/AkkaScala.pdf)
-* [EPUB](http://doc.akka.io/docs/akka/snapshot/Akka.epub) (Combined Java and Scala)
+* HTML for [Java](http://doc.akka.io/docs/akka/snapshot/java/) and [Scala](http://doc.akka.io/docs/akka/snapshot/scala/)
 
 Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can be found here:
 
