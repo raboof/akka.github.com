@@ -77,4 +77,5 @@ button::-moz-focus-inner {
   background-position: left 10px top 5px;
   background-size: 50px 50px;
   background-image: url(../images/akka_icon_reverse.svg);
+  box-sizing: border-box;
 }
