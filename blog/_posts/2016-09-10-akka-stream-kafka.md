@@ -17,7 +17,7 @@ Recently we’ve combined efforts with the Akka team, and now the project can le
 
 As a result of this collaboration, we’re pleased to announce the 0.11 release of the project, which brings a lot of updates! Integrating Kafka into your reactive data processing pipeline is now even easier than before.
 
-First of all, we have a redesigned API, which should be in-line with other reactive-* connectors (see also the [Alpakka](http://blog.akka.io/integrations/2016/08/23/intro-alpakka) initiative), as well as provide additional flexibility. As an example of a common task, to read data from a Kafka topic, process it and commit offsets in batches collected within 10 seconds or at most 30 messages, you can define your stream as follows:
+First of all, we have a redesigned API, which should be in-line with other reactive-* connectors (see also the [Alpakka]({{ site.baseurl }}/blog/2016/08/23/intro-alpakka) initiative), as well as provide additional flexibility. As an example of a common task, to read data from a Kafka topic, process it and commit offsets in batches collected within 10 seconds or at most 30 messages, you can define your stream as follows:
 
 ```scala
 val consumerSettings = ConsumerSettings(system, 

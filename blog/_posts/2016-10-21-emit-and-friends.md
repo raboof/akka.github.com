@@ -9,7 +9,7 @@ tags: [streams,spotlight]
 {% include JB/setup %}
 
 
-In Mastering GraphStages [Part I](http://blog.akka.io/streams/2016/07/30/mastering-graph-stage-part-1) and [Part II](http://blog.akka.io/integrations/2016/08/25/simple-sink-source-with-graphstage) we have seen that push and pull are the primary methods to use when implementing a `GraphStage`. In this post you will learn that `GraphStage` also comes with other methods that can simplify the logic for some use cases.
+In Mastering GraphStages [Part I]({{ site.baseurl }}/blog/2016/07/30/mastering-graph-stage-part-1) and [Part II]({{ site.baseurl }}/blog/2016/08/25/simple-sink-source-with-graphstage) we have seen that push and pull are the primary methods to use when implementing a `GraphStage`. In this post you will learn that `GraphStage` also comes with other methods that can simplify the logic for some use cases.
 
 As an example, let’s develop a stage that keeps track of the maximum element of a stream. It should consume elements from upstream as fast as possible and emit the maximum value downstreams when it has changed. When there is no request from downstream it should just accumulate current maximum and continue consuming elements from upstream.
 
