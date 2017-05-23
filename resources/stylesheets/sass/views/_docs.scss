@@ -112,11 +112,24 @@
     margin-bottom: 40px;
   }
   .getStartedBtn {
+    padding-left: 70px;
     margin-left: 20%;
     margin-top: 6%;
     @include single-column {
       margin: 0 0 30px 0;
     }
+  }
+  .getStartedBtn.scala {
+    background-image: url(../images/scala-logo-reverse.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+    background-size: 60px 60px;
+  }
+  .getStartedBtn.java {
+    background-image: url(../images/duke_waving_reverse.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+    background-size: 60px 60px;
   }
   .docModuleGrid {
     display: flex;
