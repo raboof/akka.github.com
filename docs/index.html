@@ -362,6 +362,51 @@ redirect_from: "/downloads"
              </div>
           </div>
         </div>
+        <div class="box">
+          <h1>Akka Persistence</h1>
+          <span class="underLine"></span>
+          <p>Eventsourcing for actors allows them to reach the same state after restarts.</p>
+          <div class="docMeta">
+            <div class="docMetaContent">
+              <h2>Scala</h2>
+              <a href="http://doc.akka.io/docs/akka/current/scala/persistence.html">Reference</a>
+              <a href="http://doc.akka.io/api/akka/current/akka/persistence/index.html">API</a>
+            </div>
+            <div class="docMetaContent">
+              <h2>Java</h2>
+              <a href="http://doc.akka.io/docs/akka/current/java/persistence.html">Reference</a>
+              <a href="http://doc.akka.io/japi/akka/current/index.html?akka/persistence/package-summary.html">API</a>
+            </div>
+          </div>
+          <div class="docTabPanel">
+            <ul class="tabPanelList">
+              <li rel="8-panel-sbt" class="active">sbt</li>
+              <li rel="8-panel-gradle">gradle</li>
+              <li rel="8-panel-maven">maven</li>
+            </ul>
+            <div id="8-panel-sbt" class="tabPanel active">
+<pre><div class="copyBtn hidden" title="copy to clipboard"></div>libraryDependencies +=
+  "com.typesafe.akka" %% "akka-persistence" % "{{page.current_akka_version}}"
+</pre>
+            </div>
+            <div id="8-panel-gradle" class="tabPanel">
+<pre><div class="copyBtn hidden" title="copy to clipboard"></div>dependencies {
+  compile group: 'com.typesafe.akka', name: 'akka-persistence_{{page.current_java_scala_version}}', version: '{{page.current_akka_version}}'
+}
+</pre>
+            </div>
+            <div id="8-panel-maven" class="tabPanel">
+<pre><div class="copyBtn hidden" title="copy to clipboard"></div>&lt;dependency&gt;
+  &lt;groupId&gt;com.typesafe.akka&lt;/groupId&gt;
+  &lt;artifactId&gt;akka-persistence_{{page.current_java_scala_version}}&lt;/artifactId&gt;
+  &lt;version&gt;{{page.current_akka_version}}&lt;/version&gt;
+&lt;/dependency&gt;</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
       </div>
     </div>
     
