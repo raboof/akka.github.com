@@ -221,6 +221,26 @@
             @include x-rem(font-size, 1.4);
             overflow: auto;
           }
+          .copyBtn {
+            display: none
+          }
+          &:hover {
+            .copyBtn {
+              display: inline;
+              float: right;
+              width: 14px;
+              height: 14px;
+              background-color: #ededed;
+              background: url(../images/copy-to-clipboard.svg) no-repeat 2px 2px;
+              background-size: 14px 14px;
+              border: 1px solid #bbb;
+              padding: 2px;
+              cursor: pointer;
+            }
+            .copyBtn:active {
+              background-color: #bbb;
+            }
+          }
         }
         .tabPanel.active {
           display: block;

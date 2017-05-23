@@ -42,7 +42,7 @@ $(function () {
     }
 
 
-    // sticky search, makes the search bar stick to the top of the page
+    // sticky search, makes the search bar stick to the top of the page in the docs page
     if ($("#stickySearch")) {
         $(window).scroll(function () {
             if ($(window).scrollTop() > 150) {
@@ -76,7 +76,7 @@ $(function () {
     })
 
     // content toggle, makes a href to "#something" with class .mini-toggler toggle the visibility
-    // of all elements with class "something"
+    // of all elements with class "something" - used for hamburger menu in small-device-mdoe
     $(".mini-toggler").each(function(idx, toggler) {
         toggler.addEventListener("click", function(e) {
             e.preventDefault()
@@ -92,6 +92,14 @@ $(function () {
                 $toggleContent.addClass("active")
             }
         })
+    })
+
+    // copy-pasta dependencies on doc page for mouse-computers (visible on hover only)
+    // expects the button to be in the same pre as the text to copy and depends on clipboardjs
+    new Clipboard('.copyBtn', {
+        text: function(trigger) {
+            return trigger.parentElement.textContent
+        }
     })
 
 });
