@@ -3,35 +3,24 @@ layout: news
 ---
 
 <section class="wrapper">
-    <div class="row">
-        <div class="ninecol">
-            <div class="box selArticle">
-                <div class="selArticleHeader">
-                    <div class="date">
-                        <p>{{ page.date | date: "%B %d"}}</p>
-                        <p>{{ page.date | date: "%Y "}}</p>
-                    </div>
-                    <h1>{{ page.title }}</h1>
-                </div>
-                <div class="selArticleContent">
-                    {{ content }}
-                </div>
-                <div class="selArticleDisqus">
-         <!-- Disqus Comments -->
-         <div id="disqus_thread"></div>
-         <script>
-             (function() {  // DON'T EDIT BELOW THIS LINE
-                 var d = document, s = d.createElement('script');
-                 s.src = '//blogakkaio.disqus.com/embed.js';
-                 s.setAttribute('data-timestamp', +new Date());
-                 (d.head || d.body).appendChild(s);
-             })();
-         </script>
-         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-         <!-- end of #disqus -->
+  <div class="row">
+    <div class="ninecol">
+      <div class="box selArticle">
+        <div class="selArticleHeader">
+          <div class="date">
+            <p>{{ page.date | date: "%B %d"}}</p>
+            <p>{{ page.date | date: "%Y "}}</p>
+          </div>
+          <h1>{{ page.title }}</h1>
         </div>
-            </div>
+        <div class="selArticleContent">
+          {{ content }}
         </div>
-        {% include blog-navbar.html %}
+        <div class="selArticleDisqus">
+          {% include disqus.html %}
+        </div>
+      </div>
+      {% include blog-navbar.html %}
     </div>
+  </div>
 </section>
