@@ -17,6 +17,7 @@ sass:
 
 exclude:
 - README
+- vendor
 
 defaults:
 -
