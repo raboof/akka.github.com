@@ -9,9 +9,9 @@ For current stable release ({{page.current_akka_version}}) check the [documentat
 Snapshots of the latest development version of Akka docs are available 
 
 Documentation:
-[Java Manual](http://doc.akka.io/docs/akka/snapshot/java.html)
+[Java Manual](http://doc.akka.io/docs/akka/snapshot/java/)
 [Java API](http://doc.akka.io/japi/akka/snapshot/)
-[Scala Manual](http://doc.akka.io/docs/akka/snapshot/scala.html)
+[Scala Manual](http://doc.akka.io/docs/akka/snapshot/scala/)
 [Scala API](http://doc.akka.io/api/akka/snapshot/)
 
 ## Archive
