@@ -48,12 +48,12 @@ val worker = ctx.spawn(workerBehavior, "worker")
 }
 ```
 
-To restart the actor we need to wrap the behavior with a `restarter`:
+To restart the actor we need to use `Actor.supervise` to wrap the behavior:
 
 ```scala
 val strategy = SupervisorStrategy.restart
 val worker = ctx.spawn(
-  Actor.restarter[RuntimeException](strategy).wrap(workerBehavior),
+  Actor.supervise(workerBehavior).onFailure[RuntimeException](strategy),
   "worker")
 ```
 
@@ -90,16 +90,16 @@ During the backoff delays incoming messages are dropped.
 
 Those delays are also randomized with the `randomFactor`, e.g. the factor `0.1` adds up to `10%` delay. That is useful to avoid that all actors that depends on same (external) failing resource are restarted at the exact same time.
 
-With the `supervisorStrategy` in untyped actors you can decide different actions depending on the type of the exception. It's not often that is needed, but it's still possible with typed actors by nesting several restarters handling different exception types. For example limited restarts of `IllegalStateException` and unlimited for other exceptions:
+With the `supervisorStrategy` in untyped actors you can decide different actions depending on the type of the exception. It's not often that is needed, but it's still possible with typed actors by nesting several `Actor.supervise` handling different exception types. For example limited restarts of `IllegalStateException` and unlimited for other exceptions:
 
 ```scala
 import FlakyWorker._
 import Actor.restarter
 import SupervisorStrategy._
 val behv: Behavior[Command] =
-  restarter[RuntimeException](restart).wrap(
-    restarter[IllegalStateException](restartWithLimit(3, 1.second)).wrap(
-      workerBehavior))
+  supervise(
+    supervise(workerBehavior).onFailure[IllegalStateException](restartWithLimit(3, 1.second)))
+    .onFailure[RuntimeException](restart)
 ```
 
 ([Same example in Java](https://github.com/patriknw/akka-typed-blog/blob/master/src/main/java/blog/typed/javadsl/FlakyWorkerApp.java#L53-L60))
@@ -109,3 +109,5 @@ In untyped actors there is a strategy called `AllForOneStrategy`, which can rest
 One thing we have not mentioned yet is how to let the failure bubble up in the parent actor hierarchy, i.e. corresponding to `escalate` in untyped actors. For that we need to `watch` the child from the parent and `watch` is the topic of next blog post.
 
 The full source code of these examples, including corresponding Java examples, are available in [patriknw/akka-typed-blog](https://github.com/patriknw/akka-typed-blog).
+
+_Edit 2017-05-24: In Akka 2.5.2 `Actor.restarter` was renamed to `Actor.supervise`. This post and the example repository has been updated._
