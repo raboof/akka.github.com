@@ -1,0 +1,64 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+# This is the main stylesheet source for akka.io, compiled with sass into the "style.css" that is used
+# Compilation should happen automagically when run locally or deployed all customizations should go in the referenced
+# sass files
+---
+
+@charset "utf-8";
+
+// Main font-size
+$main-font-size: 18px;
+
+// Reset
+@import "sass/reset.scss";
+
+// Media Queries and Mixins
+@import "sass/media-queries.scss";
+
+// Helpers
+@import "sass/helpers.scss";
+
+// Grid
+@import "sass/grid.scss";
+
+// Fonts
+@import "sass/fonts.scss";
+
+// Colors
+@import "sass/colors.scss";
+
+// Forms
+@import "sass/forms.scss";
+
+// Header
+@import "sass/header.scss";
+
+// Typography
+@import "sass/type.scss";
+
+// Footer
+@import "sass/footer.scss";
+
+// Content
+@import "sass/content.scss";
+
+// Boxes
+@import "sass/box.scss";
+
+// Buttons
+@import "sass/buttons.scss";
+
+// Views
+@import "sass/views/start-page.scss";
+@import "sass/views/docs.scss";
+@import "sass/views/blog-page.scss";
+@import "sass/views/get-involved-page.scss";
+@import "sass/views/team-page.scss";
+@import "sass/views/community.scss";
+@import "sass/views/try-akka.scss";
+
+//Modules
+@import "sass/modules/news.scss";
+@import "sass/modules/stickySearch.scss";
+@import "sass/modules/algolia.scss";

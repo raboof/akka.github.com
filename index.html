@@ -1,0 +1,191 @@
+---
+layout: default
+---
+
+{% include headertop.html %}
+{% include headerbottom.html %}
+
+{% include topbar.html %}
+
+<section class="wrapper hero">
+    <div class="row">
+        <div class="sixcol">
+            <h1 class="bright">Build powerful reactive, concurrent & distributed applications more easily.</h1>
+            <p class="heroParagraph">Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications for Java and Scala.</p>
+            <a href="#akkaInfo" class="btn sec mini-toggler">Why Akka?</a>
+            <ul id="akkaInfo" class="heroInfo hidden">
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/speed.svg" alt="speed">
+                    <span>
+						<h2>High Performance</h2>
+						<p>50 million msg/sec on a single machine. Small memory footprint; ~2.5 million actors per GB of heap.</p>
+					</span>
+                </li>
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/cluster.svg" alt="speed">
+                    <span>
+						<h2>Simple Concurrency & Distribution</h2>
+						<p>Asynchronous and Distributed by Design. High-level abstractions like Actors, Streams and Futures.</p>
+					</span>
+                </li>
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/shield.svg" alt="speed">
+                    <span>
+						<h2>Resilient by Design</h2>
+						<p>Write systems that self-heal.</p>
+					</span>
+                </li>
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/cloud.svg" alt="speed">
+                    <span>
+						<h2>Elastic & Decentralized</h2>
+						<p>Adaptive cluster management, load balancing, routing, partitioning and sharding.</p>
+					</span>
+                </li>
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/extend.svg" alt="speed">
+                    <span>
+						<h2>Reactive Streams</h2>
+						<p>Asynchronouos non-blocking stream processing with backpressure.</p>
+					</span>
+                </li>
+            </ul>
+            <a href="{{ site.baseurl }}/docs/" class="btn">Documentation</a>
+            <!-- p class="heroSmall">Place for some small hero text here</p>-->
+        </div>
+        <div class="sixcol">
+            <ul class="heroInfo desktop-only">
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/speed.svg" alt="speed">
+                    <span>
+						<h2>High Performance</h2>
+						<p>50 million msg/sec on a single machine. Small memory footprint; ~2.5 million actors per GB of heap.</p>
+					</span>
+                </li>
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/cluster.svg" alt="speed">
+                    <span>
+						<h2>Simple Concurrency & Distribution</h2>
+						<p>Asynchronous and Distributed by Design. High-level abstractions like Actors, Streams and Futures.</p>
+					</span>
+                </li>
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/shield.svg" alt="speed">
+                    <span>
+						<h2>Resilient by Design</h2>
+						<p>Write systems that self-heal.</p>
+					</span>
+                </li>
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/cloud.svg" alt="speed">
+                    <span>
+						<h2>Elastic & Decentralized</h2>
+						<p>Adaptive cluster management, load balancing, routing, partitioning and sharding.</p>
+					</span>
+                </li>
+                <li>
+                    <img src="{{ site.baseurl }}/resources/images/extend.svg" alt="speed">
+                    <span>
+						<h2>Reactive streams</h2>
+						<p>Asynchronouos non-blocking stream processing with backpressure.</p>
+					</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="wrapper prodUsers">
+    <div class="row">
+        <h1>Proven in production</h1>
+        <p>
+            Organizations with extreme requirements rely on Akka and other Lightbend technologies. Read about their experiences in
+            our <a href="https://www.lightbend.com/case-studies">case studies</a> and learn more about how Lightbend can contribute to success with its
+            <a href="https://www.lightbend.com/platform/subscription">commercial offerings</a>.
+        </p>
+
+        <!-- image map like solution that is responsive -->
+        {% assign hover_font_size = 25 %}
+        <figure height="400">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2400 400" preserveAspectRatio="xMinYMin meet" >
+                <image width="2400" height="400" xlink:href="{{ site.baseurl }}/resources/images/logo-cloud.png"></image>
+                <!-- iHeart -->
+                <g class="hover_group" opacity="0">
+                    <a xlink:href="http://www.lightbend.com/case-studies/reactive-drives-innovation-in-streaming-music-industry">
+                        <text x="200" y="230">Go to case study</text>
+                        <rect x="1" y="1" opacity="0.2" fill="#FFFFFF" width="400" height="200"></rect>
+                    </a>
+                </g>
+                <!-- Credit Karma -->
+                <g class="hover_group" opacity="0">
+                    <a xlink:href="http://www.lightbend.com/case-studies/credit-karma-disrupts-credit-reporting-with-reactive-systems-and-fast-data">
+                        <text x="1000" y="180">Go to case study</text>
+                        <rect x="800" y="1" opacity="0.2" fill="#FFFFFF" width="400" height="200"></rect>
+                    </a>
+                </g>
+                <!-- Intel -->
+                <g class="hover_group" opacity="0">
+                    <!-- Credit Karma -->
+                    <a xlink:href="http://www.lightbend.com/case-studies/intels-gearpump-real-time-streaming-engine-using-akka">
+                        <text x="1400" y="230">Go to case study</text>
+                        <rect x="1200" y="1" opacity="0.2" fill="#FFFFFF" width="400" height="200"></rect>
+                    </a>
+                </g>
+                <!-- Hootsuite -->
+                <g class="hover_group" opacity="0">
+                    <!-- Credit Karma -->
+                    <a xlink:href="http://www.lightbend.com/case-studies/how-hootsuite-modernized-its-url-shortener">
+                        <text x="1800" y="180">Go to case study</text>
+                        <rect x="1600" y="1" opacity="0.2" fill="#FFFFFF" width="400" height="200"></rect>
+                    </a>
+                </g>
+                <!-- Norwegian Cruise Line -->
+                <g class="hover_group" opacity="0">
+                    <!-- Credit Karma -->
+                    <a xlink:href="http://www.lightbend.com/case-studies/norwegian-cruises-to-record-profits-with-reactive">
+                        <text x="2200" y="210">Go to case study</text>
+                        <rect x="2000" y="1" opacity="0.2" fill="#FFFFFF" width="400" height="200"></rect>
+                    </a>
+                </g>
+                <!-- Walmart -->
+                <g class="hover_group" opacity="0">
+                    <!-- Credit Karma -->
+                    <a xlink:href="http://www.lightbend.com/case-studies/walmart-boosts-conversions-by-20-with-lightbend-reactive-platform">
+                        <text x="600" y="380">Go to case study</text>
+                        <rect x="400" y="200" opacity="0.2" fill="#FFFFFF" width="400" height="200"></rect>
+                    </a>
+                </g>
+                <!-- Zalando -->
+                <g class="hover_group" opacity="0">
+                    <!-- Credit Karma -->
+                    <a xlink:href="http://www.lightbend.com/case-studies/zalando-meets-100x-traffic-spikes-with-a-smile-using-reactive-platform">
+                        <text x="1800" y="380">Go to case study</text>
+                        <rect x="1600" y="200" opacity="0.2" fill="#FFFFFF" width="400" height="200"></rect>
+                    </a>
+                </g>
+                <!-- Weightwatchers -->
+                <g class="hover_group" opacity="0">
+                    <!-- Credit Karma -->
+                    <a xlink:href="http://www.lightbend.com/case-studies/weight-watchers-accelerates-digital-transformation-with-lightbend">
+                        <text x="2200" y="380">Go to case study</text>
+                        <rect x="2000" y="200" opacity="0.2" fill="#FFFFFF" width="400" height="200"></rect>
+                    </a>
+                </g>
+            </svg>
+        </figure>
+
+    </div>
+</section>
+
+<section class="wrapper indexLatest">
+    <div class="row">
+        <h1>Latest News</h1>
+        <p>See our <a href="{{ site.baseurl }}/blog">news and articles</a> for more good reads</p>
+        <ul class="newsContainer">
+            {% include news-feed.html %}
+        </ul>
+    </div>
+</section>
+
+{% include footermenu.html %}
+{% include footer.html %}

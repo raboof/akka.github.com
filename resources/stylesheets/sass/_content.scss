@@ -1,0 +1,53 @@
+/* Welcome to content.scss - Here are rules that does not fit anywhere else */
+
+//Body and Wrapper rules
+* {
+	margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: $background;
+}
+
+img {
+	height: auto;
+}
+
+.wrapper {
+  padding: 0 20px;
+  clear: both;
+}
+
+.headerHero {
+  background-color: $pri_midblue;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  h1 {
+    color: #fff;
+    flex: 1;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+code {
+  line-height: 1.45em;
+  font-family: "SourceCodePro", Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+i {
+  font-style: italic;
+}

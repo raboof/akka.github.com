@@ -9,3 +9,11 @@ _site
 # Idea
 .idea
 *.iml
+
+# Ignore cache
+/.sass-cache
+/.cache
+
+# ruby/jekyll
+Gemfile.lock
+.jekyll-metadata
