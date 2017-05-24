@@ -5,6 +5,14 @@
 .news,
 .news-main,
 .blogArchive {
+	h1 a {
+		// header links should look like headers rather than links
+		font-size: inherit;
+		color: inherit ;
+		text-decoration: inherit;
+		border-bottom:inherit;
+	}
+
 	@include single-column {
 		.headerHero {
 			margin-bottom: 30px;
