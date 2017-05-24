@@ -4,11 +4,7 @@
         {% for post in site.categories.news limit: 5 %}
         <li>
             <p>{{ post.date | date: "%b %d %Y" }}</p>
-            {% if post.link-out %}
-            <a href="{{ post.link-out }}">{{ post.title }}</a>
-            {% else %}
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            {% endif %}
         </li>
         {% endfor %}
 
