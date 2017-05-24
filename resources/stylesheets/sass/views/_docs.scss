@@ -269,5 +269,18 @@
         }
       }
     }
+    .box.single-column {
+      .docMeta {
+        display: block;
+        .docMetaContent {
+          max-width: none;
+          padding: 0% 30% 10% 30%;
+          text-align: center;
+          a {
+            display: inline-block;
+          }
+        }
+      }
+    }
   }
 }
