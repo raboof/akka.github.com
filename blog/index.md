@@ -12,7 +12,7 @@ redirect_from: "/news/"
 				<p>{{ mostRecent.date | date: "%B %d"}}</p>
 				<p>{{ mostRecent.date | date: "%Y"}}</p>
 			</div>
-			<h1>{{ mostRecent.title }}</h1>
+			<h1><a href="{{ site.baseurl }}{{ mostRecent.url }}">{{ mostRecent.title }}</a></h1>
 		</div>
 		<div class="selArticleContent">
 			{{ mostRecent.content }}
