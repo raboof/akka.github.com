@@ -10,7 +10,7 @@ tags: [streams,integration]
 ---
 {% include JB/setup %}
 
-In previous posts we have shown how to build basic [Sinks and Sources](http://blog.akka.io/integrations/2016/08/25/simple-sink-source-with-graphstage), and how to [integrate with existing APIs](http://blog.akka.io/integrations/2016/08/29/connecting-existing-apis) and handle [backpressure in various ways](http://blog.akka.io/integrations/2016/09/05/flow-control-at-the-akka-stream-boundary). In this post we move on to the more advanced territory of custom Flows.
+In previous posts we have shown how to build basic [Sinks and Sources]({{ site.baseurl }}/blog/2016/08/25/simple-sink-source-with-graphstage), and how to [integrate with existing APIs]({{ site.baseurl }}/blog/2016/08/29/connecting-existing-apis) and handle [backpressure in various ways](http://blog.akka.io/integrations/2016/09/05/flow-control-at-the-akka-stream-boundary). In this post we move on to the more advanced territory of custom Flows.
 
 If you recall, every processing entity in Akka Streams has a number of input and output ports which it can consume elements from and push elements to (if you need a refresher, look at [this documentation section](http://doc.akka.io/docs/akka/2.4/java/stream/stream-composition.html)). This means that your knowledge from Sinks and Sources is applicable to Flows, too. We will build on this knowledge to build a streaming XML parser. When we talk about streaming XML here we don’t mean XML documents concatenated with some separator, but a large, valid XML file which contains  many XML elements. We will show you how to approach this problem with Akka Streams. For this, we will use the awesome [Aalto XML parser](https://github.com/FasterXML/aalto-xml) which will do the heavy lifting for us.
 
@@ -48,7 +48,7 @@ class StreamingXmlParser extends GraphStage[FlowShape[ByteString, ParseEvent]] {
 
 As we see from the `Shape` definition, our custom stage will have exactly one input and output (i.e. it has a `FlowShape`), one from which we will consume raw bytes in chunks, and one for emitting `ParseEvents` (we look at this soon). We also need to implement the factory method, `createLogic`, which will create a `GraphStageLogic` for our stage and which will encapsulate all of our state - in this case the XML parser itself.
 
-> In Java you will need to use the `AbstractInHandler` and `AbstractOutHandler` types to create your handlers for downstream and upstream handlers like `push()` and `pull()`. Since these are abstract types and not interfaces, you have to create these as anonymous inner classes in your GraphStageLogic. See our [earlier introductions](http://blog.akka.io/integrations/2016/08/25/simple-sink-source-with-graphstage) for examples.
+> In Java you will need to use the `AbstractInHandler` and `AbstractOutHandler` types to create your handlers for downstream and upstream handlers like `push()` and `pull()`. Since these are abstract types and not interfaces, you have to create these as anonymous inner classes in your GraphStageLogic. See our [earlier introductions]({{ site.baseurl }}/blog/2016/08/25/simple-sink-source-with-graphstage) for examples.
 
 Now, we design the events that will be emitted by our stage. We chose here a simplified subset of the XML events the Aalto XML parser can give us and encode them as case classes:
 
