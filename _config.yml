@@ -1,9 +1,32 @@
+# this file contains the config specific to running in "production" at github
 title: "Akka"
 
-baseurl: "http://akka.io"
-
 markdown: kramdown
+
+# The base URL should only be set if the site is deployed at a subpath
+# See http://ben.balter.com/jekyll-style-guide/config/#baseurl.
+# For devel baseurl: "" is used by passing --baseurl "" to jekyll
+baseurl: ""
+
+gems:
+- jekyll-redirect-from
+
+sass:
+  sass_dir: resources/stylesheets
+  style: compressed
 
 exclude:
 - README
 
+defaults:
+-
+  scope:
+    path: "" # all files
+  values:
+    # note that changing this requires a jekyll restart to be picked up if serving locally
+    # versions.json will be updated as long as the changes here are patch versions, for minor and major it needs to
+    # be updated manually
+    current_akka_version: 2.5.1
+    current_akka_http_version: 10.0.6
+    previous_akka_version: 2.4.18
+    current_java_scala_version: 2.11 # used for deps for Java

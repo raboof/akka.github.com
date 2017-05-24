@@ -1,62 +1,114 @@
 ---
-layout: page
+layout: get-involved
 title: Get Involved
 ---
 
-<div class="row">
-	<div class="span8">
-		<article>
-            <h1>How you can help</h1>
-
-            <h3>Akka is an open source project and everyone is encouraged to get involved! There are lots of ways you can contribute.</h3>
-
-            <div class="get-involved-links">
-
-                <h3 class="mailing">Join the mailing list</h3>
-                <a href="//groups.google.com/forum/#!forum/akka-user">4,000+ members</a>
-
-                <p>The <a href="//groups.google.com/forum/#!forum/akka-user">Akka mailing list</a> is where the Akka community meets. Asking and answering questions on the mailing list is a great way to share knowledge about Akka.</p>
-
-                <p>While the mailing list is the best place to get quality answers to deeper questions, sometimes a quick chat may be what you need (and sometimes more fun as well), in which case you can head over to the <a href="https://gitter.im/akka/akka">akka/akka channel on gitter</a>, which is aimed for general community chatter about Akka.</p>
-
-                <h3 class="stackoverflow">Contribute to Stack Overflow</h3>
-                <a href="//stackoverflow.com/questions/tagged/akka">2,900+ questions</a>
-
-                <p>Stack Overflow is a Q&amp;A site for programmers. Stack Overflow has a very active community of people asking and answering <a href="//stackoverflow.com/questions/tagged/akka">questions about Akka</a>. Users can vote on each others' contributions and earn reputation points.</p>
-
-                <h3 class="bugs">Report bugs</h3>
-                <a href="//github.com/akka/akka/issues">1,900+ bug reporters</a>
-
-                <p>Bug reports help Akka improve, so please report any issues you have! Akka uses <a href="//github.com/akka/akka/issues">GitHub to track issues</a>. When you report bugs, make sure you include lots of detail, including reproducible tests-cases, example code, or anything else you think might help (like for example used operating system if the issue may be OS related).</p>
-
-                <p>Even if you're not ready to fix issues yourself just yet, you can help out by verifying issues that have been reported by others. You can filter issues based on the module you care the most about (e.g. <a href="https://github.com/akka/akka/labels/t%3Acore">core</a>, or <a href="https://github.com/akka/akka/labels/t%3Acluster">cluster</a>), or look for issues tagged with the <a href="https://github.com/akka/akka/labels/0%20-%20new">new label</a>. You can assist by looking at these issues and doing some checking to confirm whether they're bugs or not. You could provide reproducible tests or a sample project, or even just ask the original reporter for more information.</p>
-
-                <h3 class="patch">Patch the core</h3>
-                <a href="//github.com/akka/akka/graphs/contributors">190+ committers</a>
-
-                <p>Akka's code and documentation is hosted on <a href="//github.com/akka/akka">Github</a>. It's easy to <a href="//github.com/akka/akka">get the code and build Akka from source</a>.</p>
-
-                <p>We care a lot about good documentation, and it’s a good place to start contributing as well. So if you feel you’d like to contribute some doc updates, here is a small guide to get you started with <a href="http://doc.akka.io/docs/akka/current/dev/documentation.html">compiling the docs</a>.</p>
-
-                <p>You're welcome to work on any feature you like&mdash;Akka is open source after all!&mdash;and if you'd like some good ideas, look for issues tagged with the <a href="https://github.com/akka/akka/labels/community">community label</a>. These issues are ready and waiting for volunteers to pick them up, and if you want, you can always team up with someone else to work on it!</p>
-
-                <p>If you’re not sure where to start, or need some hints with a tough problem when working on an issue you can pop into the <a href="https://gitter.im/akka/dev">akka/dev channel on gitter</a> where the core team and other contributors hang out and help each other work on tickets. You’re more than welcome to join that channel and ask Akka development related questions (note that for general “how to use Akka” style questions the <a href="https://gitter.im/akka/akka">akka/akka channel</a> is more appropriate).</p>
-
-                <p>To keep our code tidy and to make sure we work together smoothly there are some <a href="https://github.com/akka/akka/blob/master/CONTRIBUTING.md">Developer & Contributor Guidelines</a> that you'll need to make sure you follow&mdash;for example, commit messages in Akka have  to abide to a certain style, so make sure you know how to write a nice one!</p>
-
-                <h3 class="modules">Create extensions or plugins</h3>
-
-                <p>You can add new features to Akka applications by creating an Akka Extension or Plugin (if a given module has pluggable elements).</p>
-
-                <p><strong>Akka Extensions</strong> are implemented as simple stand-alone classes which can give you  a peek into Akka internals and can do slightly more powerful things than one normally could “from the outside”. To give you an idea what an Akka Extension looks and feels like - if you used Akka Serialization, Persistence or Cluster – those are all implemented as extensions! Here is a <a href="http://doc.akka.io/docs/akka/current/scala/extending-akka.html">guide about implementing extensions to get you started</a>.</p>
-
-                <p><strong>Akka Persistence</strong> follows the plugin model, where each datastore has a related plugin implementing the storing and reading of events in a way specific to the datastore&mdash;those are implemented as community provided plugins. If there isn’t one available for your favourite datastore you can <a href="http://doc.akka.io/docs/akka/snapshot/scala/persistence.html#Storage_plugins">implement one</a>, or help with an <a href="http://akka.io/community/#plugins-to-akka-persistence">existing implementation</a>. The persistence module comes with a TCK (Technology Compatibility Kit)&mdash;a set of tests to help you implement a high quality plugin–so make sure you use it on your plugin!</p>
-
-                <p>Community contributions are then highlighted on the <a href="http://akka.io/community/">akka.io/community</a> page so they are easily discoverable for other developers. To submit your project to this page simply issue a PR to the <a href="https://github.com/akka/akka.github.com">akka/akka.github.com</a> repository e.g. like <a href="https://github.com/akka/akka.github.com/pull/206">this one</a>.</p>
-
-                <p><strong><em>Happy hakking!</em></strong></p>
-            </div>
-
-        </article>
+<div class="communityContent">
+	<div class="box">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+		    <title>Mail</title>
+		    <desc></desc>
+		    <defs></defs>
+		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <g id="Mail" fill="#15A9CE">
+		            <path d="M2.0936886,5 L28,5 L15.0500808,14.9993259 L2.0936886,5 Z M2.0468443,25 L11.2589163,15.2723407 L15,18.0944261 L18.3922421,15.2723407 L27.9531557,25 L2.0468443,25 Z M2,8.00020223 L9.37046009,13.9849505 L2,21.0123134 L2,8.00020223 Z M27.9676477,8.00020223 L27.9676477,21.0123134 L20.5971876,13.9849505 L27.9676477,8.00020223 Z"></path>
+		        </g>
+		    </g>
+		</svg>
+		<h1>Join the mailing list</h1>
+		<a href="https://groups.google.com/forum/#!forum/akka-user">5,500+ members</a>
+		<p>The Akka mailing list is where the Akka community meets. Asking and answering questions on the mailing list is a great way to share knowledge about Akka.</p>
 	</div>
+    <div class="box">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+            <title>Gitter</title>
+            <desc></desc>
+            <defs></defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Gitter" fill="#15A9CE" fill-rule="nonzero">
+                    <path d="M7,2 L9.27586207,2 L9.27586207,18.8275862 L7,18.8275862 L7,2 Z M20.7241379,5.86206897 L23,5.86206897 L23,18.8275862 L20.7241379,18.8275862 L20.7241379,5.86206897 Z M11.5517241,5.86206897 L13.8275862,5.86206897 L13.8275862,28 L11.5517241,28 L11.5517241,5.86206897 Z M16.1724138,5.86206897 L18.4482759,5.86206897 L18.4482759,28 L16.1724138,28 L16.1724138,5.86206897 Z"></path>
+                </g>
+            </g>
+        </svg>
+        <h1>Gitter</h1>
+        <a href="https://gitter.im/akka/akka">Chat with other Akka users</a>
+        <p>The akka/akka gitter channel is available for ad-hoc discussions of all things Akka-related with the community and the Akka team.</p>
+    </div>
+	<div class="box">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg width="50px" height="60px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+		    <title>Stack</title>
+		    <desc></desc>
+		    <defs></defs>
+		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <g id="Stack" transform="translate(-4.000000, -2.000000)" fill="#15A9CE">
+		            <path d="M4,18.7636817 L6.28054535,18.7636817 L6.28054535,25.7230096 L22.6408196,25.7230096 L22.6408196,18.7746837 L24.9304239,18.7636817 L24.9304239,28 L4,28 L4,18.7636817 Z M8.61930858,21.052755 L20.2578379,21.0635678 L20.2578379,23.3232893 L8.63581655,23.3232893 L8.61930858,21.052755 Z M9.35764412,15.8118356 L20.7395955,18.2421985 L20.269773,20.4525396 L8.90172074,18.0361855 L9.35764412,15.8118356 Z M11.3738844,10.5708354 L21.9174045,15.4992901 L20.962405,17.5472933 L10.4292765,12.6356148 L11.3738844,10.5708354 Z M14.7978925,5.66131726 L23.7065728,13.1507028 L22.2540519,14.8817498 L13.351067,7.41125852 L14.7978925,5.66131726 Z M19.0025535,1.99049591 L25.9981598,11.291946 L24.193466,12.6518803 L17.1991589,3.37012138 L19.0025535,1.99049591 Z"></path>
+		        </g>
+		    </g>
+		</svg>
+		<h1>Contribute to Stack Overflow</h1>
+		<a href="//stackoverflow.com/questions/tagged/akka">4,500+ questions with answers</a>
+		<p>Stack Overflow is a Q&A site for programmers. Stack Overflow has a very active community of people asking and answering questions about Akka.</p>
+	</div>
+</div>
+<div class="communityContent">
+    <div class="box">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+		    <title>Bugs</title>
+		    <desc></desc>
+		    <defs></defs>
+		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <g id="Bugs" fill="#15A9CE">
+		            <path d="M13.503916,6.20096894 C13.9818812,6.0825087 14.4744669,6.02061856 14.9777397,6.02061856 C15.4675385,6.02061856 15.9472147,6.07923911 16.4131427,6.19157614 L17.5645373,4.4185838 C17.3797423,4.16675333 17.2705479,3.85562251 17.2705479,3.51890034 C17.2705479,2.68003485 17.9482539,2 18.7842466,2 C19.6202392,2 20.2979452,2.68003485 20.2979452,3.51890034 C20.2979452,4.35776584 19.6202392,5.03780069 18.7842466,5.03780069 C18.722814,5.03780069 18.6622361,5.03412851 18.6027191,5.02699097 L17.5827424,6.59761738 C18.647252,7.08466232 19.6128501,7.86196719 20.4280495,8.85989179 C20.2189889,8.91787488 20.0020202,8.97492964 19.7780526,9.03036468 C18.232322,9.41295421 16.6728434,9.64212091 15.2072108,9.64212091 C15.0361843,9.64212091 14.8622418,9.6389399 14.6855383,9.63265426 C13.3507142,9.58517237 11.9099213,9.36525175 10.4566744,9.02789839 C10.1497886,8.95665863 9.8536204,8.8827404 9.57045946,8.80759082 C10.3677174,7.8454261 11.3061356,7.09273337 12.3384726,6.61341043 L11.3132467,5.03470091 C11.2810127,5.03675698 11.2485045,5.03780069 11.2157534,5.03780069 C10.3797608,5.03780069 9.70205479,4.35776584 9.70205479,3.51890034 C9.70205479,2.68003485 10.3797608,2 11.2157534,2 C12.0517461,2 12.7294521,2.68003485 12.7294521,3.51890034 C12.7294521,3.88406823 12.6010294,4.21913832 12.3870308,4.48111652 L13.503916,6.20096894 Z M6.94908621,18.7079038 C7.03644788,19.4699504 7.18169383,20.2061158 7.37855474,20.9079202 L3.97285809,22.283911 C3.35334144,22.5342119 3.0428727,23.2528739 3.29704109,23.8819628 C3.55298148,24.5154375 4.26587142,24.8155339 4.89328323,24.5620431 L8.26331759,23.2004608 C9.72631541,26.0980459 12.1878132,28 14.9777397,28 C17.7605494,28 20.2166039,26.1077368 21.6809466,23.2226156 L25.1067168,24.6067166 C25.7341286,24.8602075 26.4470185,24.560111 26.7029589,23.9266363 C26.9571273,23.2975475 26.6466586,22.5788855 26.0271419,22.3285845 L22.5701797,20.9318811 C22.7704703,20.2228778 22.9180368,19.4786278 23.0063932,18.7079038 L26.7747526,18.7079038 C27.4429229,18.7079038 28,18.1578756 28,17.4793814 C28,16.796157 27.4514381,16.2508591 26.7747526,16.2508591 L23.0836421,16.2508591 C23.0508879,15.6017815 22.9764653,14.9681833 22.8639645,14.3549204 L26.0271419,13.0769138 C26.6466586,12.8266128 26.9571273,12.1079508 26.7029589,11.478862 C26.4470185,10.8453873 25.7341286,10.5452908 25.1067168,10.7987816 L22.2007921,11.9728514 C21.9509917,11.3188969 21.6540723,10.7032149 21.3161085,10.1340217 C20.9460142,10.245261 20.5481689,10.3548953 20.1273579,10.4590518 C18.4760273,10.8677788 16.8045619,11.1134021 15.2072108,11.1134021 C15.018706,11.1134021 14.8275533,11.1099063 14.6338732,11.1030168 C13.1945752,11.0518186 11.6652283,10.8183812 10.1279376,10.4615181 C9.60953014,10.3411762 9.12014052,10.21353 8.66887007,10.0846312 C8.31465464,10.6742195 8.00470816,11.3144229 7.74587885,11.9959786 L4.89328323,10.8434552 C4.26587142,10.5899644 3.55298148,10.8900608 3.29704109,11.5235355 C3.0428727,12.1526243 3.35334144,12.8712864 3.97285809,13.1215873 L7.08697854,14.3797737 C6.97701189,14.9852967 6.90414925,15.6105459 6.87183734,16.2508591 L3.22524737,16.2508591 C2.55707713,16.2508591 2,16.8008873 2,17.4793814 C2,18.1626059 2.54856193,18.7079038 3.22524737,18.7079038 L6.94908621,18.7079038 Z"></path>
+		        </g>
+		    </g>
+		</svg>
+		<h1>Report bugs</h1>
+		<a href="//github.com/akka/akka/issues">1,900+ bug reporters</a>
+		<p>Bug reports help Akka improve, so please report any issues you have! Akka uses GitHub to track issues.</p>
+	</div>
+	<div class="box">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+		    <title>Octocat</title>
+		    <desc></desc>
+		    <defs></defs>
+		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <g id="Octocat" fill="#15A9CE" fill-rule="nonzero">
+		            <path d="M6.70055703,14.1281959 L6.54849128,13.7846153 C6.34782305,13.7763505 3.75175648,13.6728124 2.27360767,13.78513 C2.13102677,13.8201826 1.77230019,13.5537723 2.21127813,13.4434801 C3.30325666,13.3293634 6.0364189,13.4275231 6.41326037,13.4418066 C6.13128555,12.5785288 6.0145738,11.5962523 6.0145738,10.5086326 C6.0145738,8.9761219 6.56995185,7.72612507 7.47948925,6.74696239 C7.33397948,6.39198953 6.85552209,4.96266447 7.62950257,3.03219069 C7.62950257,3.03219069 8.81510771,2.65776664 11.5005759,4.48532435 C12.6274547,4.17711519 13.8354875,4.0251444 15.0310455,4.0251444 C16.1176626,4.0251444 17.2024332,4.15079095 18.2222626,4.40486923 C20.8249104,2.66737993 21.9754329,3.03183131 21.9754329,3.03183131 C22.6276373,4.65867797 22.3900299,5.92951855 22.2123197,6.50177865 C23.2293569,7.51431831 23.8558461,8.84494995 23.855801,10.5081384 C23.855801,11.596097 23.7892976,12.5787408 23.5734926,13.4423111 C23.8936749,13.4300586 26.6828318,13.3279096 27.7887219,13.4434801 C28.2276998,13.5537723 27.8689732,13.8201826 27.7263923,13.78513 C26.2802983,13.6752481 23.7642464,13.7719615 23.4679073,13.7839464 L23.3458339,14.129259 C23.9325376,14.0909797 27.3033187,13.9066806 27.5473843,14.7068983 C27.6644456,15.0222358 27.374543,14.9120802 27.2756037,14.8061921 C26.4965048,14.1683297 23.6059677,14.3959567 23.2345153,14.428146 C22.4731688,16.0917504 20.8443293,17.1626287 17.4922368,17.4942128 C18.0741408,17.8879982 18.669015,18.6345104 18.669015,20.0437553 L18.669015,23.6574078 C18.669015,23.6574078 18.7436388,24.551713 19.5654921,24.8497249 C19.5654921,24.8497249 20.0506597,25.1850669 19.5280225,25.3709987 C19.5280225,25.3709987 17.2495854,25.5576042 17.2495854,23.694693 L17.2495854,20.9378359 C17.2495854,20.9378359 17.3396114,19.9216576 16.801527,19.5033898 L16.801527,23.992615 C16.801527,23.992615 16.8387263,25.0730317 17.3990132,25.482944 C17.3990132,25.482944 17.7724028,26.1533136 16.9509548,25.9674267 C16.9509548,25.9674267 15.3822325,25.7437606 15.3075636,23.9183142 L15.2717153,19.3356514 L14.8946329,19.3356514 L14.8590999,23.9183142 C14.7843409,25.7437606 13.2156186,25.9674267 13.2156186,25.9674267 C12.3938104,26.1533136 12.7676503,25.482944 12.7676503,25.482944 C13.3278922,25.0732563 13.3651365,23.992615 13.3651365,23.992615 L13.3651365,19.4642628 C12.8265567,19.8444368 12.916943,20.9377461 12.916943,20.9377461 L12.916943,23.694693 C12.916943,25.5574695 10.638641,25.3710885 10.638641,25.3710885 C10.1154634,25.1852466 10.6010364,24.8495902 10.6010364,24.8495902 C11.4229797,24.5516232 11.4975135,23.6573629 11.4975135,23.6573629 L11.4975135,21.1291583 C7.96880019,21.9145728 7.23760346,19.4666886 7.23760346,19.4666886 C6.67700129,18.0317483 5.86456048,17.6498672 5.86456048,17.6498672 C4.73430399,16.8765367 5.94846165,16.8951793 5.94846165,16.8951793 C7.20004384,16.9884371 7.85400465,18.1811585 7.85400465,18.1811585 C9.02231615,20.1854839 10.9692468,19.4691593 11.584432,19.1756845 C11.7710142,18.3052777 12.2314123,17.790877 12.6827583,17.4885976 C9.53872194,17.1505688 7.75569221,16.0824005 6.83964192,14.4291354 C6.52067447,14.4010668 3.57488598,14.1613165 2.78722098,14.8061921 C2.68828166,14.9120802 2.39837912,15.0222358 2.5154404,14.7068983 C2.75731956,13.9138493 6.07014452,14.0877567 6.70055703,14.1281959 Z"></path>
+		        </g>
+		    </g>
+		</svg>
+		<h1>Contribute</h1>
+		<a href="https://github.com/akka/akka/blob/master/CONTRIBUTING.md">300+ active contributors</a>
+		<p>
+		  Akka's code and documentation is hosted on Github. It's easy to get the code and build Akka from source.
+		</p>
+	</div>
+	<div class="box">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+		    <title>Extend Akka</title>
+		    <desc></desc>
+		    <defs></defs>
+		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <g id="Plugins" fill="#15A9CE">
+		            <path d="M14.5116608,2 L25.9874597,8.47365819 L14.5116608,15.1990697 L3,8.47365819 L14.5116608,2 Z M3.03586187,11.8543463 L13.2331737,17.4037317 L13.2331737,28 L3.03586187,22.4349661 L3.03586187,11.8543463 Z M26,11.8543463 L26,22.4349661 L15.8026881,28 L15.8026881,17.4037317 L26,11.8543463 Z"></path>
+		        </g>
+		    </g>
+		</svg>
+		<h1>Other modules</h1>
+        <a href="{{ site.baseurl}}/community">See the community page</a>
+		<p>Create your own features on top of Akka, Akka HTTP or Akka Streams. Tag the project on Scaladex to get listed.</p>
+	</div>
+	
 </div>

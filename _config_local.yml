@@ -1,8 +1,0 @@
-title: "Akka"
-
-baseurl: ""
-
-markdown: kramdown
-
-exclude:
-- README

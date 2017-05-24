@@ -1,0 +1,21 @@
+.stickyFixed {
+	position: fixed;
+	top: -150px;
+	left: 0;
+	right: 0;
+	@include single-column {
+		display: block;
+		position: relative;
+		top: inherit;
+		left: inherit;
+		right: inherit;
+	}
+}
+.stickyFill {
+	display: block;
+  height: 312px;
+  width: 100%;
+  @include single-column {
+  	display: none;
+  }
+}
