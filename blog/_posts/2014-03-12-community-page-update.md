@@ -3,7 +3,7 @@ layout: post
 title: Community Page Reinvisioned
 author: Roland Kuhn
 category: news
-redirect_from: /news/2014/03/12/community-page-update
+redirect_from: /news/2014/03/12/community-page-update.html
 short: Initiating community driven collection of Akka-related projects
 ---
 

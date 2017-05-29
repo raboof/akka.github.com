@@ -4,7 +4,7 @@ title: Akka Stream and Http 2.0-M1 Released!
 author: Endre Sándor Varga
 short: Akka Stream and Http 2.0-M1 Released!
 category: news
-redirect_from: /news/2015/11/05/akka-streams-2.0-M1-released
+redirect_from: /news/2015/11/05/akka-streams-2.0-M1-released.html
 tags: [releases]
 ---
 
