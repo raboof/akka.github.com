@@ -1,15 +1,6 @@
----
-# front matter to make jekyll process the file
-# to avoid request overhead, put all little custom akka.io js snippets in this file
-layout: null
----
-
 $(function () {
 
     // algolia search box hook
-
-    // set by jekyll
-    var latestAkkaVersion = "{{ page.current_akka_version }}"
 
     // initalizes doc search if there is a search box
     // depends on external algolia js being loaded
@@ -26,7 +17,7 @@ $(function () {
             inputSelector: '#search-scala',
             algoliaOptions: {
                 hitsPerPage: 5,
-                facetFilters: '[' + '["language:scala","language:general"]' + ',"version:' + latestAkkaVersion + '"]'
+                facetFilters: ["language:scala"]
             }
         })
 
@@ -36,7 +27,7 @@ $(function () {
             inputSelector: '#search-java',
             algoliaOptions: {
                 hitsPerPage: 5,
-                facetFilters: '[' + '["language:java","language:general"]' + ',"version:' + latestAkkaVersion + '"]'
+                facetFilters: ["language:java"]
             }
         })
     }
