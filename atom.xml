@@ -1,0 +1,40 @@
+---
+layout: null
+title : Atom Feed
+---
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed version="2.0" xmlns="http://www.w3.org/2005/Atom">
+    <title>Akka Blog Feed</title>
+    <subtitle>News and articles posted on akka.io</subtitle>
+
+    <icon>{{ site.baseurl }}/resources/images/akka_icon_full_color-small.png</icon>
+    <logo>{{ site.baseurl }}/resources/images/akka_full_color.svg</logo>
+    <link href="{{ site.baseurl }}/atom.xml" rel="self" />
+    <link href="{{ site.baseurl }}/blog/" />
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <rights>© 2011-{{ site.time | date: '%Y' }} Lightbend Inc.</rights>
+
+{% for post in site.posts limit:100 %}
+    <entry>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ site.baseurl }}{{ post.url }}</link>
+        <id>{{ site.baseurl }}{{ post.id }}</id>
+        <published>{{ post.date | date_to_xmlschema }}</published>
+
+        {% if post.categories contains "news" %}
+            <category term="news" />
+        {% else %}
+            <category term="article" />
+        {% endif %}
+        {% for tag in post.tags %}
+            <category term="{{ tag }}" />
+        {% endfor %}
+        <summary>{{ post.content | strip_html | truncatewords: 30 }}</summary>
+        <content type="html">{{ post.content | xml_escape }}</content>
+        <author>
+            <name>{{ post.author }}</name>
+        </author>
+    </entry>
+{% endfor %}
+</feed>
