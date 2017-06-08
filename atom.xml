@@ -4,23 +4,25 @@ title : Atom Feed
 ---
 
 <?xml version="1.0" encoding="UTF-8" ?>
-<feed version="2.0" xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>{{ site.url }}/blog</id>
     <title>Akka Blog Feed</title>
     <subtitle>News and articles posted on akka.io</subtitle>
 
-    <icon>{{ site.baseurl }}/resources/images/akka_icon_full_color-small.png</icon>
-    <logo>{{ site.baseurl }}/resources/images/akka_full_color.svg</logo>
-    <link href="{{ site.baseurl }}/atom.xml" rel="self" />
-    <link href="{{ site.baseurl }}/blog/" />
+    <icon>{{ site.url }}/resources/images/akka_icon_full_color-small.png</icon>
+    <logo>{{ site.url }}/resources/images/akka_full_color.svg</logo>
+    <link href="{{ site.url }}/atom.xml" rel="self" />
+    <link href="{{ site.url }}/blog/" />
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <rights>© 2011-{{ site.time | date: '%Y' }} Lightbend Inc.</rights>
 
 {% for post in site.posts limit:100 %}
     <entry>
-        <title>{{ post.title | xml_escape }}</title>
-        <link>{{ site.baseurl }}{{ post.url }}</link>
+        <title>{{ post.title | strip_html }}</title>
+        <link href="{{ site.url }}{{ post.url }}" />
         <id>{{ site.baseurl }}{{ post.id }}</id>
         <published>{{ post.date | date_to_xmlschema }}</published>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
 
         {% if post.categories contains "news" %}
             <category term="news" />
@@ -33,7 +35,7 @@ title : Atom Feed
         <summary>{{ post.content | strip_html | truncatewords: 30 }}</summary>
         <content type="html">{{ post.content | xml_escape }}</content>
         <author>
-            <name>{{ post.author }}</name>
+            <name>{{ post.author | xml_escape }}</name>
         </author>
     </entry>
 {% endfor %}
