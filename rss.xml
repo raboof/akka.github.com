@@ -11,9 +11,9 @@ title : RSS Feed
     <link>{{ site.url }}</link>
     <copyright>© 2011-{{ site.time | date: '%Y' }} Lightbend Inc.</copyright>
     <image>
-        <url>{{ site.baseurl }}/resources/images/akka_icon_full_color-small.png</url>
+        <url>{{ site.url }}/resources/images/akka_icon_full_color-small.png</url>
         <title>Akka Blog Feed</title>
-        <link>{{ site.baseurl }}</link>
+        <link>{{ site.url }}</link>
     </image>
     <language>en-us</language>
 
