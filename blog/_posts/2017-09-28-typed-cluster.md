@@ -19,7 +19,7 @@ This and two more blog posts will illustrate the new typed APIs, with the assump
 
 Configuration of clustering (and remoting) is the same as in [untyped Cluster](https://doc.akka.io/docs/akka/current/scala/cluster-usage.html). Note that you must start an untyped `ActorSystem`.
 
-```
+```scala
 import import akka.typed.scaladsl.adapter._
 import akka.typed.cluster.scaladsl.Cluster
  
@@ -31,7 +31,7 @@ val cluster = Cluster(system)
 
 The typed `Cluster` extension gives access to two management tasks (joining, leaving, downing, ...) and subscription of cluster membership events (`MemberUp`, `MemberRemoved`, `UnreachableMember`, ...). Those are exposed as two different actor references, i.e. it's a message based API. For example joining can be done like this:
 
-```
+```scala
 cluster.manager ! JoinSeedNodes("akka://Sys@host1:2552" :: "akka://Sys@host2:2552" :: Nil)
 ```
 
@@ -49,7 +49,7 @@ The registry is dynamic. New actors can be registered during the lifecylce of th
 
 Let's look at how we can build a dynamic, cluster aware router using the `Receptionist`.
 
-```
+```scala
 import java.util.concurrent.ThreadLocalRandom
 import akka.typed.ActorRef
 import akka.typed.Behavior
@@ -91,7 +91,7 @@ You can see how the router subscribes to a key and keeps track of actor referenc
 
 The target routees are started on all or a subset of nodes in the cluster and register themselves to the receptionist:
 
-```
+```scala
 object Routee {
 
   val PingServiceKey = Receptionist.ServiceKey[Ping]("pingService")
@@ -121,7 +121,7 @@ The `Receptionist` works in the same way with a local actor system. The local im
 
 We can make the router even better. Routee entries are removed when nodes are removed from the cluster, but before that nodes can be observed by the failure detector as unreachable and it would be nice to avoid routing messages to such unreachable nodes. To add that functionality we need to subscribe to cluster reachability events like this:
 
-```
+```scala
 object RandomRouter {
   private final case class WrappedReachabilityEvent(event: ReachabilityEvent)
 
