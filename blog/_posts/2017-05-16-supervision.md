@@ -94,7 +94,7 @@ With the `supervisorStrategy` in untyped actors you can decide different actions
 
 ```scala
 import FlakyWorker._
-import Actor.restarter
+import Actor.supervise
 import SupervisorStrategy._
 val behv: Behavior[Command] =
   supervise(
