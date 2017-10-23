@@ -8,7 +8,7 @@ tags: [alpakka,releases]
 ---
 {% include JB/setup %}
 
-In today's blog post we want to highlight a specific new integration that has landed in Alpakka. Specifically, it allows yout to seamlessly integrate with your `akka.stream.[javadsl|scaladsl].Source` types in your Spring Web applications, and have them be understood by Spring natively.
+In today's blog post we want to highlight a specific new integration that has landed in Alpakka. Specifically, it allows you to seamlessly integrate with your `akka.stream.[javadsl|scaladsl].Source` types in your Spring Web applications, and have them be understood by Spring natively.
 
 [Alpakka](https://developer.lightbend.com/docs/alpakka/current), is our way of solving the *Reactive Enterprise Integration* problem. We do so by providing a collection of *streaming* plug-and-play connectors to various technologies. Today we'd like to highlight one specific integration, since it's the result of the [Reactive Streams](http://reactive-streams.org) initiative, which we were part of from its inception. And also explains what its [successful inclusion in the Java 9](http://download.java.net/java/jdk9/docs/api/java/util/concurrent/Flow.html) means for the future of inter-operability of Reactive Streams based libraries.
 
