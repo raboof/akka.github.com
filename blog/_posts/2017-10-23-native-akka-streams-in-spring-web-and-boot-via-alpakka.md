@@ -1,5 +1,12 @@
-Native Akka Streams in Spring Web and Boot via Alpakka
-------------------------------------------------------
+---
+layout: post
+title: "Native Akka Streams in Spring Web and Boot via Alpakka"
+description: ""
+author: Patrik Nordwall
+category: news
+tags: [alpakka,releases]
+---
+{% include JB/setup %}
 
 In today's blog post we want to highlight a specific new integration that has landed in Alpakka. Specifically, it allows yout to seamlessly integrate with your `akka.stream.[javadsl|scaladsl].Source` types in your Spring Web applications, and have them be understood by Spring natively.
 
