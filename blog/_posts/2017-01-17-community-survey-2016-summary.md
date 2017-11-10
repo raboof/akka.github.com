@@ -7,7 +7,7 @@ redirect_from: /community/2017/01/17/community-survey-2016-summary
 series_title: survey
 series_tag: survey
 category: news
-tags: [community,survey]
+tags: [community,contributing,akka,survey]
 ---
 {% include JB/setup %}
 
