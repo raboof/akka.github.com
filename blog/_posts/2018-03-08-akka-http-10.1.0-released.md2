@@ -11,7 +11,7 @@ Dear hakkers,
 
 we are happy to announce Akka Http 10.1.0, the first release of the 10.1.x series.
 
-The most important changes are
+The most important changes are:
 
  * Removing support for Akka 2.4.x which is at its end-of-life with the end of 2017. In the future, this will allow us
    to make use of features that only Akka 2.5 supports.
@@ -24,18 +24,18 @@ The most important changes are
    documentation pages have been merged  in a tireless effort by [@jonas](https://github.com/jonas),
    [@jlprat](https://github.com/jlprat), and Akka team's [@raboof](https://github.com/raboof).
 
-### Akka is not an explicit dependency any more / Removal of Akka 2.4 support
+### Akka is not an explicit dependency anymore / Removal of Akka 2.4 support
 
 Akka HTTP 10.0.x has always supported Akka 2.5, while allowing users to still remain on Akka 2.4.x if they choose to do so.
 By now Akka 2.4 has reached its end of life. Therefore, Akka HTTP 10.1.x only supports Akka >= 2.5.11
 (and future versions during the life of Akka HTTP 10.1.x) so we will be able to make of features only provided by Akka 2.5.
-In some cases we need to bump the minimum supported patch version of Akka to be able to use new features quickly.
+In some cases we bump the minimum supported patch version of Akka to be able to use new features quickly.
 
 Using Akka HTTP with Akka 2.5 used to be
 a bit confusing, because Akka HTTP explicitly depended on Akka 2.4. Trying to use it together with Akka 2.5,
 running an Akka HTTP application could fail with class loading issues if you forgot to add a dependency to
 both `akka-actor` *and* `akka-stream` of the same version. For that reason, we changed the policy not to depend on `akka-stream`
-explicitly any more but mark it as a `provided` dependency in our build. That means that you will *always* have to add
+explicitly anymore but mark it as a `provided` dependency in our build. That means that you will *always* have to add
 a manual dependency to `akka-stream`. Please make sure you have chosen and added a dependency to `akka-stream` when
 updating to the new version. (Veterans may remember this policy from spray.)
 
@@ -69,14 +69,14 @@ Source incompatible changes are:
 ### Support for Scala 2.13.0-M3
 
 Akka HTTP 10.1.0 is released for Scala 2.11, 2.12, and 2.13.0-M3. Due to a [regression in Scala 2.13.0-M3](https://github.com/scala/scala-dev/issues/467)
-tail call optimization does not apply any more in some cases where it did before which might lead to stack overflow when
+tail call optimization does not apply anymore in some cases where it did before which might lead to stack overflow when
 running with Scala 2.13.0-M3.
 
 ### Removal of OSGi support
 
-Supporting OSGi is error prone and high maintenance and it repeatably broke, blocked released, or metadata turned out to
-be wrong. We do not have any experts that could fix problems and be available during releases to fix blocking errors
-quickly so we had to remove OSGi support for now. If you care about OSGi support please step up and help out. Most important
+Supporting OSGi is error prone and high maintenance and it repeatably broke, blocked releases, or metadata turned out to
+be wrong. As we are no experts in OSGi, and are nowadays focusing our efforts on JDK9+ jigsaw compatibility
+we had to remove OSGi support for now. If you care about OSGi support please step up and help out. Most important
 would be adding tests that verify that the OSGi infrastructure does not break the build and the metadata actually works
 at runtime. See [#1852](https://github.com/akka/akka-http/issues/1852) for more information.
 
@@ -121,26 +121,50 @@ Please see the full list of changes since 10.0.11 at https://doc.akka.io/docs/ak
 
 ## Credits
 
-A total of 34 issues were closed since 10.1.0-RC2.
+A total of 144 issues were closed since 10.0.11.
 
-The complete list of closed issues can be found on the [10.1.0 milestone](https://github.com/akka/akka-http/milestone/35?closed=1) milestones on GitHub.
+The complete list of closed issues can be found on the [10.1.0-RC1](https://github.com/akka/akka-http/milestone/26?closed=1),
+[10.1.0-RC2](https://github.com/akka/akka-http/milestone/34?closed=1), and [10.1.0](https://github.com/akka/akka-http/milestone/35?closed=1)
+milestones on GitHub.
 
-For this release we had the help of 12 contributors – thank you all very much!
+For this release we had the help of 34 contributors – thank you all very much!
 
 ```
 commits  added  removed
-     17    375      115 Johannes Rudolph
-      7    264      104 Arnout Engelen
-      3    282       70 Josep Prat
-      3     43        2 Konrad `ktoso` Malawski
+     88   2150     1050 Johannes Rudolph
+     59   5188     4996 Arnout Engelen
+     28   1007     2869 Josep Prat
+     14    176       82 Johan Andrén
+      7     53        6 Konrad `ktoso` Malawski
+      4   1543     1495 Jonas Fonseca
+      4    136       42 Martynas Mickevičius
+      4     11        3 Philippus Baalman
+      2    137       76 Korneliusz Rabczak
       2     71       12 Roman Filonenko
+      2     56       11 Denys Zadorozhnyi
+      2     37       10 satansk
+      2     28       17 Pavel Boldyrev
+      2      6        4 Jimin Hsieh
       1    252       60 Jean-François Guéna
+      1    150        5 aholg
       1    147        3 Nathaniel Fischer
+      1    111        1 Ivano Pagano
+      1     48       53 ilke-zilci
       1     40        7 Michał Węgrzyn
       1     33        2 mihbor
-      1      4        4 Jimin Hsieh
+      1     23        2 Catalin Ursachi
+      1     21        1 Kentaro Maeda
+      1     10        8 Oleksii Tkachuk
+      1     13        2 Łukasz Krenski
+      1      5        5 Marcos Pereira
       1      4        2 Ignasi Marimon-Clos
+      1      6        0 Gergő Törcsvári
+      1      4        0 Ayush Mishra
+      1      1        1 PJ Fanning
+      1      1        1 Scott Antipa
       1      1        1 Patrik Nordwall
+      1      2        0 Aaron Gutierrez
+      1      1        1 David Francoeur
 ```
 
 Happy hakking!
