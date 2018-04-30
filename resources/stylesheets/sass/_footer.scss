@@ -30,10 +30,15 @@ footer {
 			}
 		}
 	}
-	p {
+	.legal {
 		@include x-rem(font-size, 1.2);
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 		color: #fff;
+		a {
+			color: #fff;
+			@include x-rem(font-size, 1.2);
+			cursor: pointer
+		}
 	}
 	.footerLogo {
 		height: 160px;
