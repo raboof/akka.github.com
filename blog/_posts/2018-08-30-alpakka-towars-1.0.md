@@ -19,7 +19,7 @@ These modules are developed and have been extended by Akka Streams users, either
 
 During these two years, the Alpakka modules have tried out different approaches and code layouts. A common API structure has evolved that fits most modules we've seen to date. 
 
-The [Alpakka team](https://akka.io/team/) at [Lightbend](https://www.lightbend.com/) has written some [contributor adivce](https://github.com/akka/alpakka/blob/master/contributor-advice.md) and recently implemented a [reference connector implementation](https://developer.lightbend.com/docs/alpakka/current/reference.html) to document and illustrate the recommended pattern for all Alpakka contributors.
+The [Alpakka team](https://akka.io/team/) at [Lightbend](https://www.lightbend.com/) has written some [contributor advice](https://github.com/akka/alpakka/blob/master/contributor-advice.md) and recently implemented a [reference connector implementation](https://developer.lightbend.com/docs/alpakka/current/reference.html) to document and illustrate the recommended pattern for all Alpakka contributors.
 
 We've now started to change existing modules into this recommended structure, as we believe it will make it easier for all contributors to find their way through more than one module. 
 
