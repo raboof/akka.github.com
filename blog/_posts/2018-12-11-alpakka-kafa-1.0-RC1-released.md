@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Alpakka Kafka 1.0-RC Released
+title: Alpakka Kafka 1.0-RC1 Released
 author: Martynas Mickevičius
 short: We are happy to announce the first release candidate of Alpakka Kafka 1.0
 category: news
