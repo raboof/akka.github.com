@@ -1,13 +1,12 @@
 ---
-layout: series_post
+layout: post
 title: "Announcing the course Programming Reactive Systems!"
 description: "Akka team and Scala Center create new online course on designing and implementing reactive systems using Scala and Akka"
-author:
+author: ""
 series_title: Course Programming Reactive Systems
 series_tag: course
 tags: [actor,typed,streams]
 ---
-{% include JB/setup %}
 
 Akka team and Scala Center create new online course on designing and implementing reactive systems using Scala and Akka.
 
