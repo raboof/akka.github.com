@@ -17,7 +17,7 @@ Highlights of the release since 0.22 are:
 * No more `WakeupException`
 * Alpakka Kafka consumers don’t fail for non-responding Kafka brokers anymore
 * New `Committer.sink` and `Committer.flow` for standardised committing
-* Comitting with metadata
+* Committing with metadata
 * Java APIs for all settings classes
 * Alpakka Kafka testkit
 
