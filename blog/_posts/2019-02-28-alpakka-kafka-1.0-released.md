@@ -23,7 +23,7 @@ Highlights of the release since 0.22 are:
 
 Some of these changes have been developed or initiated by the community. A big thank you for everyone involved!
 
-For detailed changes, credits, and a bit of the Alpakka Kafka connector history, take a look at the [release notes](https://doc.akka.io/docs/alpakka-kafka/current/release-notes/1.0.html) in the Alpakka Kafka connector documentation.
+For detailed changes, credits, and more on the Alpakka Kafka connector history, please see the [release notes](https://doc.akka.io/docs/alpakka-kafka/current/release-notes/1.0.html) in the Alpakka Kafka connector documentation.
 
 Happy hakking!
 
