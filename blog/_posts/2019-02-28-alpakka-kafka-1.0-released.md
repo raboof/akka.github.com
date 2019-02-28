@@ -21,7 +21,7 @@ Highlights of the release since 0.22 are:
 * Java APIs for all settings classes
 * Alpakka Kafka testkit
 
-Some of these changes have been developed or initiated by the community. A big thank you for everyone involved!
+Some of these changes have been developed or initiated by the community. A big thank you to everyone involved!
 
 For detailed changes, credits, and more on the Alpakka Kafka connector history, please see the [release notes](https://doc.akka.io/docs/alpakka-kafka/current/release-notes/1.0.html) in the Alpakka Kafka connector documentation.
 
