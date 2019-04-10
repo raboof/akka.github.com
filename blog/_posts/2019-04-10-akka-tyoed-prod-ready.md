@@ -8,7 +8,7 @@ tags: [announcement,typed]
 canonical_url: https://www.lightbend.com/blog/akka-2-5-22-brings-akka-typed-to-production-ready
 ---
 
-After much testing and intense development of a few important features we are confident that Akka Typed has the quality and performance to be used in production. We have released Akka 2.5.22, which includes [this version of Akka Typed] (https://doc.akka.io/docs/akka/current/typed/guide/index.html).
+After much testing and intense development of a few important features we are confident that Akka Typed has the quality and performance to be used in production. We have released Akka 2.5.22, which includes [this version of Akka Typed](https://doc.akka.io/docs/akka/current/typed/guide/index.html).
 
 It's still marked as [may change](https://doc.akka.io/docs/akka/current/common/may-change.html), which means
 that API or semantics can change without warning or deprecation period. For Akka Typed we have iterated over the APIs for a long time so we don't expect any major changes, but your feedback is very much welcome. Such changes, if any, will be collected and performed in Akka 2.6.0 rather than in upcoming 2.5.x patch versions.
