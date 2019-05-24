@@ -10,7 +10,7 @@ tags: [alpakka,releases]
 
 In today's blog post we want to highlight a specific new integration that has landed in Alpakka. Specifically, it allows you to seamlessly integrate with your `akka.stream.[javadsl|scaladsl].Source` types in your Spring Web applications, and have them be understood by Spring natively.
 
-[Alpakka](https://developer.lightbend.com/docs/alpakka/current), is our way of solving the *Reactive Enterprise Integration* problem. We do so by providing a collection of *streaming* plug-and-play connectors to various technologies. Today we'd like to highlight one specific integration, since it's the result of the [Reactive Streams](http://reactive-streams.org) initiative, which we were part of from its inception. And also explains what its [successful inclusion in the Java 9](http://download.java.net/java/jdk9/docs/api/java/util/concurrent/Flow.html) means for the future of inter-operability of Reactive Streams based libraries.
+[Alpakka](https://doc.akka.io/docs/alpakka/current), is our way of solving the *Reactive Enterprise Integration* problem. We do so by providing a collection of *streaming* plug-and-play connectors to various technologies. Today we'd like to highlight one specific integration, since it's the result of the [Reactive Streams](http://reactive-streams.org) initiative, which we were part of from its inception. And also explains what its [successful inclusion in the Java 9](http://download.java.net/java/jdk9/docs/api/java/util/concurrent/Flow.html) means for the future of inter-operability of Reactive Streams based libraries.
 
 On a related note, Akka Streams is one of the first libraries to provide native support for Java 9's `java.util.concurrent.Flow.*` (as of writing, Spring does not provide this support yet, while RxJava provides bridges separately packaged), so if you're looking for a future-ready Reactive Streams implementation, simply use Akka Streams `2.5.6+` and you're ready to go.
 
@@ -18,7 +18,7 @@ Let's focus on today's highlight though, the new Spring Web compatibility module
 
 ### Using Akka Streams natively in Spring Web endpoints
 
-Thanks to [Alpakka](https://developer.lightbend.com/docs/alpakka/current)'s integration code (included since version `0.14`), you're now able to depend on the [akka-stream-alpakka-spring-web](https://developer.lightbend.com/docs/alpakka/current/spring-web.html) Alpakka module: 
+Thanks to [Alpakka](https://doc.akka.io/docs/alpakka/current)'s integration code (included since version `0.14`), you're now able to depend on the [akka-stream-alpakka-spring-web](https://doc.akka.io/docs/alpakka/current/spring-web.html) Alpakka module: 
 
 ```
 // build.gradle

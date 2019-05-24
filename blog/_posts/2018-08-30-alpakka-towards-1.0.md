@@ -9,7 +9,7 @@ tags: [alpakka,streams]
 
 Dear hakkers,
 
-Akka's satellite project to collect Reactive Enterprise Integrations in a library - [Alpakka](https://developer.lightbend.com/docs/alpakka/current/) - just turned [2 years](https://akka.io/blog/2016/08/23/intro-alpakka.html) the other day. 
+Akka's satellite project to collect Reactive Enterprise Integrations in a library - [Alpakka](https://doc.akka.io/docs/alpakka/current/) - just turned [2 years](https://akka.io/blog/2016/08/23/intro-alpakka.html) the other day. 
 
 In these 2 years Alpakka has grown from a handful of included technologies to a large set of Reactive Integrations built on Akka Streams, delivered in more than 30 modules.
 
@@ -21,7 +21,7 @@ As the community's efforts show the interest in creating an ecosystem for Reacti
 
 During these two years, the Alpakka modules have tried out different approaches and code layouts. A common API structure has evolved that fits most modules we've seen to date. 
 
-The [Alpakka team](https://akka.io/team/) at [Lightbend](https://www.lightbend.com/) has put together some [contributor advice](https://github.com/akka/alpakka/blob/master/contributor-advice.md) and recently implemented a [reference connector implementation](https://developer.lightbend.com/docs/alpakka/current/reference.html) to document and illustrate the recommended pattern for all Alpakka contributors.
+The [Alpakka team](https://akka.io/team/) at [Lightbend](https://www.lightbend.com/) has put together some [contributor advice](https://github.com/akka/alpakka/blob/master/contributor-advice.md) and recently implemented a [reference connector implementation](https://doc.akka.io/docs/alpakka/current/reference.html) to document and illustrate the recommended pattern for all Alpakka contributors.
 
 We've now started to change existing modules into this recommended structure, as we believe it will make it easier for all contributors to find their way through more than one module. 
 

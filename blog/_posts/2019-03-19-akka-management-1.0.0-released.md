@@ -36,7 +36,7 @@ Beyond API stabilization, notable improvements include:
 * Various documentation improvements and more convenient default configuration
 
 For uses that are upgrading from earlier versions a 
-[migration guide](https://developer.lightbend.com/docs/akka-management/current/migration.html)
+[migration guide](https://doc.akka.io/docs/akka-management/current/migration.html)
 is available.
 
 – The Akka Team
