@@ -103,6 +103,25 @@
 
 }
 
+.sponsors {
+    margin: 60px 0 0 0;
+    text-align: center;
+    h1 {
+        margin-bottom: 1em;
+    }
+    img {
+        width: 100%;
+        padding: 20px;
+    }
+    @include tablet-portrait-and-below {
+        img {
+            width: 40%;
+        }
+    }
+    a {
+        border: 0;
+    }
+}
 
 .indexLatest {
 	margin: 60px 0 0 0;
