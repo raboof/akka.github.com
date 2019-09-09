@@ -8,7 +8,7 @@ short: An overview of sbt plugins and techniques used in Akka family build confi
 Hello hakkers,
 
 this blog post is an overview of some sbt configurations used across [Alpakka](https://github.com/akka/alpakka), [Alpakka Kafka](https://github.com/akka/alpakka-kafka) and other Akka family projects.
-The emphasis here will be made to other parts of project lifecycle than building code.
+The emphasis here will be made on tools that help us to provide a coherent experience in the code and the documentation.
 
 ## Code formatting
 
@@ -32,6 +32,8 @@ To make sure that all code is formatted according to the configuration, reformat
 scalafmtOnCompile := true
 ```
 <sup>Example in [Alpakka repository](https://github.com/akka/alpakka/blob/d0b0dde195407a0ec2c95447ac198f40d4bf502c/project/Common.scala#L114)</sup>
+
+Scalafmt's formatting is a bit slow and does not work well in larger projects. This is why Akka relies on the user to format code correctly, which can be assisted by [IntelliJ's "Reformat on file save"](https://github.com/akka/akka/blob/master/CONTRIBUTING.md#scala-style). Alternatively formatting can be triggered with `scalafmtAll` (and `scalafmtSbt` for the sbt build files).
 
 However some unformatted code might still slip in. Therefore during PR validation Travis CI is configured to check all of the code according to the formatting rules.
 
