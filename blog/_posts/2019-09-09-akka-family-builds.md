@@ -7,18 +7,18 @@ short: An overview of sbt plugins and techniques used in Akka family build confi
 
 Hello hakkers,
 
-this blog post is an overview of sbt configuration used across [Alpakka](https://github.com/akka/alpakka), [Alpakka Kafka](https://github.com/akka/alpakka-kafka) and other Akka family projects.
+this blog post is an overview of some sbt configurations used across [Alpakka](https://github.com/akka/alpakka), [Alpakka Kafka](https://github.com/akka/alpakka-kafka) and other Akka family projects.
 The emphasis here will be made to other parts of project lifecycle than building code.
 
 ## Code formatting
 
-sbt community has multiple sbt plugins which can be used to make sure that various parts of the project are always kept under the agreed standards.
+The sbt community has multiple sbt plugins which can be used to make sure that various parts of the project are always kept under the agreed standards.
 When code formatting is automated, all of the discussions regarding code formatting can be diverted to discussions on code formatter configuration.
 Akka family projects use the following plugins in concert to allow contributors to spend as much time focusing on the code.
 
 ### Scala and sbt code
 
-Scala and sbt code is formatted using [`sbt-scalafmt`](https://github.com/scalameta/sbt-scalafmt) plugin.
+Scala and sbt code is formatted using the [`sbt-scalafmt`](https://github.com/scalameta/sbt-scalafmt) plugin.
 
 ```scala
 addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.0.4")
@@ -48,19 +48,19 @@ jobs:
 
 ### Java code
 
-Java code is formatted using [`sbt-java-formatter`](https://github.com/sbt/sbt-java-formatter) plugin.
+Java code is formatted using the [`sbt-java-formatter`](https://github.com/sbt/sbt-java-formatter) plugin.
 
 ```scala
 addSbtPlugin("com.lightbend.sbt" % "sbt-java-formatter" % "0.4.4")
 ```
 <sup>Example in [Alpakka repository](https://github.com/akka/alpakka/blob/d0b0dde195407a0ec2c95447ac198f40d4bf502c/project/plugins.sbt#L15)</sup>
 
-This plugin uses [`google-java-format`](https://github.com/google/google-java-format) tool to reformat Java source code files.
+This plugin uses the [`google-java-format`](https://github.com/google/google-java-format) tool to reformat Java source code files.
 The tool does not support configuration and reformats the code according to the predefined rules.
 
 ### Source code file headers
 
-[`sbt-header`](https://github.com/sbt/sbt-header) plugin is used to make sure that all of the source files have up to date copyright notice information at the beginning of the files. 
+The [`sbt-header`](https://github.com/sbt/sbt-header) plugin is used to make sure that all of the source files have an up to date copyright notice information at the beginning of the files. 
 
 ```scala
 addSbtPlugin("de.heikoseeberger" % "sbt-header" % "5.2.0")
@@ -119,12 +119,12 @@ Here is [an example of Alpakka providing links](https://github.com/akka/alpakka/
 ### Bringing it all together
 
 The [`sbt-site`](https://github.com/sbt/sbt-site) plugin is used to put API and reference documentation together under one single interlinked site.
-During development `sbt-site` provides `previewSite` task, which generates all of the documentation, starts internal web server, and opens a tab in the browser pointing to the just generated website.  
+For local development `sbt-site` provides the `previewSite` task, which generates all of the documentation, starts an internal web server, and opens a tab in the browser pointing to the just generated website.  
 
 ## Release automation
 
 The intention of the automated release is as little human operator action needed as possible.
-Akka family projects use release issue template to document all of the steps which are needed to make a release.
+Akka family projects use release issue templates to document all of the steps which are needed to make a release.
 Here is an example of [Alpakka](https://github.com/akka/alpakka/blob/64d7da956590a06e68c627a7bbbe6482945c649f/docs/release-train-issue-template.md) project release issue template.
 
 A couple of sbt plugins are also used to increase the automation of the release.
@@ -134,6 +134,8 @@ This allows to have unique versions for snapshots which are published by Travis 
 Also, when a tagged commit is being build, the plugin pulls in the version of the release.
 `sbt-dynver` is also used to derive previous stable version, which is then used to discover artifacts to check binary compatibility against.
 
+Binary compatibility is verified with [MiMa](https://github.com/lightbend/mima) which compares class signatures of two versions to discover non-binary-compatible changes.
+
 ```scala
 mimaPreviousArtifacts := Set(
   organization.value %% name.value % previousStableVersion.value
@@ -141,6 +143,10 @@ mimaPreviousArtifacts := Set(
 )
 ```
 <sub>Example in [Alpakka repository](https://github.com/akka/alpakka/blob/64d7da956590a06e68c627a7bbbe6482945c649f/build.sbt#L376-L379)</sub>
+
+During the release build on Travis, the generated documentation is copied to https://doc.akka.io with the tiny [`sbt-publish-rsync`](https://github.com/lightbend/sbt-publish-rsync) plugin that invokes `rsync` on the host system.
+
+<sub>Example in [Alpakka repository](https://github.com/akka/alpakka/blob/e5303b8143703f2eee131b1627c130eaffb019ec/build.sbt#L337-L338)</sub>
 
 ## Conclusion 
 
