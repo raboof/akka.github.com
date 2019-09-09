@@ -23,6 +23,12 @@ After cloning, cd into the `akka/akka.github.com` directory and run:
 
 To see the generated site, just visit `http://localhost:4000`.
 
+## Docker
+
+To build and serve the website using Docker Jekyll image run:
+
+    docker run --name akka.io --volume="$PWD:/srv/jekyll" -p 3000:4000 -it jekyll/jekyll:3.4.3 jekyll serve --watch --drafts
+
 ## Adding a News Item
 
 News Items must be:
