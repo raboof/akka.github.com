@@ -15,6 +15,11 @@
   twitter: rolandkuhn
   desc: After earning a PhD in high-energy particle physics and while working as a systems engineer in the space business, Roland came in contact with the Akka project. He started contributing in 2010 and was employed by Lightbend 2011-2016 where he was leading the Akka project from November 2012. <a href="http://rolandkuhn.com/">rolandkuhn.com</a>
 
+- name: Martynas Mickevičius
+  avatar: https://s.gravatar.com/avatar/57ed73ccebd016ee0e4d5e906d674a50?s=160
+  twitter: mmartynas
+  desc: Martynas has acquired his formal education from Vilnius University while working on coding theory and cryptography fusion during his M.Sc degree studies. After this brief introduction to academia he continued his endeavours in the industry working on various banking and transportation systems which lead him to distributed computing and the Akka project.
+
 - name: Konrad 'ktoso' Malawski
   avatar: http://www.gravatar.com/avatar/e22c5a2db4101b4c4037d5f6bba2128d.png?s=160
   twitter: ktosopl
