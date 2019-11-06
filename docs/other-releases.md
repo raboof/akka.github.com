@@ -9,16 +9,28 @@ For current stable release ({{page.current_akka_version}}) check the [documentat
 Snapshots of the latest development version of Akka docs are available 
 
 Documentation:
-[Java Manual](https://doc.akka.io/docs/akka/snapshot/java/)
+[Java Manual](https://doc.akka.io/docs/akka/snapshot/index.html?language=java)
 [Java API](https://doc.akka.io/japi/akka/snapshot/)
-[Scala Manual](https://doc.akka.io/docs/akka/snapshot/scala/)
+[Scala Manual](https://doc.akka.io/docs/akka/snapshot/index.html?language=scala)
 [Scala API](https://doc.akka.io/api/akka/snapshot/)
 
 ## Archive
 
 ### Akka {{ page.previous_akka_version }}
 
-Akka 2.4 was the previous stable version. Unsupported, only patched if critical bugs are found.
+Akka 2.5 was the previous stable version. Only patched if critical bugs are found.
+
+Documentation:
+[Java Manual](https://doc.akka.io/docs/akka/current/index.html?language=java)
+[Java API](https://doc.akka.io/japi/akka/2.4)
+[Scala Manual](https://doc.akka.io/docs/akka/current/index.html?language=scala)
+[Scala API](https://doc.akka.io/api/akka/2.4)
+
+Artifacts are available from Maven Central.
+
+### Akka 2.4
+
+Akka 2.4 reached end-of-life 12/31/2017, with the last version being 2.4.20
 
 Documentation:
 [Java Manual](https://doc.akka.io/docs/akka/2.4/java.html)
