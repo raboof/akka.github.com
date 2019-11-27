@@ -9,6 +9,8 @@ tags: [actor,typed,typed-cluster]
 ---
 {% include JB/setup %}
 
+Note: Code examples in this blog post are **out of date**, see the [Akka documentation](https://doc.akka.io/docs/akka/current/typed/index-persistence.html) for latest information on this topic.
+
 How to use Cluster Sharding with Akka Typed was shown in [previous post](https://akka.io/blog/2017/10/04/typed-cluster-tools).
 Sharding is typically used with persistent actors so in this post we will introduce the new APIs for typed persistent actors.
 

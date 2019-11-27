@@ -9,6 +9,8 @@ tags: [actor,typed,typed-cluster]
 ---
 {% include JB/setup %}
 
+Note: Code examples in this blog post are **out of date**, see the [Akka documentation](https://doc.akka.io/docs/akka/current/typed/cluster.html#higher-level-cluster-tools) for latest information on this topic.
+
 In [previous post](https://akka.io/blog/2017/09/28/typed-cluster) we looked at the the Cluster and Receptionist for Akka Typed. In this post you will be introduced to the new typed APIs for Distributed Data, Cluster Singleton and Cluster Sharding. These features are still using the existing implementations from the untyped modules and they require that you run with the untyped ActorSystem as described in [Akka Typed: Coexistence](https://akka.io/blog/2017/05/06/typed-coexistence).
 
 ## Distributed Data

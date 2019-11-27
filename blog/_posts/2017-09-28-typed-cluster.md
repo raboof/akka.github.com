@@ -9,6 +9,8 @@ tags: [actor,typed,typed-cluster]
 ---
 {% include JB/setup %}
 
+Note: Code examples in this blog post are **out of date**, see the [Akka documentation](https://doc.akka.io/docs/akka/current/typed/cluster.html) for latest information on this topic.
+
 Akka Typed has taken a big step forward. It's now possible to use Akka Typed with Akka Cluster, Distributed Data, Cluster Sharding, Cluster Singleton, and Persistence. We have developed new typed APIs for all these features, and a new distributed registry of actor references that is the replacement of `ActorSelection` in untyped actors.
 
 These features are still using the existing, proven, implementations from the untyped modules and they require that you run with the untyped `ActorSystem` as described in [Akka Typed: Coexistence](https://akka.io/blog/2017/05/06/typed-coexistence). The alternative would have been to re-implement everything in pure Akka Typed actors, but that would have taken much longer time to complete. That said, in the long term future we might do that.
