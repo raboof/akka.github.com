@@ -10,6 +10,8 @@ tags: [actor,typed]
 ---
 {% include JB/setup %}
 
+Note: Code examples in this blog post are **out of date**, see the [Akka documentation](https://doc.akka.io/docs/akka/current/typed/coexisting.html) for latest information on this topic.
+
 We believe Akka Typed will be adopted in existing systems gradually and therefore it's important to be able to use typed and untyped actors together, within the same `ActorSystem`. Also, we will not be able to integrate with all existing modules in one big bang release and that is another reason for why these two ways of writing actors must be able to coexist.
 
 There are two different `ActorSystem` implementations; `akka.actor.ActorSystem` and `akka.typed.ActorSystem`. The latter can currently only host and run typed actors and can therefore only be used for greenfield projects that are only using typed actors. It doesn't have any integration with other Akka modules yet, such as Akka Remoting, Cluster, and Streams. That will of course be implemented. The advantage of the new `ActorSystem` implementation is that it is simplified and also more efficient, e.g. messages are not wrapped in envelope because the sender reference is removed.

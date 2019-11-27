@@ -10,6 +10,8 @@ tags: [actor,typed]
 ---
 {% include JB/setup %}
 
+Note: Code examples in this blog post are **out of date**, see the [Akka documentation](https://doc.akka.io/docs/akka/current/typed/fault-tolerance.html) for latest information on this topic.
+
 Supervision semantics in Akka Typed have changed slightly compared to supervision in classic untyped actors. Untyped actors are by default restarted when an exception is thrown. The default for typed actors is instead to stop the failing actor. In this blog post I will show how to install restarting supervision behaviors in Akka Typed.
 
 First we need something to play with, so let's use this dummy `FlakyWorker`:

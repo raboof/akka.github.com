@@ -10,6 +10,8 @@ tags: [actor,typed]
 ---
 {% include JB/setup %}
 
+Note: Code examples in this blog post are **out of date**, see the [Akka documentation](https://doc.akka.io/docs/akka/current/typed/actors.html#a-more-complex-example) for latest information on this topic.
+
 Message protocols are an essential part of designing actor based systems. The interaction between actors are often stateful and messages are supposed to be sent in a certain order, e.g. establishing a session, replying to a certain request, or acknowledging reception. In this blog post we will look at how the typed actor references can be used to model such messaging protocols.
 
 Consider an Actor that runs a chat room: client Actors may connect by sending a message that contains their screen name and then they can post messages. The chat room Actor will disseminate all posted messages to all currently connected client Actors. The protocol definition could look like the following:

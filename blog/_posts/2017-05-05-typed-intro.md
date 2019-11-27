@@ -10,6 +10,8 @@ tags: [actor,typed]
 ---
 {% include JB/setup %}
 
+Note: Code examples in this blog post are **out of date**, see the [Akka documentation](https://doc.akka.io/docs/akka/current/typed/actors.html) for latest information on this topic.
+
 Lack of type-safety in the Akka actor programming model has been lamented for a long time. Lately, we have focused our work on Akka Typed in an attempt to bring type-safety to the world of actors. We are excited to share our recent progress on the new typed core APIs.
 
 In a series of blog posts we will show the new API and give a gentle introduction to Akka Typed for those of you that are already familiar with classic untyped actors. We will specifically look at commonalities and differences between typed and untyped actors.
