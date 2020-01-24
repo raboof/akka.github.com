@@ -56,6 +56,15 @@
   content: Building distributed systems is hard. Pesky things like the laws of physics get in the way of maintaining state accross geographically (and chronologically) disparate systems, and, if that weren’t already outrageous enough in itself, those systems may be subject to network failures, forcing us to think about annoying tradeoffs regarding consistency, availability and the meaning of life.
   date: 2018-05-31
 
+- title: "Akka Streams: error handling in event processing pipelines"
+  url: https://medium.com/@bszwej/akka-streams-error-handling-7ff9cc01bc12
+  type: blog
+  tags:
+    - Streams
+  author: by Bartłomiej Szwej
+  content: One of the most fundamental things when designing a stream is error handling and there are multiple ways to approach it in Akka Streams. Now, having all of this in mind, let’s see how to iteratively tackle this problem in a real-world example.
+  date: 2019-04-03
+
 - title: Integrating Akka Streams and Akka Actors
   url: https://blog.colinbreck.com/integrating-akka-streams-and-akka-actors-part-i/
   type: blog
