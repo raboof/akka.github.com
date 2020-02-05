@@ -12,7 +12,7 @@ youtubeId: 6ECsFlNNIAM
 
 CQRS is a pattern for decoupling write operations from read operations. This short video illustrates how to implement CQRS with Akka 2.6 by reading tagged events. The video continues from where the [Event Sourcing video](https://akka.io/blog/news/2020/01/07/akka-event-sourcing-video) left off.
 
-Sample code from the [Akka CQRS example project](https://doc.akka.io/docs/akka/current/project/examples.html#cqrs) (Java or Scala).
+You find the sample code in the [Akka CQRS example project](https://doc.akka.io/docs/akka/current/project/examples.html#cqrs) (Java or Scala).
      
 For more information see the [Akka Event Sourcing](https://doc.akka.io/docs/akka/current/typed/persistence.html) and [Persistence Query documentation](https://doc.akka.io/docs/akka/current/persistence-query.html).
 
