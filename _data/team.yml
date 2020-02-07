@@ -33,3 +33,8 @@
   avatar: https://s.gravatar.com/avatar/73fd4336663abc30844ea3a895b4a6fb?s=160
   twitter: ignasi35
   desc: Ignasi completed his M.Sc. in Telecom Engineering in 2001. He's worked in sectors like Healthcare, e-Voting and hight-traffic e-Commerce and has always been interested in reducing user friction but also GC tuning, memory footprint and other low-level details of the JVM.
+
+- name: Renato Guerra Cavalcanti
+  avatar: https://s.gravatar.com/avatar/5b8367bc982d30bc9d4e56d1cd463498?s=160
+  twitter: renatocaval
+  desc: Renato moved to Europe in 1999 to follow philosophy studies in Paris. Short thereafter, he started a career as an autodidact developer to pay for his croissants at the Paris' boulevards. He later moved to Belgium to follow his love. He has a special interest for Event Sourcing/CQRS, DDD and Microservices Architectures. Renato founded the Belgian Scala User Group in 2011 and is a frequent conference speaker.
