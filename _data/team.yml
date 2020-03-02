@@ -30,11 +30,6 @@
   twitter: ennru
   desc: Enno got introduced to Java in 1996 by Martin Odersky at Karlsruhe Institute of Technology. After his studies and Master's thesis on implementing Java Generics he moved to Sweden for love, and started his IT career building the Swedish national prescription registry and diverse other projects. Enno founded the Scala Stockholm user group in 2010 and is involved in the Jfokus developers' conference.
 
-- name: Helena Edelson
-  avatar: https://s.gravatar.com/avatar/7cf318de31808cb4a36256cd984d0b5f?s=160
-  twitter: helenaedelson
-  desc: Helena did her academic work in scientific biological research, on how to leverage and engineer biological systems to build robust efficient systems. She has engineered problems of distributed systems, distributed data, massive scale, analytics and ML for platform infrastructure and cloud engineering. She is a Keynote and session speaker at conferences. Her current research is in complex adaptive systems, network theory, consensus and convergence.
-
 - name: Sean Glover
   avatar: https://s.gravatar.com/avatar/b63a5a7cb334c6ca17bd532a9d4864e5?s=160
   twitter: seg1o
