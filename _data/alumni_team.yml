@@ -15,6 +15,11 @@
   twitter: rolandkuhn
   desc: After earning a PhD in high-energy particle physics and while working as a systems engineer in the space business, Roland came in contact with the Akka project. He started contributing in 2010 and was employed by Lightbend 2011-2016 where he was leading the Akka project from November 2012. <a href="http://rolandkuhn.com/">rolandkuhn.com</a>
 
+- name: Helena Edelson
+  avatar: https://s.gravatar.com/avatar/7cf318de31808cb4a36256cd984d0b5f?s=160
+  twitter: helenaedelson
+  desc: Helena did her academic work in scientific biological research, on how to leverage and engineer biological systems to build robust efficient systems. She has engineered problems of distributed systems, distributed data, massive scale, analytics and ML for platform infrastructure and cloud engineering. She is a Keynote and session speaker at conferences. Her current research is in complex adaptive systems, network theory, consensus and convergence.
+
 - name: Martynas Mickevičius
   avatar: https://s.gravatar.com/avatar/57ed73ccebd016ee0e4d5e906d674a50?s=160
   twitter: mmartynas
