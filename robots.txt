@@ -1,0 +1,2 @@
+Sitemap: https://akka.io/sitemap.xml
+User-agent: *
