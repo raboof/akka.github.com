@@ -40,16 +40,21 @@ layout: null
       "instead": "2.5."
     },
     "2.4": {
-      "latest": "{{ page.previous_akka_version }}",
+      "latest": "2.4.20",
       "outdated": true,
       "instead": "2.5."
     },
     "2.5-": {
-      "latest": "{{ page.current_akka_version }}",
+      "latest": "{{ page.previous_akka_version }}",
       "outdated": true,
       "instead": "2.5."
     },
     "2.5.": {
+      "latest": "{{ page.previous_akka_version }}",
+      "outdated": true,
+      "instead": "2.5."
+    },
+    "2.6": {
       "latest": "{{ page.current_akka_version }}"
     },
 

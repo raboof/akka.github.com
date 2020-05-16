@@ -1,3 +1,8 @@
+#
+# This file version controlled at
+# https://github.com/akka/akka.io/blob/master/.htaccess
+#
+
 RewriteEngine On
 
 # This makes:
@@ -11,10 +16,14 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$      $1.html [END]
 
-#
-# This file version controlled at
-# https://github.com/akka/akka.io/blob/master/.htaccess
-#
+# This the version.json generated here available to doc.akka.io.
+# https://github.com/akka/akka/issues/29080
+<If "%{REQUEST_URI} =~ m#^/versions\.json$#">
+  Header set Access-Control-Allow-Origin "https://doc.akka.io"
+  Header set Access-Control-Allow-Methods "GET"
+  Header set Access-Control-Allow-Headers "Content-Type"
+</If>
+
 
 Redirect 301 /downloads                      https://akka.io/try-akka
 Redirect 301 /news/all-news.html             https://akka.io/blog/news-archive.html
