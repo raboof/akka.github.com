@@ -51,7 +51,6 @@ layout: null
     },
     "2.5": {
       "latest": "{{ page.previous_akka_version }}",
-      "outdated": true,
       "instead": "2.6"
     },
     "2.6": {
