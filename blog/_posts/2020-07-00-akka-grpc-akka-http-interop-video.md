@@ -14,8 +14,8 @@ Since [Akka gRPC](https://doc.akka.io/docs/akka-grpc) is built on [Akka HTTP](ht
 
 This video is a follow-up on the 5-minute [Introduction to gRPC](2020-04-08-akka-grpc-intro-video.md)
 
-You find the slides and code [on GitHub](https://github.com/raboof/akka-grpc-http-video).
+You can find the slides and code [on GitHub](https://github.com/raboof/akka-grpc-http-video).
      
-For more information see the the [Akka gRPC documentation](https://doc.akka.io/docs/akka-grpc) and the [Akka.io homepage](https://akka.io).
+For more information see the [Akka gRPC documentation](https://doc.akka.io/docs/akka-grpc) and the [Akka.io homepage](https://akka.io).
 
 Learn more from other [Lightbend Videos and Webinars](https://www.lightbend.com/videos-and-webinars).
