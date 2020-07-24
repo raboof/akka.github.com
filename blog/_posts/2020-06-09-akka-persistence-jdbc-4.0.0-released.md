@@ -2,7 +2,7 @@
 layout: post
 title: Akka Persistence JDBC 4.0 Released
 author: Renato Cavalcanti
-short: Please meet Akka Persistence Cassandra 4.0
+short: Please meet Akka Persistence JDBC 4.0
 category: news
 tags: [releases]
 ---
