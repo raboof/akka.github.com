@@ -20,7 +20,9 @@ We're happy to announce the release of Akka Projections 1.2.0.
 - Configurable path of dispatcher for JDBC projections [#542](https://github.com/akka/akka-projection/pull/542) by [@ihostage](https://github.com/ihostage)
 - Retry management operations if timeout, [#531](https://github.com/akka/akka-projection/issues/531)
 
-This version requires creating the new `projection_management` table, which is used for storing the pause/resume state of the projections. This table is required even if the new pause/resume functionality isn't used. No other database maintenance is required since all existing database elements are compatible.
+This version requires creating the new `projection_management` table, which is used for storing the pause/resume state of the projections. This table is required even if the new pause/resume functionality isn't used. For rolling update you can create the table while the 1.1.0 version is still running. No other database maintenance is required since all existing database elements are compatible.
+
+See schema definitions:
 
 * JDBC: https://doc.akka.io/docs/akka-projection/current/jdbc.html#schema
 * Slick: https://doc.akka.io/docs/akka-projection/current/slick.html#schema
