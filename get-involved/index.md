@@ -37,9 +37,10 @@ title: Get Involved
                 </g>
             </g>
         </svg>
-        <h1>Gitter</h1>
+        <h1>Gitter/Matrix</h1>
         <a href="https://gitter.im/akka/akka">Chat with other Akka users</a>
         <p>The akka/akka gitter channel is available for ad-hoc discussions of all things Akka-related with the community and the Akka team.</p>
+        <p>Matrix users can join <a href="https://matrix.to/#/#akka_akka:gitter.im">#akka_akka:gitter.im</a></p>
     </div>
 </div>
 <div class="communityContent">
